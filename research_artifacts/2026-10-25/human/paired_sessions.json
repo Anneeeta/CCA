@@ -1,7 +1,6 @@
 [
   {
     "session_id": "S001",
-    "participant_linkage_key": "H012",
     "topic": "Global governance frameworks for frontier AI safety regulation",
     "baseline": "RAG robot",
     "ratings": {
@@ -45,7 +44,6 @@
   },
   {
     "session_id": "S002",
-    "participant_linkage_key": "H008",
     "topic": "OpenClaw-driven autonomous agent orchestration systems",
     "baseline": "RAG robot",
     "ratings": {
@@ -89,7 +87,6 @@
   },
   {
     "session_id": "S003",
-    "participant_linkage_key": "H008",
     "topic": "2026 AI-driven labor displacement and welfare system restructuring",
     "baseline": "Co-STORM",
     "ratings": {
@@ -133,7 +130,6 @@
   },
   {
     "session_id": "S004",
-    "participant_linkage_key": "H019",
     "topic": "OpenClaw-driven autonomous agent orchestration systems",
     "baseline": "RAG robot",
     "ratings": {
@@ -177,7 +173,6 @@
   },
   {
     "session_id": "S005",
-    "participant_linkage_key": "H001",
     "topic": "OpenClaw-driven autonomous agent orchestration systems",
     "baseline": "Co-STORM",
     "ratings": {
@@ -221,7 +216,6 @@
   },
   {
     "session_id": "S006",
-    "participant_linkage_key": "H016",
     "topic": "2026 US-Iran conflict escalation and regional diplomatic realignment",
     "baseline": "Co-STORM",
     "ratings": {
@@ -265,7 +259,6 @@
   },
   {
     "session_id": "S007",
-    "participant_linkage_key": "H016",
     "topic": "2026 Digital culture fragmentation in post-truth media environments",
     "baseline": "RAG robot",
     "ratings": {
@@ -309,7 +302,6 @@
   },
   {
     "session_id": "S008",
-    "participant_linkage_key": "H011",
     "topic": "2026 AI-driven labor displacement and welfare system restructuring",
     "baseline": "RAG robot",
     "ratings": {
@@ -353,8 +345,7 @@
   },
   {
     "session_id": "S009",
-    "participant_linkage_key": "H023",
-    "topic": "2026 [personal identifier removed] on short-video platforms",
+    "topic": "2026 Algorithm-driven misinformation ecosystems on short-video platforms",
     "baseline": "RAG robot",
     "ratings": {
       "Aha Moment": {
@@ -397,7 +388,6 @@
   },
   {
     "session_id": "S010",
-    "participant_linkage_key": "H022",
     "topic": "2026 US-Iran conflict escalation and regional diplomatic realignment",
     "baseline": "RAG robot",
     "ratings": {
@@ -441,8 +431,7 @@
   },
   {
     "session_id": "S011",
-    "participant_linkage_key": "H024",
-    "topic": "2026 [personal identifier removed] in digitally mediated societies",
+    "topic": "2026 Historical memory politics in digitally mediated societies",
     "baseline": "RAG robot",
     "ratings": {
       "Aha Moment": {
@@ -485,7 +474,6 @@
   },
   {
     "session_id": "S012",
-    "participant_linkage_key": "H003",
     "topic": "2026 US-Iran conflict escalation and regional diplomatic realignment",
     "baseline": "RAG robot",
     "ratings": {
@@ -529,8 +517,7 @@
   },
   {
     "session_id": "S013",
-    "participant_linkage_key": "H003",
-    "topic": "2026 [personal identifier removed] in digitally mediated societies",
+    "topic": "2026 Historical memory politics in digitally mediated societies",
     "baseline": "Co-STORM",
     "ratings": {
       "Aha Moment": {
@@ -573,8 +560,7 @@
   },
   {
     "session_id": "S014",
-    "participant_linkage_key": "H009",
-    "topic": "2026 [personal identifier removed] in digitally mediated societies",
+    "topic": "2026 Historical memory politics in digitally mediated societies",
     "baseline": "RAG robot",
     "ratings": {
       "Aha Moment": {
@@ -617,8 +603,7 @@
   },
   {
     "session_id": "S015",
-    "participant_linkage_key": "H009",
-    "topic": "2026 [personal identifier removed] on short-video platforms",
+    "topic": "2026 Algorithm-driven misinformation ecosystems on short-video platforms",
     "baseline": "Co-STORM",
     "ratings": {
       "Aha Moment": {
@@ -661,7 +646,6 @@
   },
   {
     "session_id": "S016",
-    "participant_linkage_key": "H002",
     "topic": "2026 G7 fragmentation in post-summit global coordination",
     "baseline": "RAG robot",
     "ratings": {
@@ -705,7 +689,6 @@
   },
   {
     "session_id": "S017",
-    "participant_linkage_key": "H002",
     "topic": "2026 US-Iran conflict and global energy market volatility",
     "baseline": "Co-STORM",
     "ratings": {
@@ -749,7 +732,6 @@
   },
   {
     "session_id": "S018",
-    "participant_linkage_key": "H005",
     "topic": "2026 Digital culture fragmentation in post-truth media environments",
     "baseline": "Co-STORM",
     "ratings": {
@@ -793,7 +775,6 @@
   },
   {
     "session_id": "S019",
-    "participant_linkage_key": "H017",
     "topic": "2026 AI-driven labor displacement and welfare system restructuring",
     "baseline": "RAG robot",
     "ratings": {
@@ -837,7 +818,6 @@
   },
   {
     "session_id": "S020",
-    "participant_linkage_key": "H025",
     "topic": "OpenClaw-driven autonomous agent orchestration systems",
     "baseline": "Co-STORM",
     "ratings": {
@@ -881,8 +861,7 @@
   },
   {
     "session_id": "S021",
-    "participant_linkage_key": "H025",
-    "topic": "2026 [personal identifier removed] on short-video platforms",
+    "topic": "2026 Algorithm-driven misinformation ecosystems on short-video platforms",
     "baseline": "RAG robot",
     "ratings": {
       "Aha Moment": {
@@ -925,7 +904,6 @@
   },
   {
     "session_id": "S022",
-    "participant_linkage_key": "H026",
     "topic": "Global governance frameworks for frontier AI safety regulation",
     "baseline": "Co-STORM",
     "ratings": {
@@ -969,8 +947,7 @@
   },
   {
     "session_id": "S023",
-    "participant_linkage_key": "H026",
-    "topic": "2026 [personal identifier removed]",
+    "topic": "2026 Sovereign debt stress under prolonged high-interest environments",
     "baseline": "RAG robot",
     "ratings": {
       "Aha Moment": {
@@ -1013,7 +990,6 @@
   },
   {
     "session_id": "S024",
-    "participant_linkage_key": "H020",
     "topic": "2026 G7 fragmentation in post-summit global coordination",
     "baseline": "Co-STORM",
     "ratings": {
@@ -1057,7 +1033,6 @@
   },
   {
     "session_id": "S025",
-    "participant_linkage_key": "H020",
     "topic": "2026 US-Iran conflict and global energy market volatility",
     "baseline": "RAG robot",
     "ratings": {
@@ -1101,8 +1076,7 @@
   },
   {
     "session_id": "S026",
-    "participant_linkage_key": "H006",
-    "topic": "2026 [personal identifier removed] on short-video platforms",
+    "topic": "2026 Algorithm-driven misinformation ecosystems on short-video platforms",
     "baseline": "Co-STORM",
     "ratings": {
       "Aha Moment": {
@@ -1145,7 +1119,6 @@
   },
   {
     "session_id": "S027",
-    "participant_linkage_key": "H014",
     "topic": "2026 Digital culture fragmentation in post-truth media environments",
     "baseline": "Co-STORM",
     "ratings": {
@@ -1189,7 +1162,6 @@
   },
   {
     "session_id": "S028",
-    "participant_linkage_key": "H014",
     "topic": "Global governance frameworks for frontier AI safety regulation",
     "baseline": "RAG robot",
     "ratings": {
@@ -1233,8 +1205,7 @@
   },
   {
     "session_id": "S029",
-    "participant_linkage_key": "H014",
-    "topic": "2026 [personal identifier removed]",
+    "topic": "2026 Sovereign debt stress under prolonged high-interest environments",
     "baseline": "Co-STORM",
     "ratings": {
       "Aha Moment": {
@@ -1277,7 +1248,6 @@
   },
   {
     "session_id": "S030",
-    "participant_linkage_key": "H004",
     "topic": "2026 G7 fragmentation in post-summit global coordination",
     "baseline": "RAG robot",
     "ratings": {
@@ -1321,7 +1291,6 @@
   },
   {
     "session_id": "S031",
-    "participant_linkage_key": "H004",
     "topic": "2026 US-Iran conflict and global energy market volatility",
     "baseline": "Co-STORM",
     "ratings": {
@@ -1365,8 +1334,7 @@
   },
   {
     "session_id": "S032",
-    "participant_linkage_key": "H021",
-    "topic": "2026 [personal identifier removed] in digitally mediated societies",
+    "topic": "2026 Historical memory politics in digitally mediated societies",
     "baseline": "Co-STORM",
     "ratings": {
       "Aha Moment": {
@@ -1409,7 +1377,6 @@
   },
   {
     "session_id": "S033",
-    "participant_linkage_key": "H010",
     "topic": "Global governance frameworks for frontier AI safety regulation",
     "baseline": "Co-STORM",
     "ratings": {
@@ -1453,8 +1420,7 @@
   },
   {
     "session_id": "S034",
-    "participant_linkage_key": "H010",
-    "topic": "2026 [personal identifier removed]",
+    "topic": "2026 Sovereign debt stress under prolonged high-interest environments",
     "baseline": "RAG robot",
     "ratings": {
       "Aha Moment": {
@@ -1497,7 +1463,6 @@
   },
   {
     "session_id": "S035",
-    "participant_linkage_key": "H015",
     "topic": "2026 G7 fragmentation in post-summit global coordination",
     "baseline": "Co-STORM",
     "ratings": {
@@ -1541,7 +1506,6 @@
   },
   {
     "session_id": "S036",
-    "participant_linkage_key": "H015",
     "topic": "2026 US-Iran conflict and global energy market volatility",
     "baseline": "RAG robot",
     "ratings": {
@@ -1585,7 +1549,6 @@
   },
   {
     "session_id": "S037",
-    "participant_linkage_key": "H007",
     "topic": "2026 Digital culture fragmentation in post-truth media environments",
     "baseline": "RAG robot",
     "ratings": {
@@ -1629,7 +1592,6 @@
   },
   {
     "session_id": "S038",
-    "participant_linkage_key": "H007",
     "topic": "2026 US-Iran conflict escalation and regional diplomatic realignment",
     "baseline": "Co-STORM",
     "ratings": {
@@ -1673,8 +1635,7 @@
   },
   {
     "session_id": "S039",
-    "participant_linkage_key": "H013",
-    "topic": "2026 [personal identifier removed]",
+    "topic": "2026 Sovereign debt stress under prolonged high-interest environments",
     "baseline": "Co-STORM",
     "ratings": {
       "Aha Moment": {
@@ -1717,7 +1678,6 @@
   },
   {
     "session_id": "S040",
-    "participant_linkage_key": "H018",
     "topic": "2026 AI-driven labor displacement and welfare system restructuring",
     "baseline": "Co-STORM",
     "ratings": {

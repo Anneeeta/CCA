@@ -1,7 +1,6 @@
 {
   "human_fields_released": [
     "session_id",
-    "participant_linkage_key",
     "assigned_topic",
     "baseline",
     "paired_ratings"
@@ -11,12 +10,16 @@
     "names",
     "original_filenames",
     "timestamps",
-    "free_text_dialogue"
+    "free_text_dialogue",
+    "P_codes",
+    "cross_session_participant_linkage"
   ],
   "identifier_lookup_published": false,
   "changes": {
     "credential_like_redactions": 13,
     "personal_identifier_redactions": 231,
     "local_path_redactions": 604
-  }
+  },
+  "human_update_date": "2026-10-26",
+  "human_ratings_unchanged": true
 }

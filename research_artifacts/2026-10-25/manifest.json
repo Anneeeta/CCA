@@ -18,7 +18,6 @@
   "generation_records": 800,
   "human_paired_sessions": 40,
   "human_rating_values": 720,
-  "human_participant_linkage_keys": 26,
   "general_metrics": [
     "Clarity",
     "Engagement",
@@ -107,5 +106,13 @@
   "evaluation_model": "mimo-v2.6-flash",
   "generation_model_api_id": "deepseek-flash",
   "benchmark_unit": "one joint three-system judgement per task and rubric",
-  "ablation_unit": "one target-minus-task-specific-Full-reference difference vector per task, variant and rubric"
+  "ablation_unit": "one target-minus-task-specific-Full-reference difference vector per task, variant and rubric",
+  "human_results_updated": "2026-10-26",
+  "human_results_schema": "anonymous_session_ratings_v2",
+  "human_public_fields": [
+    "session_id",
+    "predefined_topic",
+    "comparison_systems",
+    "paired_ratings"
+  ]
 }

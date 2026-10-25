@@ -82,12 +82,13 @@ assigned topics and ratings. `human/ratings.csv` provides their long form.
 `reported_score` divides these values by two for the manuscript's 1–5 scale.
 The auxiliary Overall rating is outside the nine-metric analysis.
 
-`session_id` identifies a paired session. `participant_linkage_key` is an opaque
-pseudonymous key preserving linkage across submitted records, rather than a
-name or an independently verified identity. Linkage-key counts are recorded in
-the manifest; session counts define the published paired analyses. Original
-identifiers, source filenames, timestamps and participants' free-text dialogue
-are not released. No identifier lookup table is published.
+`session_id` identifies a paired session. The human-results files contain only
+anonymous session IDs, predefined topics, comparison systems and ratings.
+Names, submitted participant identifiers, P codes, cross-session participant
+linkage, original filenames, timestamps and free-text dialogue are not released.
+No identifier lookup table is published. Session counts define the paired
+analyses. See [the human-results README](human/README.md) for the field definitions.
+The 2026-10-26 update preserves the same 40 sessions and all rating values.
 
 ## Reproduce the statistics
 
