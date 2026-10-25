@@ -1,0 +1,39 @@
+# DeepSeek-V4.1-Flash configuration (API model identifier: deepseek-flash).
+# Dedicated official keys are read from the local .env; never put keys in YAML.
+# Common role temperatures and token ceilings remain unchanged.
+base_url: https://api.deepseek.com/v1
+deepseek_enable_thinking: false
+model:
+  chat_model: deepseek-flash
+  reasoner_model: deepseek-flash
+  student:
+    model: deepseek-flash
+    temperature: 0.7
+    max_tokens: 81920
+  instructor:
+    model: deepseek-flash
+    temperature: 0.4
+  expert:
+    model: deepseek-flash
+    temperature: 0.2
+  arbiter:
+    model: deepseek-flash
+    temperature: 0.0
+    max_tokens: 81920
+orchestrator:
+  enable_retrieval: true
+  retriever_type: deepseek
+  retriever_max_results: 5
+  retriever_context_max_chars: 3000
+  deepseek_search_need_content: false
+  deepseek_search_timeout: 20
+  compact_context: true
+  summary_mode: extractive
+  require_candidate_count: true
+  allow_llm_ranking_fallback: false
+paths:
+  data_dir: data/deepseek_flash_official
+  shared_pool_path: data/deepseek_flash_official/shared_pool.json
+  student_pool_path: data/deepseek_flash_official/student_pool.json
+  round_log_path: data/deepseek_flash_official/round_logs.jsonl
+  log_dir: logs/deepseek_flash_official

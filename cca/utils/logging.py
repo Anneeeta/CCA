@@ -1,6 +1,7 @@
 import logging
 import threading
 from pathlib import Path
+from typing import Optional
 
 
 class _ThreadIdFilter(logging.Filter):
@@ -22,7 +23,8 @@ def setup_logging(log_dir: Path, level: int = logging.INFO) -> None:
     thread_id = threading.get_ident()
     root = logging.getLogger()
 
-    # Bind one file handler per thread to keep concurrent runs isolated.
+    # Bind one file handler per thread so parallel batch workers do not overwrite
+    # each other's log targets.
     with _LOG_CONFIG_LOCK:
         root.setLevel(level)
         for handler in list(root.handlers):
@@ -40,3 +42,9 @@ def setup_logging(log_dir: Path, level: int = logging.INFO) -> None:
         file_handler._cca_thread_handler = True  # type: ignore[attr-defined]
         file_handler._cca_thread_id = thread_id  # type: ignore[attr-defined]
         root.addHandler(file_handler)
+
+
+def redact(text: str) -> str:
+    if not text:
+        return text
+    return text.replace("DEEPSEEK_API_KEY", "****")

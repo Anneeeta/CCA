@@ -15,6 +15,16 @@ logger = logging.getLogger(__name__)
 T = TypeVar("T", bound=BaseModel)
 
 
+class AgentOutputError(ValueError):
+    """A requested stage did not return usable output; do not mark it complete."""
+
+
+def require_update_fields(update: T, keys: set[str]) -> T:
+    if not (update.model_fields_set & keys):
+        raise AgentOutputError("State update has no recognized action fields")
+    return update
+
+
 class BaseAgent:
     """
     Base class for all agents.
@@ -51,7 +61,7 @@ class BaseAgent:
         if patch.param_patch:
             for key, value in patch.param_patch.model_dump(exclude_none=True).items():
                 if key == "max_tokens":
-                    continue  # The Arbiter cannot change token caps at runtime.
+                    continue  # 禁止 arbiter 修改 max_tokens
                 self.param_overrides[key] = value
         if patch.rationale:
             logger.info("Applied patch to %s: %s", self.name, patch.rationale)
@@ -63,11 +73,20 @@ class BaseAgent:
         messages: List[Dict[str, str]],
         model: Optional[str] = None,
         response_format: Optional[Dict[str, str]] = None,
+        *,
+        system_prompt_override: Optional[str] = None,
     ) -> str:
-        system_prompt = self.build_system_prompt()
+        # A stage-specific caller can replace the effective system prompt without
+        # mutating the ordinary agent prompt or its accumulated patches.
+        self.last_raw = None
+        system_prompt = (
+            self.build_system_prompt()
+            if system_prompt_override is None
+            else system_prompt_override
+        )
         full_messages = [{"role": "system", "content": system_prompt}, *messages]
         params = self.param_overrides
-        return self.client.chat_completion(
+        content = self.client.chat_completion(
             messages=full_messages,
             model=model or self.model_override,
             temperature=params.get("temperature"),
@@ -75,6 +94,8 @@ class BaseAgent:
             max_tokens=params.get("max_tokens"),
             response_format=response_format,
         )
+        self.last_raw = content
+        return content
 
     def call_json(
         self,
@@ -83,6 +104,7 @@ class BaseAgent:
         model: Optional[str] = None,
         max_attempts: int = 1,
         use_response_format: bool = True,
+        system_prompt_override: Optional[str] = None,
     ) -> T:
         """
         Request JSON output and validate against schema.
@@ -93,6 +115,7 @@ class BaseAgent:
                 attempt_messages,
                 model=model,
                 response_format={"type": "json_object"} if use_response_format else None,
+                system_prompt_override=system_prompt_override,
             )
             self.last_raw = content
             try:

@@ -9,9 +9,14 @@ from pydantic import BaseModel, Field, field_validator
 
 # Student candidate questions -------------------------------------------------
 
+CandidateQuestionType = Literal["known_unknown", "conflict", "unknown_unknown"]
+
 
 class CandidateQuestion(BaseModel):
     question: str
+    # Missing only when reading legacy records or non-strict interactive input.
+    # New experiment runs reject missing labels before scoring/downstream calls.
+    type: Optional[CandidateQuestionType] = None
     rationale: Optional[str] = None
 
     @field_validator("question")
@@ -61,10 +66,13 @@ class StudentEntry(BaseModel):
 
 
 class StudentMsUpdate(BaseModel):
+    model_config = {"extra": "forbid"}
     known: List[StudentEntry] = Field(default_factory=list)
     known_unknown: List[StudentEntry] = Field(default_factory=list)
     conflict: List[StudentEntry] = Field(default_factory=list)
     unknown_unknown: List[StudentEntry] = Field(default_factory=list)
+    # Explicit removals only; omitted entries remain in the active pool.
+    remove_ids: List[str] = Field(default_factory=list)
 
 
 # Shared knowledge pool K -----------------------------------------------------
@@ -85,19 +93,23 @@ class KnowledgeItem(BaseModel):
     conflict_tag: Optional[KnowledgeConflictTag] = None
     created_at: Optional[str] = None
     updated_at: Optional[str] = None
+    source_urls: List[str] = Field(default_factory=list)
 
     @field_validator("source_role", mode="before")
     @classmethod
     def normalize_source_role(cls, v):
         if isinstance(v, str):
             v_lower = v.lower().strip()
-            # Normalize common role aliases returned by language models.
+            # Qwen 可能输出 student/explorer/teacher 等非法值
             role_map = {
                 "student": "instructor",
                 "teacher": "instructor",
                 "explorer": "expert",
                 "researcher": "expert",
                 "moderator": "arbiter",
+                "экспериментатор": "expert",
+                "исследователь": "expert",
+                "преподаватель": "instructor",
             }
             return role_map.get(v_lower, v_lower)
         return v
@@ -126,6 +138,8 @@ class KnowledgeItem(BaseModel):
     @field_validator("content", "label")
     @classmethod
     def strip_text(cls, v: str) -> str:
+        if not v.strip():
+            raise ValueError("Knowledge text and labels cannot be empty")
         return v.strip()
 
     def ensure_ids(self) -> str:
@@ -138,17 +152,47 @@ class KnowledgeItem(BaseModel):
         return self.id
 
 
+class RoundSummary(BaseModel):
+    """Public dialogue notes, separate from private learner-state interpretations."""
+
+    round_id: int
+    questions: List[str] = Field(default_factory=list)
+    key_points: List[str] = Field(default_factory=list)
+    unresolved_questions: List[str] = Field(default_factory=list)
+    conflicts: List[str] = Field(default_factory=list)
+    resolved_questions: List[str] = Field(default_factory=list)
+    evidence_refs: List[str] = Field(default_factory=list)
+    guidance: Optional[str] = None
+    origin: Literal["arbiter", "extractive_fallback"] = "arbiter"
+
+
 class KnowledgePoolUpdate(BaseModel):
-    items: List[KnowledgeItem]
+    model_config = {"extra": "forbid"}
+    items: List[KnowledgeItem] = Field(default_factory=list)
+    remove_ids: List[str] = Field(default_factory=list)
+    round_summary: Optional[RoundSummary] = None
+
+    @field_validator("round_summary", mode="before")
+    @classmethod
+    def optional_summary_does_not_invalidate_knowledge(cls, value):
+        if value is None or isinstance(value, RoundSummary):
+            return value
+        try:
+            return RoundSummary.model_validate(value)
+        except (ValueError, TypeError):
+            # The runner creates a marked local excerpt instead of retrying a
+            # paid model call solely to repair auxiliary summary formatting.
+            return None
 
 
 # Arbiter tuning patch -------------------------------------------------------
 
 
 class AgentParamPatch(BaseModel):
-    temperature: Optional[float] = None
-    top_p: Optional[float] = None
-    max_tokens: Optional[int] = None
+    model_config = {"allow_inf_nan": False}
+    temperature: Optional[float] = Field(default=None, ge=0)
+    top_p: Optional[float] = Field(default=None, gt=0, le=1)
+    max_tokens: Optional[int] = Field(default=None, gt=0)
 
 
 class AgentPatch(BaseModel):
@@ -173,6 +217,7 @@ class ArbiterPatchResponse(BaseModel):
 
 
 class CandidateScore(BaseModel):
+    model_config = {"allow_inf_nan": False}
     question: str
     s: float
     r: float
@@ -209,13 +254,23 @@ class RoundRecord(BaseModel):
     candidate_questions: List[CandidateQuestion]
     candidate_scores: List[CandidateScore]
     selected_question: str
+    selected_question_type: Optional[CandidateQuestionType] = None
     expert_viewpoint: str
     instructor_answer: str
-    # Optional second selected question.
+    # 第二题（可选）
     selected_question_2: Optional[str] = None
+    selected_question_2_type: Optional[CandidateQuestionType] = None
     expert_viewpoint_2: Optional[str] = None
     instructor_answer_2: Optional[str] = None
     student_update: StudentMsUpdate
     arbiter_update: KnowledgePoolUpdate
     arbiter_patch: ArbiterPatchResponse
+    round_summary: Optional[RoundSummary] = None
+    retrieved_context: Optional[str] = None
+    retrieval_sources: List[dict] = Field(default_factory=list)
+    state_update_stats: dict = Field(default_factory=dict)
+    shared_update_stats: dict = Field(default_factory=dict)
+    context_policy: Optional[str] = None
+    context_settings: dict = Field(default_factory=dict)
+    execution_policy: dict = Field(default_factory=dict)
     timestamp: str = Field(default_factory=lambda: datetime.utcnow().isoformat())

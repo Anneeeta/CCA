@@ -75,13 +75,13 @@ def select_top_two(
     scores: List[CandidateScore],
     provider: Optional[EmbeddingProvider] = None,
 ) -> tuple[CandidateScore, Optional[CandidateScore]]:
-    """Select the two highest-scoring questions from distinct subtopics."""
+    """选两个得分最高且来自不同子话题的问题。"""
     ranked = sorted(scores, key=lambda s: s.I, reverse=True)
     first = ranked[0]
     if len(ranked) < 2:
         return first, None
 
-    # Use cosine similarity to reject near-duplicate subtopics when possible.
+    # 有 embedding 时用 cosine 相似度排除同子话题候选
     if provider is not None and provider.available:
         first_emb = provider.embed_single(first.question)
         rest = ranked[1:]
@@ -89,10 +89,10 @@ def select_top_two(
         filtered = []
         for i, s in enumerate(rest):
             sim = _cosine(first_emb, rest_embs[i])
-            if sim < 0.7:
+            if sim < 0.7:  # 相似度 < 0.7 视为不同子话题
                 filtered.append(s)
         if filtered:
             return first, filtered[0]
 
-    # Fall back to the second-highest score when diversity cannot be established.
+    # 无 embedding 或全部同子话题时，直接取第二高分
     return first, ranked[1]

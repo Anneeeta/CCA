@@ -5,8 +5,9 @@ import re
 from typing import List
 
 from ..config import Settings
+from ..deepseek_client import is_provider_error
 from ..schemas import CandidateQuestion, CandidateQuestionsResponse, StudentEntry, StudentMsUpdate
-from .base import BaseAgent
+from .base import AgentOutputError, BaseAgent, require_update_fields
 from ..utils.json_guard import load_json_lenient
 
 
@@ -78,22 +79,27 @@ OUTPUT FOR MODE A (STRICT JSON ONLY):
 B) If asked to UPDATE YOUR Ms (SELF-SUMMARY) at end of round:
 - Read the instructor answer only (A^(ins)) plus your existing Ms.
 - Update Ms into 4 buckets: known, known_unknown, conflict, unknown_unknown.
+- Return ONLY new or changed entries, never an unchanged copy of the existing pool.
+- Reuse the existing id when revising content or moving an entry between buckets.
+- Use id=null only for a new entry; omitted entries remain stored.
+- Use remove_ids only to explicitly retire superseded entries. Do not infer removal from an omitted context item.
 - unknown_unknown entries must be questions/hypotheses only.
 
 OUTPUT FOR MODE B (STRICT JSON ONLY):
 {
   "known": [
-    {"content": "...", "type": "known", "round_id": 1, "rationale": "...", "priority": 1}
+    {"id": null, "content": "...", "type": "known", "round_id": 1, "rationale": "...", "priority": 1}
   ],
   "known_unknown": [
-    {"content": "...", "type": "known_unknown", "round_id": 1, "rationale": "...", "priority": 1}
+    {"id": null, "content": "...", "type": "known_unknown", "round_id": 1, "rationale": "...", "priority": 1}
   ],
   "conflict": [
-    {"content": "...", "type": "conflict", "round_id": 1, "rationale": "...", "priority": 1}
+    {"id": null, "content": "...", "type": "conflict", "round_id": 1, "rationale": "...", "priority": 1}
   ],
   "unknown_unknown": [
-    {"content": "...", "type": "unknown_unknown", "round_id": 1, "rationale": "...", "priority": 1}
-  ]
+    {"id": null, "content": "...", "type": "unknown_unknown", "round_id": 1, "rationale": "...", "priority": 1}
+  ],
+  "remove_ids": []
 }
 
 GENERAL CONSTRAINTS:
@@ -104,6 +110,51 @@ GENERAL CONSTRAINTS:
 """
 
 
+def _history_only_student_prompt() -> str:
+    """Keep the question policy while removing the learner-state maintenance mode."""
+    question_prompt = STUDENT_SYSTEM_PROMPT.split("\nB) If asked to UPDATE YOUR Ms", 1)[0]
+    question_prompt = question_prompt.replace(
+        "- You only see your own knowledge pool Ms and the dialogue context.",
+        "- Use the supplied topic, guidance, and dialogue context to plan questions.",
+    ).replace(
+        "- If Ms contains off-topic items, ignore them when generating next-round candidate questions.",
+        "- If history contains off-topic items, ignore them when generating next-round candidate questions.",
+    ).replace(
+        "- if Ms has any conflict items, include >=1 conflict-resolution question",
+        "- if the dialogue contains competing accounts, include >=1 conflict-resolution question",
+    )
+    general_rules = STUDENT_SYSTEM_PROMPT.split("GENERAL CONSTRAINTS:", 1)[1]
+    return question_prompt + "\nGENERAL CONSTRAINTS:" + general_rules
+
+
+STUDENT_NO_STATE_POOL_PROMPT = _history_only_student_prompt()
+NO_STATE_POOL_ACCESS_CONTRACT = (
+    "LEARNER-STATE ABLATION CONTRACT (takes precedence over tuning patches):\n"
+    "The persistent learner-state pool is disabled. Use topic, user guidance, and dialogue history only.\n"
+    "Do not request, read, write, or reconstruct a persistent learner-state pool.\n"
+    "The shared pool K remains inaccessible to Student."
+)
+
+
+def ms_update_entry_contract(round_id: int) -> str:
+    """The compact prompt must retain the same entry types as the storage schema."""
+    return (
+        "\nENTRY CONTRACT (required in every bucket): "
+        "Each bucket is a JSON array of objects, never strings. "
+        "id is an existing string or null for a new entry; content is nonempty English text. "
+        "type MUST equal the enclosing bucket name: known, known_unknown, conflict, or unknown_unknown. "
+        "Do not use semantic labels such as fact, concept, question, or hypothesis as type. "
+        f"round_id is the integer {round_id}. rationale is English text or null. "
+        "priority is an integer or null, NEVER a word such as high, medium, or low. "
+        "remove_ids is an array of existing string ids; use [] when nothing is removed. "
+        "Return only these five top-level keys, with [] for buckets that have no changes. "
+        "Example of one new known entry (replace example content, do not copy it): "
+        '{"known":[{"id":null,"content":"A point explained by Instructor.","type":"known",'
+        f'"round_id":{round_id},"rationale":null,"priority":null}}],'
+        '"known_unknown":[],"conflict":[],"unknown_unknown":[],"remove_ids":[]} '
+        "Use the corresponding bucket name as type for entries in every other bucket."
+    )
+
 
 class StudentAgent(BaseAgent):
     def __init__(self, settings: Settings | None = None):
@@ -113,14 +164,34 @@ class StudentAgent(BaseAgent):
             system_prompt_base=STUDENT_SYSTEM_PROMPT,
             settings=settings,
         )
+        if not self.settings.orchestrator.enable_student_pool:
+            self.system_prompt_base = STUDENT_NO_STATE_POOL_PROMPT
         self.logger = logging.getLogger(__name__)
+
+    def build_system_prompt(self) -> str:
+        prompt = super().build_system_prompt()
+        if not self.settings.orchestrator.enable_student_pool:
+            prompt += "\n\n" + NO_STATE_POOL_ACCESS_CONTRACT
+        return prompt
 
     def generate_candidates(self, messages: List[dict]) -> List[CandidateQuestion]:
         try:
             # Allow one repair turn for malformed JSON.
-            resp = self.call_json(messages, CandidateQuestionsResponse, max_attempts=2)
+            prompt = self.build_system_prompt()
+            if self.settings.orchestrator.enable_student_pool and not self.settings.orchestrator.student_candidate_state:
+                prompt = STUDENT_NO_STATE_POOL_PROMPT
+                if self.prompt_patches and not self.settings.orchestrator.compact_context:
+                    prompt += "\nRecent tuning patches:\n" + "\n".join(self.prompt_patches)
+            if self.settings.orchestrator.compact_context and self.settings.orchestrator.enable_student_pool:
+                prompt = prompt.split("\nB) If asked to UPDATE YOUR Ms", 1)[0] + "\nAll text values must be English. Return candidate JSON only."
+                if self.prompt_patches:
+                    prompt += "\nRecent tuning patches:\n" + "\n".join(self.prompt_patches)
+            resp = self.call_json(messages, CandidateQuestionsResponse, max_attempts=2,
+                                  system_prompt_override=prompt)
             return resp.candidates
         except Exception as e:
+            if is_provider_error(e):
+                raise
             self.logger.warning("Student candidates JSON failed, using fallback: %s", e)
             raw = self.last_raw or ""
             data = load_json_lenient(raw)
@@ -138,20 +209,45 @@ class StudentAgent(BaseAgent):
             ]
 
     def update_ms(self, messages: List[dict], round_id: int) -> StudentMsUpdate:
+        if not self.settings.orchestrator.enable_student_pool:
+            raise RuntimeError("Learner-state updates are disabled for this ablation.")
         try:
-            return self.call_json(messages, StudentMsUpdate)
+            prompt = None
+            if self.settings.orchestrator.compact_context:
+                prompt = (
+                    "You are Student maintaining dialogue-derived state Ms. Read only the supplied Instructor answer and Ms. "
+                    "Return incremental changes in known, known_unknown, conflict, unknown_unknown plus remove_ids. "
+                    "known means explained in this dialogue, not verified user mastery; known_unknown is an unresolved question; "
+                    "conflict records competing accounts; unknown_unknown is a potential blind-spot question/hypothesis. "
+                    "Reuse an existing id for revisions or category moves. Use id=null for new entries. "
+                    "Do not repeat unchanged entries, merge merely similar claims, or remove omitted context entries. "
+                    "Each entry has id, content, type, round_id, rationale, priority. Values must be English. Return JSON only."
+                )
+            # Listing field names alone lets the model invent semantic labels and
+            # textual priorities that cannot satisfy StudentEntry. Keep these
+            # constraints even when the rest of the context is compacted.
+            prompt = (prompt if prompt is not None else self.build_system_prompt()) + ms_update_entry_contract(round_id)
+            update = self.call_json(messages, StudentMsUpdate, max_attempts=2, system_prompt_override=prompt)
+            return require_update_fields(update, {"known", "known_unknown", "conflict", "unknown_unknown", "remove_ids"})
         except Exception as e:
+            if is_provider_error(e):
+                raise
             self.logger.warning("Student Ms JSON failed, using fallback: %s", e)
             raw = self.last_raw or ""
             data = load_json_lenient(raw)
             if isinstance(data, dict):
                 return self._coerce_update(data, round_id)
-            return StudentMsUpdate()
+            raise AgentOutputError("Learner-state update could not be recovered") from None
 
     def _coerce_update(self, data: dict, round_id: int) -> StudentMsUpdate:
+        allowed = {"known", "known_unknown", "conflict", "unknown_unknown", "remove_ids"}
+        if not set(data) & allowed or set(data) - allowed:
+            raise AgentOutputError("Unrecognized learner-state update fields")
         buckets = {}
         for bucket in ["known", "known_unknown", "conflict", "unknown_unknown"]:
-            items = data.get(bucket, []) or []
+            items = data.get(bucket, [])
+            if not isinstance(items, list):
+                raise AgentOutputError("Learner-state buckets must be lists")
             entries = []
             for item in items:
                 if isinstance(item, str):
@@ -163,8 +259,14 @@ class StudentAgent(BaseAgent):
                     try:
                         entries.append(StudentEntry.model_validate(item))
                     except Exception:
-                        continue
+                        raise AgentOutputError("Invalid learner-state entry; no entries were discarded") from None
+                elif not isinstance(item, str):
+                    raise AgentOutputError("Learner-state entries must be objects or text")
             buckets[bucket] = entries
+        removed = data.get("remove_ids", [])
+        if not isinstance(removed, list) or any(not isinstance(value, str) or not value.strip() for value in removed):
+            raise AgentOutputError("Learner-state removals must be a list of nonempty ids")
+        buckets["remove_ids"] = removed
         return StudentMsUpdate(**buckets)
 
     def _coerce_candidates(self, data: dict | None) -> List[CandidateQuestion]:
@@ -181,10 +283,12 @@ class StudentAgent(BaseAgent):
         for item in raw_candidates:
             question = None
             rationale = None
+            question_type = None
             if isinstance(item, str):
                 question = item
             elif isinstance(item, dict):
                 question = item.get("question") or item.get("content") or item.get("text")
+                question_type = item.get("type")
                 rationale_val = item.get("rationale")
                 if isinstance(rationale_val, str):
                     rationale = rationale_val.strip() or None
@@ -194,7 +298,7 @@ class StudentAgent(BaseAgent):
             if not question:
                 continue
             try:
-                out.append(CandidateQuestion(question=question, rationale=rationale))
+                out.append(CandidateQuestion(question=question, type=question_type, rationale=rationale))
             except Exception:
                 continue
             if len(out) >= limit:

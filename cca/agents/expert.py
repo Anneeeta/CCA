@@ -4,9 +4,10 @@ import logging
 from typing import List
 
 from ..config import Settings
+from ..deepseek_client import is_provider_error
 from ..schemas import ExpertResponse
 from ..utils.json_guard import load_json_lenient
-from .base import BaseAgent
+from .base import AgentOutputError, BaseAgent
 
 
 EXPERT_PROMPT = """
@@ -72,23 +73,39 @@ class ExpertAgent(BaseAgent):
                 query_prompt += msg["content"]
                 break
         try:
-            raw = self.call([{"role": "user", "content": query_prompt}])
+            prompt = None
+            if self.settings.orchestrator.compact_context:
+                prompt = (
+                    "You are the Expert generating precise web search queries, not writing an analysis. "
+                    "Use the supplied topic, current question, domain and short background. "
+                    "Preserve technical names, numbers and user constraints. Return only the requested JSON array."
+                )
+            raw = self.call([{"role": "user", "content": query_prompt}], system_prompt_override=prompt)
             self.last_raw = raw
             data = load_json_lenient(raw)
-            if isinstance(data, list):
-                return [str(q).strip() for q in data if q][:num_queries]
             if isinstance(data, dict):
                 for key in ("queries", "search_queries", "questions"):
                     if key in data and isinstance(data[key], list):
-                        return [str(q).strip() for q in data[key] if q][:num_queries]
+                        data = data[key]
+                        break
+            if not isinstance(data, list) or not data or any(not isinstance(q, str) or not q.strip() for q in data):
+                raise AgentOutputError("Search query generation returned no usable query list")
+            return list(dict.fromkeys(q.strip() for q in data))[:num_queries]
         except Exception as e:
+            if is_provider_error(e):
+                raise
             self.logger.warning("Expert query generation failed: %s", e)
-        return []
+        raise AgentOutputError("Search query generation failed; retrieval was not performed") from None
 
     def respond(self, messages: List[dict]) -> ExpertResponse:
         try:
-            return self.call_json(messages, ExpertResponse)
+            response = self.call_json(messages, ExpertResponse)
+            if not response.viewpoint.strip():
+                raise AgentOutputError("Expert returned an empty viewpoint")
+            return response
         except Exception as e:
+            if is_provider_error(e):
+                raise
             self.logger.warning("Expert JSON failed, using fallback: %s", e)
             raw = self.last_raw or self.call(messages, response_format=None)
             raw_text = raw if isinstance(raw, str) else ""
@@ -112,6 +129,9 @@ class ExpertAgent(BaseAgent):
                         data["viewpoint"] = "\\n".join(parts)
                 if "viewpoint" in data and data["viewpoint"]:
                     return ExpertResponse.model_validate(data)
+                raise AgentOutputError("Expert returned an object without a usable viewpoint")
+            if isinstance(data, list):
+                raise AgentOutputError("Expert returned an unsupported array")
             if raw_text.strip():
                 return ExpertResponse(viewpoint=raw_text.strip())
-            return ExpertResponse(viewpoint="No expert viewpoint was returned in this round.")
+            raise AgentOutputError("Expert returned no usable viewpoint")

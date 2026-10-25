@@ -45,15 +45,16 @@ def main() -> None:
     )
     parser.add_argument(
         "--retriever",
-        choices=["duckduckgo", "tavily"],
-        default="duckduckgo",
-        help="Search engine to use (default: duckduckgo)",
+        choices=["duckduckgo", "tavily", "deepseek"],
+        default=None,
+        help="Enable this retrieval backend; otherwise preserve the YAML configuration",
     )
     args = parser.parse_args()
 
     settings = get_settings(args.config) if args.config else get_settings()
-    if args.retrieval:
+    if args.retrieval or args.retriever:
         settings.orchestrator.enable_retrieval = True
+    if args.retriever:
         settings.orchestrator.retriever_type = args.retriever
     if args.reset:
         _reset_state(settings, reset_logs=args.reset_logs)

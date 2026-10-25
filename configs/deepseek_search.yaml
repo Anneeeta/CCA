@@ -1,0 +1,16 @@
+# Enable official DeepSeek Search. Model and sampling settings are unchanged.
+# Key: DEEPSEEK_SEARCH_API_KEY (preferred) or DEEPSEEK_API_KEY in the environment.
+orchestrator:
+  enable_retrieval: true
+  retriever_type: deepseek
+  retriever_max_results: 5
+  retriever_context_max_chars: 3000
+  deepseek_search_need_content: false
+  deepseek_search_timeout: 20
+  compact_context: true
+paths:
+  data_dir: data/deepseek_search
+  shared_pool_path: data/deepseek_search/shared_pool.json
+  student_pool_path: data/deepseek_search/student_pool.json
+  round_log_path: data/deepseek_search/round_logs.jsonl
+  log_dir: logs/deepseek_search
