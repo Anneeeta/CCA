@@ -1,0 +1,43 @@
+{
+  "variant": "no_expert_instructor_separation",
+  "task": "046_artificial-intelligence-and-copyright-dilemma",
+  "sequence": [
+    "full",
+    "no_expert_instructor_separation"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 8.3,
+    "Engagement": 8.5,
+    "Depth Appropriateness": 8.4,
+    "Breadth": 8.7
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Clarity\": -0.2, \"Engagement\": -0.3, \"Depth Appropriateness\": -0.1, \"Breadth\": -0.4}",
+  "deltas": {
+    "Clarity": -0.2,
+    "Engagement": -0.3,
+    "Depth Appropriateness": -0.1,
+    "Breadth": -0.4
+  },
+  "calibrated_target_scores": {
+    "Clarity": 8.100000000000001,
+    "Engagement": 8.2,
+    "Depth Appropriateness": 8.3,
+    "Breadth": 8.299999999999999
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 188001,
+      "completion_tokens": 40,
+      "total_tokens": 188041,
+      "cached_tokens": 90112,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

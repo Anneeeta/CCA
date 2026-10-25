@@ -1,0 +1,47 @@
+{
+  "task": "031_internal-motivation-in-student-learning",
+  "status": "complete",
+  "protocol": "exploration_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "CCA",
+    "B": "Co-STORM",
+    "C": "LLM Baseline"
+  },
+  "raw": "System A:\n  Inquiry Relevance: 8.5/10\n  Perspective Expansion: 8.0/10\n  Evidence-Based Progress: 8.0/10\n  Incremental Value: 8.0/10\n  Adaptive Coherence: 8.5/10\nSystem B:\n  Inquiry Relevance: 6.5/10\n  Perspective Expansion: 6.0/10\n  Evidence-Based Progress: 6.0/10\n  Incremental Value: 6.0/10\n  Adaptive Coherence: 6.5/10\nSystem C:\n  Inquiry Relevance: 7.5/10\n  Perspective Expansion: 7.0/10\n  Evidence-Based Progress: 7.0/10\n  Incremental Value: 7.0/10\n  Adaptive Coherence: 7.0/10\n\nExplanation:\n[A|Inquiry Relevance] Round 1 selected a question on cultural/contextual moderation of intrinsic motivation, directly pertinent to the stated topic. Round 2 shifted to the user's new intent (integration of professional and entrepreneurship education) and selected boundary conditions where integration might undermine motivation—highly consequential for a publishable paper. Round 3 selected within-sample measurement divergence, a precise and consequential next step. Each selection uses available context and targets a clear need.\n\n[A|Perspective Expansion] Round 2 developed the reframing that \"integration itself is not the enemy; the controlling levers that often come with it are,\" and identified six concrete boundary conditions (grading stakes, funding competition, mandatory participation, weak disciplinary embedding, challenge-skill mismatch). Round 3 developed the perspective that divergence among measures is \"the most informative result rather than noise to be averaged away,\" and separated measurement choice from boundary conditions as distinct axes. These are consequential, task-relevant extensions.\n\n[A|Evidence-Based Progress] Round 2 connected the boundary-condition claims to retrieved qualitative evidence (\"competition-oriented utilitarian deviation,\" \"quantification trap,\" \"running ragged\") and honestly flagged that \"the retrieved evidence here is largely descriptive commentary on Chinese higher education plus one interview-based IMI study, so causal claims about specific thresholds remain thin.\" Round 3 explicitly stated \"No empirically established numeric threshold levels... were found in the supplied evidence, and none should be asserted,\" and proposed how thresholds would need to be operationalized. This appropriately bounds uncertainty.\n\n[A|Incremental Value] Round 1 delivered the intrinsic-vs-identified distinction with practical diagnostic implications. Round 2 delivered a concrete failure-mode framework and detection signals (IMI harm signature, AMS shift, behavioral markers). Round 3 delivered the measurement-divergence insight and a pre-registration recommendation. Each round adds distinct, usable understanding rather than repetition.\n\n[A|Adaptive Coherence] Round 1 answered the cultural-moderation question, then Round 2 explicitly responded to the new user guidance about professional-entrepreneurship integration. Round 3 built on Round 2's measurement discussion by asking a within-sample comparison question, and the instructor's answer explicitly connected back: \"Keep [boundary conditions] separate from measurement choices.\" The progression is cumulative and responsive.\n\n[B|Inquiry Relevance] The warm-start dialogue and Round 1 addressed the general topic of internal motivation with relevant sub-questions (peer relatedness, need interactions, autonomy-supportive strategies, misconceptions). Round 2 addressed the user's new intent about professional-entrepreneurship integration, though the answer was somewhat generic (\"none of this directly and quantitatively measures internal motivation as an outcome\"). Round 3 (curriculum design researcher) used situated expectancy-value theory to propose design moves, which is pertinent but somewhat tangential to the specific integration question.\n\n[B|Perspective Expansion] The warm-start and Round 1 developed the perspective that relatedness is under-studied relative to autonomy and competence, and that gamification and AI differentially affect the three needs. Round 3 introduced situated expectancy-value theory as an alternative lens. However, these perspectives are mostly restatements of established frameworks rather than novel reframings specific to the user's integration goal.\n\n[B|Evidence-Based Progress] Round 1 cited specific findings (e.g., \"gamification enhances competence and autonomy but does not significantly affect relatedness, whereas artificial intelligence positively impacts all three needs\"). Round 2 flagged a gap: \"none of this directly and quantitatively measures internal motivation as an outcome of professional-innovation integration.\" However, the evidence is mostly descriptive of existing findings rather than being used to narrow specific uncertainties about the integration question.\n\n[B|Incremental Value] Round 1 provided useful distinctions (relatedness as mediator, differential technology effects). Round 2 provided a gap identification and a suggestion to \"connect these strands—UTAUT factors and personal-need mechanisms as mediators.\" Round 3 added SEVT-based design principles. These are useful but somewhat generic additions rather than deep, task-specific contributions.\n\n[B|Adaptive Coherence] The warm-start established SDT foundations, Round 1 elaborated on them, Round 2 shifted to the user's new integration intent, and Round 3 continued with curriculum design implications. The progression is generally coherent, though Round 3's shift to SEVT feels somewhat disconnected from the SDT-focused earlier rounds.\n\n[C|Inquiry Relevance] Round 1 addressed the general topic with a comprehensive overview. Round 2 directly addressed the user's integration intent with a detailed research design (hypotheses, methodology, analysis plan). Round 3 responded to \"What else should I know?\" with advanced considerations (undermining effect timing, self-concept, methodological warnings). Each round serves a clear purpose at the time.\n\n[C|Perspective Expansion] Round 2 introduced the \"inverted-U\" hypothesis based on the redundancy principle, and Round 3 introduced the timing-dependent undermining effect and the reframing of integration as \"motivational architecture\" rather than \"content merger.\" These are consequential perspectives that extend the investigation beyond the starting material.\n\n[C|Evidence-Based Progress] Round 2 connected the UTAUT findings to specific hypotheses and proposed a testable model. Round 3 cited the Yang Jiongjiong lab study on reward timing and the undermining effect, and used it to generate a new hypothesis (H9). The evidence is used to refine the research design rather than merely decorate it. However, some claims in Round 3 (e.g., about flow as mechanism) are more assertive than the supplied evidence strictly supports.\n\n[C|Incremental Value] Round 1 provided a solid foundation. Round 2 delivered a complete, actionable research design with hypotheses and methodology. Round 3 added advanced considerations (H9, methodological warnings, design principles) that genuinely strengthen the proposed paper. The progression from foundation to design to refinement is productive.\n\n[C|Adaptive Coherence] Round 1 established foundations, Round 2 built a research design on them, and Round 3 refined that design with new evidence and considerations. The final summary explicitly connects the rounds: \"Across the three rounds, a coherent thesis emerged.\" The progression is cumulative and responsive to the user's evolving needs.",
+  "scores": {
+    "CCA": {
+      "Inquiry Relevance": 8.5,
+      "Perspective Expansion": 8.0,
+      "Evidence-Based Progress": 8.0,
+      "Incremental Value": 8.0,
+      "Adaptive Coherence": 8.5
+    },
+    "Co-STORM": {
+      "Inquiry Relevance": 6.5,
+      "Perspective Expansion": 6.0,
+      "Evidence-Based Progress": 6.0,
+      "Incremental Value": 6.0,
+      "Adaptive Coherence": 6.5
+    },
+    "LLM Baseline": {
+      "Inquiry Relevance": 7.5,
+      "Perspective Expansion": 7.0,
+      "Evidence-Based Progress": 7.0,
+      "Incremental Value": 7.0,
+      "Adaptive Coherence": 7.0
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 152822,
+      "completion_tokens": 1482,
+      "total_tokens": 154304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

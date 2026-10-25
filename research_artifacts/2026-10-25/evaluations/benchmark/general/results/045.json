@@ -1,0 +1,44 @@
+{
+  "task": "045_single-cell-sequencing",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "LLM Baseline",
+    "B": "Co-STORM",
+    "C": "CCA"
+  },
+  "raw": "System A:\n  Clarity: 8.2/10\n  Engagement: 7.4/10\n  Depth Appropriateness: 8.0/10\n  Breadth: 8.3/10\nSystem B:\n  Clarity: 7.6/10\n  Engagement: 7.0/10\n  Depth Appropriateness: 7.2/10\n  Breadth: 6.8/10\nSystem C:\n  Clarity: 8.4/10\n  Engagement: 7.8/10\n  Depth Appropriateness: 8.2/10\n  Breadth: 8.6/10\n\nExplanation:\n[A|Clarity] Round 1 answer explains the core concept with a clear contrast: \"Traditionally, cells of the same phenotype were viewed as identical functional units... However, deep sequencing of DNA and RNA from single cells reveals a more complex ecology of heterogeneous cell states.\" Round 2 answer uses a table mapping stages to SCS/AI roles, which concretely connects the pipeline. Minor gap: some terms (e.g., \"foundation models for cell biology (analogous to LLMs in text)\") are introduced with brief but not fully unpacked analogies.\n\n[A|Engagement] Round 2 answer closes with a targeted offer: \"Would you like me to elaborate on any specific area—such as foundation models for single-cell data, the target-discovery pipeline, or the technical challenges of integrating SCS with AI?\" This is a concrete, relevant invitation tied to the user's intent. However, the user's Round 3 prompt (\"What else should I know?\") is generic rather than a response to the specific options offered, suggesting the invitation did not strongly shape the next step.\n\n[A|Depth Appropriateness] Round 2 answer appropriately escalates from general overview to specific mechanisms (e.g., \"FAP⁺ fibroblast / SPP1⁺ macrophage interactions as targetable barriers to immunotherapy\") and Round 3 adds the MSI heterogeneity nuance with explicit caveats (\"they could not resolve whether this heterogeneity was spatially organized because they lacked spatial data\"). Depth matches the investigative intent well.\n\n[A|Breadth] Round 3 answer develops multiple connected dimensions: MSI heterogeneity, the TIMP1/OLFM4⁺ progression-sequence pipeline, immune evasion axes, and the spatial gap—each explained with reasons and linked (\"Together these show SCS is mapping the cellular crosstalk...\"). The caveat section distinguishes evidence strength, adding a useful boundary dimension.\n\n[B|Clarity] Round 1 answer is understandable but relies on compressed phrasing: \"the combination lets researchers dig into tumor heterogeneity, spot biomarkers, and design personalized treatments—especially promising for something like lung cancer with its many subtypes.\" The mechanism linking SCS to AI is asserted more than explained. Round 3 answer is clearer on specific limitations (\"leaned mainly on TCGA in a tumor-versus-normal setting, so we still need external validation\").\n\n[B|Engagement] The General Knowledge Provider answers are competent but read as delivered reports rather than dialogues; no follow-up options or questions are offered to the user. The Round 3 computational-biologist turn adds a forward-looking proposal (\"rigorous benchmarking against spatial and bulk multi-omics\") but frames it as a proposal rather than an invitation to the user.\n\n[B|Depth Appropriateness] Round 3 answer appropriately flags evidence limitations (\"no clinically validated biomarker currently requires these technologies\") and names specific spatial platforms (Visium, MERFISH, CODEX, GeoMx DSP) with resolution trade-offs. However, the depth is somewhat uneven—Round 1 and Round 2 largely repeat the same lung-cancer framing without progressive deepening.\n\n[B|Breadth] The coverage is narrower than the user's stated intent: the evidence base is repeatedly scoped to lung cancer (\"the evidence here is specific to lung cancer, so broader claims about AI-driven drug discovery beyond this scope aren't really supported\"). Round 3 adds spatial/bulk benchmarking as a dimension but does not develop drug-discovery applications beyond biomarker/target identification in lung cancer.\n\n[C|Clarity] Round 1 Instructor answer uses an accessible analogy (\"instead of blending a tissue into a 'smoothie'\") and explains platform trade-offs with concrete decision rules (\"use high-throughput droplet or combinatorial indexing for discovery at scale, then plate-based deep profiling to validate candidates\"). Round 2 answer explains the zero problem mechanistically (\"a zero in a single-cell RNA-seq count matrix does not mean 'this gene is off'—it can mean the transcript was never captured\").\n\n[C|Engagement] The Student role generates candidate questions with rationales, and the selected questions progress logically from clinical boundary conditions to target prioritization to benchmarking design. The Instructor answers close with concrete, actionable recommendations (\"pre-register sampling and QC rules per specimen type, spike in viability and ambient-RNA controls\"). The autonomous continuation in Round 3 follows naturally from the Round 2 audit question.\n\n[C|Depth Appropriateness] Round 2 answer develops the zero/dropout problem with quantitative anchors (\">90% zero values\") and distinguishes established practice from plausible-but-unverified heuristics (\"this needs prospective benchmarking\"). Round 3 answer provides sample-size planning heuristics with explicit uncertainty flags (\"these are planning heuristics, not derived from a validated power calculation\"). Depth serves the investigative intent well.\n\n[C|Breadth] The three rounds develop connected dimensions: clinical/low-input boundary conditions (Round 1), rare-state target prioritization and AI audit failure modes (Round 2), and benchmarking design plus longitudinal modeling (Round 3). Round 2 explicitly links five failure modes to mechanisms and provides an audit design; Round 3 connects sample-size planning to variance partitioning. The final synthesis integrates these into a coherent multidimensional picture.",
+  "scores": {
+    "LLM Baseline": {
+      "Clarity": 8.2,
+      "Engagement": 7.4,
+      "Depth Appropriateness": 8.0,
+      "Breadth": 8.3
+    },
+    "Co-STORM": {
+      "Clarity": 7.6,
+      "Engagement": 7.0,
+      "Depth Appropriateness": 7.2,
+      "Breadth": 6.8
+    },
+    "CCA": {
+      "Clarity": 8.4,
+      "Engagement": 7.8,
+      "Depth Appropriateness": 8.2,
+      "Breadth": 8.6
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 141617,
+      "completion_tokens": 1242,
+      "total_tokens": 142859,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

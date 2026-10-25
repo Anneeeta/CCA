@@ -1,0 +1,43 @@
+{
+  "variant": "no_patches",
+  "task": "027_the-impact-of-digital-literacy-and-iot-on-precision-agriculture-among-sm",
+  "sequence": [
+    "full",
+    "no_patches"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 8.0,
+    "Engagement": 8.2,
+    "Depth Appropriateness": 8.2,
+    "Breadth": 8.4
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Clarity\": -0.4, \"Engagement\": -0.3, \"Depth Appropriateness\": -0.3, \"Breadth\": -0.5}",
+  "deltas": {
+    "Clarity": -0.4,
+    "Engagement": -0.3,
+    "Depth Appropriateness": -0.3,
+    "Breadth": -0.5
+  },
+  "calibrated_target_scores": {
+    "Clarity": 7.6,
+    "Engagement": 7.8999999999999995,
+    "Depth Appropriateness": 7.8999999999999995,
+    "Breadth": 7.9
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 192228,
+      "completion_tokens": 41,
+      "total_tokens": 192269,
+      "cached_tokens": 0,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

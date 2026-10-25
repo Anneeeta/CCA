@@ -1,0 +1,45 @@
+{
+  "task": "019_automating-powerpoint-slide-creation-with-python",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "Co-STORM",
+    "B": "LLM Baseline",
+    "C": "CCA"
+  },
+  "raw": "System A:\n  Clarity: 8.2/10\n  Engagement: 7.6/10\n  Depth Appropriateness: 8.4/10\n  Breadth: 8.6/10\nSystem B:\n  Clarity: 8.0/10\n  Engagement: 7.4/10\n  Depth Appropriateness: 7.2/10\n  Breadth: 7.0/10\nSystem C:\n  Clarity: 8.6/10\n  Engagement: 7.8/10\n  Depth Appropriateness: 8.8/10\n  Breadth: 8.4/10\n\nExplanation:\n[A|Clarity] The warm-start dialogue explains the master→layout→slide inheritance chain in plain terms (\"a slide layout acts as a template: whatever appears on the layout 'shows through'... formatting choices made on the layout are inherited by the slide\") and connects it to the automation consequence (layout indices are template-specific, so you must count them in Slide Master view). The limitations round similarly explains *why* python-pptx struggles (it \"works directly on the underlying Open XML rather than through PowerPoint itself\") before listing consequences. Minor gap: the production-pipeline round introduces many module names (pptx_colors.py, pptx_fills.py, etc.) without always explaining what each resolves, so some connections require inference.\n\n[A|Engagement] The moderator's questions track a coherent learning arc — learning resources, production pipeline, limits, inheritance architecture — each tied to what a developer actually needs. The final summary consolidates this into a usable guide. Engagement is slightly limited because the user's own later prompts (\"To guide Python software developers...\") receive answers that largely restate library catalogs rather than building on the earlier deep dives, so the sense of a continuous task is weaker in the later rounds.\n\n[A|Depth Appropriateness] The inheritance round correctly establishes the foundational concept before the practical consequences, and the limitations round gives concrete mechanisms (e.g., \"assigning text_frame.text wipes existing formatting,\" \"placeholders split across multiple runs can't be merged automatically\"). The project-health nuance from the maintainer role (\"no known security issues... 70/100 health score... the real issue is sustainability\") is well-calibrated for developers deciding whether to adopt the library. Depth is appropriate for a developer audience without assuming prior knowledge of the OPC format.\n\n[A|Breadth] The interaction covers library landscape (python-pptx, slidecraft, Aspose FOSS, Deckbuilder), architecture (inheritance chain, layout indices), limitations (no animations, SmartArt, PDF export), production workflow (content/style separation, validation, accessibility), documentation resources, and project sustainability. These dimensions are connected — e.g., the inheritance architecture explains why template-first design is recommended, and the limitations explain when to choose Aspose instead. The breadth is genuinely multidimensional rather than a list.\n\n[B|Clarity] The round-one answer explains why automation matters and gives a complete working example with comments (\"# 1. Create a presentation (optionally from a template)\"), and the building-blocks table maps each element to its API call. The MCP-server round explains the stateful workflow clearly (\"the server tracks state via a presentation_id, so operations are sequential and stateful\"). Minor gap: the third round's checklist and guardrail discussion sometimes asserts best practices (\"run with auto_fix on in dev, then run a validation pass in production\") without always explaining the mechanism behind the recommendation.\n\n[B|Engagement] The responses consistently frame content as a developer's decision guide (\"When to Use What,\" \"Quick Decision Guide\"), and the third round's pre-shipping checklist gives the user a concrete artifact to apply. The pipeline diagrams (\"Data source → pandas → Slide spec → Renderer → deck.pptx\") connect the tools to a real workflow. Engagement is somewhat limited because the user's prompts are generic (\"What else should I know?\") and the responses, while relevant, do not build on specific earlier user contributions — the process is more delivery than dialogue.\n\n[B|Depth Appropriateness] The python-pptx examples are appropriately detailed for developers, showing real API calls and explaining trade-offs. However, the MCP-server and Deckbuilder sections are shallower — tool names and invocation patterns are shown, but the underlying mechanisms (how the server manages state, how Deckbuilder's image pipeline works internally) are described only at the surface. For a developer audience that may need to debug or extend these tools, this is a moderate depth gap. The python-pptx portion alone would score higher.\n\n[B|Breadth] The interaction covers python-pptx directly, MCP-server tooling, Deckbuilder, template strategy, asset preparation, verification, guardrails, and error handling. However, several of these dimensions (MCP tools, Deckbuilder CLI) are described at a catalog level — the tool surface is listed but the relationships between approaches are less developed than in System A. The \"When to Use What\" table provides some connection, but the tension and trade-offs between approaches are asserted rather than explored.\n\n[C|Clarity] The instructor's explanations consistently build from the OPC-package mental model (\"a .pptx is an OPC package: a ZIP of XML parts joined by relationship files\") to concrete consequences, and the three-layer separation (first-class API / raw lxml / silent failures) is explained with specific examples. The theme-inheritance round explains *why* you cannot ask python-pptx \"what color will this shape actually be?\" — because the library exposes stored XML, not resolved values. This is exceptionally clear for a complex topic. Minor gap: some XML element names (a:gsLst, a:schemeClr, p:nvSpPr) appear without full expansion, though the surrounding explanation makes their role understandable.\n\n[C|Engagement] The student's candidate questions show a genuine investigative process, and the instructor's answers directly address the selected question while connecting it to the broader mental model (\"The concept that ties both halves together is the placeholder contract\"). The extension sections (\"The same 'stored override versus resolved value' split explains why a deck can pass every XML check and still look wrong\") give the user productive next steps. The process feels like guided investigation rather than passive delivery.\n\n[C|Depth Appropriateness] The progression from object-model mapping → theme inheritance → placeholder cloning is well-sequenced, each building on the previous. The depth is calibrated for developers who need to debug silent failures, not just write happy-path code. The version caveats (\"exact FillFormat/chart-label surface area varies by python-pptx release, so confirm against your pinned version's API docs\") are appropriately honest about uncertainty. The depth serves the stated goal of guiding developers through automation, including its failure modes.\n\n[C|Breadth] The interaction covers the OPC object model, theme inheritance and dangling references, placeholder cloning and non-first-class placeholders (date, footer, slide number), validation strategies (structural, semantic, visual), and the library landscape (python-pptx, Aspose, Spire, MCP servers). These dimensions are connected through the unifying \"stored override versus resolved value\" concept. The breadth is well-developed — each dimension is explained enough to be usable, and the relationships between them (e.g., why theme validation requires raw lxml because the public API does not expose theme parts) are made explicit.",
+  "scores": {
+    "Co-STORM": {
+      "Clarity": 8.2,
+      "Engagement": 7.6,
+      "Depth Appropriateness": 8.4,
+      "Breadth": 8.6
+    },
+    "LLM Baseline": {
+      "Clarity": 8.0,
+      "Engagement": 7.4,
+      "Depth Appropriateness": 7.2,
+      "Breadth": 7.0
+    },
+    "CCA": {
+      "Clarity": 8.6,
+      "Engagement": 7.8,
+      "Depth Appropriateness": 8.8,
+      "Breadth": 8.4
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 135278,
+      "completion_tokens": 1542,
+      "total_tokens": 136820,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,602 @@
+[
+  {
+    "task": "001_utilization-of-weather-forecasting-for-wind-and-solar-energy-assessment",
+    "topic": "Utilization of Weather Forecasting for Wind and Solar Energy Assessment",
+    "intent": "To explore advanced methodologies and techniques in integrating weather forecast data for optimizing wind and solar energy evaluations.",
+    "domain": "science -> applied science -> environmental science"
+  },
+  {
+    "task": "002_bathroom-remodeling",
+    "topic": "Bathroom remodeling",
+    "intent": "To learn effective bathroom remodeling strategies for informed discussions with contractors and vendors.",
+    "domain": "lifestyle and leisure -> design"
+  },
+  {
+    "task": "003_effective-feedback-practices-in-professional-settings",
+    "topic": "Effective Feedback Practices in Professional Settings",
+    "intent": "Investigate methods and strategies for providing effective feedback in professional environments.",
+    "domain": "social science and humanities -> management"
+  },
+  {
+    "task": "004_chatbot-for-analyzing-financial-data-in-business-and-economics",
+    "topic": "Chatbot for analyzing financial data in business and economics",
+    "intent": "Explore how a chatbot can help residents better understand town public records and meetings.",
+    "domain": "social science and humanities -> business and economics"
+  },
+  {
+    "task": "005_recent-legal-cases-in-the-us-involving-hardware-technology-innovations",
+    "topic": "Recent legal cases in the US involving hardware technology innovations.",
+    "intent": "To investigate the legal precedents and implications of hardware technology innovations in the US.",
+    "domain": "culture and society -> law"
+  },
+  {
+    "task": "006_trade-war-between-us-and-china",
+    "topic": "Trade war between US and China",
+    "intent": "To comprehensively analyze the background, current developments, and future trends of the trade war between the US and China.",
+    "domain": "culture and society -> politics"
+  },
+  {
+    "task": "007_introduction-to-kubernetes-backup-and-persistent-storage",
+    "topic": "Introduction to Kubernetes Backup and Persistent Storage",
+    "intent": "To educate readers on the fundamentals of Kubernetes backup and persistent volumes, and explain the necessity of persistent storage and backup for Kubernetes users.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "008_ursula-s-character-in-disney-s-the-little-mermaid",
+    "topic": "Ursula's Character in Disney's \"The Little Mermaid\"",
+    "intent": "To explore Ursula's origins, identity, and reasons for her exclusion from Atlantis.",
+    "domain": "culture and society -> cultural study"
+  },
+  {
+    "task": "009_effectiveness-of-pico-8-and-fantasy-game-consoles-in-niche-gaming-commun",
+    "topic": "Effectiveness of Pico-8 and Fantasy Game Consoles in Niche Gaming Communities",
+    "intent": "To evaluate how well Pico-8 and similar fantasy game consoles perform and are received within niche gaming communities.",
+    "domain": "lifestyle and leisure -> gaming"
+  },
+  {
+    "task": "010_graphics-processing-unit",
+    "topic": "Graphics Processing Unit",
+    "intent": "Understand the technological advancements and market dynamics of GPUs to comprehend the reasons behind NVIDIA's soaring stock price.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "011_application-of-artificial-intelligence-in-preserving-intangible-cultural",
+    "topic": "Application of Artificial Intelligence in Preserving Intangible Cultural Heritage",
+    "intent": "Examine the latest advancements and methodologies in using AI to safeguard and promote intangible cultural heritage.",
+    "domain": "culture and society -> cultural study"
+  },
+  {
+    "task": "012_enhancing-human-computer-interaction-with-wearable-devices-via-gesture-o",
+    "topic": "Enhancing Human-Computer Interaction with Wearable Devices via Gesture Operation and Augmented Reality",
+    "intent": "Investigate diverse and flexible interaction methods beyond touch and voice to simplify interface design in wearable devices.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "013_ai-for-predicting-health-index-from-gut-microbiome",
+    "topic": "AI for Predicting Health Index from Gut Microbiome",
+    "intent": "To explore AI models for analyzing microbial data to enable non-invasive health screening.",
+    "domain": "science -> natural science -> biology"
+  },
+  {
+    "task": "014_facial-recognition-in-check-in-and-clock-in-systems",
+    "topic": "Facial recognition in check-in and clock-in systems",
+    "intent": "To explore the application and effectiveness of facial recognition technology in automating and improving check-in and clock-in systems.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "015_west-coast-synthesis",
+    "topic": "West Coast Synthesis",
+    "intent": "Compare the characteristics and techniques of West Coast synthesis with those of East Coast synthesis in music.",
+    "domain": "lifestyle and leisure -> music"
+  },
+  {
+    "task": "016_blockchain-anomaly-detection-using-large-models",
+    "topic": "Blockchain anomaly detection using large models",
+    "intent": "To evaluate the effectiveness of large models in detecting anomalies in blockchain systems compared to existing models.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "017_synthetic-biology",
+    "topic": "Synthetic Biology",
+    "intent": "To review recent advancements and current applications in synthetic biology research and industry.",
+    "domain": "science -> natural science -> biology"
+  },
+  {
+    "task": "018_the-latest-advances-in-anti-aging-research",
+    "topic": "The latest advances in anti-aging research",
+    "intent": "To identify methods that help individuals remain active and youthful into their 70s and 80s.",
+    "domain": "health and fitness -> medical, healthcare"
+  },
+  {
+    "task": "019_automating-powerpoint-slide-creation-with-python",
+    "topic": "Automating PowerPoint Slide Creation with Python",
+    "intent": "To guide Python software developers on automating the process of creating PowerPoint presentations using Python libraries.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "020_information-security-principles-practices-and-emerging-trends",
+    "topic": "Information Security - Principles, Practices, and Emerging Trends",
+    "intent": "To explore foundational principles, practical applications, and latest trends in information security, addressing the challenges in protecting sensitive information in the digital age.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "021_emissions-from-cooking-food",
+    "topic": "Emissions from Cooking Food",
+    "intent": "Conduct a comprehensive literature review to understand the fundamental aspects of food cooking emissions for a research project.",
+    "domain": "lifestyle and leisure -> food"
+  },
+  {
+    "task": "022_the-effects-of-nmn-supplements-on-human-anti-aging",
+    "topic": "The effects of NMN supplements on human anti-aging",
+    "intent": "To investigate the efficacy and mechanisms of NMN supplements in slowing down or reversing the aging process in humans.",
+    "domain": "health and fitness -> medical, healthcare"
+  },
+  {
+    "task": "023_integrating-multiple-llms",
+    "topic": "Integrating Multiple LLMs",
+    "intent": "To determine if integrating multiple language models enhances the synthesis of ideas.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "024_taylor-swift",
+    "topic": "Taylor Swift",
+    "intent": "To gather basic and interesting information about Taylor Swift, focusing on her identity, main achievements, and notable aspects of her career.",
+    "domain": "lifestyle and leisure -> music"
+  },
+  {
+    "task": "025_alphafold",
+    "topic": "AlphaFold",
+    "intent": "To investigate the working mechanism of AlphaFold, its evolution from AlphaFold to AlphaFold2, and the adoption and adaptation of AlphaFold by the open-source community, including tools like RoseTTAFold.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "026_audio-visual-content-dissemination-and-audience-feedback-on-douyin",
+    "topic": "Audio-Visual Content Dissemination and Audience Feedback on Douyin",
+    "intent": "To analyze how audio-visual content is shared on Douyin and understand the mechanisms of audience feedback, focusing on the communication pathways and their influence on content creators and viewers.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "027_the-impact-of-digital-literacy-and-iot-on-precision-agriculture-among-sm",
+    "topic": "The impact of digital literacy and IoT on precision agriculture among smallholder farmers in rural China",
+    "intent": "To evaluate existing research on how digital literacy and IoT technologies improve precision agriculture for smallholder farmers in rural China, for a PhD research proposal using meta-analysis.",
+    "domain": "science -> applied science -> agriculture"
+  },
+  {
+    "task": "028_the-application-of-iot-digitalization-and-ai-in-the-oil-and-natural-gas",
+    "topic": "The application of IoT, digitalization, and AI in the oil and natural gas sector",
+    "intent": "To investigate the latest applications of IoT, digitalization, and AI in the natural gas industry, analyze future development potential, and present findings in an 8,000-word paper.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "029_simultaneous-localization-and-mapping",
+    "topic": "Simultaneous Localization and Mapping",
+    "intent": "To understand the principles and techniques of SLAM for developing augmented reality applications.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "030_image-processing-techniques-for-cellular-analysis",
+    "topic": "Image processing techniques for cellular analysis",
+    "intent": "To identify advanced image processing methods applicable to cellular research for enhanced data analysis in my scientific study.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "031_internal-motivation-in-student-learning",
+    "topic": "Internal motivation in student learning",
+    "intent": "To explore how integrating professional education with innovation and entrepreneurship education impacts student motivation for a publishable research paper.",
+    "domain": "social science and humanities -> education"
+  },
+  {
+    "task": "032_pyspark",
+    "topic": "PySpark",
+    "intent": "To learn the basics of PySpark and how to use it for efficient data pipeline management as a data scientist new to the tool.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "033_komondor-the-mop-dog",
+    "topic": "Komondor, the mop dog",
+    "intent": "To gather detailed information on the Komondor breed to write an informative article that raises awareness about this unique dog breed.",
+    "domain": "others -> animal"
+  },
+  {
+    "task": "034_accessibility-in-data-visualization",
+    "topic": "Accessibility in data visualization",
+    "intent": "Investigate current advancements, identify gaps, and review research on accessibility in data visualization, including insights from related fields such as cartography and diagram design, to develop a comprehensive research proposal.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "035_key-technologies-in-pipeline-engineering-and-gas-storage-facility-constr",
+    "topic": "Key Technologies in Pipeline Engineering and Gas Storage Facility Construction in Urban Gas Systems",
+    "intent": "Analyze the key technologies involved in pipeline engineering and gas storage facility construction within urban gas systems, evaluate their advantages and disadvantages, and provide suggestions for future high-quality development.",
+    "domain": "science -> applied science -> environmental science"
+  },
+  {
+    "task": "036_latest-advancements-in-natural-language-processing-nlp-algorithms-and-th",
+    "topic": "Latest advancements in natural language processing (NLP) algorithms and their impact on everyday applications",
+    "intent": "To simplify complex NLP concepts and analyze their transformative effects on industries like healthcare, finance, and customer support",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "037_efficacy-of-vr-based-motion-capture-for-ergonomics-in-manual-operation",
+    "topic": "Efficacy of VR-Based Motion Capture for Ergonomics in Manual Operation",
+    "intent": "To determine if ergonomics assessments using VR with opencap match the consistency of real-world assessments using the same technology.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "038_changes-to-medicare-part-d-in-2025",
+    "topic": "Changes to Medicare Part D in 2025",
+    "intent": "To write a website article that informs Medicare beneficiaries about the upcoming changes to Medicare Part D, highlighting how these changes will impact their healthcare coverage and costs.",
+    "domain": "health and fitness -> medical, healthcare"
+  },
+  {
+    "task": "039_collaborative-learning-in-music-education",
+    "topic": "Collaborative learning in music education",
+    "intent": "Investigate examples and case studies of collaborative learning methods used in music education.",
+    "domain": "lifestyle and leisure -> music"
+  },
+  {
+    "task": "040_privacy-in-large-language-models",
+    "topic": "Privacy in Large Language Models",
+    "intent": "To understand existing research for writing a research proposal on privacy concerns in large language models.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "041_artificial-general-intelligence-agi",
+    "topic": "Artificial General Intelligence (AGI)",
+    "intent": "To understand the mechanisms, developmental pathways, and future implications of AGI.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "042_drug-and-alcohol-psychological-assessment-tools",
+    "topic": "Drug and alcohol psychological assessment tools",
+    "intent": "Review assessment tools for application in a non-profit healthcare setting.",
+    "domain": "health and fitness -> medical, healthcare"
+  },
+  {
+    "task": "043_biotechnology-for-prospecting-natural-bioactives-in-health",
+    "topic": "Biotechnology for Prospecting Natural Bioactives in Health",
+    "intent": "To gather comprehensive and evidence-rich literature on the role of biotechnology in identifying natural bioactive compounds for health applications, presented in a formal, fluid article format without subsections.",
+    "domain": "science -> natural science -> biology"
+  },
+  {
+    "task": "044_development-of-a-shared-trading-currency-to-facilitate-international-tra",
+    "topic": "Development of a Shared Trading Currency to Facilitate International Trade",
+    "intent": "Investigate how a new shared currency could eliminate transaction costs and boost GDP among member countries.",
+    "domain": "social science and humanities -> business and economics"
+  },
+  {
+    "task": "045_single-cell-sequencing",
+    "topic": "Single Cell Sequencing",
+    "intent": "Investigate the application of single cell sequencing in AI-driven drug discovery.",
+    "domain": "science -> natural science -> biology"
+  },
+  {
+    "task": "046_artificial-intelligence-and-copyright-dilemma",
+    "topic": "Artificial Intelligence and Copyright Dilemma",
+    "intent": "Analyze the legal implications of AI-generated content and its impact on copyright law for a law school final paper.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "047_dataset-processing-for-large-language-models",
+    "topic": "Dataset Processing for Large Language Models",
+    "intent": "To evaluate and demonstrate my understanding of the dataset processing techniques used for large language models in computer science.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "048_medical-simulation-teaching",
+    "topic": "Medical Simulation Teaching",
+    "intent": "To investigate the current trends and advancements in medical and nursing simulation teaching over the past three years, and to identify key topics within recent scientific literature.",
+    "domain": "health and fitness -> medical, healthcare"
+  },
+  {
+    "task": "049_end-user-personalization-in-human-computer-interaction",
+    "topic": "End-User Personalization in Human-Computer Interaction",
+    "intent": "Investigate current methods and technologies in end-user personalization to identify research gaps and opportunities for a new project.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "050_future-of-serverless-in-cloud-development",
+    "topic": "Future of Serverless in Cloud Development",
+    "intent": "Investigate strategies for migrating existing services to a serverless architecture.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "051_macroscopic-quantum-coherence",
+    "topic": "Macroscopic Quantum Coherence",
+    "intent": "To explore and understand the fundamental principles and recent advancements in macroscopic quantum coherence, so as to share insights and foster discussions with friends interested in physics.",
+    "domain": "science -> natural science -> physics"
+  },
+  {
+    "task": "052_what-is-webflow-and-how-does-it-enhance-seo",
+    "topic": "What is Webflow and how does it enhance SEO?",
+    "intent": "To create a comprehensive guide for companies with Webflow websites on monitoring and improving their SEO.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "053_ai-tools-for-content-creation-in-fashion-and-beauty",
+    "topic": "AI Tools for Content Creation in Fashion and Beauty",
+    "intent": "To identify and present various AI applications in creative content creation to inspire coworkers in a multi-brand fashion and beauty retailer.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "054_criticisms-of-agile-software-development-in-practice",
+    "topic": "Criticisms of Agile Software Development in Practice",
+    "intent": "To evaluate the practical outcomes and major criticisms of Agile software development after its prolonged use.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "055_richard-dattner",
+    "topic": "Richard Dattner",
+    "intent": "Compile comprehensive information on Richard Dattner's contributions to urban studies to create a detailed Wikipedia article about him.",
+    "domain": "culture and society -> urban study"
+  },
+  {
+    "task": "056_benchmarking-chroma-db-against-other-vector-databases-in-llamaindex",
+    "topic": "Benchmarking Chroma DB Against Other Vector Databases in LLAMAIndex",
+    "intent": "To examine the steps, architecture, advantages, challenges, and alternative solutions of using vector databases in LLAMAIndex, with a specific focus on benchmarking Chroma DB against other vector databases.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "057_building-a-personal-knowledge-system",
+    "topic": "Building a Personal Knowledge System",
+    "intent": "To explore methods and best practices for developing an individual knowledge management system using computer science principles.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "058_seo",
+    "topic": "SEO",
+    "intent": "To compile a comprehensive guide covering all aspects of SEO, including technical SEO, eCommerce SEO, semantic SEO, on-page SEO, off-page SEO, international SEO, and the debate on whether SEO is dead.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "059_licensing-implications-for-open-source-deep-learning-models-on-github",
+    "topic": "Licensing Implications for Open Source Deep Learning Models on GitHub",
+    "intent": "Determine if models licensed under AGPLv3, GPLv3, or Apache 2.0 can be trained on private data and sold to clients without incurring licensing fees.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "060_validation-of-gpt-chatbot-usage-in-educational-settings",
+    "topic": "Validation of GPT Chatbot Usage in Educational Settings",
+    "intent": "To explore and understand the effectiveness and impact of GPT chatbots when used by students and teachers in educational environments.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "061_environmental-impact-on-personal-growth-and-perspective",
+    "topic": "Environmental Impact on Personal Growth and Perspective",
+    "intent": "To gather evidence and insights for an article detailing how environmental factors influence individual development and viewpoints.",
+    "domain": "science -> applied science -> environmental science"
+  },
+  {
+    "task": "062_2023-gansu-earthquake",
+    "topic": "2023 Gansu Earthquake",
+    "intent": "Investigate the aftermath, global reactions, and official rescue efforts related to the event.",
+    "domain": "culture and society -> news"
+  },
+  {
+    "task": "063_wire-free-localization-techniques-for-breast-surgery",
+    "topic": "Wire-free localization techniques for breast surgery",
+    "intent": "To identify and analyze the latest advancements and effectiveness of wire-free localization methods in breast surgery for academic research and the development of marketing materials.",
+    "domain": "health and fitness -> medical, healthcare"
+  },
+  {
+    "task": "064_customer-segmentation-in-business-and-economics",
+    "topic": "Customer Segmentation in Business and Economics",
+    "intent": "To develop a framework for segmenting customers based on psychological and activity-based criteria.",
+    "domain": "social science and humanities -> business and economics"
+  },
+  {
+    "task": "065_itinerary-for-a-5-day-trip-on-california-state-route-1",
+    "topic": "Itinerary for a 5-day trip on California State Route 1",
+    "intent": "To find detailed travel plans, attractions, and accommodations along California State Route 1 for a 5-day trip in June.",
+    "domain": "lifestyle and leisure -> travel"
+  },
+  {
+    "task": "066_infosys",
+    "topic": "Infosys",
+    "intent": "Assessing the viability of investing in Infosys based on its technological advancements and market performance.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "067_understanding-and-managing-dental-phobias-for-patients",
+    "topic": "Understanding and Managing Dental Phobias for Patients",
+    "intent": "To create an introductory guide for patients that explains dental phobias, outlines common treatments, and provides strategies for managing these fears.",
+    "domain": "health and fitness -> medical, healthcare"
+  },
+  {
+    "task": "068_medical-simulation-scene-quality-evaluation-tool",
+    "topic": "Medical simulation scene quality evaluation tool",
+    "intent": "To identify existing assessment scales for medical simulation scenes, evaluate their reliability and validity, and determine methods to assess the effectiveness of current medical simulation teaching scenarios.",
+    "domain": "health and fitness -> medical, healthcare"
+  },
+  {
+    "task": "069_ipv4-and-ipv6-networking",
+    "topic": "IPv4 and IPv6 Networking",
+    "intent": "Analyze and compare the operational differences between IPv4 and IPv6 to aid expert developers in implementing an IPv6 host stack.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "070_unified-framework-for-human-pose-estimation-and-motion-prediction-in-2d",
+    "topic": "Unified Framework for Human Pose Estimation and Motion Prediction in 2D Videos",
+    "intent": "To design a framework integrating CNN, GCN, and Transformer for accurate human pose estimation and motion prediction in 2D videos, while improving computational efficiency and handling occlusions effectively.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "071_community-knowledge-management-in-cultural-studies",
+    "topic": "Community Knowledge Management in Cultural Studies",
+    "intent": "Conducting a comprehensive literature review to explore the role and impact of community knowledge management practices within cultural groups.",
+    "domain": "culture and society -> cultural study"
+  },
+  {
+    "task": "072_service-quality-in-michelin-restaurants",
+    "topic": "Service quality in Michelin restaurants",
+    "intent": "Identify how AI can enhance service quality in Michelin-starred restaurants for journal publication.",
+    "domain": "social science and humanities -> business and economics"
+  },
+  {
+    "task": "073_electricity-generation-using-solar-thermal-energy",
+    "topic": "Electricity Generation using Solar Thermal Energy",
+    "intent": "To investigate the methods and efficiency of solar thermal energy in generating electricity within the field of environmental science.",
+    "domain": "science -> applied science -> environmental science"
+  },
+  {
+    "task": "074_the-emergence-of-artificial-super-intelligence-future-prospects-and-impa",
+    "topic": "The Emergence of Artificial Super Intelligence: Future Prospects and Impacts",
+    "intent": "To understand the concept of artificial super intelligence (ASI), examine the developmental path towards ASI, analyze its potential impacts, and explore future scenarios involving ASI.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "075_comparison-of-self-attention-convolutional-block-attention-module-and-sq",
+    "topic": "Comparison of Self-Attention, Convolutional Block Attention Module, and Squeeze-and-Excitation Blocks",
+    "intent": "To analyze and compare the effectiveness and applications of self-attention mechanisms (non-local blocks), convolutional block attention modules, and squeeze-and-excitation (SE) blocks in computer science.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "076_2024-hualien-city-earthquake",
+    "topic": "2024 Hualien City Earthquake",
+    "intent": "Investigate detailed reports and societal impact of the 2024 Hualien City earthquake.",
+    "domain": "culture and society -> news"
+  },
+  {
+    "task": "077_genshin-impact-strategies",
+    "topic": "Genshin Impact strategies",
+    "intent": "Identify and analyze effective gameplay strategies to enhance performance in Genshin Impact.",
+    "domain": "lifestyle and leisure -> gaming"
+  },
+  {
+    "task": "078_evolution-and-core-technologies-of-ai",
+    "topic": "Evolution and Core Technologies of AI",
+    "intent": "To provide a comprehensive overview of AI's history and fundamental technologies for educational purposes.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "079_fire-rescue-scene-communication",
+    "topic": "Fire Rescue Scene Communication",
+    "intent": "Identify strategies to improve communication efficiency during fire rescue operations to reduce chaos.",
+    "domain": "others -> emergency management"
+  },
+  {
+    "task": "080_semiconductor-supply-chain-resilience-and-disruption",
+    "topic": "Semiconductor Supply Chain Resilience and Disruption",
+    "intent": "To conduct a literature review and identify case studies on how to enhance the resilience of semiconductor supply chains against disruptions and predict future trends.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "081_lifelong-learning-in-deep-learning-and-ai",
+    "topic": "Lifelong Learning in Deep Learning and AI",
+    "intent": "To explore and present recent advancements and methodologies in lifelong learning for deep learning and AI to contribute to a conference article as part of a PhD thesis.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "082_block-universe-and-the-nature-of-time",
+    "topic": "Block universe and the nature of time",
+    "intent": "To explore the implications of block time for creating a scientifically grounded fictional narrative.",
+    "domain": "science -> natural science -> physics"
+  },
+  {
+    "task": "083_innovative-strategies-for-enhancing-human-resources-management-in-global",
+    "topic": "Innovative Strategies for Enhancing Human Resources Management in Global Engineering Projects",
+    "intent": "To obtain the latest data on HR management in the international engineering contracting industry, aiming to use this information for work summary, model feedback, and debugging.",
+    "domain": "social science and humanities -> business and economics"
+  },
+  {
+    "task": "084_language-security-and-cross-cultural-communication",
+    "topic": "Language Security and Cross-Cultural Communication",
+    "intent": "To explore the intersection of language security and cross-cultural communication, and develop a study combining these concepts.",
+    "domain": "culture and society -> cultural study"
+  },
+  {
+    "task": "085_bernese-mountain-dogs",
+    "topic": "Bernese Mountain Dogs",
+    "intent": "To identify and describe the key qualities that make Bernese Mountain Dogs appealing to share with others.",
+    "domain": "others -> animal"
+  },
+  {
+    "task": "086_traffic-sign-detection-using-machine-vision",
+    "topic": "Traffic Sign Detection Using Machine Vision",
+    "intent": "To gather comprehensive literature that supports an undergraduate thesis on traffic sign detection, focusing on robust methodologies, detailed case studies, and visual data, while ensuring a minimum of 30 citations and maintaining clear logic.",
+    "domain": "infrastructure and logistics -> transportation"
+  },
+  {
+    "task": "087_application-of-new-drugs-or-devices-in-animal-disease-treatment",
+    "topic": "Application of new drugs or devices in animal disease treatment",
+    "intent": "To explore and evaluate the effectiveness and safety of new drugs or devices in treating animal diseases.",
+    "domain": "others -> animal"
+  },
+  {
+    "task": "088_overview-of-packet-classification-algorithms-in-network-devices",
+    "topic": "Overview of Packet Classification Algorithms in Network Devices",
+    "intent": "To summarize and compare different packet classification algorithms used in computer network devices, focusing on their performance and efficiency.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "089_adaptive-geomagnetic-indoor-navigation-system-by-anomaly-detection-feedb",
+    "topic": "Adaptive Geomagnetic Indoor Navigation System by Anomaly Detection-Feedback Control for Scalability and Calibration",
+    "intent": "Conduct a literature search to gather relevant studies and frameworks to develop and submit a paper on adaptive geomagnetic indoor navigation systems for an IEEE communications journal.",
+    "domain": "science -> natural science -> geology"
+  },
+  {
+    "task": "090_quantum-cryptography",
+    "topic": "Quantum Cryptography",
+    "intent": "Investigate the principles of quantum cryptography and explore its implementation in messenger applications.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "091_digital-twin-in-data-sciences",
+    "topic": "Digital Twin in Data Sciences",
+    "intent": "To explore the applications and implications of digital twin technology in data sciences for a master's thesis.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "092_based-point-supervised-object-detection",
+    "topic": "Based point supervised object detection",
+    "intent": "Investigate the foundational importance, current advancements, and overall research landscape.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "093_state-business-relationship-in-the-digital-economy",
+    "topic": "State-Business Relationship in the Digital Economy",
+    "intent": "To examine how digital innovation, industrial policy in the digital sector, and regulation shape the interaction between the state and businesses.",
+    "domain": "social science and humanities -> business and economics"
+  },
+  {
+    "task": "094_impact-of-climate-change-on-urban-areas-like-mumbai",
+    "topic": "Impact of climate change on urban areas like Mumbai",
+    "intent": "To inform policy decisions and long-term urban planning.",
+    "domain": "science -> applied science -> environmental science"
+  },
+  {
+    "task": "095_digital-biomarkers-in-current-clinical-trials",
+    "topic": "Digital biomarkers in current clinical trials",
+    "intent": "Identify and analyze the types of digital biomarkers currently utilized in real-world clinical trials.",
+    "domain": "health and fitness -> medical, healthcare"
+  },
+  {
+    "task": "096_autonomous-ai-for-research-laboratories",
+    "topic": "Autonomous AI for Research Laboratories",
+    "intent": "To explore the development of an AI system that interacts with lab members, provides insights, tracks activities, suggests actions, and organizes roles.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "097_history-and-features-of-major-web-browsers",
+    "topic": "History and Features of Major Web Browsers",
+    "intent": "To investigate the origins, unique features, and developer tools of web browsers like Microsoft Edge, Google Chrome, Mozilla Firefox, Opera, Apple Safari, GNOME Web, Falkon for Linux, Brave, Waterfox, Vivaldi, Arc, and other notable browsers, as well as to identify the companies behind them.",
+    "domain": "science -> applied science -> computer science"
+  },
+  {
+    "task": "098_caving-in-fitness",
+    "topic": "Caving in Fitness",
+    "intent": "To explore what caving is, how to start, necessary equipment, and safety measures for fitness enthusiasts.",
+    "domain": "health and fitness -> fitness"
+  },
+  {
+    "task": "099_integration-of-e-bikes-with-electric-ferries",
+    "topic": "Integration of E-Bikes with Electric Ferries",
+    "intent": "Conduct a detailed review of academic and industry literature on integrating micro electric vehicles (MEVs) with ferry services globally, focusing on the operation of all-electric ferries in Norway, Singapore, and Auckland. The review will cover policies, infrastructure, and user engagement strategies related to MEVs.",
+    "domain": "infrastructure and logistics -> transportation"
+  },
+  {
+    "task": "100_gender-differences-in-media-coverage-and-public-reactions",
+    "topic": "Gender differences in media coverage and public reactions",
+    "intent": "To analyze the economic impact of gender-biased media coverage on public perceptions and reactions.",
+    "domain": "culture and society -> cultural study"
+  }
+]

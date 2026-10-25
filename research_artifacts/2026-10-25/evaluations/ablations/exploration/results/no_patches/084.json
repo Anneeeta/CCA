@@ -1,0 +1,46 @@
+{
+  "variant": "no_patches",
+  "task": "084_language-security-and-cross-cultural-communication",
+  "sequence": [
+    "full",
+    "no_patches"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Inquiry Relevance": 8.0,
+    "Perspective Expansion": 8.0,
+    "Evidence-Based Progress": 7.0,
+    "Incremental Value": 8.0,
+    "Adaptive Coherence": 8.0
+  },
+  "status": "complete",
+  "attempt": 2,
+  "raw": "{\"Inquiry Relevance\": 0.0, \"Perspective Expansion\": 0.0, \"Evidence-Based Progress\": 0.0, \"Incremental Value\": 0.0, \"Adaptive Coherence\": 0.0}",
+  "deltas": {
+    "Inquiry Relevance": 0.0,
+    "Perspective Expansion": 0.0,
+    "Evidence-Based Progress": 0.0,
+    "Incremental Value": 0.0,
+    "Adaptive Coherence": 0.0
+  },
+  "calibrated_target_scores": {
+    "Inquiry Relevance": 8.0,
+    "Perspective Expansion": 8.0,
+    "Evidence-Based Progress": 7.0,
+    "Incremental Value": 8.0,
+    "Adaptive Coherence": 8.0
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 197543,
+      "completion_tokens": 53,
+      "total_tokens": 197596,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

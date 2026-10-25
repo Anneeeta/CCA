@@ -1,0 +1,46 @@
+{
+  "variant": "no_expert_instructor_separation",
+  "task": "068_medical-simulation-scene-quality-evaluation-tool",
+  "sequence": [
+    "full",
+    "no_expert_instructor_separation"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Inquiry Relevance": 8.5,
+    "Perspective Expansion": 8.5,
+    "Evidence-Based Progress": 8.0,
+    "Incremental Value": 8.5,
+    "Adaptive Coherence": 8.5
+  },
+  "status": "complete",
+  "attempt": 2,
+  "raw": "{\"Inquiry Relevance\": 0.0, \"Perspective Expansion\": -0.5, \"Evidence-Based Progress\": 0.0, \"Incremental Value\": 0.0, \"Adaptive Coherence\": -0.5}",
+  "deltas": {
+    "Inquiry Relevance": 0.0,
+    "Perspective Expansion": -0.5,
+    "Evidence-Based Progress": 0.0,
+    "Incremental Value": 0.0,
+    "Adaptive Coherence": -0.5
+  },
+  "calibrated_target_scores": {
+    "Inquiry Relevance": 8.5,
+    "Perspective Expansion": 8.0,
+    "Evidence-Based Progress": 8.0,
+    "Incremental Value": 8.5,
+    "Adaptive Coherence": 8.0
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 176170,
+      "completion_tokens": 54,
+      "total_tokens": 176224,
+      "cached_tokens": 176128,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

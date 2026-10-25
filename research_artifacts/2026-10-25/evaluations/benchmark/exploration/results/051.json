@@ -1,0 +1,48 @@
+{
+  "task": "051_macroscopic-quantum-coherence",
+  "status": "complete",
+  "protocol": "exploration_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "CCA",
+    "B": "Co-STORM",
+    "C": "LLM Baseline"
+  },
+  "raw": "System A:\n  Inquiry Relevance: 8.5/10\n  Perspective Expansion: 8.0/10\n  Evidence-Based Progress: 8.0/10\n  Incremental Value: 8.0/10\n  Adaptive Coherence: 8.5/10\nSystem B:\n  Inquiry Relevance: 7.0/10\n  Perspective Expansion: 7.5/10\n  Evidence-Based Progress: 6.5/10\n  Incremental Value: 7.0/10\n  Adaptive Coherence: 7.0/10\nSystem C:\n  Inquiry Relevance: 6.5/10\n  Perspective Expansion: 6.0/10\n  Evidence-Based Progress: 5.5/10\n  Incremental Value: 6.5/10\n  Adaptive Coherence: 6.5/10\n\nExplanation:\n[A|Inquiry Relevance] Round 1 Student selected \"Under what conditions (temperature, system size, disorder, coupling strength) does macroscopic quantum coherence break down, and are there universal scaling laws for that breakdown?\" — directly pertinent to the user's stated goal of understanding fundamental principles. Round 2 selected operationalization of phase stiffness in double-well platforms, and Round 3 selected disorder effects on phase stiffness and apparent coherence from localization — each builds on the prior round's content and serves the exploration goal. The progression from breakdown conditions → operational definitions → disorder/localization is well-judged and purposeful.\n\n[A|Perspective Expansion] Round 1 Expert reframed breakdown as \"a crossover whose location depends jointly on temperature, size, disorder, and coupling rather than on any one variable,\" and noted size is a liability not an asset (\"a larger macroscopic variable is exponentially more fragile\"). Round 3 developed the distinction between disorder-induced reshaping of coherence and Anderson-like localization producing \"apparent coherence that is not truly macroscopic,\" with the size- and position-resolved correlation test as discriminator. These are consequential reframings that materially extend the investigation.\n\n[A|Evidence-Based Progress] Round 1 Expert cited the Xc scaling conflict: \"the reported inverse-temperature scaling of a crossover field Xc (tanh x ~ x for small x, predicting Xc proportional to 1/T even far below 0.1 K) is in contradiction with observations,\" and flagged it as unresolved. Round 2 Expert connected decoherence rate formulas (Γ_F = 2π X_Ω² S_F/ħ²) to visibility loss and proposed the (κ, drive, T) factorial design. Round 3 Expert cited spin-orbit-coupled bosons in disordered double wells showing \"periodic oscillation of quantum phase coherence and staircase-like atomic distributions.\" Support is connected to claims with uncertainty preserved.\n\n[A|Incremental Value] Round 1 delivered the crossover-surface framework and the Xc conflict as a live issue. Round 2 delivered operational definitions of phase stiffness (ODLRO, visibility, phase-diffusion rate) with their trade-offs and the backaction-vs-nonlinearity protocol. Round 3 delivered the localization-vs-true-coherence test. Each round adds distinct, useful understanding beyond the prior.\n\n[A|Adaptive Coherence] Round 1 established breakdown conditions; Round 2 built on this by asking how to operationalize the key quantity (phase stiffness) that Round 1 identified; Round 3 then probed disorder — one of the four parameters from Round 1 — in depth. The progression is cumulative and well-motivated, with each round deepening rather than repeating.\n\n[B|Inquiry Relevance] The warm-start dialogue covered macroscopicity measures, QFI, normalization choices, and experimental platforms — all pertinent. Round 1 Guest asked about molecular optomechanical coherence, which is relevant but somewhat narrow. Round 2 Guest asked about recent advancements broadly. Round 3 Experimental physicist pushed back on unsupported comparisons, which is relevant but reactive rather than proactive inquiry. The directions are pertinent but the progression is less purposeful than System A's.\n\n[B|Perspective Expansion] Warm-start developed Leggett's extensive difference vs. disconnectivity, QFI-based measures, and normalization choices in squeezed states and GHZ states — several relevant perspectives. Round 2 introduced room-temperature coherence in macroscopic systems via \"geometric architecture of internal couplings.\" Round 3's pushback on unsupported claims (\"any concrete timescale numbers I offered for those two would be invented\") is a useful epistemic perspective. However, the warm-start content is largely inherited rather than developed through the recorded rounds.\n\n[B|Evidence-Based Progress] Round 2 cited specific experiments (Walmsley 2011 diamonds, NIST 2021 drumheads) but Round 3 correctly noted these were from a source that \"explicitly flags this as analogy, not validation.\" Round 3 then provided detailed evidence from the Penning-trap experiment (mode temperature 2.3 ± 0.5 mK, beam alignment ~0.05°). The pushback in Round 3 is evidentially responsible, but the overall progression shows some claims were initially presented with more confidence than warranted.\n\n[B|Incremental Value] Warm-start provided substantial content on macroscopicity measures and QFI. Round 1 added molecular optomechanical coherence specifics. Round 2 added room-temperature macroscopic coherence examples. Round 3 added the Penning-trap details and epistemic caution. There is useful accumulation, though some warm-start content is inherited rather than newly developed through the recorded rounds.\n\n[B|Adaptive Coherence] The warm-start established a theoretical framework; Round 1 shifted to a specific platform; Round 2 broadened to recent experiments; Round 3 corrected overreach in Round 2. The correction in Round 3 is appropriate adaptation to evidence, but the shift from theoretical measures (warm-start) to experimental platforms (Rounds 1-2) is somewhat abrupt without explicit user guidance motivating it.\n\n[C|Inquiry Relevance] Round 1 provided a general overview of MQC. Round 2 explored \"fundamental principles and recent advancements\" as requested, covering noise-first framing, TCTQ, and the 2025 Nobel. Round 3 asked \"What else should I know?\" and provided additional context on collapse models, adjacent fields, and critical evaluation of preprints. The directions serve the user's goal but are more survey-like than investigative.\n\n[C|Perspective Expansion] Round 2 introduced the tension between noise-first and topology-first frameworks: \"TCTQ proposes that topology protects coherence beyond naive decoherence estimates, while the noise-first papers argue coherence is emergent from noise dynamics.\" Round 3 added collapse models as a constraint on MQC and distinguished \"topological protection\" in quantum computing from TCTQ's Chern-number argument. These are relevant perspectives but remain at the level of identification rather than deep development.\n\n[C|Evidence-Based Progress] Round 2 cited the 2025 Nobel and specific preprints but flagged \"These are very recent preprints (Oct 2025, some at v3/v4). They have not necessarily undergone peer review.\" Round 3 noted the TCTQ abstract is \"truncated mid-formula\" and cannot be evaluated. The epistemic caution is appropriate, but the substantive claims about TCTQ and noise-first frameworks remain largely unexamined — the system identifies the tension but does not resolve or bound it with evidence.\n\n[C|Incremental Value] Round 1 provided a structured overview. Round 2 added the noise-first vs. topology-first tension and discussion questions. Round 3 added collapse models, adjacent fields, and a critical reading guide. The additions are useful for a discussion group but are more encyclopedic than investigative — they organize existing knowledge rather than resolving specific uncertainties.\n\n[C|Adaptive Coherence] Round 1 established the foundational picture; Round 2 built on this with recent advances and identified a theoretical tension; Round 3 responded to \"What else should I know?\" by adding collapse models and critical evaluation guidance. The progression is coherent and responsive to the user's evolving questions, though it remains at a survey level rather than deepening any single thread.",
+  "scores": {
+    "CCA": {
+      "Inquiry Relevance": 8.5,
+      "Perspective Expansion": 8.0,
+      "Evidence-Based Progress": 8.0,
+      "Incremental Value": 8.0,
+      "Adaptive Coherence": 8.5
+    },
+    "Co-STORM": {
+      "Inquiry Relevance": 7.0,
+      "Perspective Expansion": 7.5,
+      "Evidence-Based Progress": 6.5,
+      "Incremental Value": 7.0,
+      "Adaptive Coherence": 7.0
+    },
+    "LLM Baseline": {
+      "Inquiry Relevance": 6.5,
+      "Perspective Expansion": 6.0,
+      "Evidence-Based Progress": 5.5,
+      "Incremental Value": 6.5,
+      "Adaptive Coherence": 6.5
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 147009,
+      "completion_tokens": 1716,
+      "total_tokens": 148725,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "variant": "random_selection",
+  "task": "083_innovative-strategies-for-enhancing-human-resources-management-in-global",
+  "sequence": [
+    "full",
+    "random_selection"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 8.4,
+    "Engagement": 8.2,
+    "Depth Appropriateness": 8.3,
+    "Breadth": 8.5
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Clarity\": -0.2, \"Engagement\": 0.1, \"Depth Appropriateness\": 0.0, \"Breadth\": 0.1}",
+  "deltas": {
+    "Clarity": -0.2,
+    "Engagement": 0.1,
+    "Depth Appropriateness": 0.0,
+    "Breadth": 0.1
+  },
+  "calibrated_target_scores": {
+    "Clarity": 8.200000000000001,
+    "Engagement": 8.299999999999999,
+    "Depth Appropriateness": 8.3,
+    "Breadth": 8.6
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 218435,
+      "completion_tokens": 40,
+      "total_tokens": 218475,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

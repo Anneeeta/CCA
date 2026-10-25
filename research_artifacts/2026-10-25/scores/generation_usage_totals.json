@@ -1,0 +1,26 @@
+[
+  {
+    "system": "CCA",
+    "tasks": 100,
+    "input_tokens": 6148165,
+    "output_tokens": 1786750,
+    "total_tokens": 7934915,
+    "model_calls": 3101
+  },
+  {
+    "system": "Co-STORM",
+    "tasks": 100,
+    "input_tokens": 5173503,
+    "output_tokens": 1519976,
+    "total_tokens": 6693479,
+    "model_calls": 6237
+  },
+  {
+    "system": "RAG",
+    "tasks": 100,
+    "input_tokens": 899394,
+    "output_tokens": 589695,
+    "total_tokens": 1489089,
+    "model_calls": 400
+  }
+]

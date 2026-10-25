@@ -1,0 +1,44 @@
+{
+  "task": "047_dataset-processing-for-large-language-models",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "Co-STORM",
+    "B": "LLM Baseline",
+    "C": "CCA"
+  },
+  "raw": "System A:\n  Clarity: 7.8/10\n  Engagement: 7.2/10\n  Depth Appropriateness: 7.5/10\n  Breadth: 8.0/10\nSystem B:\n  Clarity: 8.2/10\n  Engagement: 7.5/10\n  Depth Appropriateness: 7.8/10\n  Breadth: 7.5/10\nSystem C:\n  Clarity: 8.5/10\n  Engagement: 8.0/10\n  Depth Appropriateness: 8.2/10\n  Breadth: 8.5/10\n\nExplanation:\n[A|Clarity] Round 1's General Knowledge Provider answer explains patch-sft's pipeline steps (\"collects closed GitHub issues and linked merged pull requests, extracts unified diffs, applies quality filters\") and Pharmacist's selector mechanism with concrete numbers (defense improved 2.60%/3.30%, training time cut 56.83%), making both points followable. However, Round 2's datatrove answer is dense with parameter names (`local_tasks`, `local_rank_offset`, `max_array_size`) and the caveat \"this covers executor configuration and parallelism, not the full range of dataset processing techniques\" leaves the user to reconstruct why this matters for their stated goal. The warm-start dialogue's ensemble-classifier and quality-scale trade-off explanations are clear but appear before the user's recorded turns, so their contribution to the user's experience is uncertain.\n\n[A|Engagement] The warm-start moderator questions (\"How do you actually build an end-to-end data pipeline for a brand-new low-resource language—what are the two tracks...\") are well-targeted and the expert answers connect directly to the user's topic. However, in the recorded rounds the General Knowledge Provider delivers two parallel, somewhat disconnected answers (patch-sft/Pharmacist in Round 1, datatrove in Round 2) without linking them to each other or to a coherent learning path. The Round 3 \"Distributed systems researcher\" question (\"how exactly are `local_tasks` and `local_rank_offset` validated...\") is a genuine follow-up probe but arrives after the user's last recorded input, so its engagement value for the user is uncertain.\n\n[A|Depth Appropriateness] The answers provide concrete mechanisms (selector training, executor parameters) with specific numbers, which suits a user seeking to \"evaluate and demonstrate understanding.\" The caveat in Round 2 (\"not the full range of dataset processing techniques like filtering, deduplication, or tokenization\") honestly flags a depth boundary. However, the two rounds cover only SFT/safety-alignment curation and executor orchestration—no pretraining-scale filtering, deduplication, or tokenization depth is developed in the user-facing turns, leaving a gap relative to the broad topic.\n\n[A|Breadth] The warm-start final summary covers quality-scale trade-offs (Nemotron-CC), low-resource language pipelines (IndicLLMSuite), ensemble filtering, and unseen-language clustering—several developed dimensions with relationships (e.g., \"don't just filter harder—diversify your sources and methods\"). In the user-facing rounds, however, only two narrow aspects (SFT dataset construction, executor configuration) are developed. The breadth is real in the background material but only partially delivered to the user.\n\n[B|Clarity] Round 1's answer organizes the six-stage lifecycle with clear explanations (\"Deduplication removes exact and near-duplicate documents... which matters because repeated text wastes compute and can cause the model to memorize rather than generalize\"). Round 2's self-assessment table and per-objective explanations (e.g., \"Token embeddings are static lookups... Context embeddings are dynamic\") are precise and well-connected. Round 3's selection-methods taxonomy is explained with a clear two-family distinction. The main gap: Round 2's retrieval evidence is fragmented (ToT, PPO, scaling laws) and the answer reconstructs connections the user may not have requested, though it does so legibly.\n\n[B|Engagement] The Round 2 self-assessment format (\"Confidence: Met\" per objective, with a summary table and honest caveats marked \"Developing\") directly serves the user's stated intent to \"evaluate and demonstrate my understanding,\" making involvement concrete. Round 3's \"What else should I know?\" answer builds on prior rounds (\"beyond the pre-training pipeline... the question becomes which subset earns a place in the fine-tuning set\") and closes with a specific offer (\"how LESS/influence estimation actually works mathematically\"). The connection to the user's goal is consistent across rounds.\n\n[B|Depth Appropriateness] The answers match the user's evaluative goal: Round 2 demonstrates mechanisms (PPO clipping, ToT branch/score/expand) with honest confidence marking, and Round 3 adds influence-estimation theory and cost-accounting trade-offs. The depth is appropriate for a user demonstrating CS understanding. Minor gap: quantitative scaling-law details are flagged \"Developing\" rather than supplied, which is honest but leaves a small depth hole the user might have wanted filled.\n\n[B|Breadth] The three rounds cover pretraining cleaning, SFT/safety data construction, mechanistic understanding (embeddings, ToT, RLHF, scaling laws), and fine-tuning selection methods (IFD, LESS, MoDS) with the non-target/target taxonomy. Relationships are drawn (e.g., \"ToT, self-refinement, PPO/RLHF... are all data-construction and data-budgeting mechanisms\"). The breadth is well-developed and connected, though the Round 2 detour into ToT/PPO (retrieval-driven) slightly dilutes the dataset-processing focus.\n\n[C|Clarity] The instructor answers explain mechanisms with concrete examples: Round 1's domain-shift answer (\"General BPE vocabularies fragment scientific notation... inflating sequence length and weakening semantics\") and Round 3's code-switching explanation (\"a single-label LID then forces a wrong bucket and the quality classifier compounds the error\") are precise and followable. Transitions between sub-questions are smooth, and the \"Extension\" notes (e.g., sequence packing, canary slices) connect ideas clearly. Minor gap: some numeric claims (e.g., \"fertility ~2.0 vs ~2.24\") are cited without full context, but the surrounding explanation compensates.\n\n[C|Engagement] The student's selected questions are well-motivated with rationales (\"This probes unstated prerequisites...\"), and the instructor answers directly address each with actionable guidance (\"switch or extend when the domain-vs-general fertility gap is large and consistent\"). Round 3's answer closes with a concrete, novel suggestion (\"keeping a small, deliberately unfiltered 'canary' slice of each language\"). The process supports purposeful exploration without performative questioning.\n\n[C|Depth Appropriateness] The answers develop mechanisms, conditions, and trade-offs at a level matching the user's evaluative goal: Round 2's mixture-ratio answer explains DoReMi's proxy-model mechanism and the data-mixing law's exponential form; Round 3's multilingual answer details five pipeline-handling options and four audit signals. Uncertainty is flagged honestly (\"no universal retention-rate threshold is established\"). Depth is well-judged—neither superficial nor overwhelming.\n\n[C|Breadth] The three rounds cover domain shift (tokenization, formatting, quality), dedup/filtering consequences, mixture ratios and curricula, tokenizer-switch decisions, and multilingual out-of-distribution handling—with relationships drawn (e.g., \"both sub-questions are really about the same failure mode\"). The final summary explicitly lists unresolved questions, showing boundary-awareness. The breadth is coherent and multidimensional, well-matched to the user's goal of demonstrating dataset-processing understanding.",
+  "scores": {
+    "Co-STORM": {
+      "Clarity": 7.8,
+      "Engagement": 7.2,
+      "Depth Appropriateness": 7.5,
+      "Breadth": 8.0
+    },
+    "LLM Baseline": {
+      "Clarity": 8.2,
+      "Engagement": 7.5,
+      "Depth Appropriateness": 7.8,
+      "Breadth": 7.5
+    },
+    "CCA": {
+      "Clarity": 8.5,
+      "Engagement": 8.0,
+      "Depth Appropriateness": 8.2,
+      "Breadth": 8.5
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 142758,
+      "completion_tokens": 1648,
+      "total_tokens": 144406,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

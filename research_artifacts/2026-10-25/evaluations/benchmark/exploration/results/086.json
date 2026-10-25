@@ -1,0 +1,47 @@
+{
+  "task": "086_traffic-sign-detection-using-machine-vision",
+  "status": "complete",
+  "protocol": "exploration_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "CCA",
+    "B": "Co-STORM",
+    "C": "LLM Baseline"
+  },
+  "raw": "System A:\n  Inquiry Relevance: 8.5/10\n  Perspective Expansion: 8.5/10\n  Evidence-Based Progress: 8.0/10\n  Incremental Value: 8.5/10\n  Adaptive Coherence: 8.5/10\nSystem B:\n  Inquiry Relevance: 6.5/10\n  Perspective Expansion: 6.0/10\n  Evidence-Based Progress: 6.5/10\n  Incremental Value: 6.0/10\n  Adaptive Coherence: 6.5/10\nSystem C:\n  Inquiry Relevance: 6.0/10\n  Perspective Expansion: 5.0/10\n  Evidence-Based Progress: 5.5/10\n  Incremental Value: 5.5/10\n  Adaptive Coherence: 6.0/10\n\nExplanation:\n[A|Inquiry Relevance] Round 1 Student selected a question about regional sign designs and out-of-distribution handling (\"How are traffic sign detection systems expected to handle sign classes and designs that differ across regions...\"), directly probing a gap in the bootstrap overview's closed-set framing. Round 2 selected map-assisted association under stale maps, and Round 3 selected confidence calibration for the \"vision wins\" decision—each question builds on the prior answer's stated assumptions (e.g., \"vision wins over a stale map should be justified only when the calibrated confidence exceeds a threshold\"). The questions consistently target consequential next steps rather than gratuitous clarification.\n\n[A|Perspective Expansion] The Round 1 answer reframes detection as \"an open-set problem with explicit abstention, not a closed-set accuracy race,\" developing five concrete mechanisms (unknown class, novelty scores, zero-shot attributes, continual learning, map-assisted association) with stated limits. Round 2 reframes map fusion as \"a consistency check on vision, not a source of truth\" and introduces the correlated-error risk. Round 3 develops the decay model w(t)=w0*exp(-lambda*dt) with hazard terms and the two-sided threshold comparison. These are substantive reframings with clear implications, not generic checklists.\n\n[A|Evidence-Based Progress] Round 1 cites patent DE102012221155A1 for the irrelevance class, US20240239378A1 for unmapped-sign handling, and the open-set detection survey for the training-annotation risk. Round 2 cites US8918277 for the bidirectional reconciliation logic and Ford owner-manual evidence for the stale-map failure mode, while explicitly noting \"there is little public evidence that map-assisted association is safer than pure vision in outdated-map scenarios specifically.\" Round 3 cites ECE/MCE definitions and acknowledges \"no retrieved source gives a validated lambda, a functional form, or a quantitative link between decay rate and real-world sign-removal rates.\" Uncertainty is productively bounded rather than asserted away.\n\n[A|Incremental Value] Successive rounds deliver distinct contributions: Round 1 provides an open-set framing with five mechanisms and their limits; Round 2 provides the reconciliation-loop model, the production failure mode, and a layered open-set evaluation protocol (AUROC, FPR at 95% TPR, risk-coverage, silent-misclassification rate); Round 3 provides the decay model, calibration procedure, and the two-sided decision rule. Each builds on the prior round's stated assumptions rather than repeating them.\n\n[A|Adaptive Coherence] Round 2's question directly follows Round 1's mention of map-assisted association; Round 3's question directly follows Round 2's caveat that \"vision wins\" requires calibrated confidence. The final summary integrates all three rounds into a coherent narrative ending with \"the dominant safety failure in this domain is the confident wrong answer.\" The progression is cumulative with clear dependencies.\n\n[B|Inquiry Relevance] The warm-start discussion covers architecture trade-offs, long-tail distributions, and lab-vs-road gaps—all pertinent. Round 1 and Round 2 receive generic prompts (\"Traffic Sign Detection Using Machine Vision\" and the thesis-literature request) and respond with broad overviews rather than targeted inquiry. Round 3's researcher flag on the \"15–20 point snow-corruption gap\" is well-targeted but arrives late and is the only instance of focused follow-up.\n\n[B|Perspective Expansion] The warm-start expert answers develop useful perspectives (hybrid pipelines exceeding single detectors, training strategy as the bigger lever for long-tail). Round 3's researcher flag introduces a verification-oriented perspective: \"I'd treat it cautiously until it's verified against primary sources... none of that gives the specific gap.\" However, Rounds 1–2 mostly restate known survey content without developing new task-relevant perspectives.\n\n[B|Evidence-Based Progress] The warm-start answers cite specific benchmarks (YOLOv12 at 85 FPS vs. Detectron2 at 22 FPS, hybrid at 97.7% mAP@50 but 15 FPS; HACTNet forgetting rate 12.1%→3.3%). Round 3 productively narrows an uncertainty by distinguishing the aggregated 20–30 point claim from the specific snow-corruption figure, stating \"those are aggregated across conditions and datasets, not isolated to snow corruption.\" However, Rounds 1–2 rely on a single survey source with the caveat \"this all comes from a single survey, so you'll need to consult its primary sources.\"\n\n[B|Incremental Value] The warm-start provides useful architecture comparisons and long-tail training-strategy insights. Round 3 delivers a distinct contribution: the verification flag and the proposal to \"propose paired detection-accuracy measurement—clean versus snow-corrupted CURE-TSR under a consistent protocol—as an explicit open research gap.\" Rounds 1–2 mostly reorganize survey content without adding new understanding beyond the starting record.\n\n[B|Adaptive Coherence] The warm-start discussion forms a coherent arc (evolution → deployment → long-tail → speed-accuracy → lab-road gap). Round 3's researcher flag appropriately responds to Round 2's reliance on the survey's snow-corruption claim. However, Rounds 1–2 respond to generic prompts with broad overviews rather than building on the warm-start's specific findings, creating a mild discontinuity.\n\n[C|Inquiry Relevance] Round 1 provides a broad overview of the detection pipeline and challenges in response to the topic prompt—pertinent but not inquiry-driven. Round 2 responds to the thesis-literature request with a structured 50-citation plan mapped to chapters, which directly serves the stated goal. Round 3 (\"What else should I know?\") develops conceptual connections and pitfalls. The directions are relevant but mostly expository rather than investigative.\n\n[C|Perspective Expansion] Round 3 identifies three \"robustness frontiers\" from the supplied sources and draws explicit connections: \"local+global learning (inspection paper) ↔ Swin Transformer (TSDet) — both address the same problem... via the same principle (global context).\" It also flags methodological pitfalls (dataset leakage, mAP vs. AP50 confusion, hardware-dependent FPS). However, these perspectives are largely organized from the supplied retrieval evidence rather than developed through iterative investigation.\n\n[C|Evidence-Based Progress] Round 2 cites specific dataset statistics (GTSRB >50,000 images, >40 classes) and marks incomplete bibliographic details as [verify], stating \"I have not invented full bibliographic data for sources I cannot verify.\" Round 3 cites TSDet's \">94% AP50\" and ETSR-YOLO's Wise-IoU loss. However, many citations remain [verify]-marked, and the evidence is largely descriptive rather than used to resolve specific uncertainties.\n\n[C|Incremental Value] Round 2 delivers a useful chapter-mapped citation architecture with a verification checklist. Round 3 delivers conceptual connections, seven self-check questions, and deployment considerations. These are distinct contributions, but they are largely reorganizations of the supplied retrieval evidence rather than new understanding developed through investigation.\n\n[C|Adaptive Coherence] The three rounds follow a logical progression (overview → literature plan → deeper considerations) that maps onto the user's evolving needs. Round 3 appropriately builds on Round 2's citation plan by adding the conceptual connective tissue. However, the progression is more expository than investigative, with each round responding to a prompt rather than deepening a specific unresolved question from the prior round.",
+  "scores": {
+    "CCA": {
+      "Inquiry Relevance": 8.5,
+      "Perspective Expansion": 8.5,
+      "Evidence-Based Progress": 8.0,
+      "Incremental Value": 8.5,
+      "Adaptive Coherence": 8.5
+    },
+    "Co-STORM": {
+      "Inquiry Relevance": 6.5,
+      "Perspective Expansion": 6.0,
+      "Evidence-Based Progress": 6.5,
+      "Incremental Value": 6.0,
+      "Adaptive Coherence": 6.5
+    },
+    "LLM Baseline": {
+      "Inquiry Relevance": 6.0,
+      "Perspective Expansion": 5.0,
+      "Evidence-Based Progress": 5.5,
+      "Incremental Value": 5.5,
+      "Adaptive Coherence": 6.0
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 139515,
+      "completion_tokens": 1787,
+      "total_tokens": 141302,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

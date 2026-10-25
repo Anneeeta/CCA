@@ -1,0 +1,42 @@
+{
+  "variant": "random_selection",
+  "task": "002_bathroom-remodeling",
+  "sequence": [
+    "full",
+    "random_selection"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 7.8,
+    "Engagement": 6.4,
+    "Depth Appropriateness": 8.0,
+    "Breadth": 7.4
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Clarity\": 0.4, \"Engagement\": 0.2, \"Depth Appropriateness\": 0.2, \"Breadth\": 0.3}",
+  "deltas": {
+    "Clarity": 0.4,
+    "Engagement": 0.2,
+    "Depth Appropriateness": 0.2,
+    "Breadth": 0.3
+  },
+  "calibrated_target_scores": {
+    "Clarity": 8.2,
+    "Engagement": 6.6000000000000005,
+    "Depth Appropriateness": 8.2,
+    "Breadth": 7.7
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 181147,
+      "completion_tokens": 40,
+      "total_tokens": 181187,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

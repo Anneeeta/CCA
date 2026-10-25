@@ -1,0 +1,43 @@
+{
+  "variant": "no_shared_context",
+  "task": "034_accessibility-in-data-visualization",
+  "sequence": [
+    "full",
+    "no_shared_context"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 8.0,
+    "Engagement": 7.4,
+    "Depth Appropriateness": 8.2,
+    "Breadth": 8.0
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Clarity\": 0.2, \"Engagement\": 0.4, \"Depth Appropriateness\": -0.3, \"Breadth\": 0.3}",
+  "deltas": {
+    "Clarity": 0.2,
+    "Engagement": 0.4,
+    "Depth Appropriateness": -0.3,
+    "Breadth": 0.3
+  },
+  "calibrated_target_scores": {
+    "Clarity": 8.2,
+    "Engagement": 7.800000000000001,
+    "Depth Appropriateness": 7.8999999999999995,
+    "Breadth": 8.3
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 203865,
+      "completion_tokens": 40,
+      "total_tokens": 203905,
+      "cached_tokens": 0,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

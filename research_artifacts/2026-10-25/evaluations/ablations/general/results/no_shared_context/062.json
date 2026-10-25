@@ -1,0 +1,43 @@
+{
+  "variant": "no_shared_context",
+  "task": "062_2023-gansu-earthquake",
+  "sequence": [
+    "full",
+    "no_shared_context"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 8.0,
+    "Engagement": 7.5,
+    "Depth Appropriateness": 8.0,
+    "Breadth": 8.5
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Clarity\": 0.0, \"Engagement\": 0.0, \"Depth Appropriateness\": 0.0, \"Breadth\": 0.0}",
+  "deltas": {
+    "Clarity": 0.0,
+    "Engagement": 0.0,
+    "Depth Appropriateness": 0.0,
+    "Breadth": 0.0
+  },
+  "calibrated_target_scores": {
+    "Clarity": 8.0,
+    "Engagement": 7.5,
+    "Depth Appropriateness": 8.0,
+    "Breadth": 8.5
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 175945,
+      "completion_tokens": 40,
+      "total_tokens": 175985,
+      "cached_tokens": 175936,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

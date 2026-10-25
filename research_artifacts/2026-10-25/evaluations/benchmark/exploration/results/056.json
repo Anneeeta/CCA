@@ -1,0 +1,48 @@
+{
+  "task": "056_benchmarking-chroma-db-against-other-vector-databases-in-llamaindex",
+  "status": "complete",
+  "protocol": "exploration_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "Co-STORM",
+    "B": "LLM Baseline",
+    "C": "CCA"
+  },
+  "raw": "System A:\n  Inquiry Relevance: 8.5/10\n  Perspective Expansion: 8.0/10\n  Evidence-Based Progress: 8.5/10\n  Incremental Value: 8.5/10\n  Adaptive Coherence: 8.5/10\nSystem B:\n  Inquiry Relevance: 7.5/10\n  Perspective Expansion: 7.0/10\n  Evidence-Based Progress: 7.5/10\n  Incremental Value: 7.5/10\n  Adaptive Coherence: 7.5/10\nSystem C:\n  Inquiry Relevance: 8.0/10\n  Perspective Expansion: 8.5/10\n  Evidence-Based Progress: 8.0/10\n  Incremental Value: 8.0/10\n  Adaptive Coherence: 8.0/10\n\nExplanation:\n[A|Inquiry Relevance] Warm-start moderator questions consistently target the user's stated goal (fair benchmarking of ChromaDB in LLAMAIndex), e.g., \"What exactly is LLAMAIndex's `VectorStore` interface—and why is understanding this common abstraction the key to designing a *fair* benchmark of ChromaDB against other vector databases?\" Round 1 and 2 guest prompts restate the topic verbatim; the expert answers address them directly. Slight deduction for some redundancy across warm-start questions.\n\n[A|Perspective Expansion] The record develops several previously unexamined angles: the VectorStore interface as the fairness boundary, hidden backend adaptations (PolarDB-X DELETE-then-INSERT), store-agnostic vs store-specific pipeline costs (embedding >92% of build time), and Chroma's HNSW configuration immutability. The Chroma maintainer's Round 3 contribution adds concrete internal parameters (\"`hnsw:space` ... *can't* be changed after index creation\"). These are consequential and task-specific, though some were already implicit in the warm-start framing.\n\n[A|Evidence-Based Progress] Multiple independent empirical comparisons are brought in and qualified: the pgvector-vs-ChromaDB Docker study (Recall@5 0.77–0.87, latency 3.16 vs 3.28 ms, \"confounded by cosine distance in pgvector versus Euclidean (L2) distance in ChromaDB\"), the SrvDB vendor benchmark (flagged as \"a competing product's own benchmark, not an independent evaluation\"), and field reports of Chroma latency rising \"from about 20 ms to 2000 ms\" past 5M vectors. The expert explicitly contrasts independent vs vendor sources and notes the scale confound. Support passages are not supplied, so factuality is not verified, but visible evidential reasoning is strong.\n\n[A|Incremental Value] The user receives a concrete benchmarking protocol: pin `Settings.embed_model`, report chunking/top-k/synthesis mode, use load tiers (prototype, 1M, multi-million), capture RSS per million vectors, report p50/p95/p99, and fix Chroma's HNSW knobs at collection creation. The maintainer's list of immutable vs mutable parameters is directly actionable. Some repetition of the \"fairness\" theme across warm-start turns limits marginal gain slightly.\n\n[A|Adaptive Coherence] The sequence builds cumulatively: interface → fair controls → empirical results → pipeline confounds → harness design → Chroma-specific internals. The Round 3 maintainer turn explicitly fills \"that gap is exactly where I can help fill things in from the Chroma side,\" responding to the earlier expert's admission that \"the FAISS-side equivalents are the piece I can't fill in.\" No user feedback is recorded after Round 2, so adaptation is to prior evidence rather than new guidance.\n\n[B|Inquiry Relevance] Round 1 and 2 answers address the stated topic, and Round 3 (\"What else should I know about this topic?\") is answered with persistence modes, selection frameworks, and benchmarking gaps. However, Round 1's answer is heavily anchored to a single SIFT-128/pgvector table with a known scale confound, and Round 2's answer opens by admitting \"the info I have doesn't actually include any Chroma DB specifics,\" which delays relevance to the Chroma-focused goal.\n\n[B|Perspective Expansion] Useful new angles appear: `PersistentClient` vs `persist()` durability, the 2026 five-way selection matrix, `SimpleVectorStore` as ground-truth baseline, and the app-layer vs in-DB filtering distinction. These are relevant but somewhat list-like; the multi-tenancy leakage point is stated (\"a buggy post-filter could leak cross-tenant documents\") without deep development of how to test it.\n\n[B|Evidence-Based Progress] The SIFT-128 numbers (Chroma Recall@1 0.998 vs pgvector 0.885) are presented with the explicit caveat that \"pgvector's run used only 50K vectors (100K timed out at 300 s during HNSW build), so the comparison is not equal-scale.\" Round 3 adds the persistence-mode distinction and the 2026 selection framework. However, the headline recall/latency gap is repeated across rounds without being resolved or bounded further, and the vendor-vs-independent source tension noted in System A is not surfaced here.\n\n[B|Incremental Value] The user gains a reproducible checklist (fix embedding model, match scale, test filtered queries for leakage, crash-recovery test) and a clearer operational picture of when to leave Chroma. The persistence-mode warning is a distinct, actionable addition. Repetition of the SIFT table across Rounds 1 and 2 reduces marginal value.\n\n[B|Adaptive Coherence] Rounds 1→2→3 are topically continuous and Round 3 responds to the open-ended \"What else should I know\" prompt with genuinely new material (persistence, selection matrix, SimpleVectorStore baseline). The progression is sensible but somewhat report-like; there is no visible redirection in response to new evidence because no user feedback is recorded after Round 1.\n\n[C|Inquiry Relevance] The student's selected questions are well-targeted: Round 1 asks how to isolate retrieval accuracy from LLAMAIndex machinery; Round 2 asks about adapter-induced overhead; Round 3 asks about boundary conditions. Each directly serves the user's benchmarking goal. The candidate lists show deliberate filtering toward consequential unknowns rather than generic questions.\n\n[C|Perspective Expansion] The strongest dimension. The record reframes the problem as \"two stacked measurements — adapter-layer variance ... and storage-engine variance,\" introduces the three-way ablation (raw client / adapter / full pipeline), and surfaces concrete Chroma failure modes: \"boolean metadata filters were orders of magnitude slower (minutes on ~50k embeddings) until a missing bool_value index was added\" and \"PersistentClient loads the full working set into RAM to query with no partial/lazy load.\" The embedded-vs-client-server topology asymmetry is also developed as a fairness issue.\n\n[C|Evidence-Based Progress] The expert turns cite specific PRs, issue threads, and version numbers (chroma PR #7335, issue #4089, llama-index-vector-stores-chroma 0.5.5) and explicitly mark uncertainty: \"No retrieved source gives adapter-overhead numbers for Chroma or any competitor, so the magnitude of the adapter delta is an open empirical question.\" The instructor echoes this honestly. Support passages are not supplied, so factuality is unverified, but the visible reasoning carefully distinguishes supported findings from open questions.\n\n[C|Incremental Value] The user receives a concrete measurement protocol (three-way ablation, per-stage instrumentation points, null-adapter floor control) and a testable strata matrix (embedding dimensionality × filter complexity × index size relative to RAM). The boundary-condition findings are specific and actionable. The value is somewhat limited by the absence of actual measured numbers — the protocol is proposed but not executed.\n\n[C|Adaptive Coherence] The three rounds form a clear progression: accuracy isolation → adapter overhead → boundary conditions, each building on the previous expert's stated gaps. The Round 2 instructor explicitly connects back to Round 1's distribution-shift discussion (\"A closely related idea is the shift gap\"). The student's candidate lists show active re-prioritization between rounds. No user feedback is recorded after Round 1, so adaptation is to prior evidence rather than new guidance.",
+  "scores": {
+    "Co-STORM": {
+      "Inquiry Relevance": 8.5,
+      "Perspective Expansion": 8.0,
+      "Evidence-Based Progress": 8.5,
+      "Incremental Value": 8.5,
+      "Adaptive Coherence": 8.5
+    },
+    "LLM Baseline": {
+      "Inquiry Relevance": 7.5,
+      "Perspective Expansion": 7.0,
+      "Evidence-Based Progress": 7.5,
+      "Incremental Value": 7.5,
+      "Adaptive Coherence": 7.5
+    },
+    "CCA": {
+      "Inquiry Relevance": 8.0,
+      "Perspective Expansion": 8.5,
+      "Evidence-Based Progress": 8.0,
+      "Incremental Value": 8.0,
+      "Adaptive Coherence": 8.0
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 165543,
+      "completion_tokens": 1782,
+      "total_tokens": 167325,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

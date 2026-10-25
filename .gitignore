@@ -30,3 +30,7 @@ models/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Offline research-artifact reproduction output
+reproduced_statistics/
+reproduced_human/

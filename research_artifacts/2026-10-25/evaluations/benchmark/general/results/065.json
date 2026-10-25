@@ -1,0 +1,44 @@
+{
+  "task": "065_itinerary-for-a-5-day-trip-on-california-state-route-1",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "LLM Baseline",
+    "B": "Co-STORM",
+    "C": "CCA"
+  },
+  "raw": "System A:\n  Clarity: 8.2/10\n  Engagement: 7.8/10\n  Depth Appropriateness: 8.0/10\n  Breadth: 8.4/10\nSystem B:\n  Clarity: 7.6/10\n  Engagement: 7.2/10\n  Depth Appropriateness: 7.4/10\n  Breadth: 8.0/10\nSystem C:\n  Clarity: 8.4/10\n  Engagement: 8.0/10\n  Depth Appropriateness: 8.6/10\n  Breadth: 8.2/10\n\nExplanation:\n[A|Clarity] System A's Round 1 answer explains the core planning principle (\"don't try to 'check off' the whole highway as a transit route\") and connects it to a concrete 5-day plan with daily mileage, driving notes, and a summary table. Round 2 builds on this with June-specific fog timing (\"June Gloom...burns off by late morning\") and advance-booking windows. Round 3's \"What Else to Know\" section clearly explains why June is not ideal (\"September–October is the top recommendation...30% fewer visitors\") and why fuel discipline matters (\"only about 1–2 gas stations within roughly 100 km\"). Transitions between rounds are logical and the fog/fuel/seasonality reasoning is consistently understandable. Minor gap: some accommodation suggestions (e.g., \"La Playa Carmel\") are named without explaining why they fit the itinerary's needs.\n\n[A|Engagement] System A directly addresses the user's stated intent (5-day trip, June) and adapts across rounds: Round 1 gives the skeleton, Round 2 adds June-specific logistics (fog timing, booking lead times), Round 3 responds to \"What else should I know\" with seasonality caveats and practical additions. The closing summary consolidates the process and offers a concrete alternative (late September) tied to the user's fixed dates. The process is purposeful and connected to the user's task, though it does not actively invite the user to choose among options or pose productive questions to deepen involvement.\n\n[A|Depth Appropriateness] System A establishes the route skeleton first, then layers June-specific fog timing, booking windows, and fuel logistics in Round 2, and adds seasonality trade-offs and contingency tips in Round 3. The depth progression matches the user's evolving questions (itinerary → June details → additional considerations). The fog mechanism (\"burns off by late morning\") and fuel rationale (\"1–2 stations...30% price premium\") are explained at a level appropriate for a practical planning goal. Minor gap: some accommodation and restaurant names are listed without explaining their relevance or trade-offs.\n\n[A|Breadth] System A covers route segmentation, daily itinerary, attractions, accommodations, June-specific weather/fog, booking logistics, fuel, road conditions, seasonality trade-offs, and a round-trip alternative. These dimensions are connected (e.g., fog timing → scheduling scenic stops; seasonality → booking strategy) rather than listed in isolation. The closing summary explicitly links fuel discipline, Caltrans checks, advance bookings, and fog attitudes as the four success factors. The breadth is well-developed and relevant to the user's goal.\n\n[B|Clarity] System B's warm-start and roundtable discussion clearly explain the Elk→Laguna Beach sequence, overnight placement, and culinary highlights (e.g., \"Tomales Bay sustains California's largest oyster-producing region\"). The wine-country comparison (Carmel Valley vs. Santa Ynez Valley) explains microclimate differences and logistical trade-offs. However, the final summary is dense and citation-heavy, and some transitions between sub-topics (e.g., from overnight stops to culinary highlights) are abrupt. The pacing discussion (\"spreading roughly 690 miles across five days\") is clear but assumes the reader has already absorbed the full route.\n\n[B|Engagement] System B's roundtable format creates a sense of collaborative exploration, and the oyster-focused question (\"some of us are just here for the oysters\") adds a playful, task-relevant entry point. The wine-country question directly addresses a decision the user might face. However, the process is largely a series of expert monologues with limited back-and-forth, and the final summary does not synthesize the discussion into a single actionable plan. The user's involvement is more observational than participatory.\n\n[B|Depth Appropriateness] System B explains the route segmentation, overnight logic, culinary stops, and wine regions at a level appropriate for a food-and-wine-focused traveler. The oyster and wine details are concrete and relevant. However, the depth is uneven: the culinary and wine sections are rich, but the logistical details (fuel, fog, road conditions) are thinner than in System A. The final summary is comprehensive but assumes the reader has followed the entire discussion.\n\n[B|Breadth] System B covers route segmentation, overnight placement, culinary highlights (oysters, seafood), wine regions (Carmel Valley, Santa Ynez Valley), and scenic pacing. These dimensions are connected (e.g., overnight placement → pacing → culinary stops). However, the breadth is narrower than System A's: it does not address June-specific weather, booking logistics, fuel, or road conditions in the same detail. The focus on food and wine is a deliberate narrowing, but it leaves out practical dimensions the user's June trip would need.\n\n[C|Clarity] System C's bootstrap overview clearly explains the four-chapter structure, the \"distance is a poor measure of time\" mechanism, and the staging logic for overnight bases. Round 1's instructor answer explains the June Gloom re-timing (\"front-load inland or town stops...save cliff-and-vista pulls for 11:00–16:00\") and the base-selection trade-offs. Round 2's answer explains the Big Sur closure contingency (\"drive back up to Carmel and out via Highway 101...adds roughly 2.5–3.5 hours\") and the fog-vs-base-shift trade-off. Round 3's answer explains the Santa Barbara departure timing (\"leave Santa Barbara around 9:00–9:30 a.m....the Malibu Pier and Point Dume cluster sits mid-route and typically eats 1–1.5 hours\"). The reasoning is consistently precise and the transitions between rounds are logical.\n\n[C|Engagement] System C's student-selected questions are productive and directly tied to the user's evolving needs (seasonal adjustment → June contingency → morning stop timing). The instructor answers address each question with concrete mechanisms and trade-offs, and the final synthesis consolidates the process into a coherent plan. The process supports the user's involvement by building on previous rounds (e.g., the fog clock logic from Round 1 is applied to the Santa Barbara leg in Round 3). The engagement is purposeful and sustained, though the format is more expert-driven than user-driven.\n\n[C|Depth Appropriateness] System C establishes the route skeleton and staging logic first, then develops seasonal re-timing, closure contingencies, and specific departure-time math in subsequent rounds. The depth progression matches the user's evolving questions. The fog mechanism, closure buffer math, and departure-time reasoning are explained at a level appropriate for a practical planning goal. The final synthesis explicitly flags an unresolved question (closure-location variation) rather than overclaiming certainty. Minor gap: some accommodation and budget details are thinner than in System A.\n\n[C|Breadth] System C covers route segmentation, overnight bases, seasonal adjustments (June Gloom, winter closures), closure contingencies, departure-time math, morning stop allocation, safety, and budget. These dimensions are connected (e.g., fog clock → stop sequencing → departure timing; closure risk → buffer sizing → booking strategy). The final synthesis explicitly links the fog clock, closure contingency, and base-selection logic as interdependent factors. The breadth is well-developed and relevant to the user's June trip goal.",
+  "scores": {
+    "LLM Baseline": {
+      "Clarity": 8.2,
+      "Engagement": 7.8,
+      "Depth Appropriateness": 8.0,
+      "Breadth": 8.4
+    },
+    "Co-STORM": {
+      "Clarity": 7.6,
+      "Engagement": 7.2,
+      "Depth Appropriateness": 7.4,
+      "Breadth": 8.0
+    },
+    "CCA": {
+      "Clarity": 8.4,
+      "Engagement": 8.0,
+      "Depth Appropriateness": 8.6,
+      "Breadth": 8.2
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 147140,
+      "completion_tokens": 1684,
+      "total_tokens": 148824,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

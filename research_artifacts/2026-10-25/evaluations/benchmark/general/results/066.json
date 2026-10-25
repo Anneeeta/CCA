@@ -1,0 +1,44 @@
+{
+  "task": "066_infosys",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "LLM Baseline",
+    "B": "CCA",
+    "C": "Co-STORM"
+  },
+  "raw": "System A:\n  Clarity: 8.2/10\n  Engagement: 7.6/10\n  Depth Appropriateness: 8.0/10\n  Breadth: 8.4/10\nSystem B:\n  Clarity: 8.5/10\n  Engagement: 7.8/10\n  Depth Appropriateness: 8.3/10\n  Breadth: 8.6/10\nSystem C:\n  Clarity: 7.4/10\n  Engagement: 6.8/10\n  Depth Appropriateness: 6.6/10\n  Breadth: 6.4/10\n\nExplanation:\n[A|Clarity] Round 2's investment assessment uses a clear bull/bear table (\"AI strategy | $300–400B addressable market; structural tailwind | Deflationary pressure on legacy revenue\") and explains the tension between long-term promise and short-term market skepticism in plain terms. Round 3's reframing table (\"Earlier Concern | What the New Material Adds\") explicitly connects new evidence to earlier doubts. Minor gap: Round 1's opening on the Infosys Science Foundation Series is somewhat list-like before reaching the more connected investment content.\n\n[A|Engagement] The closing line in Round 2 — \"Would you like me to elaborate on any specific area\" — and Round 3's \"Bottom line\" framing tie responses back to the user's investment intent. The system consistently reframes new evidence against the user's stated goal (\"This strengthens the case that Infosys has real AI engineering and product depth\"). Gap: Round 1 answers a broad domain prompt without connecting to the investment intent, so early involvement is weaker.\n\n[A|Depth Appropriateness] Round 2 explains mechanisms (deflationary risk to legacy revenue, monetization speed as key variable) rather than just asserting them. Round 3 adds engineering depth (parent-child chunking, hybrid search on Bedrock) while flagging the caveat that the material is \"largely Infosys's own marketing.\" This progression from market narrative to product evidence to caveat is well-judged for an investment-assessment goal.\n\n[A|Breadth] The interaction covers research credibility, market performance, AI product depth, ecosystem partnerships (Microsoft, AWS), and sector-specific case studies, with explicit relationships drawn (e.g., \"products plus platform suite plus engineering services plus ecosystem partnerships\"). The bull/bear framing in Round 2 and the \"reframing\" table in Round 3 connect these dimensions rather than listing them.\n\n[B|Clarity] Round 1's instructor answer explains the distinction between \"marketing showcase,\" \"vertical practice,\" and \"distinct delivery capability\" with concrete reasoning (\"automotive vocabulary wrapped around machinery Infosys already runs everywhere\"). Round 2 clearly explains why the certification split matters (\"someone has to own the safety case, qualify the tools... and sign off on homologation\"). The evidence-typing framework (\"certificate register or regulatory filing is strongest, partner disclosure is medium, marketing page or PDF is weakest\") is a particularly clear analytical tool.\n\n[B|Engagement] The student's candidate questions are well-motivated and the instructor answers them directly, building on prior rounds (e.g., Round 3's question about delivery-unit/P&L integration follows naturally from Round 1's showcase-vs-capability distinction). The instructor explicitly flags uncertainty (\"I want to be explicit about that uncertainty\") and gives practical diligence advice (\"ask for the certificate holder, ask whether partners are subcontracted per deal\"). Gap: the user's investment intent is only loosely connected to the automotive-vertical focus.\n\n[B|Depth Appropriateness] The progression from Round 1 (what is ELIV participation) to Round 2 (certification ownership) to Round 3 (organizational integration and P&L) is coherent and appropriately deepens. The instructor distinguishes cited evidence from inference (\"That is an inference from how such contracts typically work, not a cited finding\"), which is appropriate for an investment-diligence goal. The depth is consistent with a user needing to assess bid capability and risk.\n\n[B|Breadth] The interaction covers marketing/positioning, delivery capability, certification ownership, contract structure, organizational structure (P&L, delivery units), go-to-market, and trade-offs (resource allocation, brand dilution), with explicit relationships (e.g., how certification split affects contract structure). The final summary's \"key takeaways\" section explicitly connects these dimensions. The breadth is well-suited to the investment-diligence goal.\n\n[C|Clarity] Round 1's answer on CS research is reasonably clear but somewhat list-like (university collaborations, R&D spend, researcher profiles). Round 2's investment answer is clear on the Cursor partnership but explicitly flags the gap (\"the sources don't include revenue growth, margins, valuation, or share price\"). The Round 3 analyst question is clear but the dialogue ends without a substantive answer, so the user is left with an unanswered question.\n\n[C|Engagement] The warm-start dialogue (history, GDM, governance) is engaging and well-connected. Round 1 and Round 2 answers are relevant but somewhat one-directional (delivery of facts rather than building on user contributions). The Round 3 analyst question is a good engagement move (\"has it actually shown up in Infosys's disclosed revenue growth, margin expansion, or pricing power?\") but the dialogue ends without resolution, so the user's involvement is left incomplete.\n\n[C|Depth Appropriateness] The warm-start material on governance and GDM is appropriately deep for a foundational discussion. Round 1's CS research answer is somewhat shallow (dated R&D figures, list of universities). Round 2's investment answer is appropriately cautious about the missing financial data but does not develop the investment case beyond the Cursor partnership. The depth is inconsistent across rounds and does not fully serve the investment-assessment goal.\n\n[C|Breadth] The warm-start covers history, GDM, governance, and sustainability. Round 1 covers CS research collaborations. Round 2 covers one AI partnership (Cursor) and explicitly notes missing financial data. The final summary consolidates history and services but does not add new dimensions. The breadth is narrower than the investment-assessment goal requires, and the automotive-vertical focus in the middle rounds is only loosely connected to the user's stated intent.",
+  "scores": {
+    "LLM Baseline": {
+      "Clarity": 8.2,
+      "Engagement": 7.6,
+      "Depth Appropriateness": 8.0,
+      "Breadth": 8.4
+    },
+    "CCA": {
+      "Clarity": 8.5,
+      "Engagement": 7.8,
+      "Depth Appropriateness": 8.3,
+      "Breadth": 8.6
+    },
+    "Co-STORM": {
+      "Clarity": 7.4,
+      "Engagement": 6.8,
+      "Depth Appropriateness": 6.6,
+      "Breadth": 6.4
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 103076,
+      "completion_tokens": 1325,
+      "total_tokens": 104401,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

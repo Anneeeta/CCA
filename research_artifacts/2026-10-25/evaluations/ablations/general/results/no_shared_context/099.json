@@ -1,0 +1,43 @@
+{
+  "variant": "no_shared_context",
+  "task": "099_integration-of-e-bikes-with-electric-ferries",
+  "sequence": [
+    "full",
+    "no_shared_context"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 8.0,
+    "Engagement": 7.8,
+    "Depth Appropriateness": 8.2,
+    "Breadth": 8.0
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Clarity\": -0.2, \"Engagement\": -0.1, \"Depth Appropriateness\": -0.3, \"Breadth\": -0.2}",
+  "deltas": {
+    "Clarity": -0.2,
+    "Engagement": -0.1,
+    "Depth Appropriateness": -0.3,
+    "Breadth": -0.2
+  },
+  "calibrated_target_scores": {
+    "Clarity": 7.8,
+    "Engagement": 7.7,
+    "Depth Appropriateness": 7.8999999999999995,
+    "Breadth": 7.8
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 173896,
+      "completion_tokens": 41,
+      "total_tokens": 173937,
+      "cached_tokens": 81920,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

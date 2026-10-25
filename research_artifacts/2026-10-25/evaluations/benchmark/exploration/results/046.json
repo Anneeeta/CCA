@@ -1,0 +1,47 @@
+{
+  "task": "046_artificial-intelligence-and-copyright-dilemma",
+  "status": "complete",
+  "protocol": "exploration_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "CCA",
+    "B": "LLM Baseline",
+    "C": "Co-STORM"
+  },
+  "raw": "System A:\n  Inquiry Relevance: 8.5/10\n  Perspective Expansion: 8.0/10\n  Evidence-Based Progress: 8.5/10\n  Incremental Value: 8.5/10\n  Adaptive Coherence: 8.5/10\nSystem B:\n  Inquiry Relevance: 7.5/10\n  Perspective Expansion: 7.0/10\n  Evidence-Based Progress: 7.0/10\n  Incremental Value: 7.5/10\n  Adaptive Coherence: 7.5/10\nSystem C:\n  Inquiry Relevance: 7.0/10\n  Perspective Expansion: 6.5/10\n  Evidence-Based Progress: 6.5/10\n  Incremental Value: 7.0/10\n  Adaptive Coherence: 7.0/10\n\nExplanation:\n[A|Inquiry Relevance] Round 1 Student selected the training-data exceptions question (\"How do current copyright exceptions such as fair use or the EU text and data mining exception apply to the ingestion of copyrighted works...\") directly matching the user's stated intent to analyze legal implications for a law school paper. Round 2 shifted to evidentiary standards for human intellectual effort, and Round 3 to the non-expressive/substitutive distinction—each a consequential next step in the same investigation, well-matched to the paper's needs.\n\n[A|Perspective Expansion] Round 1 Expert introduced the generalization failure for underrepresented cultures (\"collective, oral, and non-registered cultural expression is over-represented in training data but under-represented in enforceable rights\"), a perspective not in the starting bootstrap. Round 2 added the common-law/civil-law moral-rights split as a distinct analytical layer. These materially extend the investigation beyond the initial five subfields.\n\n[A|Evidence-Based Progress] Round 1 Expert cited specific case law (Dutch court on machine-readable opt-outs, OLG Hamburg LAION decision) and empirical findings (dataset licensing audits) to bound the fair-use/TDM question. Round 3 Expert connected BLEU/ROUGE metrics' poor correlation with human judgment to the evidentiary standard, and flagged Sag's \"jagged frontier\" framing—narrowing uncertainty about how courts will operationalize the distinction while preserving limitations (\"watermarks can be removed or paraphrased away\").\n\n[A|Incremental Value] Round 1 delivered a jurisdiction-by-jurisdiction map of training-data exceptions with five contested boundary conditions. Round 2 delivered a three-rung evidentiary ladder (process logs, differential test, expert testimony). Round 3 delivered the non-expressive/substitutive evidentiary framework with false-positive/negative analysis. Each round adds distinct, usable understanding for the paper.\n\n[A|Adaptive Coherence] The sequence builds cumulatively: Round 1 establishes the training-data problem, Round 2 addresses how courts will judge human contribution, Round 3 addresses how courts will judge infringement in outputs. The Final Summary explicitly integrates all rounds (\"no jurisdiction has a settled safe harbor for AI training ingestion, and no jurisdiction has fully resolved AI authorship\"). The progression tracks the user's paper-writing need without unmotivated pivots.\n\n[B|Inquiry Relevance] Round 1 directly addressed the user's topic with a structured overview of the core dilemma. Round 2 reframed as a law school paper analysis with a thesis and reform framework, matching the user's stated intent. Round 3 (\"What else should I know?\") added policy-level context (Napster analogy, Ross Intelligence, EU consultation) relevant to strengthening the paper. All three rounds serve the user's goal.\n\n[B|Perspective Expansion] Round 2 introduced the constitutional dimension (\"authorship as an expression of personhood and expressive autonomy\") and the functional retrieval/exploitation distinction. Round 3 added the Napster/statutory-licensing policy argument and Goldstein's historical frame. These are relevant new perspectives, though less deeply developed than System A's cultural-generalization and moral-rights analyses.\n\n[B|Evidence-Based Progress] Round 2 cited Ampovska's comparative study and the Constitutional Echoes chapter to support the human-authorship convergence claim. Round 3 cited the Ross Intelligence fair-use rejection and the EU consultation timeline. However, the evidence is more illustrative than analytical—used to support a framework rather than to narrow specific uncertainties with the granularity of System A's case-by-case treatment.\n\n[B|Incremental Value] Round 1 provided a useful taxonomy (functional retrieval vs. exploitation). Round 2 provided a four-pillar reform framework. Round 3 provided the Napster policy argument and live EU consultation as a reform window. These are distinct contributions, though the reform framework in Round 2 is somewhat generic and the Round 3 additions are more contextual than analytical.\n\n[B|Adaptive Coherence] The three rounds form a coherent progression: overview → paper framework → policy supplement. Round 3 explicitly builds on Round 2 (\"Your paper's doctrinal skeleton is solid, but a strong final paper will also engage the policy debate\"). The Final Summary integrates all three. The progression is logical, though the shift from Round 2's doctrinal focus to Round 3's policy focus is somewhat abrupt without explicit user guidance prompting it.\n\n[C|Inquiry Relevance] The warm-start discussion covered transparency/compensation mechanisms, China/EU originality divergence, rights allocation, and training-data compliance—all relevant to the user's topic. Round 1 provided a broad overview of the dilemma. Round 2 addressed the law school paper intent with case-law analysis. Round 3 (autonomous continuation) focused on the \"substantive creative control\" test using Chinese cases. All directions serve the user's goal, though the warm-start questions are somewhat scattered.\n\n[C|Perspective Expansion] Round 3's copyright law professor developed the \"substantive creative control\" test as a unifying boundary standard, synthesizing the Spring Breeze and Butterfly Chair cases. The warm-start expert on China/EU divergence introduced the Two-Tier Matrix (objective vs. subjective originality). These are relevant perspectives, though the warm-start material is auxiliary and the Round 3 development, while useful, focuses narrowly on Chinese case law rather than expanding across jurisdictions.\n\n[C|Evidence-Based Progress] Round 3 cited specific case details (iteration steps, CFG values, random seeds in Spring Breeze; inability to reproduce in Butterfly Chair) to support the creative-control test. The warm-start expert cited the Dreamwriter and Ultraman cases for rights allocation. However, the evidence is primarily illustrative of a single jurisdiction's approach rather than comparative or uncertainty-narrowing across the broader dilemma.\n\n[C|Incremental Value] Round 3 delivered a clear, workable boundary standard (\"protectability turns on whether the human exercised substantive creative control over the AI's output\") with specific evidentiary markers. The warm-start material provided useful case-law summaries. However, much of the warm-start content overlaps with what System A and B deliver more deeply, and Round 3's contribution, while clear, is narrower in scope.\n\n[C|Adaptive Coherence] The warm-start discussion covers multiple sub-topics (transparency, originality, rights allocation, training data) without a clear cumulative thread. Round 1 provides a broad overview. Round 2 addresses the paper intent. Round 3 (autonomous continuation) focuses on the creative-control test. The progression is generally coherent but the warm-start material feels like separate Q&A exchanges rather than a cumulative inquiry, and the transition from Round 2's broad case-law survey to Round 3's narrow focus on two Chinese cases is somewhat abrupt.",
+  "scores": {
+    "CCA": {
+      "Inquiry Relevance": 8.5,
+      "Perspective Expansion": 8.0,
+      "Evidence-Based Progress": 8.5,
+      "Incremental Value": 8.5,
+      "Adaptive Coherence": 8.5
+    },
+    "LLM Baseline": {
+      "Inquiry Relevance": 7.5,
+      "Perspective Expansion": 7.0,
+      "Evidence-Based Progress": 7.0,
+      "Incremental Value": 7.5,
+      "Adaptive Coherence": 7.5
+    },
+    "Co-STORM": {
+      "Inquiry Relevance": 7.0,
+      "Perspective Expansion": 6.5,
+      "Evidence-Based Progress": 6.5,
+      "Incremental Value": 7.0,
+      "Adaptive Coherence": 7.0
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 162024,
+      "completion_tokens": 1595,
+      "total_tokens": 163619,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

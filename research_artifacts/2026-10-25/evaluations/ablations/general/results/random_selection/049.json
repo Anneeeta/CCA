@@ -1,0 +1,43 @@
+{
+  "variant": "random_selection",
+  "task": "049_end-user-personalization-in-human-computer-interaction",
+  "sequence": [
+    "full",
+    "random_selection"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 8.3,
+    "Engagement": 8.5,
+    "Depth Appropriateness": 8.4,
+    "Breadth": 8.2
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Clarity\": -0.4, \"Engagement\": -0.3, \"Depth Appropriateness\": -0.5, \"Breadth\": -0.6}",
+  "deltas": {
+    "Clarity": -0.4,
+    "Engagement": -0.3,
+    "Depth Appropriateness": -0.5,
+    "Breadth": -0.6
+  },
+  "calibrated_target_scores": {
+    "Clarity": 7.9,
+    "Engagement": 8.2,
+    "Depth Appropriateness": 7.9,
+    "Breadth": 7.6
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 189733,
+      "completion_tokens": 41,
+      "total_tokens": 189774,
+      "cached_tokens": 0,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

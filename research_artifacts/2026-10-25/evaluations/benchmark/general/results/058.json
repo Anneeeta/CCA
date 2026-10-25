@@ -1,0 +1,44 @@
+{
+  "task": "058_seo",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "Co-STORM",
+    "B": "LLM Baseline",
+    "C": "CCA"
+  },
+  "raw": "System A:\n  Clarity: 7.6/10\n  Engagement: 7.2/10\n  Depth Appropriateness: 7.4/10\n  Breadth: 7.8/10\nSystem B:\n  Clarity: 8.2/10\n  Engagement: 7.0/10\n  Depth Appropriateness: 7.6/10\n  Breadth: 8.4/10\nSystem C:\n  Clarity: 7.8/10\n  Engagement: 7.4/10\n  Depth Appropriateness: 8.2/10\n  Breadth: 7.6/10\n\nExplanation:\n[A|Clarity] Warm-start turns explain E-E-A-T and people-first content with concrete tests (\"does it offer original content, reporting, research, or analysis\"), and the technical SEO prioritization turn gives a usable three-tier framework. However, the Round 1 answer on SEO as computer science compresses many concepts (TF-IDF, n-grams, PageRank) into a dense paragraph with limited unpacking, and the Round 2 eCommerce answer moves quickly through intent types and keyword placement without always connecting why each matters. The final summary is well organized but relies on the reader having followed the earlier turns.\n\n[A|Engagement] The moderator-style questions (\"Quick show of hands—who here has worried...\") create a sense of a shared problem, and the technical SEO specialist turn directly addresses the \"SEO is dead\" debate the user asked about. The eCommerce and Core Web Vitals turns give actionable checklists tied to the user's goal of a comprehensive guide. Engagement is somewhat limited by the fact that the user's only explicit input was the topic string; the system largely delivers monologue-style answers rather than building on user contributions.\n\n[A|Depth Appropriateness] The AI-content and people-first content turns give appropriately nuanced treatment (accountability vs. tool, Who/How/Why framework), and the Core Web Vitals turn correctly distinguishes field vs. lab data and warns against over-attributing ranking drops to speed. The eCommerce section is practical but stays at checklist level; the \"is SEO dead\" question is addressed but only briefly via the technical SEO specialist's single-source argument, which the speaker itself flags as not industry consensus.\n\n[A|Breadth] The final summary covers definition, history, eCommerce, technical SEO, people-first content, Core Web Vitals, AI content, and the AI-search future — a genuinely wide set of dimensions with some connections drawn (e.g., technical foundations as substrate for AI search). However, on-page SEO, off-page SEO, semantic SEO, and international SEO — all explicitly requested — receive only partial or indirect treatment (on-page via titles/meta in eCommerce context; off-page via link-building mention in history; semantic via Knowledge Graph/Hummingbird history; international via a brief historical note on market-specific engines). This is the main breadth gap.\n\n[B|Clarity] Round 1's answer clearly maps SEO onto CS sub-disciplines in a table and explains the ranking pipeline (term frequency, position, field weighting) with a concrete \"climate change\" example. Round 2's comprehensive guide uses a consistent four-stage pipeline (Discovery → Interpretation → Indexing → Ranking) and per-type structure that is easy to follow. The \"is SEO dead\" section states its verdict plainly. The Round 3 additions on long-tail and search operators are also clearly explained with worked examples (the PS5 racing wheel query). Minor gap: some transitions between sections are structural rather than explanatory.\n\n[B|Engagement] The answers consistently tie back to the user's stated goal (\"To compile a comprehensive guide covering all aspects of SEO\") and explicitly flag what is and isn't covered (\"the rest needs more sources\" in an earlier round, then filling gaps in Round 2). Round 3's \"What else should you know?\" framing and the closing offer to expand into checklists or a glossary give the user a clear next step. Engagement is somewhat limited because the user's input is only the topic string; the system delivers well-structured monologue rather than responsive dialogue.\n\n[B|Depth Appropriateness] Each SEO type gets a definition, key levers, and primary metrics — appropriate for a guide-compilation goal. The off-page section correctly caveats that Domain Rating/Authority are proprietary, not Google metrics. The international SEO section explains hreflang, URL structure trade-offs, and localization vs. translation at a useful level. The \"is SEO dead\" verdict is reasoned rather than asserted. Round 3's evidence-coverage concept (specific quotable answers for narrow queries) adds genuine depth without overcomplicating.\n\n[B|Breadth] Round 2 directly addresses all requested subtopics — technical, on-page, semantic, off-page, eCommerce, international, and the \"is SEO dead\" debate — with a synthesis diagram showing how they interlock. Round 3 adds long-tail/AI visibility, search operators, and the keyword→meaning→evidence progression. This is the most complete coverage of the user's stated scope among the three systems. The relationships between types (technical enables, on-page establishes relevance, off-page amplifies) are explicitly drawn, which supports high breadth.\n\n[C|Clarity] The bootstrap overview explains crawl/index/rank with a library analogy and gives concrete warnings (e.g., \"if crawlers can't reach a page, it can never rank\"). Round 1's causal-measurement answer explains counterfactuals, DiD, and synthetic control in accessible terms with explicit assumptions (\"assuming their trends would have been parallel absent the rollout — so check pre-period trends\"). The eCommerce structured-data answer clearly explains why randomization must be at template/URL level, not user level. Some density in the expert research passages is filtered well in the instructor answers.\n\n[C|Engagement] The student's candidate-question process surfaces genuine open problems (causal measurement, hreflang/canonical conflicts, structured-data testing) that map onto the user's comprehensive-guide goal. The instructor answers directly address the selected questions and close with an \"Extension\" that connects back to the crawl-index-rank pipeline, giving the user a coherent thread. The process feels like a guided investigation rather than a lecture, though the user's only explicit input is the topic string.\n\n[C|Depth Appropriateness] The causal-measurement and experimental-design content is appropriately advanced for a request framed in \"science → applied science → computer science.\" The instructor answers give concrete MDE guidance (\"powering for a 2–5% relative CTR lift at 80% power and alpha 0.05 usually demands very large impression volume per arm\") and honest boundaries (\"revenue per session will likely be underpowered — treat it as directional\"). The hreflang/canonical section correctly explains the hint-vs-directive distinction and lists specific failure modes. Depth is well matched to the stated goal.\n\n[C|Breadth] The investigation covers causal measurement of technical SEO, crawl budget, the \"is SEO dead\" debate (visibility vs. click capture), international architecture conflicts, eCommerce structured-data experimentation, and on-page title/meta testing under SERP rewriting. However, several of the user's explicitly requested subtopics — semantic SEO, off-page SEO, and a direct treatment of on-page and eCommerce SEO as guide sections rather than as experimental-design case studies — are only partially developed. The final synthesis acknowledges this implicitly by focusing on measurement and architecture rather than delivering a full guide to each subtopic. This is the main breadth limitation relative to the user's stated goal.",
+  "scores": {
+    "Co-STORM": {
+      "Clarity": 7.6,
+      "Engagement": 7.2,
+      "Depth Appropriateness": 7.4,
+      "Breadth": 7.8
+    },
+    "LLM Baseline": {
+      "Clarity": 8.2,
+      "Engagement": 7.0,
+      "Depth Appropriateness": 7.6,
+      "Breadth": 8.4
+    },
+    "CCA": {
+      "Clarity": 7.8,
+      "Engagement": 7.4,
+      "Depth Appropriateness": 8.2,
+      "Breadth": 7.6
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 167351,
+      "completion_tokens": 1578,
+      "total_tokens": 168929,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

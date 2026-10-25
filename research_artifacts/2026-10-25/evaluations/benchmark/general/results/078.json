@@ -1,0 +1,44 @@
+{
+  "task": "078_evolution-and-core-technologies-of-ai",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "CCA",
+    "B": "LLM Baseline",
+    "C": "Co-STORM"
+  },
+  "raw": "System A:\n  Clarity: 8.2/10\n  Engagement: 7.6/10\n  Depth Appropriateness: 8.4/10\n  Breadth: 8.0/10\nSystem B:\n  Clarity: 7.8/10\n  Engagement: 5.8/10\n  Depth Appropriateness: 6.2/10\n  Breadth: 7.4/10\nSystem C:\n  Clarity: 7.4/10\n  Engagement: 6.4/10\n  Depth Appropriateness: 6.6/10\n  Breadth: 7.2/10\n\nExplanation:\n[A|Clarity] In Round 1, the Instructor explains the paradigm shift with a concrete contrast: \"rule-based systems are brittle and need expensive knowledge engineering, while learned models are flexible but hungry for data,\" and follows with a concrete clinical example (\"a sepsis-prediction model that learns 'lactate was ordered' as a shortcut\"). Transitions between rounds are explicit (\"Let's start with what the 2012 moment actually depended on\"). Minor gap: some terms (e.g., \"neuro-symbolic\") are introduced with brief rather than full explanation.\n\n[A|Engagement] The Student's selected questions in Rounds 1–3 show the process tracks a coherent investigative thread (paradigm shift → hidden data prerequisites → mechanism comparison), and the Instructor answers each directly. The closing summary consolidates the arc. Gap: the user's role is limited to selecting from candidate questions; there is no direct user contribution or response to user-specific context beyond the stated intent.\n\n[A|Depth Appropriateness] The interaction builds from historical overview (Round 1) to hidden prerequisites (Round 2) to mechanistic contrast (Round 3), each layering appropriately. The Instructor flags genuine uncertainty (\"no clean quantitative threshold for how much label noise... flips a model from robust to unreliable\") rather than overstating. Depth matches the educational intent without unexplained complexity.\n\n[A|Breadth] The three rounds cover historical paradigms, data prerequisites, clinical stress-testing, hybrid neuro-symbolic alternatives, and attribution confounders — a coherent set of connected dimensions. The final summary integrates these with the modern transformer stack. Gap: application domains, infrastructure/MLOps, and safety/governance from the bootstrap overview are not developed in the dialogue rounds.\n\n[B|Clarity] Round 1 provides a clear historical table and pillar structure (\"Search and Problem Solving,\" \"Knowledge Representation and Reasoning\"). Round 2's definition of AI/ML/DL nesting is understandable. However, Round 3's treatment of MuZero, RLHF, and evolvable AI is compressed — e.g., \"MuZero is a landmark: it learns an environment model and combines it with tree-based search\" lacks explanation of why that matters relative to prior RL. Some transitions between rounds feel like new lists rather than developed continuations.\n\n[B|Engagement] The responses are structured as educational overviews with teaching framing (\"A simple narrative to structure a lesson\"), which connects to the educational intent. However, the process is essentially one-directional delivery across three broad prompts; there is no narrowing investigation, no response to user-specific contributions, and Round 3's \"What else should I know?\" is answered with another list rather than a developed thread. Involvement is passive.\n\n[B|Depth Appropriateness] Rounds 1–2 maintain appropriate introductory depth for an educational overview. Round 3 introduces advanced topics (RLHF scalability limits, evolvable AI, kernel methods' role) at a shallower level than the earlier material — e.g., RLHF is described in two sentences without mechanism. The depth progression is uneven: foundations are solid but the \"beyond the basics\" material is more name-dropping than explanation.\n\n[B|Breadth] The four-pillar structure plus historical eras plus cross-cutting enablers provides genuinely developed coverage of the topic's main dimensions. Round 3 adds alignment, frontiers, and curriculum gaps as additional perspectives. The relationships between pillars and enablers are made explicit. However, some Round 3 items (evaluation, data provenance, compute economics) are listed in a table with one-line descriptions rather than developed, so they count less as breadth than as enumeration.\n\n[C|Clarity] The warm-start dialogue and Round 1 provide a clear historical relay (\"The baton first passed in 1943...\"). Round 2's explanation of linear regression limitations leading to deep learning is concrete (\"correlation only captures linear relationships, so a genuinely useful feature with a non-linear relationship to the target can show zero correlation\"). However, the final summary is long and mixes historical narrative with technical detail (ring attention, FAL) in ways that assume more background than earlier turns established. Some transitions between the warm-start topics and the formal rounds are not explicitly bridged.\n\n[C|Engagement] The warm-start dialogue uses a moderator-expert format with questions like \"which handoffs truly changed the game\" that frame the topic as an investigation. Round 3's \"AI historian and educator\" role explicitly addresses educators (\"for educators, the key point is...\"). However, the Guest's inputs are topic statements rather than questions or contributions, so the process is more presentational than participatory. The connection to the user's task is maintained but not strongly personalized.\n\n[C|Depth Appropriateness] The historical timeline is well-developed for an educational audience. Round 2's technical primer on backpropagation and gradient descent is appropriately concrete. However, the final summary's inclusion of ring attention, FAL, and tensor parallelism details exceeds what the earlier dialogue established and may exceed the educational intent. The depth is inconsistent: some sections are introductory, others assume graduate-level familiarity.\n\n[C|Breadth] The dialogue covers historical milestones, paradigm debates (symbolism vs. connectionism), architectural breakthroughs (transformer, LLMs), commercial context (AI winter warnings), and pedagogical framing. These are meaningfully connected — e.g., the symbolism-connectionism tension is linked to current neuro-symbolic integration. However, the warm-start topics (transformer parallelism, AI winter economics) and the formal rounds (regression-to-deep-learning motivation) are somewhat parallel rather than fully integrated into one coherent multidimensional picture.",
+  "scores": {
+    "CCA": {
+      "Clarity": 8.2,
+      "Engagement": 7.6,
+      "Depth Appropriateness": 8.4,
+      "Breadth": 8.0
+    },
+    "LLM Baseline": {
+      "Clarity": 7.8,
+      "Engagement": 5.8,
+      "Depth Appropriateness": 6.2,
+      "Breadth": 7.4
+    },
+    "Co-STORM": {
+      "Clarity": 7.4,
+      "Engagement": 6.4,
+      "Depth Appropriateness": 6.6,
+      "Breadth": 7.2
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 153167,
+      "completion_tokens": 1332,
+      "total_tokens": 154499,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

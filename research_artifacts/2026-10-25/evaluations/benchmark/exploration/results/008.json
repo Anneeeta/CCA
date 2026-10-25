@@ -1,0 +1,47 @@
+{
+  "task": "008_ursula-s-character-in-disney-s-the-little-mermaid",
+  "status": "complete",
+  "mapping": {
+    "A": "LLM Baseline",
+    "B": "CCA",
+    "C": "Co-STORM"
+  },
+  "raw": "System A:\n  Inquiry Relevance: 8.0/10\n  Perspective Expansion: 8.0/10\n  Evidence-Based Progress: 8.0/10\n  Incremental Value: 8.0/10\n  Adaptive Coherence: 8.0/10\nSystem B:\n  Inquiry Relevance: 8.0/10\n  Perspective Expansion: 8.0/10\n  Evidence-Based Progress: 8.0/10\n  Incremental Value: 8.0/10\n  Adaptive Coherence: 8.0/10\nSystem C:\n  Inquiry Relevance: 6.0/10\n  Perspective Expansion: 4.0/10\n  Evidence-Based Progress: 6.0/10\n  Incremental Value: 6.0/10\n  Adaptive Coherence: 6.0/10\n\nExplanation:\n[A|Inquiry Relevance] Round 1's broad cultural-studies prompt was answered with a structured synthesis of scholarly themes (queer coding, monstrous feminine, voice-theft, power/gender), directly serving the stated domain. Round 2's user guidance on origins/identity/banishment was matched by a focused answer on the film's narrative gap and tie-in fiction. Round 3's open \"what else\" prompt was answered with additional angles (witch archetype, Divine lineage, reclamation debate). Each round's direction fits the user's goal without gratuitous clarification.\n\n[A|Perspective Expansion] Round 1 introduced the stereotype-vs-reclamation tension (\"Ursula is simultaneously stereotype and reclaimed icon\"). Round 2 added the canon-vs-tie-in distinction and the \"deliberate narrative gap\" framing. Round 3 added the witch-archetype lineage and the Vanessa thinness finding. These are consequential, task-relevant perspectives developed with connections to the user's goal, though they largely reorganize retrieved material rather than reframing the problem in a novel way.\n\n[A|Evidence-Based Progress] Each round connects retrieved evidence to claims and marks limitations: Round 1 distinguishes \"critical view\" from \"reclamatory view\"; Round 2 explicitly flags \"the novel is tie-in fiction, not on-screen canon\" and warns against unconfirmed claims (e.g., Triton's sister); Round 3 preserves the unsettled reclamation debate. Uncertainty is bounded rather than resolved, which is appropriate given the interpretive subject matter. Source passages are not supplied for verification, so support is limited to visible reasoning.\n\n[A|Incremental Value] Round 1 delivers a usable scholarly map; Round 2 resolves the \"why banished\" question by explaining the film's gap and pointing to Valentino's novel with caveats; Round 3 adds the witch-archetype and Divine/drag details plus the Vanessa finding. Successive rounds provide distinct additions with limited repetition, though much of the content reorganizes retrieved snippets rather than adding independently developed analysis.\n\n[A|Adaptive Coherence] The three rounds form a cumulative arc: broad survey → origins gap → additional context, each responding to the recorded user guidance. Round 2 explicitly builds on Round 1's themes (\"As covered earlier\"), and Round 3 consolidates rather than pivots. The progression is coherent and appropriately adaptive to each new prompt.\n\n[B|Inquiry Relevance] Round 1's student selected a question about alternative explanations/confounders for Ursula's studied status, which directly serves the cultural-studies goal by testing the sufficiency of queer-coding and capitalist readings. Round 2's selected question on the aunt reframing matches the user's origins/identity guidance. Round 3's selected question on \"Poor Unfortunate Souls\" as drag/diva performance fits the cultural-study domain. Each selection is purposeful and context-aware.\n\n[B|Perspective Expansion] Round 1 developed the overdetermination thesis with specific confounders (narrative function, adaptation history, production origins, diva frame, reception, selection bias). Round 2 introduced the \"relocate rather than resolve\" reframing of the aunt move and the \"cluster of partial intentions\" concept. Round 3 added the meta-performance reading of the song and the capitalist/queer/fatness convergence. These are consequential perspectives that materially extend the investigation.\n\n[B|Evidence-Based Progress] Round 1 connects retrieved evidence to claims (e.g., \"the fat body supplies the visual excess that camp performance amplifies\") and flags boundaries (\"these readings are interpretive and text-centered\"). Round 2 traces specific production decisions (Ashman's Joan Collins model, abandoned sister-of-Triton) and marks speculative readings. Round 3 distinguishes attested evidence, scholarly interpretation, and inference in its final summary. Uncertainty is productively bounded; source passages are not supplied for verification.\n\n[B|Incremental Value] Round 1 delivers the overdetermination framework and the body-as-hinge synthesis. Round 2 delivers the aunt-reframing analysis and the partial-intentions concept. Round 3 delivers the drag/diva performance analysis and the capitalist-contract intersection. Each round provides distinct, well-founded additions with an explicit final synthesis that separates attested facts from interpretation.\n\n[B|Adaptive Coherence] The three rounds build cumulatively: Round 1 establishes overdetermination; Round 2 tests it via the aunt reframing; Round 3 extends it via the song and contract. The final summary explicitly integrates prior findings (\"A recurring method throughout: for every claim, separate (1) attested film evidence, (2) later scholarly interpretation, and (3) inference\"). The progression is strongly coherent and appropriately adaptive.\n\n[C|Inquiry Relevance] The warm-start and Round 1 focus on Pat Carroll's vocal performance and casting, which is pertinent to Ursula's character but narrower than the stated cultural-studies domain. Round 2's answer on origins/banishment matches the user's guidance. Round 3's autonomous continuation on narrative gaps is relevant but does not clearly serve a new user need. The directions are useful but somewhat narrow relative to the full cultural-study goal.\n\n[C|Perspective Expansion] The record develops the casting saga and vocal-performance details (Carroll's \"ex-Shakespearean actress who now sold cars\" conception, Ashman's demo influence) and the banishment gap. However, these perspectives are largely descriptive of production history rather than developing new interpretive frames for the cultural-study goal. The Round 3 historian's clarification that \"no existing project has authoritatively closed it\" is useful but does not materially extend the investigation beyond what Round 2 already established.\n\n[C|Evidence-Based Progress] The answers connect retrieved evidence to claims (e.g., Carroll's quote \"I got the whole attitude from him\" supports the Ashman-influence claim; the Broadway musical's sibling backstory supports the banishment explanation). Round 3 appropriately marks the gap as unresolved. However, the evidence is mostly descriptive of production facts rather than addressing the cultural-study interpretive questions the user's domain implies. Source passages are not supplied for verification.\n\n[C|Incremental Value] The record delivers useful production-history details (casting saga, vocal performance conception) and clarifies the banishment gap. However, much of the content is descriptive rather than analytically developed, and Round 3 largely reiterates Round 2's point about the unresolved gap with minor additional detail. The contribution is useful but limited in depth relative to the cultural-study goal.\n\n[C|Adaptive Coherence] The warm-start and Round 1 focus on vocal performance; Round 2 shifts to origins/banishment in response to user guidance; Round 3 continues on narrative gaps. The shifts are motivated by user guidance and evidence, but the connection between the vocal-performance focus and the cultural-studies domain is not explicitly developed. The progression is generally coherent but somewhat disjointed relative to the stated goal.",
+  "scores": {
+    "LLM Baseline": {
+      "Inquiry Relevance": 8.0,
+      "Perspective Expansion": 8.0,
+      "Evidence-Based Progress": 8.0,
+      "Incremental Value": 8.0,
+      "Adaptive Coherence": 8.0
+    },
+    "CCA": {
+      "Inquiry Relevance": 8.0,
+      "Perspective Expansion": 8.0,
+      "Evidence-Based Progress": 8.0,
+      "Incremental Value": 8.0,
+      "Adaptive Coherence": 8.0
+    },
+    "Co-STORM": {
+      "Inquiry Relevance": 6.0,
+      "Perspective Expansion": 4.0,
+      "Evidence-Based Progress": 6.0,
+      "Incremental Value": 6.0,
+      "Adaptive Coherence": 6.0
+    }
+  },
+  "ranking": [],
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 120205,
+      "completion_tokens": 1634,
+      "total_tokens": 121839,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

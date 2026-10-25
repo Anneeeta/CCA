@@ -1,0 +1,43 @@
+{
+  "variant": "no_patches",
+  "task": "074_the-emergence-of-artificial-super-intelligence-future-prospects-and-impa",
+  "sequence": [
+    "full",
+    "no_patches"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 8.2,
+    "Engagement": 7.8,
+    "Depth Appropriateness": 8.5,
+    "Breadth": 8.8
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Clarity\": 0.3, \"Engagement\": 0.2, \"Depth Appropriateness\": 0.2, \"Breadth\": 0.1}",
+  "deltas": {
+    "Clarity": 0.3,
+    "Engagement": 0.2,
+    "Depth Appropriateness": 0.2,
+    "Breadth": 0.1
+  },
+  "calibrated_target_scores": {
+    "Clarity": 8.5,
+    "Engagement": 8.0,
+    "Depth Appropriateness": 8.7,
+    "Breadth": 8.9
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 190344,
+      "completion_tokens": 40,
+      "total_tokens": 190384,
+      "cached_tokens": 90112,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

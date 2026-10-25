@@ -1,0 +1,42 @@
+{
+  "variant": "random_selection",
+  "task": "097_history-and-features-of-major-web-browsers",
+  "sequence": [
+    "full",
+    "random_selection"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 7.8,
+    "Engagement": 7.2,
+    "Depth Appropriateness": 8.2,
+    "Breadth": 7.6
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Clarity\": 0.4, \"Engagement\": 0.3, \"Depth Appropriateness\": 0.2, \"Breadth\": 0.3}",
+  "deltas": {
+    "Clarity": 0.4,
+    "Engagement": 0.3,
+    "Depth Appropriateness": 0.2,
+    "Breadth": 0.3
+  },
+  "calibrated_target_scores": {
+    "Clarity": 8.2,
+    "Engagement": 7.5,
+    "Depth Appropriateness": 8.399999999999999,
+    "Breadth": 7.8999999999999995
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 172894,
+      "completion_tokens": 40,
+      "total_tokens": 172934,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

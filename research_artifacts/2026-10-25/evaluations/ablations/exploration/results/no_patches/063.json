@@ -1,0 +1,46 @@
+{
+  "variant": "no_patches",
+  "task": "063_wire-free-localization-techniques-for-breast-surgery",
+  "sequence": [
+    "full",
+    "no_patches"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Inquiry Relevance": 8.6,
+    "Perspective Expansion": 8.8,
+    "Evidence-Based Progress": 8.7,
+    "Incremental Value": 8.8,
+    "Adaptive Coherence": 8.9
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\n  \"Inquiry Relevance\": -0.2,\n  \"Perspective Expansion\": -0.3,\n  \"Evidence-Based Progress\": -0.1,\n  \"Incremental Value\": -0.2,\n  \"Adaptive Coherence\": 0.0\n}",
+  "deltas": {
+    "Inquiry Relevance": -0.2,
+    "Perspective Expansion": -0.3,
+    "Evidence-Based Progress": -0.1,
+    "Incremental Value": -0.2,
+    "Adaptive Coherence": 0.0
+  },
+  "calibrated_target_scores": {
+    "Inquiry Relevance": 8.4,
+    "Perspective Expansion": 8.5,
+    "Evidence-Based Progress": 8.6,
+    "Incremental Value": 8.600000000000001,
+    "Adaptive Coherence": 8.9
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 178594,
+      "completion_tokens": 60,
+      "total_tokens": 178654,
+      "cached_tokens": 90112,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

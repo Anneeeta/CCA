@@ -1,0 +1,48 @@
+{
+  "task": "047_dataset-processing-for-large-language-models",
+  "status": "complete",
+  "protocol": "exploration_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "Co-STORM",
+    "B": "LLM Baseline",
+    "C": "CCA"
+  },
+  "raw": "System A:\n  Inquiry Relevance: 7.5/10\n  Perspective Expansion: 7.0/10\n  Evidence-Based Progress: 7.5/10\n  Incremental Value: 7.0/10\n  Adaptive Coherence: 7.0/10\nSystem B:\n  Inquiry Relevance: 6.5/10\n  Perspective Expansion: 6.0/10\n  Evidence-Based Progress: 5.5/10\n  Incremental Value: 6.5/10\n  Adaptive Coherence: 6.5/10\nSystem C:\n  Inquiry Relevance: 8.0/10\n  Perspective Expansion: 8.0/10\n  Evidence-Based Progress: 7.5/10\n  Incremental Value: 7.5/10\n  Adaptive Coherence: 8.0/10\n\nExplanation:\n[A|Inquiry Relevance] Warm-start moderator questions (e.g., \"How do you actually build an end-to-end data pipeline for a brand-new low-resource language—what are the two tracks...\") directly target the user's stated topic; Round 3's distributed-systems researcher question about `local_tasks`/`local_rank_offset` validation follows naturally from the datatrove executor discussion. Pertinent but the Round 3 question is narrow and somewhat tangential to the core dataset-processing intent.\n\n[A|Perspective Expansion] The warm-start quality–scale trade-off discussion (\"more aggressive isn't always better... past a point, discarding more data removes useful signal faster than noise\") and the ensemble-disagreement escalation framing develop genuinely new angles on filtering decisions beyond simple thresholds. Moderate breadth but limited new reframing in the numbered rounds.\n\n[A|Evidence-Based Progress] Specific quantitative evidence is used throughout: \"training 8B models for 1T tokens on their high-quality subset improves MMLU by 5.6 over DCLM\" and \"the most heavily filtered model was almost never the best\" with task-dependent thresholds. Claims are tied to named studies and numbers, though the Round 1–2 answers are somewhat narrow (patch-sft, Pharmacist, executor config) relative to the broad topic.\n\n[A|Incremental Value] The user receives concrete, distinct contributions: the two-track low-resource pipeline blueprint, the non-monotonic filtering result with Goodharting explanation, and the datatrove multi-node parallelism semantics. However, Round 2's answer is largely executor-configuration detail with an explicit caveat that it \"covers executor configuration and parallelism, not the full range of dataset processing techniques,\" limiting breadth of value.\n\n[A|Adaptive Coherence] The warm-start dialogue builds cumulatively (pipeline → filtering thresholds → quality–scale trade-offs → low-resource adaptation), and Round 3's researcher question logically extends the Round 2 datatrove discussion. However, the numbered rounds (1–2) do not visibly build on the warm-start content in the user-facing answers, creating a partial disconnect between the background discussion and the delivered responses.\n\n[B|Inquiry Relevance] The system answers the user's prompts directly without generating its own follow-up questions; Round 1 covers the data lifecycle broadly and Round 2 addresses the self-assessment framing. Relevant but somewhat generic relative to the specific user intent, and Round 3's \"What else should I know\" answer pivots to SFT data selection which, while related, is a narrower subtopic.\n\n[B|Perspective Expansion] Round 2's embedding-type table and the token-vs-context embedding distinction, plus Round 3's non-target vs. target selection taxonomy (\"Non-Target Method... Target Method—based on an existing validation set\"), introduce useful distinctions. However, much of Round 1 is a standard pipeline overview that adds limited new perspective beyond common knowledge.\n\n[B|Evidence-Based Progress] Round 3 cites specific methods (IFD, Superfiltering, LESS) and tooling details (py-data-juicer's `mem_required` declarations), but Round 1 and Round 2 rely largely on conceptual explanation without strong empirical grounding. The self-assessment format in Round 2 marks most items \"Met\" without external validation, which is honest but limits evidential development.\n\n[B|Incremental Value] The user receives a structured lifecycle overview, a self-assessment rubric, and a taxonomy of SFT selection methods with practical scenarios. Distinct contributions accumulate across rounds, though Round 1's content is largely foundational and Round 2's self-assessment framing is somewhat meta rather than adding new domain knowledge.\n\n[B|Adaptive Coherence] The three rounds progress from pipeline overview → self-assessment → selection frontier, which forms a reasonable arc. However, the transitions are driven by the user's prompts rather than by the system identifying and pursuing unresolved threads; the system responds adequately but does not demonstrably track or deepen specific open questions across rounds.\n\n[C|Inquiry Relevance] The Student's selected questions consistently target high-value, well-scoped sub-problems: Round 1's domain-shift question (\"How do dataset processing pipelines for LLMs adapt when shifting from general web text to domain-specific corpora\"), Round 2's mixture-ratio question, and Round 3's multilingual filtering question all directly serve the user's stated intent to understand dataset processing techniques. Each question has a clear rationale tied to the preceding discussion.\n\n[C|Perspective Expansion] Round 1 develops the non-obvious point that \"the same aggressive dedup/filter steps that help web data can silently harm specialized corpora,\" and Round 3's code-switched language handling (\"a single-label LID then forces a wrong bucket and the quality classifier compounds the error\") introduces a genuinely consequential failure mode. Round 2's curriculum-coupling insight (\"a ratio validated for a flat run may not transfer to a staged run\") further extends the investigation.\n\n[C|Evidence-Based Progress] The Instructor answers cite specific mechanisms and numbers: DoReMi's \"minimizes the worst-case excess loss across domains,\" the data-mixing law formula \"L(r)=c+k·exp(Σ t_i r_i),\" fertility comparisons \"~2.0 vs ~2.24,\" and the SwallowCode finding that \"rewriting stages yielded far larger gains (~14 points) than filtering stages (~1-2 points).\" Limitations are explicitly flagged (\"no universally agreed numeric cutoff exists\"), which appropriately bounds claims rather than asserting unsupported certainty.\n\n[C|Incremental Value] Successive rounds deliver distinct, actionable understanding: Round 1 provides a domain-shift adaptation framework with detection/mitigation methods; Round 2 provides a concrete mixture-tuning recipe (DoReMi, mixing laws, curriculum validation); Round 3 provides multilingual filtering failure modes with per-language retention audits. The unresolved-questions section at the end honestly identifies what remains open rather than fabricating resolution.\n\n[C|Adaptive Coherence] The three rounds form a clear cumulative arc: Round 1 establishes domain-shift challenges → Round 2 drills into the mixture/tokenization sub-problems flagged in Round 1 → Round 3 addresses the multilingual filtering blind spot. Each Student's selected question explicitly references the preceding Expert answer's unresolved points (e.g., Round 2's question targets \"the specific quantitative threshold for a vocabulary-adaptation decision that was flagged as unresolved\"). The final summary consolidates findings and honestly lists unresolved questions.",
+  "scores": {
+    "Co-STORM": {
+      "Inquiry Relevance": 7.5,
+      "Perspective Expansion": 7.0,
+      "Evidence-Based Progress": 7.5,
+      "Incremental Value": 7.0,
+      "Adaptive Coherence": 7.0
+    },
+    "LLM Baseline": {
+      "Inquiry Relevance": 6.5,
+      "Perspective Expansion": 6.0,
+      "Evidence-Based Progress": 5.5,
+      "Incremental Value": 6.5,
+      "Adaptive Coherence": 6.5
+    },
+    "CCA": {
+      "Inquiry Relevance": 8.0,
+      "Perspective Expansion": 8.0,
+      "Evidence-Based Progress": 7.5,
+      "Incremental Value": 7.5,
+      "Adaptive Coherence": 8.0
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 143084,
+      "completion_tokens": 1535,
+      "total_tokens": 144619,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

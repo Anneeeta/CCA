@@ -1,0 +1,45 @@
+{
+  "task": "028_the-application-of-iot-digitalization-and-ai-in-the-oil-and-natural-gas",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "CCA",
+    "B": "LLM Baseline",
+    "C": "Co-STORM"
+  },
+  "raw": "System A:\n  Clarity: 8.2/10\n  Engagement: 7.6/10\n  Depth Appropriateness: 8.4/10\n  Breadth: 8.0/10\nSystem B:\n  Clarity: 7.8/10\n  Engagement: 6.8/10\n  Depth Appropriateness: 7.0/10\n  Breadth: 7.4/10\nSystem C:\n  Clarity: 7.6/10\n  Engagement: 7.2/10\n  Depth Appropriateness: 7.2/10\n  Breadth: 7.0/10\n\nExplanation:\n[A|Clarity] In Round 1a the Instructor explains connectivity prerequisites with concrete mechanisms and figures (\"round-trip delays of roughly half a second to nearly a second... A 'real-time' dashboard is only as real as the link feeding it\"), and the TLS energy overhead example (\"1.71 mWh... adding TLS encryption pushes it to about 2.82 mWh\") makes an abstract design trade-off tangible. Transitions between rounds are signposted (\"Now, where do these systems fail?\"). Minor gaps: some terms (Unified Namespace, OPC UA) are introduced with brief rather than full explanation, and the final summary compresses mechanisms that were clearer in the round-level answers.\n\n[A|Engagement] The process ties each round to the user's stated goal of an 8,000-word paper by selecting questions that probe prerequisites, standards, cybersecurity, and data integrity—each answer ends with a practical recommendation (\"treat connectivity survey, power budget... as stage-gates before AI deployment\") that the user could act on in writing. The closing summary explicitly lists \"unresolved questions\" that would shape the next research step. Engagement is slightly limited because the user's role is mostly to accept a pre-selected question rather than to steer, and the guidance strings are terse.\n\n[A|Depth Appropriateness] The progression from prerequisites (Round 1) to standards (Round 2) to predictive-maintenance data scarcity and LEO buffering (Round 3) builds foundations before mechanisms, and the answers flag uncertainty honestly (\"no retrieved source gives field-measured loss figures\"). Depth is calibrated to a research-writing goal: enough mechanism (Sparkplug B session semantics, store-and-forward architecture) to write about, with explicit limits where evidence is thin. Slight over-compression in the final summary relative to the round answers.\n\n[A|Breadth] The interaction covers connectivity, power, standardization, cybersecurity, predictive maintenance data, and satellite buffering—distinct dimensions with stated relationships (e.g., \"the semantic layer... is simultaneously the interoperability mechanism and a security control surface\"). The final summary adds an explicit \"unresolved questions\" section that connects gaps across rounds. Breadth is strong but not exhaustive: reservoir/drilling AI applications from the bootstrap are not developed in the user-visible rounds.\n\n[B|Clarity] Round 1's overview explains the three-layer architecture and gives a concrete scale anchor (\"tens of thousands of sensors... up to 15 petabytes of data\"), and Round 2's gas-focused paper uses the WGC2025 and \"15th Five-Year Plan\" framing to organize applications by value-chain segment. Clarity is slightly lower than System A because several claims (e.g., \"30 million households\" smart meters, \"23% reduction in emissions intensity\") are asserted without mechanism or source detail in the user-visible text, and the Round 3 expansion introduces the maturity framework without fully grounding it in the earlier gas narrative.\n\n[B|Engagement] The responses connect to the user's paper goal by structuring Round 2 as an abstract-plus-sections paper and by offering a roadmap and strategic recommendations the user could adopt. However, the user's guidance is minimal (\"What else should I know about this topic?\") and the system largely delivers a monologue; there is little evidence that the user's specific writing needs (e.g., which sections to prioritize, what evidence to seek) shaped the next step. The closing summary consolidates but does not invite further participation.\n\n[B|Depth Appropriateness] The gas-industry focus in Round 2 is appropriate to the stated intent, and the \"human + technical + intelligent\" defense concept is explained as a design principle. Depth is moderate: applications are described at the level of what they do (smart meters, inspection robots, AI meter verification) rather than how they work or under what conditions they succeed or fail. The Round 3 addition of the drilling/geosteering frontier is useful but arrives as a separate briefing rather than a deepened treatment of the gas-focused core, so the depth progression is uneven.\n\n[B|Breadth] The interaction spans upstream, midstream, downstream, cross-cutting hydrogen/microgrid themes, plus challenges (data silos, cybersecurity, interoperability, workforce) and a 2026–2030 roadmap. The value-chain organization gives the dimensions a clear relationship. However, several dimensions (e.g., cybersecurity, interoperability) are named as barriers in one or two sentences without developed explanation of mechanisms or trade-offs, so they count less as developed coverage than as a list. The scientometric and maturity-framework material in Round 3 adds a useful meta-perspective but is not integrated back into the gas-application narrative.\n\n[C|Clarity] The warm-start and Round 1 answers explain mechanisms with concrete examples: the drilling answer distinguishes \"advisory AI (recommending to a human driller) and closed-loop AI (autonomously adjusting parameters)\" and explains why physics-informed models reduce false alarms; the Haynesville answer names the specific sensor inputs (\"casing and tubing pressures, choke position, flow rates, and temperature\") and the closed-loop action. The Zero Trust answers explain the problem (shared credentials, VPN breadth) before the solution. Clarity is slightly limited by dense citation-style phrasing in some turns and by the fact that the user's own question in Round 1 is just the topic string, so the \"why this matters to the user's paper\" link is sometimes implicit.\n\n[C|Engagement] The process offers multiple entry points: the warm-start poses focused sub-questions (cybersecurity, scaling barriers, IoT connectivity, emissions monetization), and Round 3 adds a domain-expert voice (Production Engineer) that deepens the Haynesville case with operational detail and an honest caveat about undisclosed math. This gives the user a sense of a multi-perspective investigation. Engagement is somewhat limited because the user's guidance is minimal after Round 1, and the closing summary is a compilation rather than a step that advances the user's specific paper task.\n\n[C|Depth Appropriateness] The answers provide mechanism-level detail where it matters (edge-gateway control logic, Zero Trust distributed enforcement, AI-ZTA risk scoring at the edge) and flag limits (\"the sources describe the inputs and closed-loop approach at a high level but don't disclose the specific math\"). Depth is appropriate for a research-writing goal. The unevenness is that some topics (emissions monetization, scaling barriers) are covered at a summary level while others (Haynesville, Petrobras) are developed as case studies, so the depth is inconsistent across the dimensions the user would need for an 8,000-word paper.\n\n[C|Breadth] The interaction covers upstream drilling AI, IIoT closed-loop production optimization, IT/OT cybersecurity and Zero Trust, emissions reduction and carbon monetization, and scaling barriers—distinct dimensions with some stated relationships (e.g., connectivity widens the attack surface; regulatory drivers accelerate digital scaling). However, midstream and downstream gas applications, digital twins, and data-standardization topics that the user's paper intent would require are not developed in the user-visible turns, so the breadth is narrower than the stated goal despite the quality of the covered dimensions.",
+  "scores": {
+    "CCA": {
+      "Clarity": 8.2,
+      "Engagement": 7.6,
+      "Depth Appropriateness": 8.4,
+      "Breadth": 8.0
+    },
+    "LLM Baseline": {
+      "Clarity": 7.8,
+      "Engagement": 6.8,
+      "Depth Appropriateness": 7.0,
+      "Breadth": 7.4
+    },
+    "Co-STORM": {
+      "Clarity": 7.6,
+      "Engagement": 7.2,
+      "Depth Appropriateness": 7.2,
+      "Breadth": 7.0
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 152008,
+      "completion_tokens": 1655,
+      "total_tokens": 153663,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

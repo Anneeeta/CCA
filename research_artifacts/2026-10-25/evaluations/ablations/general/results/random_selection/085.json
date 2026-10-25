@@ -1,0 +1,42 @@
+{
+  "variant": "random_selection",
+  "task": "085_bernese-mountain-dogs",
+  "sequence": [
+    "full",
+    "random_selection"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 8.3,
+    "Engagement": 8.2,
+    "Depth Appropriateness": 8.4,
+    "Breadth": 8.5
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Clarity\": -0.2, \"Engagement\": 0.1, \"Depth Appropriateness\": -0.1, \"Breadth\": -0.3}",
+  "deltas": {
+    "Clarity": -0.2,
+    "Engagement": 0.1,
+    "Depth Appropriateness": -0.1,
+    "Breadth": -0.3
+  },
+  "calibrated_target_scores": {
+    "Clarity": 8.100000000000001,
+    "Engagement": 8.299999999999999,
+    "Depth Appropriateness": 8.3,
+    "Breadth": 8.2
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 137351,
+      "completion_tokens": 40,
+      "total_tokens": 137391,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "variant": "random_selection",
+  "task": "095_digital-biomarkers-in-current-clinical-trials",
+  "sequence": [
+    "full",
+    "random_selection"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 8.5,
+    "Engagement": 8.2,
+    "Depth Appropriateness": 8.7,
+    "Breadth": 8.6
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Clarity\": -0.3, \"Engagement\": -0.4, \"Depth Appropriateness\": -0.5, \"Breadth\": -0.6}",
+  "deltas": {
+    "Clarity": -0.3,
+    "Engagement": -0.4,
+    "Depth Appropriateness": -0.5,
+    "Breadth": -0.6
+  },
+  "calibrated_target_scores": {
+    "Clarity": 8.2,
+    "Engagement": 7.799999999999999,
+    "Depth Appropriateness": 8.2,
+    "Breadth": 8.0
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 190880,
+      "completion_tokens": 41,
+      "total_tokens": 190921,
+      "cached_tokens": 0,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

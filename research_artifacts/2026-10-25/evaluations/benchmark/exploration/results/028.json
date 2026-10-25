@@ -1,0 +1,47 @@
+{
+  "task": "028_the-application-of-iot-digitalization-and-ai-in-the-oil-and-natural-gas",
+  "status": "complete",
+  "mapping": {
+    "A": "CCA",
+    "B": "LLM Baseline",
+    "C": "Co-STORM"
+  },
+  "raw": "System A:\n  Inquiry Relevance: 8.5/10\n  Perspective Expansion: 8.0/10\n  Evidence-Based Progress: 8.5/10\n  Incremental Value: 8.5/10\n  Adaptive Coherence: 8.5/10\nSystem B:\n  Inquiry Relevance: 6.5/10\n  Perspective Expansion: 5.5/10\n  Evidence-Based Progress: 5.5/10\n  Incremental Value: 6.0/10\n  Adaptive Coherence: 6.5/10\nSystem C:\n  Inquiry Relevance: 7.5/10\n  Perspective Expansion: 7.0/10\n  Evidence-Based Progress: 7.0/10\n  Incremental Value: 7.0/10\n  Adaptive Coherence: 7.0/10\n\nExplanation:\n[A|Inquiry Relevance] Round 1 selected \"hidden prerequisites (network coverage, sensor power autonomy, data standardization)\" — directly pertinent to whether IoT/AI can deliver value in remote oil and gas. Round 2 selected data standardization/interoperability standards (MQTT/Sparkplug B, OPC UA, WITSML) — a concrete, consequential next step after prerequisites. Round 3 selected labeled failure datasets for predictive maintenance — probing the evidence base behind a core AI use case. Each selection builds on the prior round's findings and targets a real bottleneck.\n\n[A|Perspective Expansion] Round 1 reframed the problem from \"which sensors\" to \"what preconditions gate value,\" developing the trade-off \"pushing more intelligence to the edge improves resilience... but raises fleet-management... complexity.\" Round 2 introduced the layered-standardization view (transport vs. OT/IT vs. upstream exchange) and the semantic-layer gap. Round 3 exposed label scarcity as the hidden constraint behind predictive maintenance claims. These are consequential, task-specific reframings.\n\n[A|Evidence-Based Progress] Round 1 quantified the security energy overhead (MQTT ~1.71 mWh vs MQTT-TLS ~2.82 mWh on NB-IoT) and bounded latency limits (500–800 ms satellite). Round 2 cited evidence that \"vendors tend to implement partial subsets of standards like OPC UA or MQTT Sparkplug\" and flagged that claims any single standard solves semantic alignment are unsupported. Round 3 honestly reported that no retrieved source quantifies field precision-recall for compressors/turbines, bounding rather than overstating. Limitations are preserved.\n\n[A|Incremental Value] Round 1 delivered a stage-gate framework (connectivity survey, power budget including TLS, namespace design, Ex-rated certification) plus explicit degraded-mode requirements. Round 2 delivered a layered standardization map and the semantic-layer engineering deliverable. Round 3 delivered the label-scarcity diagnosis and the hybrid unsupervised+supervised mitigation, plus the store-and-forward vs. Sparkplug B session-state distinction. Each round adds a distinct, actionable piece.\n\n[A|Adaptive Coherence] The sequence is cumulative: prerequisites → standards/security → predictive-maintenance data reality → LEO buffering. Round 2's question directly follows Round 1's data-standardization prerequisite; Round 3's question follows from the predictive-maintenance theme. The final summary explicitly integrates all rounds and lists unresolved questions. Continuity is strong with no manufactured pivots.\n\n[B|Inquiry Relevance] Round 1 gave a broad overview matching the topic. Round 2 pivoted to a natural-gas-focused paper anchored in WGC2025 and China's 15th Five-Year Plan — relevant to the stated intent. Round 3 (\"What else should I know?\") expanded to upstream drilling and maturity frameworks — useful but somewhat tangential to the gas-industry paper goal. Directions are pertinent but not tightly targeted at unresolved bottlenecks.\n\n[B|Perspective Expansion] Round 3 introduced the digitalization → intelligence → autonomy maturity continuum and the advisory-vs-autonomous AI distinction — genuinely new and useful. Round 2 introduced the \"human + technical + intelligent\" defense concept. However, these are largely frameworks rather than developed investigations; the tensions table in Round 3 is listed but not deeply explored.\n\n[B|Evidence-Based Progress] Round 2 cited WGC2025 and expert commentary (Liu Heming) and specific figures (30 million smart meters, 0.15% methane intensity). Round 3 cited scientometric and review sources. However, evidence is mostly descriptive of reported claims rather than critically evaluated; the paper explicitly notes \"forward-looking projections are analytical inferences.\" Support is relevant but not deeply interrogated.\n\n[B|Incremental Value] Round 2 delivered a structured paper draft with a value-chain survey and roadmap. Round 3 added the maturity framework and a tensions table. However, much of Round 1's content (three-layer architecture, value-chain benefits) is repeated in Round 2's paper; the incremental gain over the starting record is moderate rather than substantial.\n\n[B|Adaptive Coherence] The progression from broad overview → gas-focused paper → expansion is coherent given the stated intent. Round 3 responds to the implicit need for more depth. However, the process is more of a sequence of reports than a cumulative inquiry that tracks and resolves specific uncertainties; unresolved issues (e.g., data quality, cybersecurity) are listed but not investigated.\n\n[C|Inquiry Relevance] The warm-start questions (cybersecurity/Zero Trust, scaling IoT/AI, IoT connectivity, emissions monetization, Petrobras case) are all pertinent to the topic. Round 1's drilling AI question and Round 2's gas-industry applications question directly serve the stated intent. Round 3's production-engineer deep dive on the Haynesville case is well-targeted. Directions are relevant and purposeful.\n\n[C|Perspective Expansion] The warm start introduced Zero Trust for OT, the scaling barrier of disconnected OT/IT, and emissions monetization — all consequential perspectives. Round 1 developed the advisory-vs-autonomous AI distinction in drilling. Round 3 added the production engineer's operational perspective on scalability and field reliability. These extend the investigation meaningfully, though some perspectives (e.g., emissions) are not revisited.\n\n[C|Evidence-Based Progress] Round 2 cited specific case data (Haynesville: 70–139% production improvement, $135,000 value vs $3,600 investment; Romgaz 8-year contract; WGC2025 exhibits). Round 3 added operational detail and an honest caveat that \"the sources describe the inputs and closed-loop approach at a high level but don't disclose the specific math.\" The warm start cited Petrobras and Velesto cases. Evidence is relevant and limitations are acknowledged, though critical evaluation of vendor-reported figures is limited.\n\n[C|Incremental Value] The warm start delivered concrete case studies (Petrobras Zero Trust, Last Mile Production emissions). Round 1 delivered the drilling AI framework. Round 2 delivered three concrete gas-industry applications with quantified outcomes. Round 3 added operational depth on the Haynesville case. Each contribution is distinct, though the warm-start content is auxiliary and the user-facing rounds are more modest in scope.\n\n[C|Adaptive Coherence] The warm start establishes cybersecurity and scaling themes; Round 1 addresses drilling AI; Round 2 addresses gas-industry applications; Round 3 deepens the Haynesville case introduced in Round 2. The final summary integrates all themes. The progression is cumulative and responsive, though the warm-start topics (cybersecurity, emissions) are not explicitly revisited in later rounds.",
+  "scores": {
+    "CCA": {
+      "Inquiry Relevance": 8.5,
+      "Perspective Expansion": 8.0,
+      "Evidence-Based Progress": 8.5,
+      "Incremental Value": 8.5,
+      "Adaptive Coherence": 8.5
+    },
+    "LLM Baseline": {
+      "Inquiry Relevance": 6.5,
+      "Perspective Expansion": 5.5,
+      "Evidence-Based Progress": 5.5,
+      "Incremental Value": 6.0,
+      "Adaptive Coherence": 6.5
+    },
+    "Co-STORM": {
+      "Inquiry Relevance": 7.5,
+      "Perspective Expansion": 7.0,
+      "Evidence-Based Progress": 7.0,
+      "Incremental Value": 7.0,
+      "Adaptive Coherence": 7.0
+    }
+  },
+  "ranking": [],
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 152334,
+      "completion_tokens": 1607,
+      "total_tokens": 153941,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

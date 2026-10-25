@@ -1,0 +1,10 @@
+metric,CCA_n,CCA_mean,CCA_sd,RAG robot_n,RAG robot_mean,RAG robot_sd,Co-STORM_n,Co-STORM_mean,Co-STORM_sd
+Aha Moment,40,8.250,1.296,20,6.200,1.936,20,7.600,1.789
+UU Discovery,40,8.400,1.374,20,6.300,1.976,20,7.200,2.191
+Guidance Ease & Question Insightfulness,40,8.200,1.682,20,5.900,2.634,20,7.400,2.062
+Information Gain,40,8.150,1.312,20,6.500,1.433,20,6.800,1.642
+Trajectory Coherence,40,7.500,1.340,20,7.000,1.522,20,6.700,2.179
+Clarity,40,7.600,1.646,20,7.100,1.373,20,7.200,1.508
+Engagement,40,7.550,1.239,20,6.400,2.010,20,7.000,1.376
+Depth Appropriateness,40,7.500,1.679,20,6.300,1.976,20,6.400,1.667
+Breadth,40,7.950,1.319,20,6.500,1.933,20,7.100,2.100

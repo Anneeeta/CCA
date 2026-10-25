@@ -1,0 +1,43 @@
+{
+  "variant": "random_selection",
+  "task": "051_macroscopic-quantum-coherence",
+  "sequence": [
+    "full",
+    "random_selection"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 7.6,
+    "Engagement": 7.2,
+    "Depth Appropriateness": 7.8,
+    "Breadth": 8.2
+  },
+  "status": "complete",
+  "attempt": 3,
+  "raw": "{\"Clarity\": 0.4, \"Engagement\": 0.3, \"Depth Appropriateness\": 0.2, \"Breadth\": 0.3}",
+  "deltas": {
+    "Clarity": 0.4,
+    "Engagement": 0.3,
+    "Depth Appropriateness": 0.2,
+    "Breadth": 0.3
+  },
+  "calibrated_target_scores": {
+    "Clarity": 8.0,
+    "Engagement": 7.5,
+    "Depth Appropriateness": 8.0,
+    "Breadth": 8.5
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 197271,
+      "completion_tokens": 40,
+      "total_tokens": 197311,
+      "cached_tokens": 90112,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

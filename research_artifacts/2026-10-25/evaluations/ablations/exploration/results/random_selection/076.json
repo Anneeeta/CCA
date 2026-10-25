@@ -1,0 +1,46 @@
+{
+  "variant": "random_selection",
+  "task": "076_2024-hualien-city-earthquake",
+  "sequence": [
+    "full",
+    "random_selection"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Inquiry Relevance": 8.0,
+    "Perspective Expansion": 8.0,
+    "Evidence-Based Progress": 8.0,
+    "Incremental Value": 8.0,
+    "Adaptive Coherence": 8.0
+  },
+  "status": "complete",
+  "attempt": 2,
+  "raw": "{\n  \"Inquiry Relevance\": 0.0,\n  \"Perspective Expansion\": 0.0,\n  \"Evidence-Based Progress\": 0.0,\n  \"Incremental Value\": 0.0,\n  \"Adaptive Coherence\": 0.0\n}",
+  "deltas": {
+    "Inquiry Relevance": 0.0,
+    "Perspective Expansion": 0.0,
+    "Evidence-Based Progress": 0.0,
+    "Incremental Value": 0.0,
+    "Adaptive Coherence": 0.0
+  },
+  "calibrated_target_scores": {
+    "Inquiry Relevance": 8.0,
+    "Perspective Expansion": 8.0,
+    "Evidence-Based Progress": 8.0,
+    "Incremental Value": 8.0,
+    "Adaptive Coherence": 8.0
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 171300,
+      "completion_tokens": 60,
+      "total_tokens": 171360,
+      "cached_tokens": 171264,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

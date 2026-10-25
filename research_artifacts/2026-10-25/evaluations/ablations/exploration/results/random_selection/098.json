@@ -1,0 +1,46 @@
+{
+  "variant": "random_selection",
+  "task": "098_caving-in-fitness",
+  "sequence": [
+    "full",
+    "random_selection"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Inquiry Relevance": 8.0,
+    "Perspective Expansion": 8.0,
+    "Evidence-Based Progress": 7.5,
+    "Incremental Value": 7.5,
+    "Adaptive Coherence": 8.0
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Inquiry Relevance\": -0.5, \"Perspective Expansion\": 0.0, \"Evidence-Based Progress\": 0.0, \"Incremental Value\": 0.0, \"Adaptive Coherence\": 0.0}",
+  "deltas": {
+    "Inquiry Relevance": -0.5,
+    "Perspective Expansion": 0.0,
+    "Evidence-Based Progress": 0.0,
+    "Incremental Value": 0.0,
+    "Adaptive Coherence": 0.0
+  },
+  "calibrated_target_scores": {
+    "Inquiry Relevance": 7.5,
+    "Perspective Expansion": 8.0,
+    "Evidence-Based Progress": 7.5,
+    "Incremental Value": 7.5,
+    "Adaptive Coherence": 8.0
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 175127,
+      "completion_tokens": 53,
+      "total_tokens": 175180,
+      "cached_tokens": 90112,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

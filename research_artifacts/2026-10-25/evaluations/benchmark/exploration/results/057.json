@@ -1,0 +1,48 @@
+{
+  "task": "057_building-a-personal-knowledge-system",
+  "status": "complete",
+  "protocol": "exploration_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "LLM Baseline",
+    "B": "Co-STORM",
+    "C": "CCA"
+  },
+  "raw": "System A:\n  Inquiry Relevance: 7.5/10\n  Perspective Expansion: 7.0/10\n  Evidence-Based Progress: 6.5/10\n  Incremental Value: 7.5/10\n  Adaptive Coherence: 7.5/10\nSystem B:\n  Inquiry Relevance: 6.5/10\n  Perspective Expansion: 7.0/10\n  Evidence-Based Progress: 6.0/10\n  Incremental Value: 6.5/10\n  Adaptive Coherence: 6.5/10\nSystem C:\n  Inquiry Relevance: 8.5/10\n  Perspective Expansion: 8.0/10\n  Evidence-Based Progress: 8.0/10\n  Incremental Value: 8.0/10\n  Adaptive Coherence: 8.5/10\n\nExplanation:\n[A|Inquiry Relevance] Round 1 directly addresses the user's prompt \"Building a Personal Knowledge System\" with a structured guide (Karpathy's inversion, three-directory structure, CS taxonomy). Round 2 responds to the stated intent about \"methods and best practices... using computer science principles\" by framing RAG vs. knowledge compilation as interpreted vs. compiled execution. Round 3's \"What else should I know\" is answered with failure modes and mindset shifts. All directions serve the stated goal; no gratuitous clarification. Slight scope looseness in Round 3's \"gaps\" section.\n\n[A|Perspective Expansion] Round 2's compiled-vs-interpreted table (\"Execution model | Interpreted... | Compiled...\") is a substantive reframing. Round 3 develops \"storage ≠ thinking\" and the compounding-artifact idea (\"The value isn't in any single source — it's in the *delta*\"). These extend beyond the starting record but are largely extensions of the same compilation metaphor rather than multiple independent perspectives.\n\n[A|Evidence-Based Progress] Round 2 uses the cost-profile comparison table and the RAG pain points (chunking loss, unstable retrieval) to bound claims. Round 3's staleness-vs-authority tradeoff table is a useful conceptual refinement. However, most claims are conceptual analogies rather than tested evidence; the system acknowledges \"no empirical benchmarks\" only implicitly. Support is visible but not tightly tied to verified sources.\n\n[A|Incremental Value] Round 1 delivers a concrete directory layout and workflow pipeline. Round 2 adds the INSTRUCTIONS.md-as-build-spec idea and the pipeline table with CS analogues. Round 3 adds the failure-mode catalog and the compounding-vs-accumulating distinction. Successive rounds are distinct and useful, though Round 3 partially reiterates Round 2's principles.\n\n[A|Adaptive Coherence] Round 2 explicitly builds on Round 1's architecture by adding the CS-grounded compilation framing. Round 3 responds to the open-ended \"what else\" by shifting from architecture to failure modes and mindset, which is an appropriate deepening. The progression is cumulative with clear dependencies.\n\n[B|Inquiry Relevance] The warm-start dialogue explores relevant sub-questions (simplicity vs. extensibility, document vs. graph, habits vs. tools, capture vs. hoarding). Round 1 answers the initial prompt with two concrete tools (VaultMind, PKB). Round 2 addresses the intent about CS principles via the compilation framing. Round 3 (knowledge engineering researcher) discusses where the build analogy breaks down. All are pertinent, though the warm-start questions are somewhat generic and the Round 1 tool descriptions are narrow.\n\n[B|Perspective Expansion] The warm-start expert's discussion of BlockLink's layered architecture and DBin's Brainlets introduces the simplicity-vs-extensibility tension with concrete systems. The markdown-vs-database tradeoff (\"markdown-as-memory has five known failure modes\") is a useful reframing. Round 3's researcher adds the \"compilation must be incremental and revisable\" caveat. Several relevant perspectives are developed, though some (e.g., the habits discussion) are more catalog-like than deeply investigated.\n\n[B|Evidence-Based Progress] Round 1 cites specific tool features (VaultMind's `vm compile --max-touches 5`, PKB's Python requirement) as concrete evidence. Round 2 uses the Karpathy compilation framing and VaultMind's conservative compile loop. Round 3 cites the MACYB model's layer separation. Evidence is visible and connected to claims, but the system does not always distinguish between reported experience and measured evaluation — Round 2 does note \"no empirical benchmarks,\" which is a useful qualification.\n\n[B|Incremental Value] Round 1 delivers two concrete tool implementations with CLI details. Round 2 adds the three-operation framework (ingest/query/lint) and the index.md insight. Round 3 adds the incremental-compilation caveat and versioning requirements. Each round adds distinct material, though Round 1's tool descriptions are somewhat narrow in scope.\n\n[B|Adaptive Coherence] The warm-start establishes relevant sub-topics. Round 1 answers the initial prompt. Round 2 builds on the compilation idea introduced implicitly in Round 1's VaultMind description. Round 3's researcher explicitly extends Round 2's compilation analogy by noting where it breaks down. The progression is generally cumulative, though the warm-start's breadth means Round 1's narrow tool focus feels like a slight reset.\n\n[C|Inquiry Relevance] Round 1 selects a well-targeted question about scaling from hundreds to thousands of notes, directly relevant to building a PKS. Round 2 selects a question about calibrating the vault-size threshold, building on Round 1's answer. Round 3 selects a question about merge protocols for concurrent multi-device writes, addressing a boundary condition flagged in Round 2. Each selection uses available context and targets a consequential next step. The student's candidate lists show deliberate filtering.\n\n[C|Perspective Expansion] Round 1 develops the active-vault-vs-archive distinction and the automated-search-vs-manual-linking tradeoff. Round 2 introduces behavioral signals (p90 time-to-find, query reformulation rate) as replacements for fixed note counts — a substantive reframing. Round 3 develops the version-vector merge protocol and the gated auto-link criteria, both new and consequential. Each round materially extends the investigation with specific, task-relevant perspectives.\n\n[C|Evidence-Based Progress] Round 1 cites the reconciler's \"cheap and wrong often\" keyword filter and the LLM-wiki critique of pure RAG to support the search-vs-link division of labor. Round 2 uses the retrieval-economics finding (\"cost is driven by chunking and index shape, not raw note count\") to justify replacing fixed counts with behavioral signals, and proposes a within-subject A/B validation design. Round 3 cites the version-vector patent (dominant-vector comparison) and the field notes on similarity thresholds (\"at 0.55 cosine, 2,771 candidate pairs were produced\") to ground the merge protocol and auto-link criteria. Evidence is connected to claims, uncertainty is bounded (e.g., \"treat all numeric ranges as hypotheses\"), and limitations are preserved.\n\n[C|Incremental Value] Round 1 delivers the active-vault/archive split and the search-vs-link division of labor. Round 2 delivers the behavioral-signal panel and the write-time-invariant consistency principle with named failure modes. Round 3 delivers the layered merge protocol and the gated auto-link criteria with validation procedures. Each round provides distinct, actionable understanding with little repetition.\n\n[C|Adaptive Coherence] Round 2's threshold question directly extends Round 1's scaling discussion. Round 3's merge-protocol question addresses the concurrent-writes boundary condition explicitly flagged in Round 2 (\"they weaken where writes are concurrent across devices\"). The instructor's answers build cumulatively, and the final summary integrates all three rounds into a coherent framework. The progression is strongly cumulative and appropriately adaptive to newly articulated needs.",
+  "scores": {
+    "LLM Baseline": {
+      "Inquiry Relevance": 7.5,
+      "Perspective Expansion": 7.0,
+      "Evidence-Based Progress": 6.5,
+      "Incremental Value": 7.5,
+      "Adaptive Coherence": 7.5
+    },
+    "Co-STORM": {
+      "Inquiry Relevance": 6.5,
+      "Perspective Expansion": 7.0,
+      "Evidence-Based Progress": 6.0,
+      "Incremental Value": 6.5,
+      "Adaptive Coherence": 6.5
+    },
+    "CCA": {
+      "Inquiry Relevance": 8.5,
+      "Perspective Expansion": 8.0,
+      "Evidence-Based Progress": 8.0,
+      "Incremental Value": 8.0,
+      "Adaptive Coherence": 8.5
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 165348,
+      "completion_tokens": 1653,
+      "total_tokens": 167001,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

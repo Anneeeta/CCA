@@ -1,0 +1,45 @@
+{
+  "task": "014_facial-recognition-in-check-in-and-clock-in-systems",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "CCA",
+    "B": "LLM Baseline",
+    "C": "Co-STORM"
+  },
+  "raw": "System A:\n  Clarity: 8.3/10\n  Engagement: 8.5/10\n  Depth Appropriateness: 8.7/10\n  Breadth: 8.8/10\nSystem B:\n  Clarity: 7.6/10\n  Engagement: 6.8/10\n  Depth Appropriateness: 6.5/10\n  Breadth: 7.2/10\nSystem C:\n  Clarity: 7.4/10\n  Engagement: 7.0/10\n  Depth Appropriateness: 6.8/10\n  Breadth: 7.5/10\n\nExplanation:\n[A|Clarity] Round 1 Instructor explains the accuracy-speed trade-off with a concrete mechanism: \"Raising the threshold reduces false matches but increases false rejects, and every reject means a retry, which is exactly what users experience as 'slow.'\" The thundering-herd example (3,000-employee site crashing a naive design, fixed at ~8,500 requests/min) makes the concurrency point concrete. Minor gap: some numbers (e.g., \"p95 under 1 s\") appear without full derivation of why that specific value, though context makes them followable.\n\n[A|Engagement] The student's selected questions in each round build directly on prior answers (e.g., Round 2's liveness question follows from Round 1's mention of presentation attacks), and the Instructor's answers explicitly connect back: \"For a high-throughput clock-in kiosk, the arrival burst is the constraint that should drive your choice.\" The final summary ties all rounds together with a clear through-line. The process is purposeful and sequential rather than a series of disconnected reports.\n\n[A|Depth Appropriateness] The interaction progresses from foundations (four-stage pipeline, 1:1 vs 1:N) to mechanisms (NIR physics: \"subsurface scattering, specular behavior, and blood-related reflectance that fakes don't reproduce\") to operational specifics (two-threshold template update policy with 0-1% update FPR vs 5% decision FPR). Numbers are flagged as design targets, not universal constants, which is appropriately calibrated. The depth matches a user seeking to understand deployment decisions, not just a surface overview.\n\n[A|Breadth] The interaction covers algorithms, architecture, liveness, template aging, evaluation protocols, threshold calibration, privacy/consent, and demographic bias — with explicit relationships drawn (e.g., threshold choice connects latency, security, and template-update policy). The final summary's \"unresolved questions\" section honestly marks gaps (template-aging drift rates, real burst latency) rather than overclaiming. This is a well-connected multidimensional treatment.\n\n[B|Clarity] Round 1's pipeline explanation is clear: \"detection and recognition are decoupled. A fast detector (YOLO, RetinaFace, MTCNN, SCRFD) finds faces; a separate recognition model (ArcFace, FaceNet, CosFace embeddings) handles identity.\" The challenge table in Round 1 is readable. However, Round 3's federated learning discussion is thinner: \"Federated learning keeps raw biometric data local while aggregating model updates—reducing data-movement risk\" — the mechanism of how aggregation preserves privacy is asserted rather than explained, which is a gap for a user without ML background.\n\n[B|Engagement] The responses are well-organized reports but the user's role is mostly passive — the system answers the given prompt without building a sequential investigation. Round 2's closing invitation (\"If you can share the full texts... I can extract and compare\") is a generic offer rather than a targeted next step. The process connects to the user's stated goal but does not strongly sustain involvement across rounds.\n\n[B|Depth Appropriateness] The explanations are competent but often stay at the level of naming methods with generic functions: \"Vision Transformers (ViT) offer an alternative inductive bias—global self-attention rather than local convolution—with different trade-offs in data efficiency and compute.\" The trade-offs are named but not developed. The Round 3 federated learning section is a good example of a consequential topic introduced without sufficient mechanism. Depth is workable for an overview but does not progressively deepen.\n\n[B|Breadth] The interaction covers detection, recognition, alignment, tracking, context-aware logic, federated architecture, and ethics — a reasonable spread. However, several aspects are named rather than developed: liveness is flagged as \"unaddressed in these excerpts\" rather than explained; bias is mentioned as a \"deployment blocker\" without mechanism. The relationships among aspects (e.g., how federated architecture interacts with latency or compliance) are gestured at but not fully developed. Several important perspectives exist but remain at the naming level.\n\n[C|Clarity] The warm-start discussion on GDPR consent is quite clear: \"in the employment context, consent will hardly ever apply, because employees are dependent on their employer and can't freely refuse—so consent isn't considered freely given.\" The China 2025 rules are enumerated clearly. However, Round 1's product-focused answer (NCheck Attend) is a feature list rather than an explanation of how the technology works, which limits clarity about the actual computer-science content the user requested.\n\n[C|Engagement] The warm-start dialogue uses a moderator-expert format that poses concrete scenarios (\"your organization wants to roll out facial recognition for employee clock-in—what does GDPR actually require before you can hit 'go'?\"), which is engaging. The Round 3 HR-manager contribution adds a practitioner perspective with concrete numbers. However, Round 1's answer is essentially a product description with a caveat that \"the detailed algorithms and technical internals aren't really covered here\" — this is honest but does not draw the user into the technical substance.\n\n[C|Depth Appropriateness] The legal/regulatory content is well-developed with specific citations (BIPA's three-year retention rule, China's separate-consent requirement, GDPR's employment-context exception). The technical content, by contrast, stays at the product-feature level: \"it also handles multiple face detection, so it can spot and recognize several faces in one picture.\" The HR-manager round adds useful deployment numbers (99.3% accuracy, 12-second attendance time) but the depth mismatch between legal and technical content is notable for a computer-science-domain query.\n\n[C|Breadth] The interaction covers legal frameworks (GDPR, BIPA, China 2025), deployment scale (HBL's 1,600 branches), product features, and effectiveness data — a broad spread. The relationships are partly developed: the non-mandatory principle connects consent to alternatives; the HBL case connects scale to architecture. However, the technical dimension (how recognition actually works) is thin relative to the legal and commercial dimensions, and several product descriptions read as feature lists rather than developed perspectives on the user's problem.",
+  "scores": {
+    "CCA": {
+      "Clarity": 8.3,
+      "Engagement": 8.5,
+      "Depth Appropriateness": 8.7,
+      "Breadth": 8.8
+    },
+    "LLM Baseline": {
+      "Clarity": 7.6,
+      "Engagement": 6.8,
+      "Depth Appropriateness": 6.5,
+      "Breadth": 7.2
+    },
+    "Co-STORM": {
+      "Clarity": 7.4,
+      "Engagement": 7.0,
+      "Depth Appropriateness": 6.8,
+      "Breadth": 7.5
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 137880,
+      "completion_tokens": 1458,
+      "total_tokens": 139338,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

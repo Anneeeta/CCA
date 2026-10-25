@@ -1,0 +1,43 @@
+{
+  "variant": "no_ms",
+  "task": "082_block-universe-and-the-nature-of-time",
+  "sequence": [
+    "full",
+    "no_ms"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 8.2,
+    "Engagement": 7.8,
+    "Depth Appropriateness": 8.0,
+    "Breadth": 8.4
+  },
+  "status": "complete",
+  "attempt": 2,
+  "raw": "{\"Clarity\": -0.2, \"Engagement\": 0.1, \"Depth Appropriateness\": -0.1, \"Breadth\": -0.3}",
+  "deltas": {
+    "Clarity": -0.2,
+    "Engagement": 0.1,
+    "Depth Appropriateness": -0.1,
+    "Breadth": -0.3
+  },
+  "calibrated_target_scores": {
+    "Clarity": 7.999999999999999,
+    "Engagement": 7.8999999999999995,
+    "Depth Appropriateness": 7.9,
+    "Breadth": 8.1
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 173828,
+      "completion_tokens": 40,
+      "total_tokens": 173868,
+      "cached_tokens": 81920,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

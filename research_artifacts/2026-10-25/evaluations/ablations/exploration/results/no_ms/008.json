@@ -1,0 +1,45 @@
+{
+  "variant": "no_ms",
+  "task": "008_ursula-s-character-in-disney-s-the-little-mermaid",
+  "sequence": [
+    "full",
+    "no_ms"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Inquiry Relevance": 8.0,
+    "Perspective Expansion": 8.0,
+    "Evidence-Based Progress": 8.0,
+    "Incremental Value": 8.0,
+    "Adaptive Coherence": 8.0
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\n  \"Inquiry Relevance\": 0.0,\n  \"Perspective Expansion\": 0.0,\n  \"Evidence-Based Progress\": 0.0,\n  \"Incremental Value\": 0.0,\n  \"Adaptive Coherence\": 0.0\n}",
+  "deltas": {
+    "Inquiry Relevance": 0.0,
+    "Perspective Expansion": 0.0,
+    "Evidence-Based Progress": 0.0,
+    "Incremental Value": 0.0,
+    "Adaptive Coherence": 0.0
+  },
+  "calibrated_target_scores": {
+    "Inquiry Relevance": 8.0,
+    "Perspective Expansion": 8.0,
+    "Evidence-Based Progress": 8.0,
+    "Incremental Value": 8.0,
+    "Adaptive Coherence": 8.0
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 146370,
+      "completion_tokens": 60,
+      "total_tokens": 146430,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

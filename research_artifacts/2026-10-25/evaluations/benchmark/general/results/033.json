@@ -1,0 +1,44 @@
+{
+  "task": "033_komondor-the-mop-dog",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "Co-STORM",
+    "B": "CCA",
+    "C": "LLM Baseline"
+  },
+  "raw": "System A:\n  Clarity: 8.2/10\n  Engagement: 7.8/10\n  Depth Appropriateness: 8.4/10\n  Breadth: 8.6/10\nSystem B:\n  Clarity: 8.5/10\n  Engagement: 8.0/10\n  Depth Appropriateness: 8.6/10\n  Breadth: 8.4/10\nSystem C:\n  Clarity: 7.6/10\n  Engagement: 6.4/10\n  Depth Appropriateness: 6.2/10\n  Breadth: 6.8/10\n\nExplanation:\n\n[A|Clarity] Warm-start moderator/expert exchanges explain the guardian-independence mechanism clearly (\"Because the Komondor was historically bred to work largely on its own while guarding livestock, the breed developed a strong sense of independence\"), and the Round 3 breed-club representative connects etymology to temperament. Minor gaps: some transitions between coat, health, and temperament sections in the final summary are structural rather than explanatory.\n\n[A|Engagement] The warm-start dialogue uses targeted moderator questions (\"what's the real story behind hip dysplasia in this big, mop-coated breed\") that directly serve the user's article-writing intent, and the Round 3 expert ties the Cuman origin to the \"need a job\" framing. The user's own guidance was minimal, so engagement is largely system-driven rather than user-driven.\n\n[A|Depth Appropriateness] The final summary provides appropriate depth for an awareness article: cord formation mechanics (\"the hair at the end of each cord is the same hair the puppy had at around six months of age\"), health screening pathways (BVA/Kennel Club Canine Health Schemes), and territorial behavior boundaries. Depth is consistent with the stated goal without unexplained complexity.\n\n[A|Breadth] The final summary covers history/etymology, temperament/trainability, coat care, territorial behavior, and health — five distinct, connected dimensions. The territorial section usefully distinguishes protective alertness from problematic aggression, a genuine relationship rather than a list.\n\n[B|Clarity] The instructor answers consistently explain mechanisms, e.g., \"Herders move animals on command; guardians live among the flock and decide for themselves what counts as a threat. That single fact explains almost every behavioral trait the breed shows.\" The weight-conflict resolution in Round 3 is explicitly reasoned (\"the AKC Official Standard... is the breed's written definition\"). Some technical terms (CUBN splice-site variant, gastropexy) are introduced with brief but adequate context.\n\n[B|Engagement] Candidate questions are explicitly tied to the user's article goal (\"Grooming and cord maintenance are critical but under-discussed aspects of Komondor ownership that new owners must understand\"), and the instructor answers connect findings to practical owner decisions (screening breeders, discussing gastropexy). The user's guidance shifts are acknowledged and incorporated.\n\n[B|Depth Appropriateness] Depth progresses appropriately: Round 1 establishes guardian-vs-herding mechanism, Round 2 addresses size with standard-vs-popular-source conflict, Round 3 resolves the conflict and details coat care. Evidence strength is graded (\"strongest evidence is for the CUBN/IGS variant... moderate-to-weak for hip dysplasia and bloat\"), which serves an awareness article well. The unresolved-questions list honestly flags gaps.\n\n[B|Breadth] The final summary covers identity/history, guardian behavior, size/strength, coat care, genetic diversity, breed-specific health, and unresolved questions — with explicit relationships (deep chest → bloat risk → gastropexy discussion). The genetic-diversity gap is stated rather than glossed over.\n\n[C|Clarity] Round 1 and 2 answers are well-organized with headings and clear statements (\"The Komondor was brought to Hungary by the Cumans, a Turkic-speaking nomadic people\"). However, some claims are asserted without mechanism (e.g., \"minimal shedding compared to many other dogs\" without explaining the corded-coat relationship), and Round 3's list format (\"Skin issues such as allergies and dermatitis are common\") names conditions without explaining why the coat predisposes to them.\n\n[C|Engagement] The responses are informative but largely one-directional delivery. Round 2's closing (\"Highlighting these practical realities alongside the breed's fascinating Hungarian heritage will give readers a balanced, genuinely informative picture\") is a generic invitation rather than a concrete next step. The user's Round 3 prompt (\"What else should I know about this topic?\") receives a list-style response rather than a targeted follow-up that builds on the article goal.\n\n[C|Depth Appropriateness] Depth is adequate for a general overview but shallow for the stated goal of an informative awareness article. Round 2 mentions \"substantial grooming demands\" without explaining cord formation mechanics, drying times, or the hand-separation process that System A and B both detail. Round 3 lists health concerns without evidence grading or screening guidance.\n\n[C|Breadth] Round 3 covers health, size, temperament, environment, rarity, and ownership suitability — several relevant dimensions. However, relationships among them are thin: the coat-skin-health connection is named but not developed, and the guardian-temperament/socialization link is mentioned without explaining why early socialization matters mechanistically. History, temperament, and care are presented as parallel sections rather than an integrated picture.",
+  "scores": {
+    "Co-STORM": {
+      "Clarity": 8.2,
+      "Engagement": 7.8,
+      "Depth Appropriateness": 8.4,
+      "Breadth": 8.6
+    },
+    "CCA": {
+      "Clarity": 8.5,
+      "Engagement": 8.0,
+      "Depth Appropriateness": 8.6,
+      "Breadth": 8.4
+    },
+    "LLM Baseline": {
+      "Clarity": 7.6,
+      "Engagement": 6.4,
+      "Depth Appropriateness": 6.2,
+      "Breadth": 6.8
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 104844,
+      "completion_tokens": 1144,
+      "total_tokens": 105988,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

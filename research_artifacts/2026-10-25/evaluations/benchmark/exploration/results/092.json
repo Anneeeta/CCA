@@ -1,0 +1,48 @@
+{
+  "task": "092_based-point-supervised-object-detection",
+  "status": "complete",
+  "protocol": "exploration_decimal_v1",
+  "attempt": 2,
+  "mapping": {
+    "A": "CCA",
+    "B": "Co-STORM",
+    "C": "LLM Baseline"
+  },
+  "raw": "System A:\n  Inquiry Relevance: 8.5/10\n  Perspective Expansion: 8.5/10\n  Evidence-Based Progress: 8.5/10\n  Incremental Value: 8.5/10\n  Adaptive Coherence: 8.5/10\nSystem B:\n  Inquiry Relevance: 7.5/10\n  Perspective Expansion: 7.0/10\n  Evidence-Based Progress: 7.5/10\n  Incremental Value: 7.5/10\n  Adaptive Coherence: 7.5/10\nSystem C:\n  Inquiry Relevance: 7.5/10\n  Perspective Expansion: 7.0/10\n  Evidence-Based Progress: 7.0/10\n  Incremental Value: 7.5/10\n  Adaptive Coherence: 7.5/10\n\nExplanation:\n[A|Inquiry Relevance]: Round 1 selected a question on generalization under domain shift directly matching the topic; Round 2's evaluation-protocol question (\"are they size-stratified and trustworthiness-aware, or do they rely on clean-domain mAP\") targets a consequential gap; Round 3's cue-audit question follows naturally. Each selection builds on prior discussion rather than gratuitous clarification.\n\n[A|Perspective Expansion]: Round 1 reframes generalization as depending on \"whether those synthesis cues survive the move to a new domain\" rather than on the point itself; Round 2 introduces the two-layer evaluation protocol separating size-stratified scoring from pseudo-box generator auditing; Round 3 develops pre-deployment cue auditing as a new investigative path. These are substantive reframings connected to the goal.\n\n[A|Evidence-Based Progress]: Round 1 cites PointSR++'s failure under dense small objects and mPC aggregates; Round 2 distinguishes mitigation from prevention under clutter with explicit uncertainty (\"likely only delay under severe clutter\"); Round 3 marks cue-robustness ordering as \"not settled\" and flags no validated predictor exists. Claims are appropriately bounded rather than asserted.\n\n[A|Incremental Value]: Successive rounds deliver distinct contributions: domain-shift factor ranking (R1), the two-layer honest evaluation protocol (R2), and the pseudo-label gating concept plus cue-audit proposal (R3), with the final summary consolidating open questions rather than repeating earlier text.\n\n[A|Adaptive Coherence]: Each round's selected question directly follows the prior answer's extension (R1→R2 via evaluation gap; R2→R3 via gating concept), and the final summary tracks unresolved items explicitly. Guidance changes (\"foundational importance, current advancements\") were absorbed into Round 2's question choice.\n\n[B|Inquiry Relevance]: Round 1's generalization question and Round 2's evaluation-protocol question are pertinent to the stated intent; however, the warm-start and Round 3 content lean heavily on PointSR-specific ablation details rather than broadening the landscape investigation, and Round 3's question about cue robustness is only partially developed.\n\n[B|Perspective Expansion]: The record develops pseudo-box weighting, DMIL/Jittering IoU denoising, and class-specific hyperparameters—useful but largely variations on the noise-handling theme already present in warm start. The cost-effectiveness reframing in Round 3 (\"does PSOD's total cost—labeling plus compute plus engineering—still beat sparse or semi-supervised box labeling?\") is a genuine new perspective but arrives late and is not further investigated.\n\n[B|Evidence-Based Progress]: Round 3 cites Point Teacher's two-phase denoising and flags \"no head-to-head cost analysis against those alternatives—that gap is worth flagging,\" appropriately bounding the claim. Earlier rounds mostly restate PointSR ablation numbers (0.92% AP, 5.26% AP) without using them to resolve an open question.\n\n[B|Incremental Value]: The final summary consolidates PointSR contributions and denoising mechanisms, but much of this repeats warm-start content. The distinct addition—the total-cost reframing and identification of the missing cost comparison—is useful but singular.\n\n[B|Adaptive Coherence]: Rounds follow the stated intent reasonably (R1 basics, R2 landscape, R3 cost critique), and Round 3's critique builds on Round 1's cost-effectiveness framing. However, the connection between Round 2's landscape survey and Round 3's specific cost question is loose, and warm-start discussion of pseudo-box weighting is not revisited.\n\n[C|Inquiry Relevance]: Round 1 directly defines PSOD and its pipeline as requested; Round 2 addresses foundational importance and landscape as guided; Round 3's \"what else should I know\" prompt is answered with Point2RBox-v2 and PointSR specifics. All are pertinent, though Round 2's retrieval evidence drifted into unrelated Chinese basic-research policy material.\n\n[C|Perspective Expansion]: Round 2 introduces the supervision-spectrum table and the \"minimum viable localization signal\" framing; Round 3 adds edge-based extent estimation, spatial-layout-among-instances as an underused signal, and practical reading guidance (separating two stages, checking annotation-cost claims). These are relevant new perspectives, though the policy-ecology discussion in Round 2 is tangential.\n\n[C|Evidence-Based Progress]: Round 3 cites specific technical details (β=1.6, K=24, RoIAlign edge formulation) and ablation numbers (+0.92% AP) to ground claims about the state of the art. However, Round 2's evidence was largely off-topic policy text, weakening the evidential chain for the landscape claims made in that round's answer.\n\n[C|Incremental Value]: The three rounds cumulatively deliver a definition, a supervision-spectrum framing, a landscape assessment with open problems, and concrete technical details from Point2RBox-v2/PointSR plus practical reading advice. The final summary consolidates these without excessive repetition, though Round 2's policy material adds little.\n\n[C|Adaptive Coherence]: Rounds track the user's prompts (definition → landscape → additional knowledge) and the final summary integrates all three. The main coherence weakness is Round 2's retrieval drifting to unrelated policy content while the answer still attempted to connect it to PSOD funding context—a strained link rather than a natural progression.",
+  "scores": {
+    "CCA": {
+      "Inquiry Relevance": 8.5,
+      "Perspective Expansion": 8.5,
+      "Evidence-Based Progress": 8.5,
+      "Incremental Value": 8.5,
+      "Adaptive Coherence": 8.5
+    },
+    "Co-STORM": {
+      "Inquiry Relevance": 7.5,
+      "Perspective Expansion": 7.0,
+      "Evidence-Based Progress": 7.5,
+      "Incremental Value": 7.5,
+      "Adaptive Coherence": 7.5
+    },
+    "LLM Baseline": {
+      "Inquiry Relevance": 7.5,
+      "Perspective Expansion": 7.0,
+      "Evidence-Based Progress": 7.0,
+      "Incremental Value": 7.5,
+      "Adaptive Coherence": 7.5
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 145602,
+      "completion_tokens": 1325,
+      "total_tokens": 146927,
+      "cached_tokens": 0,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

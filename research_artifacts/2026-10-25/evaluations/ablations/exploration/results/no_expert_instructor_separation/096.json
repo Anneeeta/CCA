@@ -1,0 +1,46 @@
+{
+  "variant": "no_expert_instructor_separation",
+  "task": "096_autonomous-ai-for-research-laboratories",
+  "sequence": [
+    "full",
+    "no_expert_instructor_separation"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Inquiry Relevance": 8.2,
+    "Perspective Expansion": 8.0,
+    "Evidence-Based Progress": 7.8,
+    "Incremental Value": 7.9,
+    "Adaptive Coherence": 8.1
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Inquiry Relevance\": -0.3, \"Perspective Expansion\": -0.2, \"Evidence-Based Progress\": -0.4, \"Incremental Value\": -0.3, \"Adaptive Coherence\": -0.1}",
+  "deltas": {
+    "Inquiry Relevance": -0.3,
+    "Perspective Expansion": -0.2,
+    "Evidence-Based Progress": -0.4,
+    "Incremental Value": -0.3,
+    "Adaptive Coherence": -0.1
+  },
+  "calibrated_target_scores": {
+    "Inquiry Relevance": 7.8999999999999995,
+    "Perspective Expansion": 7.8,
+    "Evidence-Based Progress": 7.3999999999999995,
+    "Incremental Value": 7.6000000000000005,
+    "Adaptive Coherence": 8.0
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 193794,
+      "completion_tokens": 54,
+      "total_tokens": 193848,
+      "cached_tokens": 92288,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

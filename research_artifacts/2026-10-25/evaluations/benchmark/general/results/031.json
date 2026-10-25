@@ -1,0 +1,45 @@
+{
+  "task": "031_internal-motivation-in-student-learning",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "CCA",
+    "B": "Co-STORM",
+    "C": "LLM Baseline"
+  },
+  "raw": "System A:\n  Clarity: 8.3/10\n  Engagement: 8.0/10\n  Depth Appropriateness: 8.4/10\n  Breadth: 8.5/10\nSystem B:\n  Clarity: 7.6/10\n  Engagement: 7.4/10\n  Depth Appropriateness: 7.5/10\n  Breadth: 7.8/10\nSystem C:\n  Clarity: 8.5/10\n  Engagement: 8.2/10\n  Depth Appropriateness: 8.6/10\n  Breadth: 8.4/10\n\nExplanation:\n[A|Clarity] In Round 1, the Instructor's answer explains the SDT needs with concrete phrasing (\"autonomy (feeling that your actions are yours), competence (feeling effective), and relatedness (feeling connected to others)\") and connects them to classroom examples, then in Round 2 explains why measure choice flips conclusions (\"a one-dimensional 'intrinsic motivation' score can mask exactly the failure mode\"). Transitions between rounds are signposted (\"For the second question, the short answer is...\"). Minor gap: some passages (e.g., \"quantification trap,\" \"double-innovation\") are named with only brief glossing, requiring the reader to infer the mechanism.\n\n[A|Engagement] The process tracks the user's stated intent closely: Round 2's selected question directly addresses \"integrating professional education with innovation and entrepreneurship education,\" and the answer offers actionable detection signals (\"look for a profile of high Pressure/Tension... that pattern is a red flag\"). The final summary consolidates around the user's publishable-paper goal with unresolved questions listed. Gap: the user never supplies mid-process feedback, so engagement is inferred from goal alignment rather than demonstrated dialogue.\n\n[A|Depth Appropriateness] Foundations (SDT, intrinsic vs. identified regulation) are established in Round 1 before Round 2–3 apply them to boundary conditions and measurement divergence; the answer explicitly separates \"boundary conditions versus measurement choices\" as distinct axes, and honestly flags thin evidence (\"causal claims about specific thresholds remain thin\"). This progression serves the research-paper intent well without unexplained complexity.\n\n[A|Breadth] The dialogue develops multiple connected dimensions: theoretical frameworks, cultural moderation, boundary conditions (six listed levers), measurement families (four operationalizations), detection methods, and unresolved questions—each explained enough to show relationships (e.g., how identified regulation can rise while enjoyment stagnates). The final summary ties these into a coherent multidimensional view. Not exhaustive but well-connected for the stated goal.\n\n[B|Clarity] The General Knowledge Provider in Round 1 defines internal motivation plainly (\"engages because of curiosity, interest, or the challenge itself\") and cites concrete statistics (Omani β = 9.7671). Round 2's answer explains UTAUT constructs and flags a gap (\"none of this directly and quantitatively measures internal motivation\"). However, Round 3's curriculum-design answer introduces SEVT terms (\"expectancies for success, task values, perceived costs\") with less grounding, and the final summary's section transitions are more topical than argumentative, leaving some connections to be reconstructed.\n\n[B|Engagement] The warm-start dialogue poses genuinely task-relevant questions (e.g., \"does [peer relatedness] hold up over time?\"), and Round 2 explicitly frames findings as usable for a publishable paper (\"you could connect these strands—UTAUT factors and personal-need mechanisms as mediators\"). Gap: after Round 2, the user provides no new guidance, and Round 3 is an autonomous continuation whose connection to the user's specific paper goal is asserted rather than developed through user interaction.\n\n[B|Depth Appropriateness] Round 1 establishes SDT foundations with empirical support; Round 2 applies them to the integration question and honestly identifies the measurement gap; Round 3 adds SEVT as a complementary lens. The depth is workable for a research-design goal. Gap: Round 3's SEVT discussion remains at the level of \"design moves\" without showing how expectancy-value constructs would be operationalized alongside UTAUT, leaving a foundation partially unconnected to the earlier model.\n\n[B|Breadth] The dialogue covers SDT needs, relatedness's mediating role, gamification vs. AI differential effects, autonomy-supportive strategies, instructor misconceptions, UTAUT integration factors, personal-needs mechanisms, and SEVT curricular design—several of these are explained with relationships (e.g., gamification affects competence/autonomy but not relatedness). The final summary organizes these into connected sections. Some breadth items (e.g., instructor misconceptions) are only tangentially tied to the user's integration-paper goal.\n\n[C|Clarity] Round 1's answer defines intrinsic vs. external motivation with a sharp normative framing (\"pupils should learn for the sake of knowledge, not grades\") and explains self-efficacy's four sources concretely. Round 2's research-design answer walks through hypotheses in a table with each construct explained, and Round 3 explains the undermining effect's timing dependence with a clear example (\"For uninteresting learning material, monetary reward significantly enhanced memory\"). Transitions between rounds are explicit (\"Based on the reference material and the research design already developed...\").\n\n[C|Engagement] Each round directly serves the user's evolving task: Round 1 grounds theory, Round 2 produces a usable research design with hypotheses and methodology, Round 3 adds defensive rigor (\"methodological warnings reviewers will raise\"). The closing reframing—\"integration as motivational architecture\"—gives the user a distinctive contribution claim. The process supports participation in the user's own paper-writing task rather than delivering generic content.\n\n[C|Depth Appropriateness] Foundations (SDT, self-efficacy) precede application (UTAUT+SDT model), which precedes advanced considerations (reward timing, curvilinear testing, common-method bias). The depth matches a publishable-paper goal: hypotheses are operationalized, limitations acknowledged, and reviewer objections anticipated. No material gap evident; complexity (e.g., PLS-SEM validation criteria) is introduced only where the research-design goal requires it.\n\n[C|Breadth] The dialogue develops theory (SDT, self-efficacy, UTAUT, SEVT), research design (hypotheses, mixed methods, moderation/mediation), boundary conditions (overload, reward timing, baseline interest), methodological rigor (bias, causality, construct proliferation), and practical design principles—each connected to the user's paper goal. The inverted-U hypothesis and H9 (baseline interest moderation) are distinctive, well-explained contributions rather than name-dropping. The final synthesis coherently links these dimensions.",
+  "scores": {
+    "CCA": {
+      "Clarity": 8.3,
+      "Engagement": 8.0,
+      "Depth Appropriateness": 8.4,
+      "Breadth": 8.5
+    },
+    "Co-STORM": {
+      "Clarity": 7.6,
+      "Engagement": 7.4,
+      "Depth Appropriateness": 7.5,
+      "Breadth": 7.8
+    },
+    "LLM Baseline": {
+      "Clarity": 8.5,
+      "Engagement": 8.2,
+      "Depth Appropriateness": 8.6,
+      "Breadth": 8.4
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 152496,
+      "completion_tokens": 1418,
+      "total_tokens": 153914,
+      "cached_tokens": 0,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

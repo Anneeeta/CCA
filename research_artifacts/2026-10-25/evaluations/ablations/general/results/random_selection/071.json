@@ -1,0 +1,43 @@
+{
+  "variant": "random_selection",
+  "task": "071_community-knowledge-management-in-cultural-studies",
+  "sequence": [
+    "full",
+    "random_selection"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 8.2,
+    "Engagement": 8.0,
+    "Depth Appropriateness": 8.0,
+    "Breadth": 8.5
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Clarity\": -0.3, \"Engagement\": 0.0, \"Depth Appropriateness\": 0.2, \"Breadth\": 0.3}",
+  "deltas": {
+    "Clarity": -0.3,
+    "Engagement": 0.0,
+    "Depth Appropriateness": 0.2,
+    "Breadth": 0.3
+  },
+  "calibrated_target_scores": {
+    "Clarity": 7.8999999999999995,
+    "Engagement": 8.0,
+    "Depth Appropriateness": 8.2,
+    "Breadth": 8.8
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 223607,
+      "completion_tokens": 40,
+      "total_tokens": 223647,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

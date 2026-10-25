@@ -1,0 +1,43 @@
+{
+  "variant": "no_shared_context",
+  "task": "020_information-security-principles-practices-and-emerging-trends",
+  "sequence": [
+    "full",
+    "no_shared_context"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 8.6,
+    "Engagement": 8.4,
+    "Depth Appropriateness": 8.8,
+    "Breadth": 8.2
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Clarity\": -0.4, \"Engagement\": -0.3, \"Depth Appropriateness\": -0.5, \"Breadth\": -0.6}",
+  "deltas": {
+    "Clarity": -0.4,
+    "Engagement": -0.3,
+    "Depth Appropriateness": -0.5,
+    "Breadth": -0.6
+  },
+  "calibrated_target_scores": {
+    "Clarity": 8.2,
+    "Engagement": 8.1,
+    "Depth Appropriateness": 8.3,
+    "Breadth": 7.6
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 201488,
+      "completion_tokens": 41,
+      "total_tokens": 201529,
+      "cached_tokens": 0,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

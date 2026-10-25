@@ -1,0 +1,45 @@
+{
+  "task": "003_effective-feedback-practices-in-professional-settings",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "LLM Baseline",
+    "B": "CCA",
+    "C": "Co-STORM"
+  },
+  "raw": "System A:\n  Clarity: 8.2/10\n  Engagement: 7.8/10\n  Depth Appropriateness: 8.0/10\n  Breadth: 8.4/10\nSystem B:\n  Clarity: 8.4/10\n  Engagement: 8.2/10\n  Depth Appropriateness: 8.6/10\n  Breadth: 8.5/10\nSystem C:\n  Clarity: 7.6/10\n  Engagement: 7.4/10\n  Depth Appropriateness: 7.2/10\n  Breadth: 7.8/10\n\nExplanation:\n[A|Clarity] Round 1 response explains the three functions of feedback (developmental, evaluative, relational) and why conflating them undermines both, with a clear transition to calibration in Round 2 (\"too much criticism may discourage people; too much praise may not help them either\"). The Round 3 addition of timing/consent (\"Is now a good time to share some feedback with you?\") is concretely explained. Minor gap: some transitions between sections (e.g., from power dynamics to technology) are listed rather than causally connected.\n\n[A|Engagement] The process tracks the user's broadening intent across three rounds, each response addressing the specific prompt (practices → methods → \"what else\"). The closing summary table consolidates principles into actionable practices. Gap: no mechanism invites the user to apply or test the ideas; the interaction is largely one-directional exposition.\n\n[A|Depth Appropriateness] Foundations (context, purpose) are established before mechanisms (mid-loop failures, receiver-side skills) and conditions (culture, power). The feedback-loop model is explained with enough mechanism (\"most failures happen mid-loop\") without unexplained jargon. Gap: some claims (e.g., \"protocol analysis and think-aloud methods\") are named but not developed enough for the user to apply them.\n\n[A|Breadth] Covers giver skills, receiver skills, timing/consent, cultural variation, failure modes, power dynamics, technology, and skill development, with relationships (e.g., feedback systems shape authority). The list of failure modes is developed with reasons (sandwich erodes trust, overload dilutes signal). Gap: interprofessional and case-based training dimensions (present in C) are absent.\n\n[B|Clarity] The loop model (\"notice, interpret, accept, act\") is introduced and reused consistently across rounds, making transitions easy to follow. Gaming is explained via mechanism (\"incentive realignment plus self-image protection\") and concrete examples (cherry-picking, sandbagging). The verbal-vs-written comparison is explained through loop mechanics rather than asserted.\n\n[B|Engagement] Each round selects a specific, well-motivated question (unintended consequences → gaming detection → frequency calibration → giver training) that builds on the previous answer. The extension sections explicitly connect to the next topic. The closing synthesis flags unresolved questions, inviting further thought without performative questioning.\n\n[B|Depth Appropriateness] Progresses from the loop model to mechanisms (Campbell's law, cognitive load), then to design criteria (four frequency criteria) and training levers. Honest uncertainty is flagged (\"no validated fatigue measure,\" \"triangulation rather than a validated ranking\"). Depth matches the user's investigative intent without assuming prior expertise.\n\n[B|Breadth] Develops gaming, fatigue, informal-dialogue erosion, frequency calibration, verbal-vs-written formats, giver training, peer dialogue design, and culture as boundary condition, with relationships (separating developmental from evaluative channels addresses both gaming and fatigue). The peer-dialogue design section connects demonstration-plus-participation to anti-collusion safeguards.\n\n[C|Clarity] The General Knowledge Provider explains valence theory and the advice-vs-feedback finding clearly (\"asking for 'advice' nudges reviewers toward future outcomes\"). The HR Director's cadence is concrete (five-minute dashboard review, fifteen-minute coaching). Gap: the warm-start discussion of interprofessional feedback orientations is not explicitly connected to the later rounds, so the user may not see why profession-specific differences matter in the general management context.\n\n[C|Engagement] The process uses a multi-role format (Guest, General Knowledge Provider, HR Director) that simulates a discussion, and the HR Director's response directly addresses a gap flagged in the previous turn (\"On your gap: the pilot already bakes in privacy-norm training... but dedicated HR escalation safeguards... aren't specified\"). Gap: the user's own contributions are limited to topic prompts; there is no mechanism for the user to steer or test the ideas.\n\n[C|Depth Appropriateness] The advice-framing study is explained with mechanism (prospection) and boundary conditions (works for improvement, not strengths). The HR Director's cadence is operationally specific. Gap: the interprofessional feedback orientations (warm start) and the weaponization of performance management are introduced but not developed enough for the user to apply them in a general management setting.\n\n[C|Breadth] Covers valence, framing (advice vs feedback, feed-forward), mindset, interprofessional orientations, hierarchy/harmony suppression, supervisor continuity, and a concrete cadence. The relationship between profession-specific orientations and interprofessional collision is explained. Gap: failure modes (gaming, fatigue) and receiver-side skills are less developed than in A and B.",
+  "scores": {
+    "LLM Baseline": {
+      "Clarity": 8.2,
+      "Engagement": 7.8,
+      "Depth Appropriateness": 8.0,
+      "Breadth": 8.4
+    },
+    "CCA": {
+      "Clarity": 8.4,
+      "Engagement": 8.2,
+      "Depth Appropriateness": 8.6,
+      "Breadth": 8.5
+    },
+    "Co-STORM": {
+      "Clarity": 7.6,
+      "Engagement": 7.4,
+      "Depth Appropriateness": 7.2,
+      "Breadth": 7.8
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 151880,
+      "completion_tokens": 1129,
+      "total_tokens": 153009,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

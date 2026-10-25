@@ -1,0 +1,45 @@
+{
+  "task": "049_end-user-personalization-in-human-computer-interaction",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "CCA",
+    "B": "Co-STORM",
+    "C": "LLM Baseline"
+  },
+  "raw": "System A:\n  Clarity: 8.3/10\n  Engagement: 8.5/10\n  Depth Appropriateness: 8.4/10\n  Breadth: 8.2/10\nSystem B:\n  Clarity: 7.6/10\n  Engagement: 7.4/10\n  Depth Appropriateness: 7.2/10\n  Breadth: 7.0/10\nSystem C:\n  Clarity: 7.8/10\n  Engagement: 7.0/10\n  Depth Appropriateness: 7.5/10\n  Breadth: 7.6/10\n\nExplanation:\n[A|Clarity] Round 1 Instructor answer explains the two-layer separation with a concrete framing: \"It's like two layers. The first layer is a portable user model... The second layer is domain-specific adaptation logic,\" and Round 3 Instructor answer explains confidence weighting with an accessible mechanism (\"give each inferred preference a posterior with an uncertainty term... a handful of self-reports with noisy labels gets low weight\"). Transitions between rounds are signposted (\"For part (b)...\"). Minor gap: some terms (e.g., \"capped KL,\" \"NASA-TLX\") appear without full explanation, and Round 2's discussion of \"capability constraints as hard bounds\" is compressed.\n\n[A|Engagement] The process consistently ties responses to the user's stated intent to identify research gaps: Round 1 answer closes with \"cross-domain generalization should be treated as a hypothesis to test,\" Round 2 answer directly addresses the selected question about portable models for blind users, and Round 3 answer connects detection and adaptation (\"the same logging that detects divergence also feeds the inferred layer\"). The student's candidate questions show active narrowing toward a project. Gap: the user never personally selects among candidates in the recorded text (selection appears as system output), so direct user participation is inferred rather than observed.\n\n[A|Depth Appropriateness] Foundations (portable vs. domain-specific model) are established in Round 1 before Round 2 adds layered representation and Round 3 adds confidence-weighted updating and divergence detection — a coherent progression matching the intent to find a project. Trade-offs and boundaries are stated (\"transfer is weaker when user models are domain-bound\"). Gap: some statistical specifics (Beta/Gaussian posteriors, capped KL) are introduced without building up from a simpler explanation, which could exceed the user's prior knowledge (unknown).\n\n[A|Breadth] The interaction develops multiple connected dimensions: generalization architecture (R1), cross-device representation for blind users (R2), confidence weighting and conflict resolution (R3), evaluation metrics (R1, R2), privacy/scrutability (recurring), and divergence detection (R3) — with explicit relationships (e.g., scrutability linked to portable-model safety). Gap: application domains beyond accessibility (recommenders, adaptive learning) are mentioned in the bootstrap overview but not developed in the rounds; personality/style and context axes are absent.\n\n[B|Clarity] Round 1 General Knowledge Provider answer explains EUD vs. personalization with a clear contrast (\"users are experts in their tasks... end-user developers are trying to complete development tasks in which, by definition, they are not experts\"), and Round 2 answer enumerates GenUI gaps with brief explanations (\"software relies on predefined, hard-coded data models\"). Gap: Round 3's HCI researcher answer is dense with statistics (\"78.5% of users mentioning Cognitive Load & Intuition preferred GenUI\") and the caveat about inference vs. demonstration arrives only at the end; the warm-start dialogue's Bayesian hierarchical model discussion is compressed.\n\n[B|Engagement] The warm-start moderator questions (\"should we watch what users *do* or listen to what they *say*\") frame purposeful inquiry, and Round 2 answer directly addresses the user's request to \"identify research gaps and opportunities for a new project\" by listing three barriers. Gap: Round 3 continues autonomously (\"No new user input\") and the researcher's answer, while relevant, does not connect back to the user's specific project intent as directly; the final summary is a consolidation rather than a guided next step.\n\n[B|Depth Appropriateness] Round 1 and Round 2 provide appropriate foundational-to-gap progression for an investigation task. Gap: Round 3 introduces preference statistics and methodological recommendations (longitudinal deployments, benchmark suites) without establishing why those methods fit the user's goal, and the warm-start discussion of Bayesian hierarchical models and affective computing assumes familiarity with these techniques; depth is uneven across turns.\n\n[B|Breadth] Covers definition/scope (R1), types of personalization (warm start, R1), challenges/risks including privacy configuration and justification framing (warm start, final summary), GenUI technical debt (R2), and evaluation methodology (R3) — a reasonable multidimensional set for the investigation intent. Gap: accessibility, adaptive learning, and personality-driven personalization are not developed; the GenUI focus in R2–R3 narrows the breadth relative to the full topic.\n\n[C|Clarity] Round 1 answer structures the definition, user-model sources, applications, and evaluation tensions with clear sectioning and explicit statements (\"personalized and adaptive systems employ user models\"). Round 2 answer explains the edge–cloud split and PEFT in understandable terms (\"shared backbone + personal deltas\"). Gap: Round 2's gap table entries (e.g., G3 \"the sentence is cut off, signaling an unresolved limitation\") rely on the reader noticing truncation rather than an explained reason; some citations ([178], [106]) are referenced without the user being able to see what they denote.\n\n[C|Engagement] Round 2 answer directly responds to the user's request by producing a recommended project direction with work packages, and Round 3 answer adds \"Practical Takeaways for Your Project\" — concrete support for the user's task. Gap: the process is largely a sequence of delivered reports; there is no recorded user contribution beyond the initial prompts, and Round 3's \"What else should I know\" prompt is generic, so involvement is supported by relevance rather than by responsive interaction.\n\n[C|Depth Appropriateness] Foundations in Round 1 (user models, implicit/explicit) precede Round 2's architectural methods and Round 3's trait/context/control axes — a reasonable progression for an investigation goal. Gap: Round 2's discussion of LoRA/PEFT and RUPS validation is presented at a level that assumes familiarity with fine-tuning and conceptual modeling frameworks; the \"cut off\" citation handling leaves a consequential limitation unexplained.\n\n[C|Breadth] Develops definition and evaluation (R1), scalable methods and six research gaps with five opportunities (R2), and personality, context-aware AUIs, and per-app accessibility with four synthesis axes (R3) — genuinely multidimensional with stated relationships (trait/state/context/control). Gap: the four-axis synthesis in Round 3 arrives late and is not connected back to the Round 2 recommended project direction; end-user development, privacy configuration behavior, and GenUI adoption barriers (covered by other systems) are absent, and some enumerated gaps (G1–G10) are listed more than developed.",
+  "scores": {
+    "CCA": {
+      "Clarity": 8.3,
+      "Engagement": 8.5,
+      "Depth Appropriateness": 8.4,
+      "Breadth": 8.2
+    },
+    "Co-STORM": {
+      "Clarity": 7.6,
+      "Engagement": 7.4,
+      "Depth Appropriateness": 7.2,
+      "Breadth": 7.0
+    },
+    "LLM Baseline": {
+      "Clarity": 7.8,
+      "Engagement": 7.0,
+      "Depth Appropriateness": 7.5,
+      "Breadth": 7.6
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 156000,
+      "completion_tokens": 1520,
+      "total_tokens": 157520,
+      "cached_tokens": 0,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

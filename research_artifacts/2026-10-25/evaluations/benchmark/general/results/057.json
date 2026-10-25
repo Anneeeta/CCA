@@ -1,0 +1,44 @@
+{
+  "task": "057_building-a-personal-knowledge-system",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "LLM Baseline",
+    "B": "Co-STORM",
+    "C": "CCA"
+  },
+  "raw": "System A:\n  Clarity: 8.2/10\n  Engagement: 7.6/10\n  Depth Appropriateness: 8.0/10\n  Breadth: 8.4/10\nSystem B:\n  Clarity: 7.4/10\n  Engagement: 6.8/10\n  Depth Appropriateness: 7.2/10\n  Breadth: 7.8/10\nSystem C:\n  Clarity: 8.0/10\n  Engagement: 7.8/10\n  Depth Appropriateness: 8.4/10\n  Breadth: 8.2/10\n\nExplanation:\n[A|Clarity] Round 1 explains the \"inversion\" with a direct quote (\"Instead of *you* maintaining notes... the AI maintains the wiki and you read it\") and Round 2 maps RAG vs. wiki onto interpreted vs. compiled execution with a comparison table, making the central analogy legible. Minor gaps: some CS analogies (write-ahead log, materialized view) are named without unpacking, and Round 3's \"compounding artifact\" concept is asserted more than mechanistically explained.\n\n[A|Engagement] Round 1 closes with targeted offers (\"a concrete agent prompt for the ingestion/synthesis step, a starter set of CS concept pages\") and Round 3 offers to convert failure modes into an INSTRUCTIONS.md checklist — concrete, task-relevant next steps. The user's brief prompts (\"What else should I know?\") are answered substantively but the system does not actively shape the user's participation beyond offering more content.\n\n[A|Depth Appropriateness] Foundations (three-directory structure, inversion) precede mechanisms (pipeline stages, cost model), then trade-offs (RAG vs. wiki cost/freshness table in Round 3). The depth matches a user asking for \"methods and best practices\" in CS. Slight over-reach: Round 2's CS-principle mapping (compiler, WAL) assumes familiarity with those terms without defining them.\n\n[A|Breadth] Covers architecture, workflow, tooling, taxonomy, failure modes, cost trade-offs, contradiction handling, and open gaps (scale, concurrency, metrics, privacy). Round 3's \"Gaps the reference material doesn't cover\" section explicitly marks boundaries. The perspectives are connected (e.g., staleness linked to ingestion cadence) rather than listed.\n\n[B|Clarity] The warm-start dialogue and Round 1 answer explain VaultMind's layout and CLI commands concretely, and Round 2 explains the \"compiled vs. interpreted\" shift. However, Round 1 is heavily tool-descriptive (folder names, emoji directories, CLI flags) with limited explanation of *why* those choices matter, and the final summary compresses many ideas into dense paragraphs that assume the reader tracked the earlier turns.\n\n[B|Engagement] The warm-start moderator questions are genuinely thought-provoking (e.g., \"could AI agents inherit those same bad habits at machine speed?\"), and the expert answers engage with them substantively. However, the user's own prompts are brief topic statements, and the system's responses are largely self-contained essays rather than dialogues that build on the user's specific situation. The Round 3 researcher turn is autonomous, not user-driven.\n\n[B|Depth Appropriateness] Round 2 explains the knowledge-compilation mechanism well and Round 3's researcher turn correctly identifies where the software-build analogy breaks down (\"knowledge doesn't work like that — so 'compilation' has to be an incremental, revisable process\"). The depth is appropriate for a user exploring methods. Some tool-specific details (VaultMind's `--max-touches 5` flag) are more operational than conceptual.\n\n[B|Breadth] The final summary covers behavioral anti-patterns, architecture trade-offs (BlockLink, DBin), capture-to-synthesis workflow, and data-modelling decisions (markdown vs. database). These are meaningfully distinct dimensions with some connections drawn (e.g., behavioral failures upstream of tool choice). The breadth is genuine, though the summary's sectioning into four labeled themes feels somewhat additive rather than fully integrated.\n\n[C|Clarity] The Instructor answers translate expert research into accessible prose with concrete examples (e.g., \"p90 matters more than the median because the pain you feel is the slow tail\"). Round 1's scaling explanation (\"At a few hundred notes you can basically hold the whole thing in your head... At a few thousand, it quietly stops working\") is a clear, well-motivated transition. Some technical terms (version vector, tombstone epoch) appear without full definition, but the surrounding explanation usually carries the meaning.\n\n[C|Engagement] The Student's candidate questions show active problem-framing, and the Instructor answers directly address the selected question with actionable guidance (e.g., \"Set an explicit vault-size threshold... at which you stop hand-filing\"). Round 3's merge-protocol answer includes a concrete validation procedure (\"Seed a test vault with scripted concurrent edits across two or three simulated devices\"). The process feels like guided investigation rather than passive delivery.\n\n[C|Depth Appropriateness] The progression from Round 1 (scaling economics) to Round 2 (threshold calibration, index consistency) to Round 3 (merge protocols, auto-link trust criteria) deepens appropriately. The Instructor consistently flags uncertainty (\"treat the numeric ranges as hypotheses rather than validated thresholds\"), which is epistemically honest. The depth serves a user asking for CS-principled methods without assuming prior expertise in distributed systems.\n\n[C|Breadth] Covers scaling regimes, behavioral signals, index consistency, conflict resolution (version vectors), auto-link validation (precision/recall against gold sets), and tooling features. The dimensions are connected — e.g., the write-time invariant from Round 2 is explicitly linked to Round 3's conflict-note trustworthiness. The final summary's \"Open areas\" section honestly marks what remains unresolved.",
+  "scores": {
+    "LLM Baseline": {
+      "Clarity": 8.2,
+      "Engagement": 7.6,
+      "Depth Appropriateness": 8.0,
+      "Breadth": 8.4
+    },
+    "Co-STORM": {
+      "Clarity": 7.4,
+      "Engagement": 6.8,
+      "Depth Appropriateness": 7.2,
+      "Breadth": 7.8
+    },
+    "CCA": {
+      "Clarity": 8.0,
+      "Engagement": 7.8,
+      "Depth Appropriateness": 8.4,
+      "Breadth": 8.2
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 165022,
+      "completion_tokens": 1247,
+      "total_tokens": 166269,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

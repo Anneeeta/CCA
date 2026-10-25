@@ -1,0 +1,45 @@
+{
+  "task": "040_privacy-in-large-language-models",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 2,
+  "mapping": {
+    "A": "CCA",
+    "B": "LLM Baseline",
+    "C": "Co-STORM"
+  },
+  "raw": "System A:\n  Clarity: 8.2/10\n  Engagement: 7.8/10\n  Depth Appropriateness: 8.5/10\n  Breadth: 8.8/10\nSystem B:\n  Clarity: 7.5/10\n  Engagement: 6.5/10\n  Depth Appropriateness: 6.8/10\n  Breadth: 7.2/10\nSystem C:\n  Clarity: 7.8/10\n  Engagement: 7.0/10\n  Depth Appropriateness: 7.2/10\n  Breadth: 7.5/10\n\nExplanation:\n[A|Clarity] In Round 1, the Instructor explains the static-data assumption with a concrete mechanism: \"an epsilon budget computed at pre-training simply does not cover later stages\" and \"If someone fine-tunes on private records, the formal guarantee is void for that data.\" Round 3's Instructor answer on MemLens explains the diagnostic signature clearly (\"when you strip an input down to a tiny trigger... and the model still produces the correct answer plus a full chain of reasoning, that pattern is hard to explain as genuine reasoning\"). Minor gap: some transitions between sub-questions (e.g., from CI detection to epsilon composition in Round 2) rely on the reader tracking the lifecycle framing without restating why the shift occurs.\n\n[A|Engagement] The process consistently ties responses to the user's stated goal of writing a research proposal. Round 1's Instructor answer closes with \"The practical takeaway is that you should ask, for any privacy technique, which stage it covers, whom it trusts, and what kind of privacy it means\" — directly actionable for proposal framing. Round 3's closing extension (\"a detector or a canary is a proxy, and proxies carry assumptions that fail silently\") gives the user a reusable evaluative lens. Gap: the student's candidate questions drive the direction, but the user's own voice is absent after Round 1's guidance, so involvement is mediated rather than direct.\n\n[A|Depth Appropriateness] The interaction builds from foundational lifecycle framing (Round 1 bootstrap) to progressively more specialized questions: hidden assumptions → CI detection metrics → epsilon composition → MemLens boundary conditions → canary representativeness. Round 3's Instructor answer appropriately labels estimates as unverified (\"no cited source reports calibrated FP/FN rates for quantized, distilled, or RAG-served deployments. Any specific number... would be invented\"), which is exactly the epistemic care a research proposal writer needs. The depth matches an applied-CS research goal without assuming prior expertise.\n\n[A|Breadth] The final synthesis covers memorization/extraction, membership inference, system-level leakage, regulatory tension, hidden assumptions of DP/federated/HE, CI detection families, epsilon composition across lifecycle stages, activation-trajectory detection limits, and canary representativeness — with explicit relationships (e.g., \"CI detection and DP accounting are complementary, not substitutes\"). The breadth is developed rather than enumerated: each dimension is explained with mechanisms and boundaries. The lifecycle framing connects the dimensions coherently.\n\n[B|Clarity] Round 1's response uses a clear lifecycle table and explains the test-time scaling idea (\"giving the model more inference-time 'thinking' or computation can improve privacy behavior\"). Round 2's response explains the adversary-access framework and the privacy paradox well. However, Round 3's response introduces PEARL, split learning, and the five attack paradigms in rapid succession, with the caveat that excerpts are truncated — the user is told to \"retrieve full texts before citing specifics,\" which shifts burden rather than clarifying. Some transitions (e.g., from adversary framework to PEARL's entropy mechanism) are compressed.\n\n[B|Engagement] The responses offer concrete proposal-structuring advice (\"Position your work at the intersection of A and C,\" \"adopt the adversary-access framework as your scoping device\") and end with offers to do more (\"Would you like me to draft a one-page proposal outline...\"). However, the user's guidance is generic (\"To understand existing research...\"), and the system's responses read more like structured reports than dialogues responsive to user contributions. The engagement is purposeful but somewhat one-directional.\n\n[B|Depth Appropriateness] The responses provide useful taxonomies and framings (lifecycle stages, adversary access levels, five attack paradigms) but often stop at naming and one-line functional descriptions. For example, the five attack paradigms are listed with brief definitions but not developed with mechanisms or evidence. PEARL's entropy-aware mechanism is described at a conceptual level (\"apply DP selectively/adaptively based on the entropy of the generation distribution\") without the depth a proposal writer would need to engage it critically. The depth is appropriate for an overview but underdeveloped for the stated goal of writing a research proposal.\n\n[B|Breadth] The interaction covers lifecycle stages, the privacy paradox, safety/security/privacy disambiguation, MIA and attribute inference, adversary-access frameworks, five attack paradigms, DP critiques (PEARL), split learning, and generation-quality metrics. The relationships are sometimes noted (e.g., \"contextual privacy is distinct from training-data privacy\") but often the dimensions sit side by side rather than being developed in tension. The breadth is real but leans toward enumeration with partial connection.\n\n[C|Clarity] The warm-start and Round 1 responses explain memorization mechanisms clearly (\"models memorize until their capacity fills, at which point unintended memorization actually decreases as generalization kicks in\") and the GDPR tension is made concrete (\"models can't easily 'forget' what they've learned\"). Round 3's researcher response explains the auditing gap well (\"auditing of private ICL mechanisms specifically — where the prompt itself encodes sensitive context\" is where \"dedicated auditing is still needed\"). The explanations are generally followable, though some passages (e.g., the ATDP description in the warm-start) compress multiple mechanisms into dense sentences.\n\n[C|Engagement] The warm-start moderator-expert format models a productive question-answer rhythm, and Round 3's researcher role explicitly frames material for the proposal (\"a useful way to frame this for the proposal is distinguishing what's mature from what isn't\"). The responses connect to the user's goal and offer actionable framing. However, the user's own contributions after the initial prompts are absent, and the process is more of a delivered briefing than a co-developed investigation. The engagement is purposeful but not deeply participatory.\n\n[C|Depth Appropriateness] The interaction provides solid foundations (memorization definitions, capacity measurements, GDPR principles) and some specialized material (ContextLeak auditing, canary design). Round 3's researcher response appropriately flags limitations (\"the gathered work leans heavily on one auditing framework... so relative-maturity claims are inferred rather than comparative\"). The depth is workable for a proposal writer but sometimes stays at survey-level description rather than developing mechanisms or trade-offs to the level needed for critical engagement.\n\n[C|Breadth] The final summary covers memorization vs. generalization, capacity scaling laws, GDPR principles and their tension with LLMs, defenses (DP, ATDP, PEARL, Rap-LI, unlearning), privacy auditing (MIA, canaries, ContextLeak), and governance (ICO/EDPB positions). The dimensions are meaningfully explained and partly connected (e.g., defenses tied to lifecycle stages, auditing tied to the limits of theoretical bounds). The breadth is good, though some dimensions (e.g., governance) are developed more as reporting than as analytically connected perspectives.",
+  "scores": {
+    "CCA": {
+      "Clarity": 8.2,
+      "Engagement": 7.8,
+      "Depth Appropriateness": 8.5,
+      "Breadth": 8.8
+    },
+    "LLM Baseline": {
+      "Clarity": 7.5,
+      "Engagement": 6.5,
+      "Depth Appropriateness": 6.8,
+      "Breadth": 7.2
+    },
+    "Co-STORM": {
+      "Clarity": 7.8,
+      "Engagement": 7.0,
+      "Depth Appropriateness": 7.2,
+      "Breadth": 7.5
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 140393,
+      "completion_tokens": 1590,
+      "total_tokens": 141983,
+      "cached_tokens": 140352,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

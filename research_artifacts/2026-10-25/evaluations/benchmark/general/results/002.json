@@ -1,0 +1,45 @@
+{
+  "task": "002_bathroom-remodeling",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "Co-STORM",
+    "B": "CCA",
+    "C": "LLM Baseline"
+  },
+  "raw": "System A:\n  Clarity: 8.2/10\n  Engagement: 7.6/10\n  Depth Appropriateness: 8.4/10\n  Breadth: 8.6/10\nSystem B:\n  Clarity: 7.8/10\n  Engagement: 6.4/10\n  Depth Appropriateness: 8.0/10\n  Breadth: 7.4/10\nSystem C:\n  Clarity: 7.4/10\n  Engagement: 6.8/10\n  Depth Appropriateness: 6.6/10\n  Breadth: 7.0/10\n\nExplanation:\n[A|Clarity] Warm-start moderator/expert exchanges explain mechanisms concretely — e.g., the expert's answer on timing states \"colder months tend to bring lighter contractor workloads and faster permitting turnaround, which can keep you closer to the lower end of that timeline,\" and the tub-vs-shower answer explains why drainage geometry complicates shower installs (\"a bathtub will always have drainage on one side, but showers could have it central or offset\"). The general contractor's Round 3 checklist explains why permits matter (\"it's their license on the line, not yours\") and why change orders need written form (\"verbal agreements become disputes\"). Minor gap: the Round 1 General Knowledge Provider answer mixes U.S. and Chinese pricing without fully reconciling the two frames, which could momentarily confuse.\n\n[A|Engagement] The warm-start dialogue models a question-driven exploration directly tied to the user's intent (contractor/vendor discussions), and Round 3's general contractor delivers a practical pre-signing checklist (\"Before you sign anything, here's a practical checklist of questions to ask—covering scope, budget, timeline, subs, and change orders\"). The final summary consolidates into usable sections. Gap: after Round 2, the user's guidance is autonomous continuation rather than active input, so sustained user participation is partly simulated.\n\n[A|Depth Appropriateness] Depth progresses appropriately: Round 1 gives cost tiers by bathroom size and scope, Round 2 covers pro selection and planning, and Round 3 adds contract-level detail (labor 40–50% of cost, material markup 15–35%, warranty terms). The warm-start answers on hidden conditions (\"corrections can run from $500 to $8,000 or more\") give concrete magnitudes without over-explaining. This matches the user's goal of informed contractor discussions well.\n\n[A|Breadth] The interaction covers cost benchmarks, timing/seasonality, hidden conditions behind walls, tub-vs-shower trade-offs, pro selection, permits, change orders, warranties, and site protection — a genuinely multidimensional view. The final summary connects these into four coherent sections (design professionals, timeline, hidden costs, tub vs. shower). The breadth is developed rather than listed: e.g., the tub/shower section ties cost, structural drainage, and lifestyle fit together.\n\n[B|Clarity] The bootstrap overview is well-structured and explains the four decision layers. Round 1's answer on wet-core trade-offs explains mechanisms (trap-arm limits, fall requirements) with concrete table values (\"roughly 3 ft 6 in for a 1-1/4 in trap arm, about 5 ft for 1-1/2 in\"). The instructor's answers translate technical material into readable prose. Gap: some plumbing-code specifics (DFU loading, wet-venting conditions) appear without full contextualization for a non-plumber, and the final summary's truncated figure (\"45 to [figure truncated]\") leaves an incomplete point visible.\n\n[B|Engagement] The student's selected questions track the user's stated intent (informed contractor discussions) and each round builds on the prior one — wet-core trade-offs → plumbing code thresholds → contingency budgeting → venting options. The instructor's answers end with practical verification steps (\"ask the contractor to state in writing... trap-arm length, pipe diameter, slope, and where it connects to the vent\"). Gap: the user's role is entirely passive after the initial prompts; candidate questions are generated internally, so the user's sense of participation is inferred rather than demonstrated.\n\n[B|Depth Appropriateness] Depth is strong for the technical subtopic chosen: contingency scaling (20–30% for wet-core moves, with explicit scale-up/scale-down factors), trap-arm tables, and venting option rankings are developed with conditions and verification steps. However, the investigation narrows sharply into plumbing-code mechanics, which may exceed what a typical homeowner needs for \"informed discussions with contractors\" — the depth is appropriate to the questions asked but the questions themselves drift from the user's broader intent.\n\n[B|Breadth] The investigation covers accessibility compliance, wet-core retention vs. relocation, plumbing code thresholds, clearance dimensions, contingency budgeting, and venting options — six connected dimensions with explicit trade-off relationships (e.g., \"retention controls cost but caps accessibility compliance, while relocation improves function but adds cost\"). Gap: material selection, aesthetics, ventilation design, and vendor negotiation — all relevant to the user's stated intent — are largely absent from the developed investigation.\n\n[C|Clarity] Round 1's answer explains why function precedes aesthetics (\"before choosing colors or fixtures, list what doesn't work about your current bathroom\") and gives concrete examples (vanity too short for anyone over 5'5\"). Round 2's contractor-process answer clearly distinguishes estimate from final cost. Round 3's trend answer connects smart tech to planning consequences (\"smart tech and layered lighting require electrical planning before walls close\"). Gap: the answers are somewhat list-driven, and some points (e.g., the lighting trade-off example) are introduced without full development.\n\n[C|Engagement] Round 2 directly serves the user's intent with a question table (\"Is this an estimate or final cost? What could raise it?\") and practical vetting advice. Round 3 extends to trend-to-question mapping. The process connects to the user's task of contractor preparation. Gap: the user's only visible input is the initial prompt and one guidance line; the \"What else should I know?\" prompt in Round 3 is generic, and the response's connection to the user's specific project is loose.\n\n[C|Depth Appropriateness] Round 1 and 2 provide workable practical depth for a homeowner preparing for contractor conversations — contingency percentages, bid interrogation, crew vetting. Round 3's trend coverage (NKBA report, Houzz study) is more surface-level, naming trends without developing mechanisms or trade-offs in depth. The overall depth is adequate for the stated intent but does not progressively deepen as the user's questions evolve, since the user's questions themselves remain broad.\n\n[C|Breadth] The three rounds cover design foundations (function, color, tile), contractor process (bids, vetting, written plans), and 2025 trends (wellness, accessibility, luxury coordination). These are relevant and partly connected — e.g., accessibility features linked to resale value and to contractor questions. Gap: cost estimation, timeline expectations, hidden conditions behind walls, and material durability — all central to informed contractor discussions — receive little or no developed treatment. The final summary consolidates what was covered but cannot supply the missing dimensions.",
+  "scores": {
+    "Co-STORM": {
+      "Clarity": 8.2,
+      "Engagement": 7.6,
+      "Depth Appropriateness": 8.4,
+      "Breadth": 8.6
+    },
+    "CCA": {
+      "Clarity": 7.8,
+      "Engagement": 6.4,
+      "Depth Appropriateness": 8.0,
+      "Breadth": 7.4
+    },
+    "LLM Baseline": {
+      "Clarity": 7.4,
+      "Engagement": 6.8,
+      "Depth Appropriateness": 6.6,
+      "Breadth": 7.0
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 144497,
+      "completion_tokens": 1529,
+      "total_tokens": 146026,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

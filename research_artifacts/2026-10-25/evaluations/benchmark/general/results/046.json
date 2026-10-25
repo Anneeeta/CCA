@@ -1,0 +1,45 @@
+{
+  "task": "046_artificial-intelligence-and-copyright-dilemma",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "CCA",
+    "B": "LLM Baseline",
+    "C": "Co-STORM"
+  },
+  "raw": "System A:\n  Clarity: 8.3/10\n  Engagement: 8.5/10\n  Depth Appropriateness: 8.4/10\n  Breadth: 8.7/10\nSystem B:\n  Clarity: 8.1/10\n  Engagement: 7.6/10\n  Depth Appropriateness: 7.9/10\n  Breadth: 8.0/10\nSystem C:\n  Clarity: 7.8/10\n  Engagement: 7.4/10\n  Depth Appropriateness: 7.7/10\n  Breadth: 7.6/10\n\nExplanation:\n[A|Clarity] Round 1 Instructor answer explains the fair use four-factor test with a concrete framing (\"Two big doors get discussed most: the US fair use doctrine and the EU text and data mining (TDM) exception\") and walks through why transformativeness and market effect dominate, making the boundary logic followable. Round 3 similarly explains the evidentiary layers with plain-language distinctions (\"a high ROUGE score is a signal to look closer, not a finding of copying\"). Minor gap: some transitions between the (a) and (b) halves of answers assume the reader is tracking two questions at once.\n\n[A|Engagement] The system tracks the user's law-school-paper intent explicitly and each round's selected question builds on the prior one (training exceptions → evidentiary standards → non-expressive vs. substitutive distinction → Art. 4 opt-out), with the final synthesis tying them together under \"no jurisdiction has a settled safe harbor.\" The closing offers a concrete analytical move (\"separate evidentiary questions from ownership-allocation questions\") that serves the user's stated task. Gap: the user never issues explicit mid-process guidance, so sustained responsiveness is inferred from question chaining rather than demonstrated dialogue.\n\n[A|Depth Appropriateness] Round 2 develops a three-rung evidentiary ladder (process-control evidence, differential test, expert testimony) with Chinese case examples (\"午评\" and \"春风送来了温柔\"), matching the advanced legal-research goal. Round 3 cites specific metrics (BLEU, ROUGE, METEOR) and their known correlation problems, plus Sag's \"jagged frontier\" framing, at a level appropriate for a law school final paper. Gap: some passages (e.g., watermarking robustness) are summarized rather than developed.\n\n[A|Breadth] The final synthesis covers authorship standards across US/EU/UK/China, training-data exceptions, evidentiary standards, moral vs. economic rights, the non-expressive/substitutive distinction, Art. 4 opt-out formalities, and underrepresented-culture generalization failure, with explicit relationships (e.g., how opt-out interpretation connects to lawful access and cross-border divergence). The unresolved-questions list shows boundaries among these dimensions. This is developed coverage rather than a list, since each dimension is explained with mechanisms and examples.\n\n[B|Clarity] Round 2's law-school-paper response structures the argument with a clear thesis (\"structural incoherence in copyright doctrine\") and explains the human-authorship continuum in a table with categories, human contribution, and likely status. Round 3 explains the Napster analogy and Ross Intelligence ruling with appropriate caution (\"Resist over-reading it as a blanket anti-fair-use holding\"). Gap: some transitions between constitutional, economic, and sustainability framings are asserted rather than fully bridged.\n\n[B|Engagement] The response directly addresses the user's stated intent (\"A Law School Final Paper Analysis\") and Round 3 explicitly builds on prior rounds (\"Your paper's doctrinal skeleton is solid, but...\") and offers concrete next steps (\"Would you like me to draft the statutory-licensing section in full prose?\"). Gap: the user provides no mid-process guidance, and the closing invitation is a generic offer rather than a response to a user contribution.\n\n[B|Depth Appropriateness] The four-pillar reform framework and comparative treatment of China/EU/UK/Türkiye match the advanced legal-research goal. Round 3's discussion of statutory license rates, collective management, and open-source equity adds policy depth. Gap: some sections (e.g., the constitutional dimension) are more programmatic than developed, and the evidentiary-gap discussion in Round 2 is brief relative to its importance.\n\n[B|Breadth] The final summary integrates training-side (functional exploitation, Napster/statutory licensing), output-side (authorship, substantial similarity, evidentiary gap), comparative (China/EU/UK/Türkiye), constitutional, and policy-window (EU consultation) dimensions with explicit relationships (e.g., how Ross distinguishes from Google Books). Gap: technical mechanisms (watermarking, provenance tools) and international enforcement divergence receive less development than in System A.\n\n[C|Clarity] Round 2's General Knowledge Provider explains the human-originality test through contrasting cases (\"春风送来了温柔\" vs. \"蝴蝶座椅\"), and Round 3's Copyright law professor explicitly synthesizes them into a boundary standard (\"protectability turns on whether the human exercised substantive creative control\"). The final summary's \"Substantive Creative Control as the Protectability Test\" section is well-explained. Gap: earlier rounds (e.g., Round 1's list of technical fixes like \"WavMark[17], text watermarking[17]\") are dense with citation markers and less explanatory.\n\n[C|Engagement] The warm-start discussion and Round 3's autonomous continuation with a named professor role create a sense of ongoing inquiry, and the professor's contribution (\"I'd push that one step further\") builds productively on prior material. Gap: the user provides no guidance after Round 2, and Round 1's answer is a rapid-fire list rather than a task-connected exploration; the process feels more like delivered content than supported participation.\n\n[C|Depth Appropriateness] Round 3's professor develops the evidentiary markers (iterative prompting, parameter adjustments, reproducibility) with case-specific reasoning appropriate for legal analysis. The final summary's training-data section explains reproduction-right mechanics and three compliance paths. Gap: Round 1's answer is shallow relative to the topic (a list of technical fixes with citation numbers but little explanation), and some final-summary sections (transparency/licensing) are more descriptive than analytical.\n\n[C|Breadth] The final summary covers authorship thresholds (China/EU comparative), humanism principle, training-data copyright, transparency/licensing mechanisms (AMF, ARC), and rights allocation across developers/users/third parties/platforms, with relationships (e.g., how the Two-Tier Matrix explains China-EU divergence). Gap: output-side infringement analysis, cross-border enforcement, and policy reform options are less developed than in Systems A and B, and Round 1's coverage is a list rather than developed dimensions.",
+  "scores": {
+    "CCA": {
+      "Clarity": 8.3,
+      "Engagement": 8.5,
+      "Depth Appropriateness": 8.4,
+      "Breadth": 8.7
+    },
+    "LLM Baseline": {
+      "Clarity": 8.1,
+      "Engagement": 7.6,
+      "Depth Appropriateness": 7.9,
+      "Breadth": 8.0
+    },
+    "Co-STORM": {
+      "Clarity": 7.8,
+      "Engagement": 7.4,
+      "Depth Appropriateness": 7.7,
+      "Breadth": 7.6
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 161698,
+      "completion_tokens": 1439,
+      "total_tokens": 163137,
+      "cached_tokens": 0,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

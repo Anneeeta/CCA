@@ -1,0 +1,43 @@
+{
+  "variant": "no_expert_instructor_separation",
+  "task": "042_drug-and-alcohol-psychological-assessment-tools",
+  "sequence": [
+    "full",
+    "no_expert_instructor_separation"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 8.6,
+    "Engagement": 8.0,
+    "Depth Appropriateness": 8.4,
+    "Breadth": 8.2
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Clarity\": -0.2, \"Engagement\": 0.1, \"Depth Appropriateness\": 0.0, \"Breadth\": 0.3}",
+  "deltas": {
+    "Clarity": -0.2,
+    "Engagement": 0.1,
+    "Depth Appropriateness": 0.0,
+    "Breadth": 0.3
+  },
+  "calibrated_target_scores": {
+    "Clarity": 8.4,
+    "Engagement": 8.1,
+    "Depth Appropriateness": 8.4,
+    "Breadth": 8.5
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 176584,
+      "completion_tokens": 40,
+      "total_tokens": 176624,
+      "cached_tokens": 81920,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

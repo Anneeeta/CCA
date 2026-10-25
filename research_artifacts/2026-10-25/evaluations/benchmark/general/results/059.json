@@ -1,0 +1,44 @@
+{
+  "task": "059_licensing-implications-for-open-source-deep-learning-models-on-github",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "Co-STORM",
+    "B": "CCA",
+    "C": "LLM Baseline"
+  },
+  "raw": "System A:\n  Clarity: 8.2/10\n  Engagement: 7.8/10\n  Depth Appropriateness: 8.0/10\n  Breadth: 8.4/10\nSystem B:\n  Clarity: 8.5/10\n  Engagement: 8.3/10\n  Depth Appropriateness: 8.2/10\n  Breadth: 8.6/10\nSystem C:\n  Clarity: 8.3/10\n  Engagement: 7.5/10\n  Depth Appropriateness: 8.1/10\n  Breadth: 8.0/10\n\nExplanation:\n[A|Clarity] The warm-start dialogue and Round 3 attorney turn explain the AGPLv3 network clause trigger precisely: \"the network clause is triggered by modification of the covered program combined with remote interaction with it. So simply calling an unmodified model through an API may not by itself trigger source disclosure\" — a clear, condition-specific explanation. The final summary's four-layer framing (\"A GitHub deep learning model repository is not one licensed thing. It bundles at least four artifacts\") is also well-explained. Minor gaps: the Round 2 GPLv3 and Apache 2.0 coverage is thin (\"GPLv3 only gets a passing mention as a reciprocity option\"), leaving the user to reconstruct what GPLv3 actually requires.\n\n[A|Engagement] The roundtable-style moderator questions (\"when a license says 'open' but restricts how you can use the model... what does that actually mean for organizations adopting these models\") connect directly to the user's commercialization intent, and the Ultralytics/YOLOv8 case study in Round 3 grounds the abstract question in a concrete vendor scenario the user likely encounters. The engagement is somewhat limited by the autonomous continuation structure — the user did not personally steer Round 3, so the attorney's clarification, while useful, was not responsive to a user-posed follow-up.\n\n[A|Depth Appropriateness] The progression from broad ecosystem context (Rounds 1-2) to the specific AGPLv3 derivative-work boundary (Round 3) matches the user's stated intent well. The attorney's distinction between \"calling an unmodified model through an API\" versus \"distributing modified weights or the training code\" provides the conditional depth needed for a commercialization decision. The final summary appropriately flags uncertainty (\"Whether fine-tuned weights are a derivative work of copyleft training code is unresolved\") rather than overstating settled law.\n\n[A|Breadth] The final summary covers the four artifact layers, copyleft-versus-permissive trade-offs, the AGPLv3 network clause, jurisdictional enforceability (US/EU/China), evidence standards for audit, and metadata failure modes — a well-connected multidimensional picture. The relationship between these dimensions is made explicit (e.g., how weight copyrightability uncertainty weakens copyleft leverage). The breadth is slightly limited by thin GPLv3-specific treatment relative to AGPLv3.\n\n[B|Clarity] The instructor answers consistently separate legal layers with explicit reasoning: \"The AGPLv3 is essentially GPLv3 with an extra trigger: when users interact with a modified version of the program over a network, you must offer those users the Corresponding Source of that program. That clause was written for software. It attaches to the AGPLv3 code and to derivatives of that code. It does not, by its own terms, attach to the Apache 2.0 weight files.\" The four-layer bundle concept is introduced early and used consistently. The evidence-standards answer in Round 3 clearly distinguishes \"process discipline\" from \"legal conclusion.\"\n\n[B|Engagement] The student's selected questions track a coherent investigative arc that mirrors the user's commercialization intent: from the copyleft-versus-permissive trade-off, to the AGPLv3-code/Apache-2.0-weights scenario, to boundary conditions, to evidence standards, to metadata failure modes. Each answer directly addresses the practical question a company would face (\"what are the licensing obligations if a company fine-tunes the weights on private data and sells a hosted inference service to clients\"). The autonomous continuation is handled smoothly — each new question builds on the prior answer's identified uncertainties rather than restarting.\n\n[B|Depth Appropriateness] The progression from foundational reframing (four-layer bundle) through mechanism (network clause, derivative-work boundary) to practical evidence (SBOMs, build provenance, clean-room documentation) serves a user trying to make a commercialization decision. The answers appropriately flag unsettled law (\"Whether fine-tuned weights are a derivative work of the AGPLv3 code is unresolved; no single controlling outcome should be asserted\") rather than providing false certainty. The depth is well-calibrated: enough legal mechanism to inform decisions, without overwhelming with case law the user did not request.\n\n[B|Breadth] The final summary covers artifact-layer licensing, copyleft-versus-permissive trade-offs, the AGPLv3 network clause, derivative-work boundary conditions, jurisdictional enforceability, audit evidence standards, and metadata failure modes — with explicit relationships among them (e.g., how packaging and linking choices \"push a court toward one characterization or the other\"). The breadth is well-developed rather than enumerated: each dimension is explained enough to understand why it matters for the user's commercialization goal.\n\n[C|Clarity] The Round 2 answer provides a clear three-way comparison with explicit mechanisms: \"Apache 2.0 is the most commercially frictionless of the three. No fees, no source-disclosure of your proprietary pipeline, only attribution/notice duties\" versus \"AGPLv3 closes GPLv3's SaaS gap. If you make the model available to users over a network... you must offer the Corresponding Source.\" The consolidated comparison table is genuinely explanatory, not just a list. The Round 3 answer explains permissive-washing concretely: \"A GitHub repository tagged 'Apache-2.0' or 'MIT' does not, by itself, grant you a clean legal right to redistribute.\"\n\n[C|Engagement] The answers directly address the user's stated intent (\"Determine if models licensed under AGPLv3, GPLv3, or Apache 2.0 can be trained on private data and sold to clients without incurring licensing fees\") with a structured comparison that the user can act on. The Round 3 \"What else should I know\" response appropriately extends the analysis without losing the thread. Engagement is somewhat limited by the single-answer-per-round format — there is no visible user steering or follow-up, so the process is more of a delivered report than a sustained dialogue, though the content remains purposeful.\n\n[C|Depth Appropriateness] The Round 2 answer establishes the fee-versus-obligations distinction as a foundation, then develops each license's mechanism (distribution trigger for GPLv3, network trigger for AGPLv3) with appropriate conditionality (\"If you only use the model internally to serve clients (SaaS-style, no distribution of the model itself), GPLv3's distribution trigger is generally not met\"). The Round 3 answer appropriately flags the derivative-work question as \"genuinely unsettled\" and cites the relevant scholarly work without overclaiming. Depth is well-matched to a commercialization decision.\n\n[C|Breadth] The three-round structure covers the compliance payload gap, license drift across platforms, GitHub signal reliability, layered artifact obligations, the three-license commercial comparison, derivative-work uncertainty, and non-license legal layers (AI Act, data protection). The relationships are made explicit (e.g., \"permissive labels are unreliable without the compliance payload\" connects Round 1's audit findings to Round 2's Apache 2.0 analysis). The breadth is slightly narrower than Systems A and B on jurisdictional enforceability and audit-evidence standards, but well-developed on the commercial-use comparison the user specifically requested.",
+  "scores": {
+    "Co-STORM": {
+      "Clarity": 8.2,
+      "Engagement": 7.8,
+      "Depth Appropriateness": 8.0,
+      "Breadth": 8.4
+    },
+    "CCA": {
+      "Clarity": 8.5,
+      "Engagement": 8.3,
+      "Depth Appropriateness": 8.2,
+      "Breadth": 8.6
+    },
+    "LLM Baseline": {
+      "Clarity": 8.3,
+      "Engagement": 7.5,
+      "Depth Appropriateness": 8.1,
+      "Breadth": 8.0
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 148295,
+      "completion_tokens": 1647,
+      "total_tokens": 149942,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

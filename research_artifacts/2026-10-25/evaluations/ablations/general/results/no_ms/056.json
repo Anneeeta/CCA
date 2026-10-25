@@ -1,0 +1,42 @@
+{
+  "variant": "no_ms",
+  "task": "056_benchmarking-chroma-db-against-other-vector-databases-in-llamaindex",
+  "sequence": [
+    "full",
+    "no_ms"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 7.8,
+    "Engagement": 7.2,
+    "Depth Appropriateness": 8.0,
+    "Breadth": 8.0
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Clarity\": -0.2, \"Engagement\": -0.3, \"Depth Appropriateness\": 0.0, \"Breadth\": -0.2}",
+  "deltas": {
+    "Clarity": -0.2,
+    "Engagement": -0.3,
+    "Depth Appropriateness": 0.0,
+    "Breadth": -0.2
+  },
+  "calibrated_target_scores": {
+    "Clarity": 7.6,
+    "Engagement": 6.9,
+    "Depth Appropriateness": 8.0,
+    "Breadth": 7.8
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 191258,
+      "completion_tokens": 40,
+      "total_tokens": 191298,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "task": "066_infosys",
+  "status": "complete",
+  "protocol": "exploration_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "LLM Baseline",
+    "B": "CCA",
+    "C": "Co-STORM"
+  },
+  "raw": "System A:\n  Inquiry Relevance: 6.5/10\n  Perspective Expansion: 6.0/10\n  Evidence-Based Progress: 6.5/10\n  Incremental Value: 6.5/10\n  Adaptive Coherence: 6.0/10\nSystem B:\n  Inquiry Relevance: 7.5/10\n  Perspective Expansion: 8.0/10\n  Evidence-Based Progress: 7.5/10\n  Incremental Value: 7.5/10\n  Adaptive Coherence: 7.5/10\nSystem C:\n  Inquiry Relevance: 6.0/10\n  Perspective Expansion: 5.5/10\n  Evidence-Based Progress: 6.0/10\n  Incremental Value: 6.0/10\n  Adaptive Coherence: 6.0/10\n\nExplanation:\n[A|Inquiry Relevance] Round 1's answer to \"Infosys (Domain: science -> applied science -> computer science)\" stayed on-topic (Science Foundation Series, IT company, CS interview topics) but was largely descriptive rather than investigative; Round 2 directly addressed the investment-intent prompt with a bull/bear structure; Round 3's \"What else should I know\" answer pivoted to AI products, which is pertinent but somewhat loosely tied to the investment question. Pertinent but not consistently consequential.\n\n[A|Perspective Expansion] Round 2 introduced a useful bull/bear tension table (AI roadmap vs. deflationary legacy risk), and Round 3 reframed \"AI as roadmap\" into \"shipped products + Topaz + RAG case study.\" Several relevant perspectives developed, though the automotive/vertical-practice angle (a major System B theme) was never explored.\n\n[A|Evidence-Based Progress] Round 2 used retrieved evidence (Investor AI Day, $300–400B market, ₹2,050 targets, stock slide) to bound the investment question; Round 3 added Smart Insights, Topaz, and the oil & gas RAG case as concrete artifacts, while explicitly flagging that the material is \"largely Infosys's own marketing.\" Support is connected to claims with limitations acknowledged, but no independent financial verification was performed.\n\n[A|Incremental Value] Round 2 delivered a structured investment assessment (1.5–3.5% CC guidance, analyst targets, deflationary risk); Round 3 added distinct product-level evidence (Smart Insights on Microsoft Marketplace, Topaz pillars, Bedrock RAG engineering) that materially reframed the \"just a roadmap\" concern. Useful additions accumulate with some repetition of the AI narrative.\n\n[A|Adaptive Coherence] Rounds 2 and 3 follow the user's prompts sequentially (investment assessment → \"what else\"), and Round 3 explicitly builds on Round 2's \"roadmap\" framing. However, Round 1's CS-domain answer is only loosely connected to the later investment thread, and the system never adapts to the deeper structural questions (certifications, vertical P&L) that the intent arguably requires.\n\n[B|Inquiry Relevance] Round 1 selected a well-aimed question about whether ELIV 2026 is a vertical practice, marketing showcase, or delivery capability; Round 2 asked about ISO 26262/AUTOSAR/ASPICE certification ownership; Round 3 asked about delivery-unit/P&L integration. Each question directly serves the investment-viability intent by probing what is actually being bought versus marketed. Consistently purposeful.\n\n[B|Perspective Expansion] The three rounds develop a genuinely new three-layer distinction (marketing showcase vs. vertical practice vs. distinct delivery capability), the direct-vs-partner certification split as a decisive variable for prime-contractor eligibility, and the ECU→SDV capability-stress analysis (fixed-price scoping, end-stage QA, siloed teams). These are consequential, task-relevant reframings that materially extend the investigation.\n\n[B|Evidence-Based Progress] Round 2 carefully distinguishes capability claims from certificate holdings (\"the one explicit partner signal is 'in collaboration with in-tech'\"), flags IDC MarketScape as \"an analyst placement, not a certification register,\" and marks the prime-sub contract restructuring as inference. Round 3 adds job-posting evidence ($40–50M portfolios) for the P&L question. Uncertainty is productively bounded rather than resolved by assertion.\n\n[B|Incremental Value] Round 1 delivers the vertical-layering insight plus hidden prerequisites (data governance, legacy documentation); Round 2 delivers the certification-ownership gap and SDV rework drivers; Round 3 delivers the P&L/account-ownership evidence and the evidence-typing framework (certificate register > partner disclosure > marketing page). Each round adds distinct, well-founded understanding with little repetition.\n\n[B|Adaptive Coherence] The three rounds form a clear cumulative chain: what is the automotive presence → who holds the certifications → how is it organized and accounted for. Each selected question builds on the prior answer's unresolved points (e.g., Round 2's certification question follows Round 1's \"boundary\" flag about safety-critical work). The final summary consolidates demonstrated contributions without inventing transitions.\n\n[C|Inquiry Relevance] Round 1's answer to the CS-domain prompt covered university collaborations and R&D spend, which is pertinent; Round 2 addressed the investment prompt but explicitly noted missing financials (\"the sources don't include revenue growth, margins, valuation, or share price\"). The Round 3 analyst request for revenue growth, EBIT margin, and valuation multiples is well-aimed but was not answered in the record. Relevant but incomplete.\n\n[C|Perspective Expansion] Round 1 added university partnerships (Purdue, Aarhus) and R&D expenditure; Round 2 added the Cursor partnership and Topaz Fabric. These are relevant but mostly additive facts rather than developed reframings; the analyst's Round 3 challenge (does the 39% pull-request gain show up in financials?) is a good perspective but remains unanswered.\n\n[C|Evidence-Based Progress] Round 2 used the Cursor press release (39% pull-request increase, 64% of Fortune 1000) but correctly flagged the absence of financial data as \"a clear limitation.\" Round 3's analyst request explicitly asks for the missing evidence but receives no response in the record. Support is honestly bounded but does not advance the core investment question.\n\n[C|Incremental Value] Round 1 adds research-collaboration facts; Round 2 adds the Cursor/Topaz partnership and scale (330,000+ employees, 63 countries); Round 3's analyst turn identifies the key missing evidence but delivers no resolution. Useful additions exist but the central investment question remains largely unanswered.\n\n[C|Adaptive Coherence] The warm-start history (founding, GDM, governance, IPO) provides context; Rounds 1–2 follow the user's prompts; Round 3's analyst role appropriately challenges the tech narrative with a request for financials. The progression is coherent, but the unanswered analyst request leaves the inquiry incomplete rather than adaptively continued.\n\nNote: All three systems were assessed on the visible recorded process. System B's evidence is largely from Infosys marketing pages and job postings, which it explicitly flags; System A's evidence is from retrieved news and product pages, also flagged as marketing-heavy; System C's evidence is from press releases and financial data aggregators, with honest acknowledgment of missing data. No source verification was performed beyond what is visible in the supplied records.",
+  "scores": {
+    "LLM Baseline": {
+      "Inquiry Relevance": 6.5,
+      "Perspective Expansion": 6.0,
+      "Evidence-Based Progress": 6.5,
+      "Incremental Value": 6.5,
+      "Adaptive Coherence": 6.0
+    },
+    "CCA": {
+      "Inquiry Relevance": 7.5,
+      "Perspective Expansion": 8.0,
+      "Evidence-Based Progress": 7.5,
+      "Incremental Value": 7.5,
+      "Adaptive Coherence": 7.5
+    },
+    "Co-STORM": {
+      "Inquiry Relevance": 6.0,
+      "Perspective Expansion": 5.5,
+      "Evidence-Based Progress": 6.0,
+      "Incremental Value": 6.0,
+      "Adaptive Coherence": 6.0
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 103402,
+      "completion_tokens": 1591,
+      "total_tokens": 104993,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

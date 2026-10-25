@@ -1,0 +1,43 @@
+{
+  "variant": "random_selection",
+  "task": "018_the-latest-advances-in-anti-aging-research",
+  "sequence": [
+    "full",
+    "random_selection"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 8.5,
+    "Engagement": 8.2,
+    "Depth Appropriateness": 8.4,
+    "Breadth": 8.0
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Clarity\": -0.3, \"Engagement\": 0.1, \"Depth Appropriateness\": 0.0, \"Breadth\": 0.2}",
+  "deltas": {
+    "Clarity": -0.3,
+    "Engagement": 0.1,
+    "Depth Appropriateness": 0.0,
+    "Breadth": 0.2
+  },
+  "calibrated_target_scores": {
+    "Clarity": 8.2,
+    "Engagement": 8.299999999999999,
+    "Depth Appropriateness": 8.4,
+    "Breadth": 8.2
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 176920,
+      "completion_tokens": 40,
+      "total_tokens": 176960,
+      "cached_tokens": 81920,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

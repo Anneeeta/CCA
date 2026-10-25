@@ -1,0 +1,43 @@
+{
+  "variant": "no_ms",
+  "task": "033_komondor-the-mop-dog",
+  "sequence": [
+    "full",
+    "no_ms"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 8.5,
+    "Engagement": 8.0,
+    "Depth Appropriateness": 8.6,
+    "Breadth": 8.4
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Clarity\": 0.3, \"Engagement\": 0.2, \"Depth Appropriateness\": 0.1, \"Breadth\": 0.4}",
+  "deltas": {
+    "Clarity": 0.3,
+    "Engagement": 0.2,
+    "Depth Appropriateness": 0.1,
+    "Breadth": 0.4
+  },
+  "calibrated_target_scores": {
+    "Clarity": 8.8,
+    "Engagement": 8.2,
+    "Depth Appropriateness": 8.7,
+    "Breadth": 8.8
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 116421,
+      "completion_tokens": 41,
+      "total_tokens": 116462,
+      "cached_tokens": 116352,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

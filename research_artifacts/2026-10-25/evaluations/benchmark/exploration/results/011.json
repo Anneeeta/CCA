@@ -1,0 +1,47 @@
+{
+  "task": "011_application-of-artificial-intelligence-in-preserving-intangible-cultural",
+  "status": "complete",
+  "mapping": {
+    "A": "LLM Baseline",
+    "B": "Co-STORM",
+    "C": "CCA"
+  },
+  "raw": "System A:\n  Inquiry Relevance: 8.0/10\n  Perspective Expansion: 7.0/10\n  Evidence-Based Progress: 7.5/10\n  Incremental Value: 7.5/10\n  Adaptive Coherence: 7.5/10\nSystem B:\n  Inquiry Relevance: 6.5/10\n  Perspective Expansion: 6.5/10\n  Evidence-Based Progress: 6.0/10\n  Incremental Value: 6.0/10\n  Adaptive Coherence: 6.0/10\nSystem C:\n  Inquiry Relevance: 8.5/10\n  Perspective Expansion: 8.5/10\n  Evidence-Based Progress: 7.5/10\n  Incremental Value: 8.0/10\n  Adaptive Coherence: 8.5/10\n\nExplanation:\n[A|Inquiry Relevance] Round 1 directly addressed the broad topic prompt with a structured overview of AI-ICH application domains; Round 2's prompt (\"latest advancements and methodologies\") was answered with case categories and systematic-review methodology; Round 3 (\"What else should I know?\") was answered with technical pipeline detail, institutional map, and risk specificity. All three rounds serve the stated goal without gratuitous clarification.\n\n[A|Perspective Expansion] Round 3 developed the \"living vs. digital\" tension and the specific operational questions (\"Who owns the training data when a StyleGAN is fine-tuned on a community's embroidery patterns?\"), extending beyond the Round 1/2 framing. However, most perspectives (community-centeredness, consent, IP) were already explicit in the retrieved UNESCO sources rather than newly developed by the system.\n\n[A|Evidence-Based Progress] Round 3 used the Shu embroidery study's concrete technical details (StyleGAN3, ADA, A100 GPUs) to ground claims about small-data constraints, and Round 2 cited the systematic review's screening protocol (466→203 articles) to characterize evidence maturation. Claims are appropriately bounded (\"plausible design hypotheses\" language appears in Round 3's uncertainty flagging), though source passages are not independently verified.\n\n[A|Incremental Value] Round 1 established the three application domains and risk table; Round 2 added the systematic-review evidence base and institutional geography; Round 3 added the concrete engineering pipeline and the \"archive as interlocutor\" reframing. Each round contributes distinct material, though Round 2 partially repeats Round 1's domain descriptions.\n\n[A|Adaptive Coherence] The three rounds build cumulatively: Round 1's framework is extended in Round 2 with methodological specificity, and Round 3 responds to the open-ended \"what else\" prompt by adding technical depth rather than repeating. The final summary accurately consolidates the demonstrated progression without inventing transitions.\n\n[B|Inquiry Relevance] The warm-start dialogue explored ownership, human-machine collaboration, licensing models, and data colonialism—all pertinent to the topic. Round 1's General Knowledge Provider answer directly addressed the topic prompt with UNESCO cases and a scoping review. Round 2 shifted to \"latest advancements\" with specific percentage gains (54%/52%/41%). Round 3's AI Research Scientist follow-up on benchmarks and evaluation protocols is well-targeted but arrives as an information request rather than a developed answer.\n\n[B|Perspective Expansion] The warm-start introduced indigenous data sovereignty, the Pacific Model Law licensing spectrum, and \"intergenerational transmission disorder\"—genuinely distinct perspectives. Round 1 added the Dual-Path Integration Model and Chinese policy context. Round 2's focus on multimodal generative systems and their measured gains extends the technical perspective. However, Round 3's follow-up question is posed but not answered within the record, limiting developed expansion.\n\n[B|Evidence-Based Progress] Round 1 cited the scoping review of 102 studies and the \"Henan ICH One Map\" case; Round 2 cited specific percentage improvements from a multimodal system study and appropriately flagged them as \"early-stage and fast-moving rather than settled consensus.\" The warm-start's licensing discussion cited specific legal instruments (Pacific Model Law Clause 9, US Indian Arts and Crafts Act 1990). Support is relevant but the Round 3 question about benchmarks remains unanswered.\n\n[B|Incremental Value] The warm-start provided licensing model details and indigenous data sovereignty frameworks not present in the topic prompt. Round 1 added the Dual-Path Integration Model and Chinese institutional examples. Round 2 added specific quantitative claims with appropriate caveats. Round 3's unanswered question adds a research direction but no developed content. Cumulative value is moderate with some repetition of UNESCO webinar content across rounds.\n\n[B|Adaptive Coherence] The warm-start's five Q&A pairs build thematically around governance and community rights. Round 1 responds to the topic prompt with broad coverage; Round 2 narrows to technical advancements; Round 3's follow-up on benchmarks logically extends Round 2's percentage claims. However, the record ends with an unanswered information request, and the final summary's sections on \"Community Involvement in Data Governance\" and \"Ownership and Control of Digital Records\" largely repackage warm-start content rather than demonstrating new progression.\n\n[C|Inquiry Relevance] Round 1's selected question (\"How can AI documentation avoid freezing living practices...\") directly targets the core tension in the topic. Round 2's question about \"concrete design mechanisms\" operationalizes Round 1's principles. Round 3's question about \"hidden prerequisite\" in versioned records probes a specific failure mode of Round 2's mechanism. Each question builds on the preceding answer's identified gaps.\n\n[C|Perspective Expansion] Round 1 developed the \"archive as tombstone vs. interlocutor\" reframing with five concrete mechanisms. Round 2 expanded to promotion systems' hidden assumptions (audience, authenticity, ownership) and the \"assumption register\" concept. Round 3 introduced the silent failure mode of re-ingestion decay and the conjunctive consent model for lineage-bounded traditions—genuinely new perspectives with clear implications for design.\n\n[C|Evidence-Based Progress] Round 1 grounded claims in UNESCO's 2003 Convention framing and the Jino multimodal RAG example. Round 2 cited the Singapore Tamil/Malay encyclopedia case for schema authorship and the traditional festival ritual study for recommendation algorithm risks. Round 3 cited digital-divide evidence (rural/age gradient) and the Sarawak smartphone-bridge finding, appropriately flagging that \"re-ingestion decay rates in ICH archives specifically\" remain unmeasured. Limitations are preserved.\n\n[C|Incremental Value] Round 1 delivered five operational mechanisms with evaluation criteria. Round 2 delivered the promotion-side analysis and the assumption register concept. Round 3 delivered detection process metrics (canary checks, correction latency), graduated response design, and the conjunctive consent model. Each round adds distinct, actionable understanding with minimal repetition.\n\n[C|Adaptive Coherence] The three rounds form a clear progression: principles (R1) → mechanisms and promotion risks (R2) → failure modes and boundary conditions (R3). Round 3's question explicitly references Round 2's \"versioned living records\" mechanism and probes its unstated prerequisite. The final summary accurately tracks this progression and honestly flags unresolved questions (decay rates, dispute mechanism testing) rather than claiming resolution.",
+  "scores": {
+    "LLM Baseline": {
+      "Inquiry Relevance": 8.0,
+      "Perspective Expansion": 7.0,
+      "Evidence-Based Progress": 7.5,
+      "Incremental Value": 7.5,
+      "Adaptive Coherence": 7.5
+    },
+    "Co-STORM": {
+      "Inquiry Relevance": 6.5,
+      "Perspective Expansion": 6.5,
+      "Evidence-Based Progress": 6.0,
+      "Incremental Value": 6.0,
+      "Adaptive Coherence": 6.0
+    },
+    "CCA": {
+      "Inquiry Relevance": 8.5,
+      "Perspective Expansion": 8.5,
+      "Evidence-Based Progress": 7.5,
+      "Incremental Value": 8.0,
+      "Adaptive Coherence": 8.5
+    }
+  },
+  "ranking": [],
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 129897,
+      "completion_tokens": 1551,
+      "total_tokens": 131448,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

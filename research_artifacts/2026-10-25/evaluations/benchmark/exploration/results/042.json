@@ -1,0 +1,48 @@
+{
+  "task": "042_drug-and-alcohol-psychological-assessment-tools",
+  "status": "complete",
+  "protocol": "exploration_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "Co-STORM",
+    "B": "LLM Baseline",
+    "C": "CCA"
+  },
+  "raw": "System A:\n  Inquiry Relevance: 8.5/10\n  Perspective Expansion: 8.0/10\n  Evidence-Based Progress: 8.5/10\n  Incremental Value: 8.5/10\n  Adaptive Coherence: 8.5/10\nSystem B:\n  Inquiry Relevance: 8.0/10\n  Perspective Expansion: 7.5/10\n  Evidence-Based Progress: 7.5/10\n  Incremental Value: 8.0/10\n  Adaptive Coherence: 7.5/10\nSystem C:\n  Inquiry Relevance: 8.5/10\n  Perspective Expansion: 8.5/10\n  Evidence-Based Progress: 8.0/10\n  Incremental Value: 8.0/10\n  Adaptive Coherence: 8.5/10\n\nExplanation:\n[A|Inquiry Relevance] Warm-start moderator questions target the actual decision points of the task (e.g., \"what's the real trade-off between administration burden and psychometric depth—and how do you decide which is right for your setting?\"), and Round 3's clinical psychologist question directly follows the non-profit intent: \"do we risk sacrificing diagnostic precision—and what trade-offs in sensitivity and specificity are acceptable.\" Directions consistently serve the stated goal.\n\n[A|Perspective Expansion] The warm-start expert develops a workflow-fidelity perspective not present in the initial tool list: \"misclassified visit types in the appointment calendar led to missed screenings... providers also admitted sometimes forgetting to review results.\" The cultural-validity discussion adds that \"at previously recommended cut points, sensitivities diverged significantly\" across racial groups, materially extending how tools must be interpreted.\n\n[A|Evidence-Based Progress] Claims are tied to specific comparative figures: \"the CAGE at sensitivity 0.698 and specificity 0.705, versus the AUDIT-C at 0.748 and 0.842\" and DAST \"Cronbach's alpha of 0.95... 0.74–0.92 across studies.\" The cultural section bounds uncertainty by noting overall AuROCs >0.85 but cutoff-level divergence, distinguishing what is supported from what remains setting-dependent.\n\n[A|Incremental Value] Successive turns add distinct content: Round 1 contributes CAT-SUD psychometrics (\"averaged only 11 items in about 2 minutes while correlating 0.91\"), Round 2 contributes non-profit selection criteria from the NADA project, and Round 3 raises the brief-vs-comprehensive precision trade-off. Each adds a usable decision input rather than restating the tool list.\n\n[A|Adaptive Coherence] The warm-start sequence moves logically from tool inventory → trade-off → workflow → cultural validity, and Round 3's expert question (\"Given that brief screens are often favored in resource-limited non-profits...\") directly chains the non-profit intent onto the earlier psychometric discussion, showing cumulative tracking of unresolved issues.\n\n[B|Inquiry Relevance] Round 1 delivers a broad but on-topic taxonomy of screening, assessment, and outcome tools; Round 2 explicitly reframes for the stated intent: \"a structured review of the assessment tools from the previous overview, filtered through the practical realities of a non-profit healthcare organization.\" The directions serve the user's goal, though Round 1's scope is somewhat encyclopedic rather than investigative.\n\n[B|Perspective Expansion] Round 2 introduces a tiered selection framework (Tier 1 free/brief vs Tier 3 proprietary) and a CASP-style appraisal lens (\"is the evidence trustworthy and appropriate for my setting?\"); Round 3 adds response-bias and neuropsychological perspectives (\"Brief screens (AUDIT, DAST) assume honest self-report... denial, minimization, and secondary gain... are common\"). These are relevant extensions, though some are presented as general guidance rather than developed investigations.\n\n[B|Evidence-Based Progress] Round 2 grounds claims in concrete constraints and a named project (NADA's \"client treatment outcome measuring tool, an online data collection system\"), and Round 3 cites a specific study (\"Maccarone, 2025... MMPI-3 shows utility in predicting substance-use related problems\"). However, much of the tiering and recommendation logic rests on general reasoning rather than comparative empirical support, and Round 2 itself concedes \"the source doesn't name specific instruments.\"\n\n[B|Incremental Value] The user receives a usable tiered battery recommendation (\"AUDIT-C + DAST-10... PHQ-9 + GAD-7... C-SSRS\"), an implementation checklist, and later a stepped-care model plus personality/neuropsych additions. These are distinct, actionable contributions beyond the initial tool list, though some checklist items are conventional rather than newly derived.\n\n[B|Adaptive Coherence] Round 2 explicitly builds on Round 1 (\"a structured review of the assessment tools from the previous overview\"), and Round 3 responds to the open-ended \"What else should I know\" by extending into personality, validity, and ethics. The progression is cumulative, though Round 3's breadth slightly dilutes focus on the non-profit thread.\n\n[C|Inquiry Relevance] The student's selected questions track the user's guidance precisely: Round 1 selects cross-cultural validity (\"How do drug and alcohol psychological assessment tools perform when applied to populations with different cultural backgrounds\"), Round 2 selects the non-profit AUDIT-vs-ASI decision (\"In a non-profit healthcare setting with limited resources, how should we decide between...\"), and Round 3 follows up on the reference-window and IRIS threads. Each selection is purposeful at the time it is made.\n\n[C|Perspective Expansion] The instructor develops a \"funnel-layer\" reframing (\"The AUDIT-versus-ASI decision is not a fair fight between two equal options. They sit at different layers of the assessment funnel\") and a reference-window perspective (\"recall accuracy decays as the reference window lengthens\"). Round 3's IRIS-vs-translated-AUDIT discussion adds a culturally targeted design path versus adaptation, materially extending how tool choice is conceptualized.\n\n[C|Evidence-Based Progress] The instructor carefully bounds claims: \"there are no established head-to-head cost-effectiveness trials of AUDIT versus ASI in non-profit settings... Treat any claim of proven comparative cost-effectiveness as an evidence gap, not a finding,\" while citing unit-cost figures ($23 vs $248 vs $393). Round 3 similarly marks the 3-month AUDIT window as \"an unresolved evidence gap\" rather than asserting a number, and distinguishes IRIS's validation evidence from unproven superiority.\n\n[C|Incremental Value] The user gains a decision rule (universal brief screen → targeted ASI), a concrete staffing model (SBIRT front-desk/MA workflow), explicit uncertainty boundaries (no head-to-head cost data; no 3-month AUDIT validation), and a culturally targeted alternative (IRIS with its development and prison-validation studies). These are distinct, usable contributions across rounds.\n\n[C|Adaptive Coherence] Round 2's question directly operationalizes Round 1's cross-cultural/self-report themes into the non-profit setting; Round 3's selected question (\"how does changing the reference period... affect its sensitivity and specificity\") extends the cutoff/window issue flagged in Round 2's answer (\"set your cutoff for the setting\"). The instructor's answers explicitly link back (\"Both parts hinge on the same principle — a score is only meaningful inside the population and reference frame that produced it\").",
+  "scores": {
+    "Co-STORM": {
+      "Inquiry Relevance": 8.5,
+      "Perspective Expansion": 8.0,
+      "Evidence-Based Progress": 8.5,
+      "Incremental Value": 8.5,
+      "Adaptive Coherence": 8.5
+    },
+    "LLM Baseline": {
+      "Inquiry Relevance": 8.0,
+      "Perspective Expansion": 7.5,
+      "Evidence-Based Progress": 7.5,
+      "Incremental Value": 8.0,
+      "Adaptive Coherence": 7.5
+    },
+    "CCA": {
+      "Inquiry Relevance": 8.5,
+      "Perspective Expansion": 8.5,
+      "Evidence-Based Progress": 8.0,
+      "Incremental Value": 8.0,
+      "Adaptive Coherence": 8.5
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 142213,
+      "completion_tokens": 1582,
+      "total_tokens": 143795,
+      "cached_tokens": 0,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

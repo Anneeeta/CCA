@@ -1,0 +1,44 @@
+{
+  "task": "090_quantum-cryptography",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "CCA",
+    "B": "Co-STORM",
+    "C": "LLM Baseline"
+  },
+  "raw": "System A:\n  Clarity: 8.2/10\n  Engagement: 7.6/10\n  Depth Appropriateness: 8.4/10\n  Breadth: 8.6/10\nSystem B:\n  Clarity: 7.4/10\n  Engagement: 6.8/10\n  Depth Appropriateness: 6.6/10\n  Breadth: 6.4/10\nSystem C:\n  Clarity: 8.0/10\n  Engagement: 7.2/10\n  Depth Appropriateness: 7.6/10\n  Breadth: 7.8/10\n\nExplanation:\n\n[A|Clarity] Round 1 Instructor answer explains side-channel attacks with a concrete mechanism: \"an attacker shines bright light on Bob's detectors to force them into a classical mode where they click deterministically, letting Eve learn the basis choices without disturbing the quantum signal.\" Round 3 Instructor answer explains decoy-state breakdown via three named knobs with reasons (\"If nu is too close to mu, the linear system relating measured gains to underlying yields becomes ill-conditioned\"). Transitions between rounds are marked by explicit \"Extension:\" statements. Minor gap: some equations (s_{Z,1}^L, log2(1/P_g)) appear without full derivation, and the shift from messenger-application framing (Round 2) to decoy-state physics (Round 3) is only loosely connected to the original messenger intent.\n\n[A|Engagement] The system selects questions that build on prior answers (Round 2 question on hybrid PQC-QKD attack surfaces directly follows Round 1's side-channel discussion), and the Instructor answers include practical recommendations (\"the honest posture is hybrid PQC-first for the messenger's general traffic\"). Gap: the user's original messenger-application intent is only loosely maintained in Round 3, which pivots to decoy-state parameter regimes without explicit user guidance to do so.\n\n[A|Depth Appropriateness] Round 1 provides foundational QKD overview then Round 2-3 develop mechanisms (finite-key bounds, phase-tracking PSD models) with concrete numbers (\"~10^12 signals at 25 dB loss\", \"mu ~ 0.3-0.6\"). The progression from principles to implementation failure modes serves the \"investigate principles and explore implementation\" intent well. Minor gap: some advanced concepts (GEAT, entropy accumulation) are named without full explanation.\n\n[A|Breadth] Covers QKD protocols (BB84, E91, MDI, DI, TF-QKD), hardware side channels, PQC comparison, hybrid architectures, messenger deployment, and standardization. Round 2 explicitly connects QKD trust models to messenger application trade-offs. The final synthesis organizes these into coherent relationships (complementary QKD/PQC, security parameter envelope concept). This is well-developed multidimensional coverage rather than a laundry list.\n\n[B|Clarity] Round 1 General Knowledge Provider answer explains SDN/IoMT framework with concrete components (\"adds two security planes: a Blockchain Plane... and a Quantum Security Plane\"). Round 3 Quantum physicist answer explains QBER thresholds with numbers (\"with 4% baseline noise Eve can intercept ~29.2% of qubits while staying under 11%\"). Gap: the transition from Round 1 (SDN/IoMT) to Round 2 (messenger applications) is abrupt, and the Round 3 answer introduces entanglement-based bounds (25%/75%) without fully connecting them to the earlier 11% threshold discussion.\n\n[B|Engagement] The warm-start dialogue includes a moderator question about UAV DoS attacks that connects to the broader quantum cryptography topic, and the expert answers provide concrete examples. However, the Round 1 answer focuses on SDN/IoMT frameworks rather than directly addressing the user's \"quantum cryptography\" domain prompt, and the Round 3 answer is a \"Further Details\" addition rather than a response to new user guidance. The process feels more like a series of expert monologues than a responsive dialogue.\n\n[B|Depth Appropriateness] Round 3 provides specific QBER thresholds (11%, 25%) and attack fractions (29.2%, 13%), which is appropriate depth for understanding BB84 security. However, Round 1's SDN/IoMT framework discussion is relatively shallow (mostly naming components and citing formal verification methods without explaining how they work), and the messenger application discussion in Round 2 is brief. The depth is uneven across rounds.\n\n[B|Breadth] Covers QKD principles, BB84 security thresholds, SDN/IoMT architectures, UAV security, and messenger applications. However, the connections between these aspects are weak — the SDN/IoMT framework (Round 1) is not connected to the messenger applications (Round 2), and the UAV discussion (warm start) is tangential. The final summary organizes these into sections but does not develop relationships between them (e.g., how SDN orchestration might apply to messenger QKD deployment).\n\n[C|Clarity] Round 1 answer clearly distinguishes QKD from PQC and explains Shor's/Grover's algorithms with concrete implications (\"AES-128 → ~64-bit security\"). Round 2 answer explains how each messenger implementation maps principles to code (\"Kyber's KEM replaces ECDH; Dilithium signatures replace ECDSA/RSA\"). The comparative table in Round 2 is well-structured. Minor gap: the Round 3 answer introduces CV-QKD's key fraction formula (K∞ = β·I(A,B) − χ(B:E)) without fully explaining the Holevo bound's meaning.\n\n[C|Engagement] The system responds to the user's \"investigate principles and explore implementation\" intent by providing both theoretical foundations (Round 1) and concrete messenger implementations (Round 2). Round 3's \"What else should I know?\" prompt is answered with practical deployments (Signal PQXDH, iMessage PQ3) that connect to the messenger theme. However, the process is largely one-directional — the system provides comprehensive answers without inviting user participation or checking understanding.\n\n[C|Depth Appropriateness] Round 1 provides appropriate foundational depth (QKD principles, PQC standardization). Round 2 develops implementation details with concrete trade-offs (\"Larger keys and signatures than ECC (affects bandwidth, storage, and mobile UX)\"). Round 3 introduces formal security models and CV-QKD at a reasonable level for someone who has followed the earlier rounds. The depth progression from principles → implementation → frontier is coherent.\n\n[C|Breadth] Covers QKD (BB84, CV-QKD), PQC (ML-KEM, ML-DSA, SLH-DSA), messenger implementations (PQ-SecureMsg, Quantum-Secure-Messenger), formal security models, real-world deployments (Signal, iMessage), and standardization/policy. Round 2's comparative analysis connects these dimensions (\"For real-world messenger deployment today, PQC-based frameworks are the pragmatic path\"). The final synthesis explicitly relates QKD and PQC as complementary. This is well-developed multidimensional coverage with clear relationships.",
+  "scores": {
+    "CCA": {
+      "Clarity": 8.2,
+      "Engagement": 7.6,
+      "Depth Appropriateness": 8.4,
+      "Breadth": 8.6
+    },
+    "Co-STORM": {
+      "Clarity": 7.4,
+      "Engagement": 6.8,
+      "Depth Appropriateness": 6.6,
+      "Breadth": 6.4
+    },
+    "LLM Baseline": {
+      "Clarity": 8.0,
+      "Engagement": 7.2,
+      "Depth Appropriateness": 7.6,
+      "Breadth": 7.8
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 158863,
+      "completion_tokens": 1503,
+      "total_tokens": 160366,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

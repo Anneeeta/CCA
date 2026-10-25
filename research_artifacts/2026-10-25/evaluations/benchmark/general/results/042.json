@@ -1,0 +1,44 @@
+{
+  "task": "042_drug-and-alcohol-psychological-assessment-tools",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "Co-STORM",
+    "B": "LLM Baseline",
+    "C": "CCA"
+  },
+  "raw": "System A:\n  Clarity: 8.2/10\n  Engagement: 7.6/10\n  Depth Appropriateness: 8.0/10\n  Breadth: 8.4/10\nSystem B:\n  Clarity: 8.4/10\n  Engagement: 8.2/10\n  Depth Appropriateness: 8.3/10\n  Breadth: 8.6/10\nSystem C:\n  Clarity: 8.6/10\n  Engagement: 8.0/10\n  Depth Appropriateness: 8.4/10\n  Breadth: 8.2/10\n\nExplanation:\n[A|Clarity] In the warm-start dialogue, the expert explains the two-bucket structure of screening versus assessment tools and why co-occurring bipolar disorder raises the stakes (\"proper assessment is especially critical for people with co-occurring conditions like bipolar disorder\"), and later explains the COSMIN-based psychometric comparison between CAGE and AUDIT-C with concrete sensitivity/specificity numbers. The Round 3 clinical psychologist's question about \"trade-offs in sensitivity and specificity\" is well-framed but the record does not show a developed answer to it, leaving that transition unresolved.\n\n[A|Engagement] The warm-start moderator's questions are concrete and task-relevant (e.g., \"what's the real trade-off between administration burden and psychometric depth—and how do you decide which is right for your setting?\"), and the expert answers with a practical rule (\"favor brief tools when rapid, low-burden screening is the priority... favor comprehensive tools like the DAST-20 when diagnostic precision... matter more\"). However, the Round 3 expert question is posed without a recorded response, so the user's involvement in that thread is not established.\n\n[A|Depth Appropriateness] The expert provides mechanism-level detail where it matters, e.g., explaining that TAPS Part 1 is a four-item screen with gender-specific alcohol quantity questions and Part 2 is a yes/no check on past-three-month use, and giving DAST-20's Cronbach's alpha range (0.74–0.92) across studies. The depth is appropriate for a healthcare practitioner audience, though the unanswered Round 3 question represents a missed opportunity to go deeper on the brief-screen precision trade-off.\n\n[A|Breadth] The dialogue covers brief screens (S2BI, AUDIT-C, TAPS, CAGE, Opioid Risk Tool, ASSIST-Lite), comprehensive tools (ASSIST, DAST-20, full TAPS), computerized adaptive tests (CAT-SUD, DSQ-CAT), implementation/workflow evidence from the three-clinic TAPS study, and cross-cultural validity (AUDIT-C performance across White/African American/Hispanic patients, Canadian/UK Army cutoffs). These dimensions are connected through the funnel logic of screening-to-assessment, though the non-profit-specific angle from Round 2 is only lightly developed.\n\n[B|Clarity] The Round 1 answer opens with a clear three-purpose framework (\"screening... assessment... outcome measurement\") and presents tools in organized tables with brief explanations, e.g., \"AUDIT... 10 items; WHO-developed; widely validated; AUDIT-C is a 3-item short form.\" The Round 2 answer explicitly frames the non-profit lens (\"Limited budget... Favor free/public-domain or low-cost instruments\") and uses a tiered structure that is easy to follow. The Round 3 answer explains broadband personality measures' \"incremental validity\" in accessible terms.\n\n[B|Engagement] Round 2 directly addresses the user's non-profit intent with a practical implementation checklist (\"Confirm each tool's licensing/cost... Train staff on administration and positive-result protocols\") and a recommended core battery, making the user's task concrete. Round 3's \"What else should I know?\" prompt is answered with organized additions (personality measures, neuropsychology, validity/response bias, cultural validity, stepped-care models) that extend rather than repeat prior content.\n\n[B|Depth Appropriateness] The tiered review in Round 2 provides appropriate depth for a non-profit decision-maker, distinguishing \"Tier 1—Strongly Recommended\" from \"Tier 3—Use with Caution\" with specific caveats (e.g., \"SCID-5... proprietary, costly, lengthy—Better for research/specialist settings\"). Round 3 adds neuropsychological and personality-assessment depth (MMPI-3, PAI) with practical non-profit caveats (\"Proprietary and time-intensive (~50–60 min); typically requires a licensed psychologist\"). The depth progression from general overview to setting-specific to advanced considerations is coherent.\n\n[B|Breadth] The three rounds cover screening tools, comprehensive assessments, outcome measures, co-occurring mental health screening, non-profit-specific selection criteria (cost, licensing, staffing, workflow), critical appraisal (CASP lens), broadband personality measures (MMPI-3, PAI), neuropsychological assessment, validity/response bias, cultural/linguistic validity, stepped-care models, and emerging directions (EMA, biomarkers). The relationships between these dimensions are made explicit, e.g., \"Stepped-care models let you deploy expensive tools (PAI, MMPI-3, neuropsych) where they add most value, within budget.\"\n\n[C|Clarity] The instructor's answers consistently explain mechanisms before conclusions, e.g., in Round 1: \"a score is only meaningful inside the population that produced it... Work from Nepal makes this concrete: ethnicity itself changed how relevant individual AUDIT items were.\" The Round 2 answer explains the AUDIT-versus-ASI distinction as a \"funnel-layer decision, not a like-for-like comparison\" and walks through the unit-cost logic ($23 vs. $248 vs. $393) to make the trade-off tangible. The Round 3 answer explains the reference-window mechanism clearly: \"Shortening the window to the past 3 months narrows the sampling frame... The likely consequence is lower sensitivity... while specificity may rise.\"\n\n[C|Engagement] The student's selected questions are well-targeted to the user's intent (e.g., Round 2: \"In a non-profit healthcare setting with limited resources, how should we decide between implementing a brief screen like AUDIT versus a more comprehensive tool like the ASI?\"), and the instructor answers with actionable guidance (\"Use AUDIT as the default first-stage screen and reserve ASI for cases where multidimensional need profiling will actually change the care plan\"). The extension notes (e.g., \"One closely related concept is the reference window\") provide productive next-step framing without performative questioning.\n\n[C|Depth Appropriateness] The progression from Round 1 (cross-cultural validity and self-report assumptions) to Round 2 (non-profit tool selection and workflow integration) to Round 3 (reference-window effects and IRIS-versus-translated-AUDIT evidence) develops appropriate depth for each question. The instructor explicitly marks evidence gaps (\"there is no direct validation of a 3-month AUDIT reference window in low-resource non-profit clinics... treat this as an unresolved evidence gap, not a finding\"), which is appropriate epistemic practice rather than a depth failure. The depth serves a practitioner audience making concrete tool-selection decisions.\n\n[C|Breadth] The dialogue covers cross-cultural performance (Nepal AUDIT work, IRIS development and prison validation), self-report assumptions (comprehension, recall, honesty, shared definitions), non-profit selection criteria (cost, feasibility, staffing), workflow integration (SBIRT-style staffing model), reference-window effects, and the IRIS-versus-translated-AUDIT comparison. The relationships between these dimensions are developed, e.g., linking cultural targeting to workflow fit (\"Cultural acceptability is a real advantage—a tool people will actually complete and answer honestly beats a psychometrically superior tool they won't\"). The unresolved questions at the end (reference-window trade-offs, head-to-head IRIS comparison) honestly mark the boundaries of the developed breadth.",
+  "scores": {
+    "Co-STORM": {
+      "Clarity": 8.2,
+      "Engagement": 7.6,
+      "Depth Appropriateness": 8.0,
+      "Breadth": 8.4
+    },
+    "LLM Baseline": {
+      "Clarity": 8.4,
+      "Engagement": 8.2,
+      "Depth Appropriateness": 8.3,
+      "Breadth": 8.6
+    },
+    "CCA": {
+      "Clarity": 8.6,
+      "Engagement": 8.0,
+      "Depth Appropriateness": 8.4,
+      "Breadth": 8.2
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 141887,
+      "completion_tokens": 1682,
+      "total_tokens": 143569,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

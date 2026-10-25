@@ -1,0 +1,43 @@
+{
+  "variant": "no_ms",
+  "task": "035_key-technologies-in-pipeline-engineering-and-gas-storage-facility-constr",
+  "sequence": [
+    "full",
+    "no_ms"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 8.1,
+    "Engagement": 7.9,
+    "Depth Appropriateness": 8.3,
+    "Breadth": 8.0
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Clarity\": 0.3, \"Engagement\": 0.2, \"Depth Appropriateness\": 0.2, \"Breadth\": 0.2}",
+  "deltas": {
+    "Clarity": 0.3,
+    "Engagement": 0.2,
+    "Depth Appropriateness": 0.2,
+    "Breadth": 0.2
+  },
+  "calibrated_target_scores": {
+    "Clarity": 8.4,
+    "Engagement": 8.1,
+    "Depth Appropriateness": 8.5,
+    "Breadth": 8.2
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 192400,
+      "completion_tokens": 41,
+      "total_tokens": 192441,
+      "cached_tokens": 0,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

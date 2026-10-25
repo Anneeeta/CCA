@@ -1,0 +1,47 @@
+{
+  "task": "021_emissions-from-cooking-food",
+  "status": "complete",
+  "mapping": {
+    "A": "CCA",
+    "B": "Co-STORM",
+    "C": "LLM Baseline"
+  },
+  "raw": "System A:\n  Inquiry Relevance: 8.5/10\n  Perspective Expansion: 8.5/10\n  Evidence-Based Progress: 8.5/10\n  Incremental Value: 8.5/10\n  Adaptive Coherence: 8.5/10\nSystem B:\n  Inquiry Relevance: 6.5/10\n  Perspective Expansion: 6.0/10\n  Evidence-Based Progress: 6.0/10\n  Incremental Value: 6.0/10\n  Adaptive Coherence: 6.5/10\nSystem C:\n  Inquiry Relevance: 7.0/10\n  Perspective Expansion: 5.5/10\n  Evidence-Based Progress: 6.0/10\n  Incremental Value: 6.5/10\n  Adaptive Coherence: 6.5/10\n\nExplanation:\n[A|Inquiry Relevance] Round 1 selected a question on how cooking methods affect indoor air quality and exposure trade-offs, directly matching the user's stated goal of understanding fundamental cooking-emission aspects. Round 2 shifted to sensor failure modes and hood validation, and Round 3 to hidden emission-factor assumptions and fuel-vs-food attribution—all consequential next steps for a literature review, though the Round 2 pivot to sensor calibration is somewhat narrower than the \"fundamental aspects\" framing.\n\n[A|Perspective Expansion] The interaction developed several perspectives not explicit in the starting bootstrap: the burst-dominated nature of frying emissions violating steady-state assumptions (Round 3), the distinction between emission factor and actual exposure (Round 1), and the fuel-vs-food attribution problem requiring a no-food burner baseline (Round 3). These are specific and consequential reframings.\n\n[A|Evidence-Based Progress] The expert responses cite specific studies (ACP 24:12295, LBNL capture-efficiency modeling, LCM performance studies) and use them to bound claims—e.g., noting that \"stir-frying, deep-frying and baking can show similar emission factors\" but that this \"does not mean identical exposures.\" Limitations are explicitly flagged (e.g., \"method-specific low-cost calibration factors for cooking aerosol are sparse\").\n\n[A|Incremental Value] Each round delivered distinct understanding: Round 1 established the method-emissions hierarchy and practice-emissions tension; Round 2 provided concrete sensor failure modes and a crossover validation design; Round 3 revealed hidden EF assumptions and the NOx/PM2.5 ratio logic. The no-food burner baseline concept in Round 3 is a genuinely useful investigative tool.\n\n[A|Adaptive Coherence] The rounds build cumulatively: Round 1's emission-factor extension leads naturally to Round 3's examination of EF assumptions; Round 2's sensor discussion connects to Round 3's measurement caveats. The user guidance in Round 2 (\"comprehensive literature review\") is addressed by broadening from exposure to measurement validity.\n\n[B|Inquiry Relevance] The warm-start dialogue covered atmospheric fate of cooking VOCs, urban air quality, commercial kitchen electrification, and source apportionment discrepancies—all relevant to cooking emissions. Round 1 addressed PM measurement methodology in Ecuador, and Round 2 covered COF composition and aldehyde formation. However, the warm-start topics (commercial kitchen economics, combi oven markets) drift from the user's \"fundamental aspects\" framing.\n\n[B|Perspective Expansion] The warm-start developed the perspective that cooking VOCs are underestimated in emission inventories (NEI underestimates by 5-10x) and that lab-derived profiles fail in real urban air. Round 3's environmental chemist added aldehyde formation mechanisms. However, these perspectives are mostly presented as findings rather than developed as investigative directions for the user's project.\n\n[B|Evidence-Based Progress] The warm-start expert cited NOAA CSL findings (21% of urban VOCs from cooking) and specific aldehyde species, and Round 3 cited thermo-oxidation mechanisms above 180°C. However, the connection between evidence and the user's research project remains loose—the evidence supports general claims but doesn't clearly advance a specific unresolved question the user posed.\n\n[B|Incremental Value] The user received useful additions: the atmospheric fate perspective, the aldehyde formation chemistry, and the discrepancy between lab profiles and ambient measurements. However, much of the warm-start content (commercial kitchen economics, combi oven market data) is tangential to a fundamental-aspects literature review, and the Round 1-2 responses are relatively generic reviews rather than project-specific guidance.\n\n[B|Adaptive Coherence] The warm-start topics are diverse but not clearly sequenced toward the user's goal. Round 1's Ecuador PM study and Round 2's COF review address the topic but don't explicitly build on the warm-start's atmospheric chemistry perspective. The Round 3 environmental chemist does connect back to Round 2's aldehyde mention, showing some cumulative development.\n\n[C|Inquiry Relevance] Round 1 directly addressed cooking emissions by method with a clear ranking. Round 2 provided a comprehensive literature review structure. Round 3 addressed measurement technology and atmospheric aging—relevant advanced topics. However, the Round 1 response includes tangential material on dietary choices and food waste that goes beyond \"emissions from cooking food.\"\n\n[C|Perspective Expansion] The interaction identified the shift from descriptive inventories to mechanistic science and the recognition of cooking as a major urban POA source. However, these are presented as field-level observations rather than developed as specific perspectives the user can apply to their project. The low-cost sensor discussion in Round 3 is useful but generic.\n\n[C|Evidence-Based Progress] The responses cite specific concentration ranges and study findings (e.g., \"PM fractions span roughly 5.0–48.4 μg m⁻³ in residential settings\") and reference WHO/IPCC reports. However, the evidence is largely aggregated rather than used to compare explanations or resolve specific uncertainties. The Round 3 discussion of gas-particle partitioning is conceptually useful but lacks specific findings.\n\n[C|Incremental Value] The user received a structured overview with method rankings, pollutant types, and research frontiers. The Round 3 discussion of FIGAERO-CIMS and PMF methodology provides actionable investigation steps. However, much of the content is review-level synthesis rather than project-specific guidance, and the dietary/food-waste material in Round 1 is tangential.\n\n[C|Adaptive Coherence] The three rounds follow a logical progression from fundamentals to advanced topics. Round 2 explicitly builds on Round 1's method ranking, and Round 3 extends to measurement and chemistry frontiers. However, the connection between rounds is more sequential than responsive—the user's guidance doesn't clearly shift between rounds, and the responses don't explicitly reference prior contributions.",
+  "scores": {
+    "CCA": {
+      "Inquiry Relevance": 8.5,
+      "Perspective Expansion": 8.5,
+      "Evidence-Based Progress": 8.5,
+      "Incremental Value": 8.5,
+      "Adaptive Coherence": 8.5
+    },
+    "Co-STORM": {
+      "Inquiry Relevance": 6.5,
+      "Perspective Expansion": 6.0,
+      "Evidence-Based Progress": 6.0,
+      "Incremental Value": 6.0,
+      "Adaptive Coherence": 6.5
+    },
+    "LLM Baseline": {
+      "Inquiry Relevance": 7.0,
+      "Perspective Expansion": 5.5,
+      "Evidence-Based Progress": 6.0,
+      "Incremental Value": 6.5,
+      "Adaptive Coherence": 6.5
+    }
+  },
+  "ranking": [],
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 154841,
+      "completion_tokens": 1419,
+      "total_tokens": 156260,
+      "cached_tokens": 101504,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

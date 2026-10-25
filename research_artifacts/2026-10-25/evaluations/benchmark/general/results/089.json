@@ -1,0 +1,44 @@
+{
+  "task": "089_adaptive-geomagnetic-indoor-navigation-system-by-anomaly-detection-feedb",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "Co-STORM",
+    "B": "CCA",
+    "C": "LLM Baseline"
+  },
+  "raw": "System A:\n  Clarity: 7.8/10\n  Engagement: 7.2/10\n  Depth Appropriateness: 7.5/10\n  Breadth: 8.0/10\nSystem B:\n  Clarity: 8.2/10\n  Engagement: 8.0/10\n  Depth Appropriateness: 8.3/10\n  Breadth: 8.5/10\nSystem C:\n  Clarity: 7.5/10\n  Engagement: 7.0/10\n  Depth Appropriateness: 7.2/10\n  Breadth: 7.8/10\n\nExplanation:\n[A|Clarity] In the warm-start discussion, the expert explains the disturbance index mechanism clearly: \"The system builds a geomagnetic disturbance index from three complementary features—modulus shift, direction shift, and short-time frequency domain energy—to flag typical anomaly intervals such as elevators, machine rooms, and high-voltage cable zones.\" The final summary also explains the map-adaptation decision logic with understandable criteria (residual magnitude, persistence, spatial coverage). However, some transitions between rounds—particularly the shift from the warm-start Q&A to the formal literature-search intent in Round 2—lack an explicit bridge explaining why the General Knowledge Provider's answer pivots to filtering literature rather than continuing the anomaly-detection thread.\n\n[A|Engagement] The warm-start moderator's questions are concrete and task-relevant (e.g., \"What if the secret to pinpoint indoor navigation isn't a stronger signal at all—but the tiny magnetic anomalies already hiding in every building's walls?\"), which draws the user into the core idea. However, in Rounds 1–3 the user's role is largely passive: the \"Guest\" posts topic statements and the system autonomously continues without user steering, so the sense of the user driving the investigation is weaker than in System B.\n\n[A|Depth Appropriateness] The final summary provides layered treatment—temporal instability, map adaptation vs. re-mapping, device heterogeneity—with mechanisms and conditions (e.g., \"persistent shifts in the observed signature signal structural change and justify updating the map, while short-lived deviations are treated as transient\"). The depth is appropriate for a paper-development goal. A gap is that the feedback-control stability question, flagged as needing \"independent justification,\" is acknowledged but not developed further, leaving a consequential point at surface level.\n\n[A|Breadth] The summary covers fingerprint instability, map maintenance decisions, device heterogeneity, and cites multiple source types (patents, IEEE IoT Journal, GiPStech). The relationships among these dimensions—e.g., how anomaly classification drives the local-adapt-vs-remap decision—are explained. The breadth is strong, though the communications-journal framing (energy, network overhead) that the user's Round 2 intent implies is only lightly touched via the FPNet/802.11bf mention.\n\n[B|Clarity] The instructor's answers develop mechanisms with concrete reasoning, e.g., \"The loop is only identifiable where the fingerprint gradient along the path exceeds the combined bias- and heading-induced field error,\" and the structural-vs-transient discriminator is explained via spatial-temporal signature rather than amplitude. The progression from validation metrics to temporal-stability assumptions to boundary conditions is logically sequenced and each answer explicitly connects back to the selected question. Minor gap: some jargon (e.g., \"Mahalanobis residual gate,\" \"limit-cycle oscillation\") is used without full unpacking, though context makes the intent inferable.\n\n[B|Engagement] The student's candidate questions are well-motivated with rationales tied to the user's stated goal (e.g., \"Scalability and calibration are central to the topic, and understanding the challenges is essential for designing adaptive systems that generalize\"). The instructor answers directly address the selected question and close with actionable extensions (\"The living-map idea is the natural companion here\"). The user's guidance in each round steers the next question, creating a genuine sense of a directed investigation rather than passive delivery.\n\n[B|Depth Appropriateness] The answers build from foundations (what the fingerprint is, why it fails) to consequential detail (specific detector designs, routing policies, metric definitions with units and conditions). The instructor explicitly flags untested assumptions: \"the pool confirms the detector design and routing policy, but it does not supply validated stability bounds for elevators, carts, and rotating machinery, so treat those as untested assumptions.\" This honest calibration of depth to evidence is appropriate for a paper-development goal. The depth is consistently matched to the evolving questions across all three rounds.\n\n[B|Breadth] The three rounds systematically cover validation metrics, temporal-stability assumptions and loop redesign, and boundary conditions/sensor-quality assumptions—each a distinct and important dimension of the target problem. The relationships among them are drawn (e.g., how sensor bias affects the residual SNR that determines boundary-condition convergence). The final summary consolidates these into a coherent multidimensional picture including unresolved questions. This is well-developed breadth, not a laundry list, because each dimension is explained with mechanisms and conditions.\n\n[C|Clarity] The Round 1 answer explains the architecture with a clear table mapping controllers to inputs and actions, and states the conceptual inversion explicitly: \"anomalies are the signal, not the noise.\" The Round 3 answer organizes concerns into themed sections with concrete examples (e.g., \"a person carrying a magnet, a phone case with a magnetic clasp, a passing forklift\"). However, some transitions between rounds are abrupt—the shift from Round 2's literature-search framing to Round 3's \"What else should I know?\" is handled but the connection to the user's evolving needs is less explicit than in System B.\n\n[C|Engagement] The Round 1 and Round 2 answers close with concrete offers (\"Would you like me to (a) draft the Related Work section prose, (b) build the detailed gap/comparison table...\"), which are task-relevant invitations rather than performative. The Round 3 answer's failure-mode table and \"single most important thing\" framing are engaging and practical. However, the user's actual participation is limited to posting prompts; the system does not visibly build on user contributions across rounds in the way System B's student-expert loop does.\n\n[C|Depth Appropriateness] The answers provide appropriate depth for a paper-development goal: the anomaly-detection module is explained with both statistical and learned approaches, the feedback loop's actuators are specified, and the stability question is flagged as the differentiator. The Round 3 answer appropriately deepens into calibration observability and class imbalance. A gap is that some claims (e.g., \"device-agnostic calibration removes the need to calibrate each phone model individually\") are asserted without the mechanism-level justification that the user would need to defend them in a paper.\n\n[C|Breadth] The three rounds cover system architecture, literature clusters with a gap analysis, and practical/physics/standards considerations including a failure-mode table. The relationships among these—e.g., how the physics of ferromagnetic hysteresis motivates persistent-anomaly classification, which in turn motivates the map-adaptation controller—are drawn. The communications-journal framing (energy, edge/cloud split, privacy) is explicitly developed, which directly serves the user's stated venue goal. The breadth is strong, though some Round 3 items (OGC IndoorGML, GDPR) are named with only brief explanation of their relevance.",
+  "scores": {
+    "Co-STORM": {
+      "Clarity": 7.8,
+      "Engagement": 7.2,
+      "Depth Appropriateness": 7.5,
+      "Breadth": 8.0
+    },
+    "CCA": {
+      "Clarity": 8.2,
+      "Engagement": 8.0,
+      "Depth Appropriateness": 8.3,
+      "Breadth": 8.5
+    },
+    "LLM Baseline": {
+      "Clarity": 7.5,
+      "Engagement": 7.0,
+      "Depth Appropriateness": 7.2,
+      "Breadth": 7.8
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 164866,
+      "completion_tokens": 1566,
+      "total_tokens": 166432,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

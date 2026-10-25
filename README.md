@@ -135,10 +135,14 @@ the selected paths; it is not a selector for a different run.
 
 ## Repository scope
 
-This update publishes the core interactive program, runtime configurations, and
-documentation. Experiment runners, batch drivers, evaluators, test programs,
-datasets, raw results, model weights, manuscript sources, and populated `.env`
-files are outside this repository's release scope.
+This repository publishes the core interactive program, runtime configurations,
+and documentation. The [research artifacts](research_artifacts/README.md) also
+provide the manuscript's accepted benchmark and ablation evaluations, archived
+inputs and generation trajectories, de-identified human ratings, token usage,
+and offline statistical reproduction scripts.
+
+Experiment runners, paid batch drivers, test programs, model weights, manuscript
+sources, credentials, and local worker logs are outside the release scope.
 
 ## License
 

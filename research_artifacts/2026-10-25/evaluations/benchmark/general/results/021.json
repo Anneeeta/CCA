@@ -1,0 +1,45 @@
+{
+  "task": "021_emissions-from-cooking-food",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "CCA",
+    "B": "Co-STORM",
+    "C": "LLM Baseline"
+  },
+  "raw": "System A:\n  Clarity: 8.3/10\n  Engagement: 8.5/10\n  Depth Appropriateness: 8.7/10\n  Breadth: 8.8/10\nSystem B:\n  Clarity: 7.6/10\n  Engagement: 6.8/10\n  Depth Appropriateness: 7.2/10\n  Breadth: 7.4/10\nSystem C:\n  Clarity: 7.8/10\n  Engagement: 6.5/10\n  Depth Appropriateness: 7.0/10\n  Breadth: 7.6/10\n\nExplanation:\n[A|Clarity] Round 1 Instructor answer explains the oil-based vs water-based split with mechanism (\"Heat drives oil volatilization followed by condensation into fine droplets\") and connects it to exposure; Round 3 Instructor answer explains the emission-factor formula's hidden assumptions in plain terms (\"quietly assumes a well-mixed kitchen of constant volume\"). Minor gap: some quantitative anchors (e.g., \"hundreds to a few thousand µg/m³\") are presented as bounds without full derivation, but the caveat is stated.\n\n[A|Engagement] The Student's candidate questions are explicitly tied to the user's research-project intent (e.g., \"Clarifying the dominant chemical pathway... is essential for interpreting PM metrics and prioritizing mitigation\"), and each Instructor answer closes with an \"Extension\" concept (emission factor, no-food burner baseline) that connects rounds into a coherent research narrative rather than isolated answers.\n\n[A|Depth Appropriateness] The interaction progresses from foundational mechanism (Round 1: method-dependent PM2.5 and chemical composition) to measurement failure modes (Round 2: sensor saturation, humidity bias) to hidden assumptions in emission-factor calculations (Round 3: dilution, steady-state, complete-capture), matching the user's stated goal of a comprehensive literature review for a research project. The depth is appropriate for a research-oriented user without assuming prior expertise is absent.\n\n[A|Breadth] The interaction covers emission types and sources, method-dependent exposure, sensor calibration and failure modes, hood validation designs, fuel-vs-food attribution, and mitigation trade-offs, with explicit relationships (e.g., \"similar emission factors do not mean similar exposure\"). The final synthesis integrates these into a coherent multidimensional picture. A minor gap: outdoor/ambient and climate dimensions are mentioned in the bootstrap overview but not developed in the dialogue rounds.\n\n[B|Clarity] Round 1 General Knowledge Provider answer explains PM measurement methodology clearly (background subtraction, C(t)/Cb normalization) but the connection to the user's broader \"emissions from cooking food\" intent is thin; Round 2 answer explains COF composition and influencing factors but flags its own gaps (\"the gathered sources don't give quantitative emission factors\"). The final summary is well-organized but some transitions between sections (e.g., from VOC atmospheric fate to commercial kitchen economics) are not explained.\n\n[B|Engagement] The warm-start dialogue shows purposeful question-answer exchanges on atmospheric fate and urban air quality, but the later rounds (1-2) are single-turn knowledge deliveries with limited connection to the user's evolving task; the user's guidance (\"Conduct a comprehensive literature review\") is acknowledged but the response does not build on prior turns or invite continued exploration.\n\n[B|Depth Appropriateness] Round 3 Environmental chemist answer provides appropriate mechanistic depth on aldehyde formation (thermo-oxidation, hydrolysis, polymerization above 180°C) and specific toxic species, matching a research-project goal. However, Round 1's depth is limited to measurement methodology without broader emission characterization, and the final summary's breadth sometimes comes at the cost of depth within each section.\n\n[B|Breadth] The final summary covers VOC atmospheric fate, urban air quality contribution, commercial kitchen barriers, emission inventory discrepancies, economics, and aldehyde chemistry—multiple relevant dimensions. However, some sections (e.g., commercial combi oven market economics) are tangential to the core \"cooking emissions\" topic, and the relationships between indoor emission characterization and outdoor atmospheric fate are stated but not deeply developed.\n\n[C|Clarity] Round 1 answer clearly explains the cooking-method emission ranking with a table of indoor concentrations and practical takeaways; Round 2 answer provides a structured literature review with clear sections on pollutant types, fuel dependence, and health impacts. The final summary is well-organized with numbered sections and a conclusion. Minor gap: some quantitative values (e.g., \"0.54 mg m⁻³ CO\") are presented without full context on measurement conditions.\n\n[C|Engagement] The interaction follows a logical progression from fundamentals to advanced topics (low-cost sensors, atmospheric aging), and the final summary includes practical recommendations for both households and research design. However, the user's role is passive throughout—there are no user contributions beyond the initial prompts, and the system does not use the user's guidance to shape subsequent turns in a participatory way.\n\n[C|Depth Appropriateness] The interaction builds from foundational emission rankings (Round 1) to comprehensive literature review (Round 2) to advanced measurement and atmospheric chemistry (Round 3), appropriate for a research-project goal. However, some advanced topics (e.g., FIGAERO-CIMS, gas-particle partitioning) are introduced with limited explanation of why they matter for the user's specific project, and the depth within each section is sometimes uneven.\n\n[C|Breadth] The interaction covers emission methods, pollutant types, fuel dependence, health/climate impacts, measurement technology, atmospheric aging, and research gaps—multiple relevant dimensions with some relationships (e.g., how cooking aerosol becomes urban POA). The final summary integrates these into a coherent picture. A minor gap: the connection between indoor emission characterization and outdoor air quality modeling is mentioned but not deeply developed.",
+  "scores": {
+    "CCA": {
+      "Clarity": 8.3,
+      "Engagement": 8.5,
+      "Depth Appropriateness": 8.7,
+      "Breadth": 8.8
+    },
+    "Co-STORM": {
+      "Clarity": 7.6,
+      "Engagement": 6.8,
+      "Depth Appropriateness": 7.2,
+      "Breadth": 7.4
+    },
+    "LLM Baseline": {
+      "Clarity": 7.8,
+      "Engagement": 6.5,
+      "Depth Appropriateness": 7.0,
+      "Breadth": 7.6
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 154515,
+      "completion_tokens": 1232,
+      "total_tokens": 155747,
+      "cached_tokens": 101504,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "human_fields_released": [
+    "session_id",
+    "participant_linkage_key",
+    "assigned_topic",
+    "baseline",
+    "paired_ratings"
+  ],
+  "human_fields_excluded": [
+    "original_identifiers",
+    "names",
+    "original_filenames",
+    "timestamps",
+    "free_text_dialogue"
+  ],
+  "identifier_lookup_published": false,
+  "changes": {
+    "credential_like_redactions": 13,
+    "personal_identifier_redactions": 231,
+    "local_path_redactions": 604
+  }
+}

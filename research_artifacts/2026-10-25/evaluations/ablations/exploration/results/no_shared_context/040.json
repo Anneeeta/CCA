@@ -1,0 +1,45 @@
+{
+  "variant": "no_shared_context",
+  "task": "040_privacy-in-large-language-models",
+  "sequence": [
+    "full",
+    "no_shared_context"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Inquiry Relevance": 8.6,
+    "Perspective Expansion": 8.8,
+    "Evidence-Based Progress": 8.4,
+    "Incremental Value": 8.7,
+    "Adaptive Coherence": 8.5
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Inquiry Relevance\": -0.2, \"Perspective Expansion\": -0.1, \"Evidence-Based Progress\": -0.3, \"Incremental Value\": -0.2, \"Adaptive Coherence\": -0.1}",
+  "deltas": {
+    "Inquiry Relevance": -0.2,
+    "Perspective Expansion": -0.1,
+    "Evidence-Based Progress": -0.3,
+    "Incremental Value": -0.2,
+    "Adaptive Coherence": -0.1
+  },
+  "calibrated_target_scores": {
+    "Inquiry Relevance": 8.4,
+    "Perspective Expansion": 8.700000000000001,
+    "Evidence-Based Progress": 8.1,
+    "Incremental Value": 8.5,
+    "Adaptive Coherence": 8.4
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 189060,
+      "completion_tokens": 53,
+      "total_tokens": 189113,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

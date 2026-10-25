@@ -1,0 +1,721 @@
+session_id,participant_linkage_key,topic,baseline,metric,system,collected_score,reported_score
+S001,H012,Global governance frameworks for frontier AI safety regulation,RAG robot,Aha Moment,CCA,8,4.0
+S001,H012,Global governance frameworks for frontier AI safety regulation,RAG robot,Aha Moment,RAG robot,6,3.0
+S001,H012,Global governance frameworks for frontier AI safety regulation,RAG robot,UU Discovery,CCA,10,5.0
+S001,H012,Global governance frameworks for frontier AI safety regulation,RAG robot,UU Discovery,RAG robot,8,4.0
+S001,H012,Global governance frameworks for frontier AI safety regulation,RAG robot,Guidance Ease & Question Insightfulness,CCA,10,5.0
+S001,H012,Global governance frameworks for frontier AI safety regulation,RAG robot,Guidance Ease & Question Insightfulness,RAG robot,4,2.0
+S001,H012,Global governance frameworks for frontier AI safety regulation,RAG robot,Information Gain,CCA,8,4.0
+S001,H012,Global governance frameworks for frontier AI safety regulation,RAG robot,Information Gain,RAG robot,6,3.0
+S001,H012,Global governance frameworks for frontier AI safety regulation,RAG robot,Trajectory Coherence,CCA,8,4.0
+S001,H012,Global governance frameworks for frontier AI safety regulation,RAG robot,Trajectory Coherence,RAG robot,6,3.0
+S001,H012,Global governance frameworks for frontier AI safety regulation,RAG robot,Clarity,CCA,10,5.0
+S001,H012,Global governance frameworks for frontier AI safety regulation,RAG robot,Clarity,RAG robot,8,4.0
+S001,H012,Global governance frameworks for frontier AI safety regulation,RAG robot,Engagement,CCA,8,4.0
+S001,H012,Global governance frameworks for frontier AI safety regulation,RAG robot,Engagement,RAG robot,4,2.0
+S001,H012,Global governance frameworks for frontier AI safety regulation,RAG robot,Depth Appropriateness,CCA,6,3.0
+S001,H012,Global governance frameworks for frontier AI safety regulation,RAG robot,Depth Appropriateness,RAG robot,6,3.0
+S001,H012,Global governance frameworks for frontier AI safety regulation,RAG robot,Breadth,CCA,6,3.0
+S001,H012,Global governance frameworks for frontier AI safety regulation,RAG robot,Breadth,RAG robot,4,2.0
+S002,H008,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Aha Moment,CCA,6,3.0
+S002,H008,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Aha Moment,RAG robot,6,3.0
+S002,H008,OpenClaw-driven autonomous agent orchestration systems,RAG robot,UU Discovery,CCA,6,3.0
+S002,H008,OpenClaw-driven autonomous agent orchestration systems,RAG robot,UU Discovery,RAG robot,4,2.0
+S002,H008,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Guidance Ease & Question Insightfulness,CCA,6,3.0
+S002,H008,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Guidance Ease & Question Insightfulness,RAG robot,6,3.0
+S002,H008,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Information Gain,CCA,8,4.0
+S002,H008,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Information Gain,RAG robot,6,3.0
+S002,H008,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Trajectory Coherence,CCA,8,4.0
+S002,H008,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Trajectory Coherence,RAG robot,6,3.0
+S002,H008,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Clarity,CCA,8,4.0
+S002,H008,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Clarity,RAG robot,6,3.0
+S002,H008,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Engagement,CCA,6,3.0
+S002,H008,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Engagement,RAG robot,6,3.0
+S002,H008,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Depth Appropriateness,CCA,8,4.0
+S002,H008,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Depth Appropriateness,RAG robot,4,2.0
+S002,H008,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Breadth,CCA,8,4.0
+S002,H008,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Breadth,RAG robot,4,2.0
+S003,H008,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Aha Moment,CCA,8,4.0
+S003,H008,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Aha Moment,Co-STORM,6,3.0
+S003,H008,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,UU Discovery,CCA,8,4.0
+S003,H008,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,UU Discovery,Co-STORM,4,2.0
+S003,H008,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Guidance Ease & Question Insightfulness,CCA,8,4.0
+S003,H008,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Guidance Ease & Question Insightfulness,Co-STORM,6,3.0
+S003,H008,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Information Gain,CCA,8,4.0
+S003,H008,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Information Gain,Co-STORM,6,3.0
+S003,H008,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Trajectory Coherence,CCA,8,4.0
+S003,H008,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Trajectory Coherence,Co-STORM,4,2.0
+S003,H008,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Clarity,CCA,8,4.0
+S003,H008,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Clarity,Co-STORM,6,3.0
+S003,H008,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Engagement,CCA,8,4.0
+S003,H008,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Engagement,Co-STORM,6,3.0
+S003,H008,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Depth Appropriateness,CCA,8,4.0
+S003,H008,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Depth Appropriateness,Co-STORM,4,2.0
+S003,H008,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Breadth,CCA,8,4.0
+S003,H008,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Breadth,Co-STORM,4,2.0
+S004,H019,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Aha Moment,CCA,6,3.0
+S004,H019,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Aha Moment,RAG robot,8,4.0
+S004,H019,OpenClaw-driven autonomous agent orchestration systems,RAG robot,UU Discovery,CCA,6,3.0
+S004,H019,OpenClaw-driven autonomous agent orchestration systems,RAG robot,UU Discovery,RAG robot,6,3.0
+S004,H019,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Guidance Ease & Question Insightfulness,CCA,6,3.0
+S004,H019,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Guidance Ease & Question Insightfulness,RAG robot,6,3.0
+S004,H019,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Information Gain,CCA,6,3.0
+S004,H019,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Information Gain,RAG robot,6,3.0
+S004,H019,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Trajectory Coherence,CCA,4,2.0
+S004,H019,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Trajectory Coherence,RAG robot,6,3.0
+S004,H019,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Clarity,CCA,6,3.0
+S004,H019,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Clarity,RAG robot,6,3.0
+S004,H019,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Engagement,CCA,8,4.0
+S004,H019,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Engagement,RAG robot,8,4.0
+S004,H019,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Depth Appropriateness,CCA,6,3.0
+S004,H019,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Depth Appropriateness,RAG robot,6,3.0
+S004,H019,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Breadth,CCA,8,4.0
+S004,H019,OpenClaw-driven autonomous agent orchestration systems,RAG robot,Breadth,RAG robot,6,3.0
+S005,H001,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Aha Moment,CCA,10,5.0
+S005,H001,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Aha Moment,Co-STORM,10,5.0
+S005,H001,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,UU Discovery,CCA,10,5.0
+S005,H001,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,UU Discovery,Co-STORM,6,3.0
+S005,H001,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Guidance Ease & Question Insightfulness,CCA,8,4.0
+S005,H001,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Guidance Ease & Question Insightfulness,Co-STORM,4,2.0
+S005,H001,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Information Gain,CCA,6,3.0
+S005,H001,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Information Gain,Co-STORM,8,4.0
+S005,H001,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Trajectory Coherence,CCA,8,4.0
+S005,H001,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Trajectory Coherence,Co-STORM,6,3.0
+S005,H001,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Clarity,CCA,6,3.0
+S005,H001,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Clarity,Co-STORM,8,4.0
+S005,H001,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Engagement,CCA,6,3.0
+S005,H001,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Engagement,Co-STORM,6,3.0
+S005,H001,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Depth Appropriateness,CCA,8,4.0
+S005,H001,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Depth Appropriateness,Co-STORM,6,3.0
+S005,H001,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Breadth,CCA,6,3.0
+S005,H001,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Breadth,Co-STORM,6,3.0
+S006,H016,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Aha Moment,CCA,8,4.0
+S006,H016,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Aha Moment,Co-STORM,4,2.0
+S006,H016,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,UU Discovery,CCA,10,5.0
+S006,H016,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,UU Discovery,Co-STORM,4,2.0
+S006,H016,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Guidance Ease & Question Insightfulness,CCA,10,5.0
+S006,H016,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Guidance Ease & Question Insightfulness,Co-STORM,2,1.0
+S006,H016,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Information Gain,CCA,8,4.0
+S006,H016,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Information Gain,Co-STORM,6,3.0
+S006,H016,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Trajectory Coherence,CCA,6,3.0
+S006,H016,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Trajectory Coherence,Co-STORM,6,3.0
+S006,H016,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Clarity,CCA,6,3.0
+S006,H016,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Clarity,Co-STORM,4,2.0
+S006,H016,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Engagement,CCA,8,4.0
+S006,H016,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Engagement,Co-STORM,4,2.0
+S006,H016,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Depth Appropriateness,CCA,8,4.0
+S006,H016,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Depth Appropriateness,Co-STORM,6,3.0
+S006,H016,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Breadth,CCA,10,5.0
+S006,H016,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Breadth,Co-STORM,8,4.0
+S007,H016,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Aha Moment,CCA,8,4.0
+S007,H016,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Aha Moment,RAG robot,2,1.0
+S007,H016,2026 Digital culture fragmentation in post-truth media environments,RAG robot,UU Discovery,CCA,8,4.0
+S007,H016,2026 Digital culture fragmentation in post-truth media environments,RAG robot,UU Discovery,RAG robot,4,2.0
+S007,H016,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Guidance Ease & Question Insightfulness,CCA,8,4.0
+S007,H016,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Guidance Ease & Question Insightfulness,RAG robot,2,1.0
+S007,H016,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Information Gain,CCA,8,4.0
+S007,H016,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Information Gain,RAG robot,4,2.0
+S007,H016,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Trajectory Coherence,CCA,6,3.0
+S007,H016,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Trajectory Coherence,RAG robot,6,3.0
+S007,H016,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Clarity,CCA,8,4.0
+S007,H016,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Clarity,RAG robot,6,3.0
+S007,H016,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Engagement,CCA,10,5.0
+S007,H016,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Engagement,RAG robot,6,3.0
+S007,H016,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Depth Appropriateness,CCA,8,4.0
+S007,H016,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Depth Appropriateness,RAG robot,6,3.0
+S007,H016,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Breadth,CCA,6,3.0
+S007,H016,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Breadth,RAG robot,4,2.0
+S008,H011,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Aha Moment,CCA,8,4.0
+S008,H011,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Aha Moment,RAG robot,6,3.0
+S008,H011,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,UU Discovery,CCA,8,4.0
+S008,H011,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,UU Discovery,RAG robot,8,4.0
+S008,H011,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Guidance Ease & Question Insightfulness,CCA,6,3.0
+S008,H011,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Guidance Ease & Question Insightfulness,RAG robot,10,5.0
+S008,H011,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Information Gain,CCA,8,4.0
+S008,H011,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Information Gain,RAG robot,8,4.0
+S008,H011,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Trajectory Coherence,CCA,8,4.0
+S008,H011,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Trajectory Coherence,RAG robot,8,4.0
+S008,H011,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Clarity,CCA,8,4.0
+S008,H011,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Clarity,RAG robot,8,4.0
+S008,H011,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Engagement,CCA,4,2.0
+S008,H011,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Engagement,RAG robot,6,3.0
+S008,H011,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Depth Appropriateness,CCA,6,3.0
+S008,H011,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Depth Appropriateness,RAG robot,6,3.0
+S008,H011,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Breadth,CCA,6,3.0
+S008,H011,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Breadth,RAG robot,8,4.0
+S009,H023,2026 [personal identifier removed] on short-video platforms,RAG robot,Aha Moment,CCA,6,3.0
+S009,H023,2026 [personal identifier removed] on short-video platforms,RAG robot,Aha Moment,RAG robot,8,4.0
+S009,H023,2026 [personal identifier removed] on short-video platforms,RAG robot,UU Discovery,CCA,6,3.0
+S009,H023,2026 [personal identifier removed] on short-video platforms,RAG robot,UU Discovery,RAG robot,8,4.0
+S009,H023,2026 [personal identifier removed] on short-video platforms,RAG robot,Guidance Ease & Question Insightfulness,CCA,6,3.0
+S009,H023,2026 [personal identifier removed] on short-video platforms,RAG robot,Guidance Ease & Question Insightfulness,RAG robot,8,4.0
+S009,H023,2026 [personal identifier removed] on short-video platforms,RAG robot,Information Gain,CCA,6,3.0
+S009,H023,2026 [personal identifier removed] on short-video platforms,RAG robot,Information Gain,RAG robot,8,4.0
+S009,H023,2026 [personal identifier removed] on short-video platforms,RAG robot,Trajectory Coherence,CCA,6,3.0
+S009,H023,2026 [personal identifier removed] on short-video platforms,RAG robot,Trajectory Coherence,RAG robot,8,4.0
+S009,H023,2026 [personal identifier removed] on short-video platforms,RAG robot,Clarity,CCA,6,3.0
+S009,H023,2026 [personal identifier removed] on short-video platforms,RAG robot,Clarity,RAG robot,8,4.0
+S009,H023,2026 [personal identifier removed] on short-video platforms,RAG robot,Engagement,CCA,6,3.0
+S009,H023,2026 [personal identifier removed] on short-video platforms,RAG robot,Engagement,RAG robot,8,4.0
+S009,H023,2026 [personal identifier removed] on short-video platforms,RAG robot,Depth Appropriateness,CCA,6,3.0
+S009,H023,2026 [personal identifier removed] on short-video platforms,RAG robot,Depth Appropriateness,RAG robot,8,4.0
+S009,H023,2026 [personal identifier removed] on short-video platforms,RAG robot,Breadth,CCA,6,3.0
+S009,H023,2026 [personal identifier removed] on short-video platforms,RAG robot,Breadth,RAG robot,8,4.0
+S010,H022,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Aha Moment,CCA,10,5.0
+S010,H022,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Aha Moment,RAG robot,6,3.0
+S010,H022,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,UU Discovery,CCA,10,5.0
+S010,H022,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,UU Discovery,RAG robot,6,3.0
+S010,H022,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Guidance Ease & Question Insightfulness,CCA,6,3.0
+S010,H022,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Guidance Ease & Question Insightfulness,RAG robot,6,3.0
+S010,H022,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Information Gain,CCA,6,3.0
+S010,H022,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Information Gain,RAG robot,6,3.0
+S010,H022,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Trajectory Coherence,CCA,6,3.0
+S010,H022,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Trajectory Coherence,RAG robot,6,3.0
+S010,H022,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Clarity,CCA,6,3.0
+S010,H022,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Clarity,RAG robot,6,3.0
+S010,H022,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Engagement,CCA,6,3.0
+S010,H022,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Engagement,RAG robot,6,3.0
+S010,H022,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Depth Appropriateness,CCA,6,3.0
+S010,H022,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Depth Appropriateness,RAG robot,6,3.0
+S010,H022,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Breadth,CCA,6,3.0
+S010,H022,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Breadth,RAG robot,6,3.0
+S011,H024,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Aha Moment,CCA,8,4.0
+S011,H024,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Aha Moment,RAG robot,4,2.0
+S011,H024,2026 [personal identifier removed] in digitally mediated societies,RAG robot,UU Discovery,CCA,8,4.0
+S011,H024,2026 [personal identifier removed] in digitally mediated societies,RAG robot,UU Discovery,RAG robot,4,2.0
+S011,H024,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Guidance Ease & Question Insightfulness,CCA,10,5.0
+S011,H024,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Guidance Ease & Question Insightfulness,RAG robot,2,1.0
+S011,H024,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Information Gain,CCA,8,4.0
+S011,H024,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Information Gain,RAG robot,6,3.0
+S011,H024,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Trajectory Coherence,CCA,8,4.0
+S011,H024,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Trajectory Coherence,RAG robot,6,3.0
+S011,H024,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Clarity,CCA,6,3.0
+S011,H024,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Clarity,RAG robot,6,3.0
+S011,H024,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Engagement,CCA,8,4.0
+S011,H024,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Engagement,RAG robot,6,3.0
+S011,H024,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Depth Appropriateness,CCA,8,4.0
+S011,H024,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Depth Appropriateness,RAG robot,8,4.0
+S011,H024,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Breadth,CCA,8,4.0
+S011,H024,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Breadth,RAG robot,6,3.0
+S012,H003,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Aha Moment,CCA,8,4.0
+S012,H003,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Aha Moment,RAG robot,6,3.0
+S012,H003,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,UU Discovery,CCA,6,3.0
+S012,H003,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,UU Discovery,RAG robot,8,4.0
+S012,H003,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Guidance Ease & Question Insightfulness,CCA,10,5.0
+S012,H003,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Guidance Ease & Question Insightfulness,RAG robot,6,3.0
+S012,H003,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Information Gain,CCA,8,4.0
+S012,H003,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Information Gain,RAG robot,6,3.0
+S012,H003,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Trajectory Coherence,CCA,8,4.0
+S012,H003,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Trajectory Coherence,RAG robot,4,2.0
+S012,H003,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Clarity,CCA,8,4.0
+S012,H003,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Clarity,RAG robot,6,3.0
+S012,H003,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Engagement,CCA,6,3.0
+S012,H003,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Engagement,RAG robot,4,2.0
+S012,H003,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Depth Appropriateness,CCA,6,3.0
+S012,H003,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Depth Appropriateness,RAG robot,2,1.0
+S012,H003,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Breadth,CCA,6,3.0
+S012,H003,2026 US-Iran conflict escalation and regional diplomatic realignment,RAG robot,Breadth,RAG robot,2,1.0
+S013,H003,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Aha Moment,CCA,8,4.0
+S013,H003,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Aha Moment,Co-STORM,6,3.0
+S013,H003,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,UU Discovery,CCA,8,4.0
+S013,H003,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,UU Discovery,Co-STORM,8,4.0
+S013,H003,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Guidance Ease & Question Insightfulness,CCA,10,5.0
+S013,H003,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Guidance Ease & Question Insightfulness,Co-STORM,10,5.0
+S013,H003,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Information Gain,CCA,6,3.0
+S013,H003,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Information Gain,Co-STORM,8,4.0
+S013,H003,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Trajectory Coherence,CCA,8,4.0
+S013,H003,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Trajectory Coherence,Co-STORM,8,4.0
+S013,H003,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Clarity,CCA,10,5.0
+S013,H003,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Clarity,Co-STORM,10,5.0
+S013,H003,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Engagement,CCA,8,4.0
+S013,H003,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Engagement,Co-STORM,8,4.0
+S013,H003,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Depth Appropriateness,CCA,8,4.0
+S013,H003,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Depth Appropriateness,Co-STORM,10,5.0
+S013,H003,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Breadth,CCA,8,4.0
+S013,H003,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Breadth,Co-STORM,8,4.0
+S014,H009,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Aha Moment,CCA,8,4.0
+S014,H009,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Aha Moment,RAG robot,8,4.0
+S014,H009,2026 [personal identifier removed] in digitally mediated societies,RAG robot,UU Discovery,CCA,8,4.0
+S014,H009,2026 [personal identifier removed] in digitally mediated societies,RAG robot,UU Discovery,RAG robot,8,4.0
+S014,H009,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Guidance Ease & Question Insightfulness,CCA,8,4.0
+S014,H009,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Guidance Ease & Question Insightfulness,RAG robot,8,4.0
+S014,H009,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Information Gain,CCA,8,4.0
+S014,H009,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Information Gain,RAG robot,8,4.0
+S014,H009,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Trajectory Coherence,CCA,8,4.0
+S014,H009,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Trajectory Coherence,RAG robot,8,4.0
+S014,H009,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Clarity,CCA,8,4.0
+S014,H009,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Clarity,RAG robot,8,4.0
+S014,H009,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Engagement,CCA,8,4.0
+S014,H009,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Engagement,RAG robot,8,4.0
+S014,H009,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Depth Appropriateness,CCA,8,4.0
+S014,H009,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Depth Appropriateness,RAG robot,8,4.0
+S014,H009,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Breadth,CCA,8,4.0
+S014,H009,2026 [personal identifier removed] in digitally mediated societies,RAG robot,Breadth,RAG robot,8,4.0
+S015,H009,2026 [personal identifier removed] on short-video platforms,Co-STORM,Aha Moment,CCA,8,4.0
+S015,H009,2026 [personal identifier removed] on short-video platforms,Co-STORM,Aha Moment,Co-STORM,10,5.0
+S015,H009,2026 [personal identifier removed] on short-video platforms,Co-STORM,UU Discovery,CCA,10,5.0
+S015,H009,2026 [personal identifier removed] on short-video platforms,Co-STORM,UU Discovery,Co-STORM,8,4.0
+S015,H009,2026 [personal identifier removed] on short-video platforms,Co-STORM,Guidance Ease & Question Insightfulness,CCA,8,4.0
+S015,H009,2026 [personal identifier removed] on short-video platforms,Co-STORM,Guidance Ease & Question Insightfulness,Co-STORM,10,5.0
+S015,H009,2026 [personal identifier removed] on short-video platforms,Co-STORM,Information Gain,CCA,10,5.0
+S015,H009,2026 [personal identifier removed] on short-video platforms,Co-STORM,Information Gain,Co-STORM,8,4.0
+S015,H009,2026 [personal identifier removed] on short-video platforms,Co-STORM,Trajectory Coherence,CCA,8,4.0
+S015,H009,2026 [personal identifier removed] on short-video platforms,Co-STORM,Trajectory Coherence,Co-STORM,10,5.0
+S015,H009,2026 [personal identifier removed] on short-video platforms,Co-STORM,Clarity,CCA,10,5.0
+S015,H009,2026 [personal identifier removed] on short-video platforms,Co-STORM,Clarity,Co-STORM,8,4.0
+S015,H009,2026 [personal identifier removed] on short-video platforms,Co-STORM,Engagement,CCA,8,4.0
+S015,H009,2026 [personal identifier removed] on short-video platforms,Co-STORM,Engagement,Co-STORM,10,5.0
+S015,H009,2026 [personal identifier removed] on short-video platforms,Co-STORM,Depth Appropriateness,CCA,10,5.0
+S015,H009,2026 [personal identifier removed] on short-video platforms,Co-STORM,Depth Appropriateness,Co-STORM,8,4.0
+S015,H009,2026 [personal identifier removed] on short-video platforms,Co-STORM,Breadth,CCA,8,4.0
+S015,H009,2026 [personal identifier removed] on short-video platforms,Co-STORM,Breadth,Co-STORM,10,5.0
+S016,H002,2026 G7 fragmentation in post-summit global coordination,RAG robot,Aha Moment,CCA,8,4.0
+S016,H002,2026 G7 fragmentation in post-summit global coordination,RAG robot,Aha Moment,RAG robot,4,2.0
+S016,H002,2026 G7 fragmentation in post-summit global coordination,RAG robot,UU Discovery,CCA,10,5.0
+S016,H002,2026 G7 fragmentation in post-summit global coordination,RAG robot,UU Discovery,RAG robot,4,2.0
+S016,H002,2026 G7 fragmentation in post-summit global coordination,RAG robot,Guidance Ease & Question Insightfulness,CCA,10,5.0
+S016,H002,2026 G7 fragmentation in post-summit global coordination,RAG robot,Guidance Ease & Question Insightfulness,RAG robot,4,2.0
+S016,H002,2026 G7 fragmentation in post-summit global coordination,RAG robot,Information Gain,CCA,8,4.0
+S016,H002,2026 G7 fragmentation in post-summit global coordination,RAG robot,Information Gain,RAG robot,6,3.0
+S016,H002,2026 G7 fragmentation in post-summit global coordination,RAG robot,Trajectory Coherence,CCA,6,3.0
+S016,H002,2026 G7 fragmentation in post-summit global coordination,RAG robot,Trajectory Coherence,RAG robot,6,3.0
+S016,H002,2026 G7 fragmentation in post-summit global coordination,RAG robot,Clarity,CCA,6,3.0
+S016,H002,2026 G7 fragmentation in post-summit global coordination,RAG robot,Clarity,RAG robot,6,3.0
+S016,H002,2026 G7 fragmentation in post-summit global coordination,RAG robot,Engagement,CCA,6,3.0
+S016,H002,2026 G7 fragmentation in post-summit global coordination,RAG robot,Engagement,RAG robot,4,2.0
+S016,H002,2026 G7 fragmentation in post-summit global coordination,RAG robot,Depth Appropriateness,CCA,6,3.0
+S016,H002,2026 G7 fragmentation in post-summit global coordination,RAG robot,Depth Appropriateness,RAG robot,4,2.0
+S016,H002,2026 G7 fragmentation in post-summit global coordination,RAG robot,Breadth,CCA,8,4.0
+S016,H002,2026 G7 fragmentation in post-summit global coordination,RAG robot,Breadth,RAG robot,6,3.0
+S017,H002,2026 US-Iran conflict and global energy market volatility,Co-STORM,Aha Moment,CCA,10,5.0
+S017,H002,2026 US-Iran conflict and global energy market volatility,Co-STORM,Aha Moment,Co-STORM,8,4.0
+S017,H002,2026 US-Iran conflict and global energy market volatility,Co-STORM,UU Discovery,CCA,10,5.0
+S017,H002,2026 US-Iran conflict and global energy market volatility,Co-STORM,UU Discovery,Co-STORM,8,4.0
+S017,H002,2026 US-Iran conflict and global energy market volatility,Co-STORM,Guidance Ease & Question Insightfulness,CCA,8,4.0
+S017,H002,2026 US-Iran conflict and global energy market volatility,Co-STORM,Guidance Ease & Question Insightfulness,Co-STORM,8,4.0
+S017,H002,2026 US-Iran conflict and global energy market volatility,Co-STORM,Information Gain,CCA,8,4.0
+S017,H002,2026 US-Iran conflict and global energy market volatility,Co-STORM,Information Gain,Co-STORM,6,3.0
+S017,H002,2026 US-Iran conflict and global energy market volatility,Co-STORM,Trajectory Coherence,CCA,6,3.0
+S017,H002,2026 US-Iran conflict and global energy market volatility,Co-STORM,Trajectory Coherence,Co-STORM,6,3.0
+S017,H002,2026 US-Iran conflict and global energy market volatility,Co-STORM,Clarity,CCA,8,4.0
+S017,H002,2026 US-Iran conflict and global energy market volatility,Co-STORM,Clarity,Co-STORM,6,3.0
+S017,H002,2026 US-Iran conflict and global energy market volatility,Co-STORM,Engagement,CCA,8,4.0
+S017,H002,2026 US-Iran conflict and global energy market volatility,Co-STORM,Engagement,Co-STORM,8,4.0
+S017,H002,2026 US-Iran conflict and global energy market volatility,Co-STORM,Depth Appropriateness,CCA,8,4.0
+S017,H002,2026 US-Iran conflict and global energy market volatility,Co-STORM,Depth Appropriateness,Co-STORM,6,3.0
+S017,H002,2026 US-Iran conflict and global energy market volatility,Co-STORM,Breadth,CCA,8,4.0
+S017,H002,2026 US-Iran conflict and global energy market volatility,Co-STORM,Breadth,Co-STORM,8,4.0
+S018,H005,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Aha Moment,CCA,10,5.0
+S018,H005,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Aha Moment,Co-STORM,8,4.0
+S018,H005,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,UU Discovery,CCA,10,5.0
+S018,H005,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,UU Discovery,Co-STORM,10,5.0
+S018,H005,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Guidance Ease & Question Insightfulness,CCA,8,4.0
+S018,H005,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Guidance Ease & Question Insightfulness,Co-STORM,6,3.0
+S018,H005,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Information Gain,CCA,8,4.0
+S018,H005,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Information Gain,Co-STORM,6,3.0
+S018,H005,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Trajectory Coherence,CCA,6,3.0
+S018,H005,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Trajectory Coherence,Co-STORM,6,3.0
+S018,H005,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Clarity,CCA,6,3.0
+S018,H005,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Clarity,Co-STORM,8,4.0
+S018,H005,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Engagement,CCA,8,4.0
+S018,H005,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Engagement,Co-STORM,8,4.0
+S018,H005,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Depth Appropriateness,CCA,8,4.0
+S018,H005,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Depth Appropriateness,Co-STORM,6,3.0
+S018,H005,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Breadth,CCA,8,4.0
+S018,H005,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Breadth,Co-STORM,8,4.0
+S019,H017,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Aha Moment,CCA,10,5.0
+S019,H017,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Aha Moment,RAG robot,4,2.0
+S019,H017,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,UU Discovery,CCA,8,4.0
+S019,H017,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,UU Discovery,RAG robot,4,2.0
+S019,H017,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Guidance Ease & Question Insightfulness,CCA,8,4.0
+S019,H017,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Guidance Ease & Question Insightfulness,RAG robot,4,2.0
+S019,H017,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Information Gain,CCA,8,4.0
+S019,H017,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Information Gain,RAG robot,6,3.0
+S019,H017,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Trajectory Coherence,CCA,8,4.0
+S019,H017,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Trajectory Coherence,RAG robot,6,3.0
+S019,H017,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Clarity,CCA,8,4.0
+S019,H017,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Clarity,RAG robot,6,3.0
+S019,H017,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Engagement,CCA,8,4.0
+S019,H017,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Engagement,RAG robot,4,2.0
+S019,H017,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Depth Appropriateness,CCA,8,4.0
+S019,H017,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Depth Appropriateness,RAG robot,6,3.0
+S019,H017,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Breadth,CCA,8,4.0
+S019,H017,2026 AI-driven labor displacement and welfare system restructuring,RAG robot,Breadth,RAG robot,6,3.0
+S020,H025,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Aha Moment,CCA,6,3.0
+S020,H025,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Aha Moment,Co-STORM,6,3.0
+S020,H025,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,UU Discovery,CCA,8,4.0
+S020,H025,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,UU Discovery,Co-STORM,6,3.0
+S020,H025,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Guidance Ease & Question Insightfulness,CCA,4,2.0
+S020,H025,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Guidance Ease & Question Insightfulness,Co-STORM,6,3.0
+S020,H025,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Information Gain,CCA,10,5.0
+S020,H025,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Information Gain,Co-STORM,6,3.0
+S020,H025,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Trajectory Coherence,CCA,8,4.0
+S020,H025,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Trajectory Coherence,Co-STORM,6,3.0
+S020,H025,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Clarity,CCA,4,2.0
+S020,H025,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Clarity,Co-STORM,6,3.0
+S020,H025,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Engagement,CCA,8,4.0
+S020,H025,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Engagement,Co-STORM,6,3.0
+S020,H025,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Depth Appropriateness,CCA,4,2.0
+S020,H025,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Depth Appropriateness,Co-STORM,6,3.0
+S020,H025,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Breadth,CCA,10,5.0
+S020,H025,OpenClaw-driven autonomous agent orchestration systems,Co-STORM,Breadth,Co-STORM,6,3.0
+S021,H025,2026 [personal identifier removed] on short-video platforms,RAG robot,Aha Moment,CCA,10,5.0
+S021,H025,2026 [personal identifier removed] on short-video platforms,RAG robot,Aha Moment,RAG robot,6,3.0
+S021,H025,2026 [personal identifier removed] on short-video platforms,RAG robot,UU Discovery,CCA,8,4.0
+S021,H025,2026 [personal identifier removed] on short-video platforms,RAG robot,UU Discovery,RAG robot,4,2.0
+S021,H025,2026 [personal identifier removed] on short-video platforms,RAG robot,Guidance Ease & Question Insightfulness,CCA,8,4.0
+S021,H025,2026 [personal identifier removed] on short-video platforms,RAG robot,Guidance Ease & Question Insightfulness,RAG robot,4,2.0
+S021,H025,2026 [personal identifier removed] on short-video platforms,RAG robot,Information Gain,CCA,10,5.0
+S021,H025,2026 [personal identifier removed] on short-video platforms,RAG robot,Information Gain,RAG robot,6,3.0
+S021,H025,2026 [personal identifier removed] on short-video platforms,RAG robot,Trajectory Coherence,CCA,8,4.0
+S021,H025,2026 [personal identifier removed] on short-video platforms,RAG robot,Trajectory Coherence,RAG robot,6,3.0
+S021,H025,2026 [personal identifier removed] on short-video platforms,RAG robot,Clarity,CCA,10,5.0
+S021,H025,2026 [personal identifier removed] on short-video platforms,RAG robot,Clarity,RAG robot,6,3.0
+S021,H025,2026 [personal identifier removed] on short-video platforms,RAG robot,Engagement,CCA,8,4.0
+S021,H025,2026 [personal identifier removed] on short-video platforms,RAG robot,Engagement,RAG robot,4,2.0
+S021,H025,2026 [personal identifier removed] on short-video platforms,RAG robot,Depth Appropriateness,CCA,6,3.0
+S021,H025,2026 [personal identifier removed] on short-video platforms,RAG robot,Depth Appropriateness,RAG robot,4,2.0
+S021,H025,2026 [personal identifier removed] on short-video platforms,RAG robot,Breadth,CCA,6,3.0
+S021,H025,2026 [personal identifier removed] on short-video platforms,RAG robot,Breadth,RAG robot,6,3.0
+S022,H026,Global governance frameworks for frontier AI safety regulation,Co-STORM,Aha Moment,CCA,8,4.0
+S022,H026,Global governance frameworks for frontier AI safety regulation,Co-STORM,Aha Moment,Co-STORM,4,2.0
+S022,H026,Global governance frameworks for frontier AI safety regulation,Co-STORM,UU Discovery,CCA,6,3.0
+S022,H026,Global governance frameworks for frontier AI safety regulation,Co-STORM,UU Discovery,Co-STORM,2,1.0
+S022,H026,Global governance frameworks for frontier AI safety regulation,Co-STORM,Guidance Ease & Question Insightfulness,CCA,8,4.0
+S022,H026,Global governance frameworks for frontier AI safety regulation,Co-STORM,Guidance Ease & Question Insightfulness,Co-STORM,10,5.0
+S022,H026,Global governance frameworks for frontier AI safety regulation,Co-STORM,Information Gain,CCA,10,5.0
+S022,H026,Global governance frameworks for frontier AI safety regulation,Co-STORM,Information Gain,Co-STORM,2,1.0
+S022,H026,Global governance frameworks for frontier AI safety regulation,Co-STORM,Trajectory Coherence,CCA,10,5.0
+S022,H026,Global governance frameworks for frontier AI safety regulation,Co-STORM,Trajectory Coherence,Co-STORM,2,1.0
+S022,H026,Global governance frameworks for frontier AI safety regulation,Co-STORM,Clarity,CCA,10,5.0
+S022,H026,Global governance frameworks for frontier AI safety regulation,Co-STORM,Clarity,Co-STORM,6,3.0
+S022,H026,Global governance frameworks for frontier AI safety regulation,Co-STORM,Engagement,CCA,8,4.0
+S022,H026,Global governance frameworks for frontier AI safety regulation,Co-STORM,Engagement,Co-STORM,6,3.0
+S022,H026,Global governance frameworks for frontier AI safety regulation,Co-STORM,Depth Appropriateness,CCA,10,5.0
+S022,H026,Global governance frameworks for frontier AI safety regulation,Co-STORM,Depth Appropriateness,Co-STORM,2,1.0
+S022,H026,Global governance frameworks for frontier AI safety regulation,Co-STORM,Breadth,CCA,10,5.0
+S022,H026,Global governance frameworks for frontier AI safety regulation,Co-STORM,Breadth,Co-STORM,2,1.0
+S023,H026,2026 [personal identifier removed],RAG robot,Aha Moment,CCA,8,4.0
+S023,H026,2026 [personal identifier removed],RAG robot,Aha Moment,RAG robot,6,3.0
+S023,H026,2026 [personal identifier removed],RAG robot,UU Discovery,CCA,10,5.0
+S023,H026,2026 [personal identifier removed],RAG robot,UU Discovery,RAG robot,6,3.0
+S023,H026,2026 [personal identifier removed],RAG robot,Guidance Ease & Question Insightfulness,CCA,8,4.0
+S023,H026,2026 [personal identifier removed],RAG robot,Guidance Ease & Question Insightfulness,RAG robot,8,4.0
+S023,H026,2026 [personal identifier removed],RAG robot,Information Gain,CCA,10,5.0
+S023,H026,2026 [personal identifier removed],RAG robot,Information Gain,RAG robot,6,3.0
+S023,H026,2026 [personal identifier removed],RAG robot,Trajectory Coherence,CCA,10,5.0
+S023,H026,2026 [personal identifier removed],RAG robot,Trajectory Coherence,RAG robot,8,4.0
+S023,H026,2026 [personal identifier removed],RAG robot,Clarity,CCA,8,4.0
+S023,H026,2026 [personal identifier removed],RAG robot,Clarity,RAG robot,8,4.0
+S023,H026,2026 [personal identifier removed],RAG robot,Engagement,CCA,8,4.0
+S023,H026,2026 [personal identifier removed],RAG robot,Engagement,RAG robot,8,4.0
+S023,H026,2026 [personal identifier removed],RAG robot,Depth Appropriateness,CCA,10,5.0
+S023,H026,2026 [personal identifier removed],RAG robot,Depth Appropriateness,RAG robot,6,3.0
+S023,H026,2026 [personal identifier removed],RAG robot,Breadth,CCA,8,4.0
+S023,H026,2026 [personal identifier removed],RAG robot,Breadth,RAG robot,8,4.0
+S024,H020,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Aha Moment,CCA,8,4.0
+S024,H020,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Aha Moment,Co-STORM,10,5.0
+S024,H020,2026 G7 fragmentation in post-summit global coordination,Co-STORM,UU Discovery,CCA,10,5.0
+S024,H020,2026 G7 fragmentation in post-summit global coordination,Co-STORM,UU Discovery,Co-STORM,10,5.0
+S024,H020,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Guidance Ease & Question Insightfulness,CCA,10,5.0
+S024,H020,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Guidance Ease & Question Insightfulness,Co-STORM,8,4.0
+S024,H020,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Information Gain,CCA,10,5.0
+S024,H020,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Information Gain,Co-STORM,8,4.0
+S024,H020,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Trajectory Coherence,CCA,10,5.0
+S024,H020,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Trajectory Coherence,Co-STORM,10,5.0
+S024,H020,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Clarity,CCA,10,5.0
+S024,H020,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Clarity,Co-STORM,10,5.0
+S024,H020,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Engagement,CCA,10,5.0
+S024,H020,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Engagement,Co-STORM,8,4.0
+S024,H020,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Depth Appropriateness,CCA,10,5.0
+S024,H020,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Depth Appropriateness,Co-STORM,8,4.0
+S024,H020,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Breadth,CCA,10,5.0
+S024,H020,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Breadth,Co-STORM,10,5.0
+S025,H020,2026 US-Iran conflict and global energy market volatility,RAG robot,Aha Moment,CCA,8,4.0
+S025,H020,2026 US-Iran conflict and global energy market volatility,RAG robot,Aha Moment,RAG robot,8,4.0
+S025,H020,2026 US-Iran conflict and global energy market volatility,RAG robot,UU Discovery,CCA,10,5.0
+S025,H020,2026 US-Iran conflict and global energy market volatility,RAG robot,UU Discovery,RAG robot,8,4.0
+S025,H020,2026 US-Iran conflict and global energy market volatility,RAG robot,Guidance Ease & Question Insightfulness,CCA,8,4.0
+S025,H020,2026 US-Iran conflict and global energy market volatility,RAG robot,Guidance Ease & Question Insightfulness,RAG robot,10,5.0
+S025,H020,2026 US-Iran conflict and global energy market volatility,RAG robot,Information Gain,CCA,10,5.0
+S025,H020,2026 US-Iran conflict and global energy market volatility,RAG robot,Information Gain,RAG robot,8,4.0
+S025,H020,2026 US-Iran conflict and global energy market volatility,RAG robot,Trajectory Coherence,CCA,8,4.0
+S025,H020,2026 US-Iran conflict and global energy market volatility,RAG robot,Trajectory Coherence,RAG robot,10,5.0
+S025,H020,2026 US-Iran conflict and global energy market volatility,RAG robot,Clarity,CCA,8,4.0
+S025,H020,2026 US-Iran conflict and global energy market volatility,RAG robot,Clarity,RAG robot,10,5.0
+S025,H020,2026 US-Iran conflict and global energy market volatility,RAG robot,Engagement,CCA,8,4.0
+S025,H020,2026 US-Iran conflict and global energy market volatility,RAG robot,Engagement,RAG robot,10,5.0
+S025,H020,2026 US-Iran conflict and global energy market volatility,RAG robot,Depth Appropriateness,CCA,10,5.0
+S025,H020,2026 US-Iran conflict and global energy market volatility,RAG robot,Depth Appropriateness,RAG robot,10,5.0
+S025,H020,2026 US-Iran conflict and global energy market volatility,RAG robot,Breadth,CCA,10,5.0
+S025,H020,2026 US-Iran conflict and global energy market volatility,RAG robot,Breadth,RAG robot,8,4.0
+S026,H006,2026 [personal identifier removed] on short-video platforms,Co-STORM,Aha Moment,CCA,8,4.0
+S026,H006,2026 [personal identifier removed] on short-video platforms,Co-STORM,Aha Moment,Co-STORM,8,4.0
+S026,H006,2026 [personal identifier removed] on short-video platforms,Co-STORM,UU Discovery,CCA,8,4.0
+S026,H006,2026 [personal identifier removed] on short-video platforms,Co-STORM,UU Discovery,Co-STORM,8,4.0
+S026,H006,2026 [personal identifier removed] on short-video platforms,Co-STORM,Guidance Ease & Question Insightfulness,CCA,10,5.0
+S026,H006,2026 [personal identifier removed] on short-video platforms,Co-STORM,Guidance Ease & Question Insightfulness,Co-STORM,8,4.0
+S026,H006,2026 [personal identifier removed] on short-video platforms,Co-STORM,Information Gain,CCA,6,3.0
+S026,H006,2026 [personal identifier removed] on short-video platforms,Co-STORM,Information Gain,Co-STORM,6,3.0
+S026,H006,2026 [personal identifier removed] on short-video platforms,Co-STORM,Trajectory Coherence,CCA,6,3.0
+S026,H006,2026 [personal identifier removed] on short-video platforms,Co-STORM,Trajectory Coherence,Co-STORM,4,2.0
+S026,H006,2026 [personal identifier removed] on short-video platforms,Co-STORM,Clarity,CCA,8,4.0
+S026,H006,2026 [personal identifier removed] on short-video platforms,Co-STORM,Clarity,Co-STORM,8,4.0
+S026,H006,2026 [personal identifier removed] on short-video platforms,Co-STORM,Engagement,CCA,8,4.0
+S026,H006,2026 [personal identifier removed] on short-video platforms,Co-STORM,Engagement,Co-STORM,6,3.0
+S026,H006,2026 [personal identifier removed] on short-video platforms,Co-STORM,Depth Appropriateness,CCA,6,3.0
+S026,H006,2026 [personal identifier removed] on short-video platforms,Co-STORM,Depth Appropriateness,Co-STORM,6,3.0
+S026,H006,2026 [personal identifier removed] on short-video platforms,Co-STORM,Breadth,CCA,8,4.0
+S026,H006,2026 [personal identifier removed] on short-video platforms,Co-STORM,Breadth,Co-STORM,6,3.0
+S027,H014,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Aha Moment,CCA,6,3.0
+S027,H014,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Aha Moment,Co-STORM,8,4.0
+S027,H014,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,UU Discovery,CCA,8,4.0
+S027,H014,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,UU Discovery,Co-STORM,6,3.0
+S027,H014,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Guidance Ease & Question Insightfulness,CCA,6,3.0
+S027,H014,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Guidance Ease & Question Insightfulness,Co-STORM,6,3.0
+S027,H014,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Information Gain,CCA,8,4.0
+S027,H014,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Information Gain,Co-STORM,6,3.0
+S027,H014,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Trajectory Coherence,CCA,8,4.0
+S027,H014,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Trajectory Coherence,Co-STORM,6,3.0
+S027,H014,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Clarity,CCA,6,3.0
+S027,H014,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Clarity,Co-STORM,8,4.0
+S027,H014,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Engagement,CCA,6,3.0
+S027,H014,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Engagement,Co-STORM,8,4.0
+S027,H014,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Depth Appropriateness,CCA,4,2.0
+S027,H014,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Depth Appropriateness,Co-STORM,6,3.0
+S027,H014,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Breadth,CCA,8,4.0
+S027,H014,2026 Digital culture fragmentation in post-truth media environments,Co-STORM,Breadth,Co-STORM,6,3.0
+S028,H014,Global governance frameworks for frontier AI safety regulation,RAG robot,Aha Moment,CCA,8,4.0
+S028,H014,Global governance frameworks for frontier AI safety regulation,RAG robot,Aha Moment,RAG robot,6,3.0
+S028,H014,Global governance frameworks for frontier AI safety regulation,RAG robot,UU Discovery,CCA,8,4.0
+S028,H014,Global governance frameworks for frontier AI safety regulation,RAG robot,UU Discovery,RAG robot,8,4.0
+S028,H014,Global governance frameworks for frontier AI safety regulation,RAG robot,Guidance Ease & Question Insightfulness,CCA,6,3.0
+S028,H014,Global governance frameworks for frontier AI safety regulation,RAG robot,Guidance Ease & Question Insightfulness,RAG robot,4,2.0
+S028,H014,Global governance frameworks for frontier AI safety regulation,RAG robot,Information Gain,CCA,8,4.0
+S028,H014,Global governance frameworks for frontier AI safety regulation,RAG robot,Information Gain,RAG robot,4,2.0
+S028,H014,Global governance frameworks for frontier AI safety regulation,RAG robot,Trajectory Coherence,CCA,6,3.0
+S028,H014,Global governance frameworks for frontier AI safety regulation,RAG robot,Trajectory Coherence,RAG robot,6,3.0
+S028,H014,Global governance frameworks for frontier AI safety regulation,RAG robot,Clarity,CCA,8,4.0
+S028,H014,Global governance frameworks for frontier AI safety regulation,RAG robot,Clarity,RAG robot,6,3.0
+S028,H014,Global governance frameworks for frontier AI safety regulation,RAG robot,Engagement,CCA,8,4.0
+S028,H014,Global governance frameworks for frontier AI safety regulation,RAG robot,Engagement,RAG robot,8,4.0
+S028,H014,Global governance frameworks for frontier AI safety regulation,RAG robot,Depth Appropriateness,CCA,6,3.0
+S028,H014,Global governance frameworks for frontier AI safety regulation,RAG robot,Depth Appropriateness,RAG robot,6,3.0
+S028,H014,Global governance frameworks for frontier AI safety regulation,RAG robot,Breadth,CCA,8,4.0
+S028,H014,Global governance frameworks for frontier AI safety regulation,RAG robot,Breadth,RAG robot,8,4.0
+S029,H014,2026 [personal identifier removed],Co-STORM,Aha Moment,CCA,10,5.0
+S029,H014,2026 [personal identifier removed],Co-STORM,Aha Moment,Co-STORM,8,4.0
+S029,H014,2026 [personal identifier removed],Co-STORM,UU Discovery,CCA,8,4.0
+S029,H014,2026 [personal identifier removed],Co-STORM,UU Discovery,Co-STORM,10,5.0
+S029,H014,2026 [personal identifier removed],Co-STORM,Guidance Ease & Question Insightfulness,CCA,10,5.0
+S029,H014,2026 [personal identifier removed],Co-STORM,Guidance Ease & Question Insightfulness,Co-STORM,10,5.0
+S029,H014,2026 [personal identifier removed],Co-STORM,Information Gain,CCA,8,4.0
+S029,H014,2026 [personal identifier removed],Co-STORM,Information Gain,Co-STORM,6,3.0
+S029,H014,2026 [personal identifier removed],Co-STORM,Trajectory Coherence,CCA,8,4.0
+S029,H014,2026 [personal identifier removed],Co-STORM,Trajectory Coherence,Co-STORM,10,5.0
+S029,H014,2026 [personal identifier removed],Co-STORM,Clarity,CCA,6,3.0
+S029,H014,2026 [personal identifier removed],Co-STORM,Clarity,Co-STORM,6,3.0
+S029,H014,2026 [personal identifier removed],Co-STORM,Engagement,CCA,8,4.0
+S029,H014,2026 [personal identifier removed],Co-STORM,Engagement,Co-STORM,8,4.0
+S029,H014,2026 [personal identifier removed],Co-STORM,Depth Appropriateness,CCA,6,3.0
+S029,H014,2026 [personal identifier removed],Co-STORM,Depth Appropriateness,Co-STORM,6,3.0
+S029,H014,2026 [personal identifier removed],Co-STORM,Breadth,CCA,10,5.0
+S029,H014,2026 [personal identifier removed],Co-STORM,Breadth,Co-STORM,10,5.0
+S030,H004,2026 G7 fragmentation in post-summit global coordination,RAG robot,Aha Moment,CCA,8,4.0
+S030,H004,2026 G7 fragmentation in post-summit global coordination,RAG robot,Aha Moment,RAG robot,4,2.0
+S030,H004,2026 G7 fragmentation in post-summit global coordination,RAG robot,UU Discovery,CCA,8,4.0
+S030,H004,2026 G7 fragmentation in post-summit global coordination,RAG robot,UU Discovery,RAG robot,6,3.0
+S030,H004,2026 G7 fragmentation in post-summit global coordination,RAG robot,Guidance Ease & Question Insightfulness,CCA,8,4.0
+S030,H004,2026 G7 fragmentation in post-summit global coordination,RAG robot,Guidance Ease & Question Insightfulness,RAG robot,6,3.0
+S030,H004,2026 G7 fragmentation in post-summit global coordination,RAG robot,Information Gain,CCA,8,4.0
+S030,H004,2026 G7 fragmentation in post-summit global coordination,RAG robot,Information Gain,RAG robot,6,3.0
+S030,H004,2026 G7 fragmentation in post-summit global coordination,RAG robot,Trajectory Coherence,CCA,8,4.0
+S030,H004,2026 G7 fragmentation in post-summit global coordination,RAG robot,Trajectory Coherence,RAG robot,8,4.0
+S030,H004,2026 G7 fragmentation in post-summit global coordination,RAG robot,Clarity,CCA,6,3.0
+S030,H004,2026 G7 fragmentation in post-summit global coordination,RAG robot,Clarity,RAG robot,6,3.0
+S030,H004,2026 G7 fragmentation in post-summit global coordination,RAG robot,Engagement,CCA,8,4.0
+S030,H004,2026 G7 fragmentation in post-summit global coordination,RAG robot,Engagement,RAG robot,4,2.0
+S030,H004,2026 G7 fragmentation in post-summit global coordination,RAG robot,Depth Appropriateness,CCA,6,3.0
+S030,H004,2026 G7 fragmentation in post-summit global coordination,RAG robot,Depth Appropriateness,RAG robot,6,3.0
+S030,H004,2026 G7 fragmentation in post-summit global coordination,RAG robot,Breadth,CCA,8,4.0
+S030,H004,2026 G7 fragmentation in post-summit global coordination,RAG robot,Breadth,RAG robot,6,3.0
+S031,H004,2026 US-Iran conflict and global energy market volatility,Co-STORM,Aha Moment,CCA,8,4.0
+S031,H004,2026 US-Iran conflict and global energy market volatility,Co-STORM,Aha Moment,Co-STORM,8,4.0
+S031,H004,2026 US-Iran conflict and global energy market volatility,Co-STORM,UU Discovery,CCA,8,4.0
+S031,H004,2026 US-Iran conflict and global energy market volatility,Co-STORM,UU Discovery,Co-STORM,8,4.0
+S031,H004,2026 US-Iran conflict and global energy market volatility,Co-STORM,Guidance Ease & Question Insightfulness,CCA,10,5.0
+S031,H004,2026 US-Iran conflict and global energy market volatility,Co-STORM,Guidance Ease & Question Insightfulness,Co-STORM,8,4.0
+S031,H004,2026 US-Iran conflict and global energy market volatility,Co-STORM,Information Gain,CCA,8,4.0
+S031,H004,2026 US-Iran conflict and global energy market volatility,Co-STORM,Information Gain,Co-STORM,6,3.0
+S031,H004,2026 US-Iran conflict and global energy market volatility,Co-STORM,Trajectory Coherence,CCA,6,3.0
+S031,H004,2026 US-Iran conflict and global energy market volatility,Co-STORM,Trajectory Coherence,Co-STORM,8,4.0
+S031,H004,2026 US-Iran conflict and global energy market volatility,Co-STORM,Clarity,CCA,10,5.0
+S031,H004,2026 US-Iran conflict and global energy market volatility,Co-STORM,Clarity,Co-STORM,8,4.0
+S031,H004,2026 US-Iran conflict and global energy market volatility,Co-STORM,Engagement,CCA,6,3.0
+S031,H004,2026 US-Iran conflict and global energy market volatility,Co-STORM,Engagement,Co-STORM,6,3.0
+S031,H004,2026 US-Iran conflict and global energy market volatility,Co-STORM,Depth Appropriateness,CCA,8,4.0
+S031,H004,2026 US-Iran conflict and global energy market volatility,Co-STORM,Depth Appropriateness,Co-STORM,6,3.0
+S031,H004,2026 US-Iran conflict and global energy market volatility,Co-STORM,Breadth,CCA,8,4.0
+S031,H004,2026 US-Iran conflict and global energy market volatility,Co-STORM,Breadth,Co-STORM,8,4.0
+S032,H021,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Aha Moment,CCA,8,4.0
+S032,H021,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Aha Moment,Co-STORM,10,5.0
+S032,H021,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,UU Discovery,CCA,8,4.0
+S032,H021,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,UU Discovery,Co-STORM,8,4.0
+S032,H021,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Guidance Ease & Question Insightfulness,CCA,10,5.0
+S032,H021,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Guidance Ease & Question Insightfulness,Co-STORM,8,4.0
+S032,H021,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Information Gain,CCA,10,5.0
+S032,H021,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Information Gain,Co-STORM,8,4.0
+S032,H021,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Trajectory Coherence,CCA,8,4.0
+S032,H021,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Trajectory Coherence,Co-STORM,6,3.0
+S032,H021,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Clarity,CCA,6,3.0
+S032,H021,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Clarity,Co-STORM,6,3.0
+S032,H021,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Engagement,CCA,6,3.0
+S032,H021,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Engagement,Co-STORM,8,4.0
+S032,H021,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Depth Appropriateness,CCA,8,4.0
+S032,H021,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Depth Appropriateness,Co-STORM,6,3.0
+S032,H021,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Breadth,CCA,8,4.0
+S032,H021,2026 [personal identifier removed] in digitally mediated societies,Co-STORM,Breadth,Co-STORM,8,4.0
+S033,H010,Global governance frameworks for frontier AI safety regulation,Co-STORM,Aha Moment,CCA,6,3.0
+S033,H010,Global governance frameworks for frontier AI safety regulation,Co-STORM,Aha Moment,Co-STORM,6,3.0
+S033,H010,Global governance frameworks for frontier AI safety regulation,Co-STORM,UU Discovery,CCA,6,3.0
+S033,H010,Global governance frameworks for frontier AI safety regulation,Co-STORM,UU Discovery,Co-STORM,6,3.0
+S033,H010,Global governance frameworks for frontier AI safety regulation,Co-STORM,Guidance Ease & Question Insightfulness,CCA,6,3.0
+S033,H010,Global governance frameworks for frontier AI safety regulation,Co-STORM,Guidance Ease & Question Insightfulness,Co-STORM,6,3.0
+S033,H010,Global governance frameworks for frontier AI safety regulation,Co-STORM,Information Gain,CCA,6,3.0
+S033,H010,Global governance frameworks for frontier AI safety regulation,Co-STORM,Information Gain,Co-STORM,6,3.0
+S033,H010,Global governance frameworks for frontier AI safety regulation,Co-STORM,Trajectory Coherence,CCA,6,3.0
+S033,H010,Global governance frameworks for frontier AI safety regulation,Co-STORM,Trajectory Coherence,Co-STORM,6,3.0
+S033,H010,Global governance frameworks for frontier AI safety regulation,Co-STORM,Clarity,CCA,6,3.0
+S033,H010,Global governance frameworks for frontier AI safety regulation,Co-STORM,Clarity,Co-STORM,6,3.0
+S033,H010,Global governance frameworks for frontier AI safety regulation,Co-STORM,Engagement,CCA,6,3.0
+S033,H010,Global governance frameworks for frontier AI safety regulation,Co-STORM,Engagement,Co-STORM,6,3.0
+S033,H010,Global governance frameworks for frontier AI safety regulation,Co-STORM,Depth Appropriateness,CCA,6,3.0
+S033,H010,Global governance frameworks for frontier AI safety regulation,Co-STORM,Depth Appropriateness,Co-STORM,6,3.0
+S033,H010,Global governance frameworks for frontier AI safety regulation,Co-STORM,Breadth,CCA,8,4.0
+S033,H010,Global governance frameworks for frontier AI safety regulation,Co-STORM,Breadth,Co-STORM,8,4.0
+S034,H010,2026 [personal identifier removed],RAG robot,Aha Moment,CCA,8,4.0
+S034,H010,2026 [personal identifier removed],RAG robot,Aha Moment,RAG robot,8,4.0
+S034,H010,2026 [personal identifier removed],RAG robot,UU Discovery,CCA,8,4.0
+S034,H010,2026 [personal identifier removed],RAG robot,UU Discovery,RAG robot,8,4.0
+S034,H010,2026 [personal identifier removed],RAG robot,Guidance Ease & Question Insightfulness,CCA,8,4.0
+S034,H010,2026 [personal identifier removed],RAG robot,Guidance Ease & Question Insightfulness,RAG robot,8,4.0
+S034,H010,2026 [personal identifier removed],RAG robot,Information Gain,CCA,8,4.0
+S034,H010,2026 [personal identifier removed],RAG robot,Information Gain,RAG robot,8,4.0
+S034,H010,2026 [personal identifier removed],RAG robot,Trajectory Coherence,CCA,8,4.0
+S034,H010,2026 [personal identifier removed],RAG robot,Trajectory Coherence,RAG robot,8,4.0
+S034,H010,2026 [personal identifier removed],RAG robot,Clarity,CCA,8,4.0
+S034,H010,2026 [personal identifier removed],RAG robot,Clarity,RAG robot,8,4.0
+S034,H010,2026 [personal identifier removed],RAG robot,Engagement,CCA,8,4.0
+S034,H010,2026 [personal identifier removed],RAG robot,Engagement,RAG robot,8,4.0
+S034,H010,2026 [personal identifier removed],RAG robot,Depth Appropriateness,CCA,8,4.0
+S034,H010,2026 [personal identifier removed],RAG robot,Depth Appropriateness,RAG robot,8,4.0
+S034,H010,2026 [personal identifier removed],RAG robot,Breadth,CCA,8,4.0
+S034,H010,2026 [personal identifier removed],RAG robot,Breadth,RAG robot,8,4.0
+S035,H015,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Aha Moment,CCA,8,4.0
+S035,H015,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Aha Moment,Co-STORM,8,4.0
+S035,H015,2026 G7 fragmentation in post-summit global coordination,Co-STORM,UU Discovery,CCA,8,4.0
+S035,H015,2026 G7 fragmentation in post-summit global coordination,Co-STORM,UU Discovery,Co-STORM,8,4.0
+S035,H015,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Guidance Ease & Question Insightfulness,CCA,8,4.0
+S035,H015,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Guidance Ease & Question Insightfulness,Co-STORM,8,4.0
+S035,H015,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Information Gain,CCA,8,4.0
+S035,H015,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Information Gain,Co-STORM,8,4.0
+S035,H015,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Trajectory Coherence,CCA,8,4.0
+S035,H015,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Trajectory Coherence,Co-STORM,8,4.0
+S035,H015,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Clarity,CCA,8,4.0
+S035,H015,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Clarity,Co-STORM,8,4.0
+S035,H015,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Engagement,CCA,8,4.0
+S035,H015,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Engagement,Co-STORM,8,4.0
+S035,H015,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Depth Appropriateness,CCA,8,4.0
+S035,H015,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Depth Appropriateness,Co-STORM,8,4.0
+S035,H015,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Breadth,CCA,8,4.0
+S035,H015,2026 G7 fragmentation in post-summit global coordination,Co-STORM,Breadth,Co-STORM,8,4.0
+S036,H015,2026 US-Iran conflict and global energy market volatility,RAG robot,Aha Moment,CCA,10,5.0
+S036,H015,2026 US-Iran conflict and global energy market volatility,RAG robot,Aha Moment,RAG robot,10,5.0
+S036,H015,2026 US-Iran conflict and global energy market volatility,RAG robot,UU Discovery,CCA,10,5.0
+S036,H015,2026 US-Iran conflict and global energy market volatility,RAG robot,UU Discovery,RAG robot,10,5.0
+S036,H015,2026 US-Iran conflict and global energy market volatility,RAG robot,Guidance Ease & Question Insightfulness,CCA,10,5.0
+S036,H015,2026 US-Iran conflict and global energy market volatility,RAG robot,Guidance Ease & Question Insightfulness,RAG robot,10,5.0
+S036,H015,2026 US-Iran conflict and global energy market volatility,RAG robot,Information Gain,CCA,10,5.0
+S036,H015,2026 US-Iran conflict and global energy market volatility,RAG robot,Information Gain,RAG robot,10,5.0
+S036,H015,2026 US-Iran conflict and global energy market volatility,RAG robot,Trajectory Coherence,CCA,10,5.0
+S036,H015,2026 US-Iran conflict and global energy market volatility,RAG robot,Trajectory Coherence,RAG robot,10,5.0
+S036,H015,2026 US-Iran conflict and global energy market volatility,RAG robot,Clarity,CCA,10,5.0
+S036,H015,2026 US-Iran conflict and global energy market volatility,RAG robot,Clarity,RAG robot,10,5.0
+S036,H015,2026 US-Iran conflict and global energy market volatility,RAG robot,Engagement,CCA,10,5.0
+S036,H015,2026 US-Iran conflict and global energy market volatility,RAG robot,Engagement,RAG robot,10,5.0
+S036,H015,2026 US-Iran conflict and global energy market volatility,RAG robot,Depth Appropriateness,CCA,10,5.0
+S036,H015,2026 US-Iran conflict and global energy market volatility,RAG robot,Depth Appropriateness,RAG robot,10,5.0
+S036,H015,2026 US-Iran conflict and global energy market volatility,RAG robot,Breadth,CCA,10,5.0
+S036,H015,2026 US-Iran conflict and global energy market volatility,RAG robot,Breadth,RAG robot,10,5.0
+S037,H007,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Aha Moment,CCA,10,5.0
+S037,H007,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Aha Moment,RAG robot,8,4.0
+S037,H007,2026 Digital culture fragmentation in post-truth media environments,RAG robot,UU Discovery,CCA,8,4.0
+S037,H007,2026 Digital culture fragmentation in post-truth media environments,RAG robot,UU Discovery,RAG robot,4,2.0
+S037,H007,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Guidance Ease & Question Insightfulness,CCA,10,5.0
+S037,H007,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Guidance Ease & Question Insightfulness,RAG robot,2,1.0
+S037,H007,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Information Gain,CCA,8,4.0
+S037,H007,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Information Gain,RAG robot,6,3.0
+S037,H007,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Trajectory Coherence,CCA,6,3.0
+S037,H007,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Trajectory Coherence,RAG robot,8,4.0
+S037,H007,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Clarity,CCA,6,3.0
+S037,H007,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Clarity,RAG robot,8,4.0
+S037,H007,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Engagement,CCA,8,4.0
+S037,H007,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Engagement,RAG robot,6,3.0
+S037,H007,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Depth Appropriateness,CCA,6,3.0
+S037,H007,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Depth Appropriateness,RAG robot,6,3.0
+S037,H007,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Breadth,CCA,6,3.0
+S037,H007,2026 Digital culture fragmentation in post-truth media environments,RAG robot,Breadth,RAG robot,8,4.0
+S038,H007,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Aha Moment,CCA,8,4.0
+S038,H007,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Aha Moment,Co-STORM,8,4.0
+S038,H007,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,UU Discovery,CCA,10,5.0
+S038,H007,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,UU Discovery,Co-STORM,8,4.0
+S038,H007,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Guidance Ease & Question Insightfulness,CCA,10,5.0
+S038,H007,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Guidance Ease & Question Insightfulness,Co-STORM,8,4.0
+S038,H007,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Information Gain,CCA,8,4.0
+S038,H007,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Information Gain,Co-STORM,8,4.0
+S038,H007,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Trajectory Coherence,CCA,8,4.0
+S038,H007,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Trajectory Coherence,Co-STORM,6,3.0
+S038,H007,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Clarity,CCA,6,3.0
+S038,H007,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Clarity,Co-STORM,8,4.0
+S038,H007,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Engagement,CCA,8,4.0
+S038,H007,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Engagement,Co-STORM,6,3.0
+S038,H007,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Depth Appropriateness,CCA,10,5.0
+S038,H007,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Depth Appropriateness,Co-STORM,8,4.0
+S038,H007,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Breadth,CCA,10,5.0
+S038,H007,2026 US-Iran conflict escalation and regional diplomatic realignment,Co-STORM,Breadth,Co-STORM,4,2.0
+S039,H013,2026 [personal identifier removed],Co-STORM,Aha Moment,CCA,10,5.0
+S039,H013,2026 [personal identifier removed],Co-STORM,Aha Moment,Co-STORM,8,4.0
+S039,H013,2026 [personal identifier removed],Co-STORM,UU Discovery,CCA,10,5.0
+S039,H013,2026 [personal identifier removed],Co-STORM,UU Discovery,Co-STORM,6,3.0
+S039,H013,2026 [personal identifier removed],Co-STORM,Guidance Ease & Question Insightfulness,CCA,10,5.0
+S039,H013,2026 [personal identifier removed],Co-STORM,Guidance Ease & Question Insightfulness,Co-STORM,8,4.0
+S039,H013,2026 [personal identifier removed],Co-STORM,Information Gain,CCA,10,5.0
+S039,H013,2026 [personal identifier removed],Co-STORM,Information Gain,Co-STORM,8,4.0
+S039,H013,2026 [personal identifier removed],Co-STORM,Trajectory Coherence,CCA,8,4.0
+S039,H013,2026 [personal identifier removed],Co-STORM,Trajectory Coherence,Co-STORM,6,3.0
+S039,H013,2026 [personal identifier removed],Co-STORM,Clarity,CCA,8,4.0
+S039,H013,2026 [personal identifier removed],Co-STORM,Clarity,Co-STORM,6,3.0
+S039,H013,2026 [personal identifier removed],Co-STORM,Engagement,CCA,8,4.0
+S039,H013,2026 [personal identifier removed],Co-STORM,Engagement,Co-STORM,8,4.0
+S039,H013,2026 [personal identifier removed],Co-STORM,Depth Appropriateness,CCA,10,5.0
+S039,H013,2026 [personal identifier removed],Co-STORM,Depth Appropriateness,Co-STORM,6,3.0
+S039,H013,2026 [personal identifier removed],Co-STORM,Breadth,CCA,8,4.0
+S039,H013,2026 [personal identifier removed],Co-STORM,Breadth,Co-STORM,6,3.0
+S040,H018,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Aha Moment,CCA,10,5.0
+S040,H018,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Aha Moment,Co-STORM,8,4.0
+S040,H018,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,UU Discovery,CCA,8,4.0
+S040,H018,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,UU Discovery,Co-STORM,10,5.0
+S040,H018,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Guidance Ease & Question Insightfulness,CCA,6,3.0
+S040,H018,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Guidance Ease & Question Insightfulness,Co-STORM,8,4.0
+S040,H018,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Information Gain,CCA,8,4.0
+S040,H018,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Information Gain,Co-STORM,10,5.0
+S040,H018,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Trajectory Coherence,CCA,8,4.0
+S040,H018,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Trajectory Coherence,Co-STORM,10,5.0
+S040,H018,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Clarity,CCA,10,5.0
+S040,H018,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Clarity,Co-STORM,8,4.0
+S040,H018,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Engagement,CCA,8,4.0
+S040,H018,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Engagement,Co-STORM,6,3.0
+S040,H018,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Depth Appropriateness,CCA,8,4.0
+S040,H018,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Depth Appropriateness,Co-STORM,8,4.0
+S040,H018,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Breadth,CCA,8,4.0
+S040,H018,2026 AI-driven labor displacement and welfare system restructuring,Co-STORM,Breadth,Co-STORM,8,4.0

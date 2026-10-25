@@ -1,0 +1,1762 @@
+[
+  {
+    "session_id": "S001",
+    "participant_linkage_key": "H012",
+    "topic": "Global governance frameworks for frontier AI safety regulation",
+    "baseline": "RAG robot",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "UU Discovery": {
+        "CCA": 10,
+        "RAG robot": 8
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 10,
+        "RAG robot": 4
+      },
+      "Information Gain": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "Trajectory Coherence": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "Clarity": {
+        "CCA": 10,
+        "RAG robot": 8
+      },
+      "Engagement": {
+        "CCA": 8,
+        "RAG robot": 4
+      },
+      "Depth Appropriateness": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "Breadth": {
+        "CCA": 6,
+        "RAG robot": 4
+      }
+    }
+  },
+  {
+    "session_id": "S002",
+    "participant_linkage_key": "H008",
+    "topic": "OpenClaw-driven autonomous agent orchestration systems",
+    "baseline": "RAG robot",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "UU Discovery": {
+        "CCA": 6,
+        "RAG robot": 4
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "Information Gain": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "Trajectory Coherence": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "Clarity": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "Engagement": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "Depth Appropriateness": {
+        "CCA": 8,
+        "RAG robot": 4
+      },
+      "Breadth": {
+        "CCA": 8,
+        "RAG robot": 4
+      }
+    }
+  },
+  {
+    "session_id": "S003",
+    "participant_linkage_key": "H008",
+    "topic": "2026 AI-driven labor displacement and welfare system restructuring",
+    "baseline": "Co-STORM",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "UU Discovery": {
+        "CCA": 8,
+        "Co-STORM": 4
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Information Gain": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Trajectory Coherence": {
+        "CCA": 8,
+        "Co-STORM": 4
+      },
+      "Clarity": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Engagement": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Depth Appropriateness": {
+        "CCA": 8,
+        "Co-STORM": 4
+      },
+      "Breadth": {
+        "CCA": 8,
+        "Co-STORM": 4
+      }
+    }
+  },
+  {
+    "session_id": "S004",
+    "participant_linkage_key": "H019",
+    "topic": "OpenClaw-driven autonomous agent orchestration systems",
+    "baseline": "RAG robot",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 6,
+        "RAG robot": 8
+      },
+      "UU Discovery": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "Information Gain": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "Trajectory Coherence": {
+        "CCA": 4,
+        "RAG robot": 6
+      },
+      "Clarity": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "Engagement": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Depth Appropriateness": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "Breadth": {
+        "CCA": 8,
+        "RAG robot": 6
+      }
+    }
+  },
+  {
+    "session_id": "S005",
+    "participant_linkage_key": "H001",
+    "topic": "OpenClaw-driven autonomous agent orchestration systems",
+    "baseline": "Co-STORM",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 10,
+        "Co-STORM": 10
+      },
+      "UU Discovery": {
+        "CCA": 10,
+        "Co-STORM": 6
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 8,
+        "Co-STORM": 4
+      },
+      "Information Gain": {
+        "CCA": 6,
+        "Co-STORM": 8
+      },
+      "Trajectory Coherence": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Clarity": {
+        "CCA": 6,
+        "Co-STORM": 8
+      },
+      "Engagement": {
+        "CCA": 6,
+        "Co-STORM": 6
+      },
+      "Depth Appropriateness": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Breadth": {
+        "CCA": 6,
+        "Co-STORM": 6
+      }
+    }
+  },
+  {
+    "session_id": "S006",
+    "participant_linkage_key": "H016",
+    "topic": "2026 US-Iran conflict escalation and regional diplomatic realignment",
+    "baseline": "Co-STORM",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 8,
+        "Co-STORM": 4
+      },
+      "UU Discovery": {
+        "CCA": 10,
+        "Co-STORM": 4
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 10,
+        "Co-STORM": 2
+      },
+      "Information Gain": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Trajectory Coherence": {
+        "CCA": 6,
+        "Co-STORM": 6
+      },
+      "Clarity": {
+        "CCA": 6,
+        "Co-STORM": 4
+      },
+      "Engagement": {
+        "CCA": 8,
+        "Co-STORM": 4
+      },
+      "Depth Appropriateness": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Breadth": {
+        "CCA": 10,
+        "Co-STORM": 8
+      }
+    }
+  },
+  {
+    "session_id": "S007",
+    "participant_linkage_key": "H016",
+    "topic": "2026 Digital culture fragmentation in post-truth media environments",
+    "baseline": "RAG robot",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 8,
+        "RAG robot": 2
+      },
+      "UU Discovery": {
+        "CCA": 8,
+        "RAG robot": 4
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 8,
+        "RAG robot": 2
+      },
+      "Information Gain": {
+        "CCA": 8,
+        "RAG robot": 4
+      },
+      "Trajectory Coherence": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "Clarity": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "Engagement": {
+        "CCA": 10,
+        "RAG robot": 6
+      },
+      "Depth Appropriateness": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "Breadth": {
+        "CCA": 6,
+        "RAG robot": 4
+      }
+    }
+  },
+  {
+    "session_id": "S008",
+    "participant_linkage_key": "H011",
+    "topic": "2026 AI-driven labor displacement and welfare system restructuring",
+    "baseline": "RAG robot",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "UU Discovery": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 6,
+        "RAG robot": 10
+      },
+      "Information Gain": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Trajectory Coherence": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Clarity": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Engagement": {
+        "CCA": 4,
+        "RAG robot": 6
+      },
+      "Depth Appropriateness": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "Breadth": {
+        "CCA": 6,
+        "RAG robot": 8
+      }
+    }
+  },
+  {
+    "session_id": "S009",
+    "participant_linkage_key": "H023",
+    "topic": "2026 [personal identifier removed] on short-video platforms",
+    "baseline": "RAG robot",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 6,
+        "RAG robot": 8
+      },
+      "UU Discovery": {
+        "CCA": 6,
+        "RAG robot": 8
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 6,
+        "RAG robot": 8
+      },
+      "Information Gain": {
+        "CCA": 6,
+        "RAG robot": 8
+      },
+      "Trajectory Coherence": {
+        "CCA": 6,
+        "RAG robot": 8
+      },
+      "Clarity": {
+        "CCA": 6,
+        "RAG robot": 8
+      },
+      "Engagement": {
+        "CCA": 6,
+        "RAG robot": 8
+      },
+      "Depth Appropriateness": {
+        "CCA": 6,
+        "RAG robot": 8
+      },
+      "Breadth": {
+        "CCA": 6,
+        "RAG robot": 8
+      }
+    }
+  },
+  {
+    "session_id": "S010",
+    "participant_linkage_key": "H022",
+    "topic": "2026 US-Iran conflict escalation and regional diplomatic realignment",
+    "baseline": "RAG robot",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 10,
+        "RAG robot": 6
+      },
+      "UU Discovery": {
+        "CCA": 10,
+        "RAG robot": 6
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "Information Gain": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "Trajectory Coherence": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "Clarity": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "Engagement": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "Depth Appropriateness": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "Breadth": {
+        "CCA": 6,
+        "RAG robot": 6
+      }
+    }
+  },
+  {
+    "session_id": "S011",
+    "participant_linkage_key": "H024",
+    "topic": "2026 [personal identifier removed] in digitally mediated societies",
+    "baseline": "RAG robot",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 8,
+        "RAG robot": 4
+      },
+      "UU Discovery": {
+        "CCA": 8,
+        "RAG robot": 4
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 10,
+        "RAG robot": 2
+      },
+      "Information Gain": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "Trajectory Coherence": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "Clarity": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "Engagement": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "Depth Appropriateness": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Breadth": {
+        "CCA": 8,
+        "RAG robot": 6
+      }
+    }
+  },
+  {
+    "session_id": "S012",
+    "participant_linkage_key": "H003",
+    "topic": "2026 US-Iran conflict escalation and regional diplomatic realignment",
+    "baseline": "RAG robot",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "UU Discovery": {
+        "CCA": 6,
+        "RAG robot": 8
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 10,
+        "RAG robot": 6
+      },
+      "Information Gain": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "Trajectory Coherence": {
+        "CCA": 8,
+        "RAG robot": 4
+      },
+      "Clarity": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "Engagement": {
+        "CCA": 6,
+        "RAG robot": 4
+      },
+      "Depth Appropriateness": {
+        "CCA": 6,
+        "RAG robot": 2
+      },
+      "Breadth": {
+        "CCA": 6,
+        "RAG robot": 2
+      }
+    }
+  },
+  {
+    "session_id": "S013",
+    "participant_linkage_key": "H003",
+    "topic": "2026 [personal identifier removed] in digitally mediated societies",
+    "baseline": "Co-STORM",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "UU Discovery": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 10,
+        "Co-STORM": 10
+      },
+      "Information Gain": {
+        "CCA": 6,
+        "Co-STORM": 8
+      },
+      "Trajectory Coherence": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "Clarity": {
+        "CCA": 10,
+        "Co-STORM": 10
+      },
+      "Engagement": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "Depth Appropriateness": {
+        "CCA": 8,
+        "Co-STORM": 10
+      },
+      "Breadth": {
+        "CCA": 8,
+        "Co-STORM": 8
+      }
+    }
+  },
+  {
+    "session_id": "S014",
+    "participant_linkage_key": "H009",
+    "topic": "2026 [personal identifier removed] in digitally mediated societies",
+    "baseline": "RAG robot",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "UU Discovery": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Information Gain": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Trajectory Coherence": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Clarity": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Engagement": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Depth Appropriateness": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Breadth": {
+        "CCA": 8,
+        "RAG robot": 8
+      }
+    }
+  },
+  {
+    "session_id": "S015",
+    "participant_linkage_key": "H009",
+    "topic": "2026 [personal identifier removed] on short-video platforms",
+    "baseline": "Co-STORM",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 8,
+        "Co-STORM": 10
+      },
+      "UU Discovery": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 8,
+        "Co-STORM": 10
+      },
+      "Information Gain": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "Trajectory Coherence": {
+        "CCA": 8,
+        "Co-STORM": 10
+      },
+      "Clarity": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "Engagement": {
+        "CCA": 8,
+        "Co-STORM": 10
+      },
+      "Depth Appropriateness": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "Breadth": {
+        "CCA": 8,
+        "Co-STORM": 10
+      }
+    }
+  },
+  {
+    "session_id": "S016",
+    "participant_linkage_key": "H002",
+    "topic": "2026 G7 fragmentation in post-summit global coordination",
+    "baseline": "RAG robot",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 8,
+        "RAG robot": 4
+      },
+      "UU Discovery": {
+        "CCA": 10,
+        "RAG robot": 4
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 10,
+        "RAG robot": 4
+      },
+      "Information Gain": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "Trajectory Coherence": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "Clarity": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "Engagement": {
+        "CCA": 6,
+        "RAG robot": 4
+      },
+      "Depth Appropriateness": {
+        "CCA": 6,
+        "RAG robot": 4
+      },
+      "Breadth": {
+        "CCA": 8,
+        "RAG robot": 6
+      }
+    }
+  },
+  {
+    "session_id": "S017",
+    "participant_linkage_key": "H002",
+    "topic": "2026 US-Iran conflict and global energy market volatility",
+    "baseline": "Co-STORM",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "UU Discovery": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "Information Gain": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Trajectory Coherence": {
+        "CCA": 6,
+        "Co-STORM": 6
+      },
+      "Clarity": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Engagement": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "Depth Appropriateness": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Breadth": {
+        "CCA": 8,
+        "Co-STORM": 8
+      }
+    }
+  },
+  {
+    "session_id": "S018",
+    "participant_linkage_key": "H005",
+    "topic": "2026 Digital culture fragmentation in post-truth media environments",
+    "baseline": "Co-STORM",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "UU Discovery": {
+        "CCA": 10,
+        "Co-STORM": 10
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Information Gain": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Trajectory Coherence": {
+        "CCA": 6,
+        "Co-STORM": 6
+      },
+      "Clarity": {
+        "CCA": 6,
+        "Co-STORM": 8
+      },
+      "Engagement": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "Depth Appropriateness": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Breadth": {
+        "CCA": 8,
+        "Co-STORM": 8
+      }
+    }
+  },
+  {
+    "session_id": "S019",
+    "participant_linkage_key": "H017",
+    "topic": "2026 AI-driven labor displacement and welfare system restructuring",
+    "baseline": "RAG robot",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 10,
+        "RAG robot": 4
+      },
+      "UU Discovery": {
+        "CCA": 8,
+        "RAG robot": 4
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 8,
+        "RAG robot": 4
+      },
+      "Information Gain": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "Trajectory Coherence": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "Clarity": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "Engagement": {
+        "CCA": 8,
+        "RAG robot": 4
+      },
+      "Depth Appropriateness": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "Breadth": {
+        "CCA": 8,
+        "RAG robot": 6
+      }
+    }
+  },
+  {
+    "session_id": "S020",
+    "participant_linkage_key": "H025",
+    "topic": "OpenClaw-driven autonomous agent orchestration systems",
+    "baseline": "Co-STORM",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 6,
+        "Co-STORM": 6
+      },
+      "UU Discovery": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 4,
+        "Co-STORM": 6
+      },
+      "Information Gain": {
+        "CCA": 10,
+        "Co-STORM": 6
+      },
+      "Trajectory Coherence": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Clarity": {
+        "CCA": 4,
+        "Co-STORM": 6
+      },
+      "Engagement": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Depth Appropriateness": {
+        "CCA": 4,
+        "Co-STORM": 6
+      },
+      "Breadth": {
+        "CCA": 10,
+        "Co-STORM": 6
+      }
+    }
+  },
+  {
+    "session_id": "S021",
+    "participant_linkage_key": "H025",
+    "topic": "2026 [personal identifier removed] on short-video platforms",
+    "baseline": "RAG robot",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 10,
+        "RAG robot": 6
+      },
+      "UU Discovery": {
+        "CCA": 8,
+        "RAG robot": 4
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 8,
+        "RAG robot": 4
+      },
+      "Information Gain": {
+        "CCA": 10,
+        "RAG robot": 6
+      },
+      "Trajectory Coherence": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "Clarity": {
+        "CCA": 10,
+        "RAG robot": 6
+      },
+      "Engagement": {
+        "CCA": 8,
+        "RAG robot": 4
+      },
+      "Depth Appropriateness": {
+        "CCA": 6,
+        "RAG robot": 4
+      },
+      "Breadth": {
+        "CCA": 6,
+        "RAG robot": 6
+      }
+    }
+  },
+  {
+    "session_id": "S022",
+    "participant_linkage_key": "H026",
+    "topic": "Global governance frameworks for frontier AI safety regulation",
+    "baseline": "Co-STORM",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 8,
+        "Co-STORM": 4
+      },
+      "UU Discovery": {
+        "CCA": 6,
+        "Co-STORM": 2
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 8,
+        "Co-STORM": 10
+      },
+      "Information Gain": {
+        "CCA": 10,
+        "Co-STORM": 2
+      },
+      "Trajectory Coherence": {
+        "CCA": 10,
+        "Co-STORM": 2
+      },
+      "Clarity": {
+        "CCA": 10,
+        "Co-STORM": 6
+      },
+      "Engagement": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Depth Appropriateness": {
+        "CCA": 10,
+        "Co-STORM": 2
+      },
+      "Breadth": {
+        "CCA": 10,
+        "Co-STORM": 2
+      }
+    }
+  },
+  {
+    "session_id": "S023",
+    "participant_linkage_key": "H026",
+    "topic": "2026 [personal identifier removed]",
+    "baseline": "RAG robot",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "UU Discovery": {
+        "CCA": 10,
+        "RAG robot": 6
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Information Gain": {
+        "CCA": 10,
+        "RAG robot": 6
+      },
+      "Trajectory Coherence": {
+        "CCA": 10,
+        "RAG robot": 8
+      },
+      "Clarity": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Engagement": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Depth Appropriateness": {
+        "CCA": 10,
+        "RAG robot": 6
+      },
+      "Breadth": {
+        "CCA": 8,
+        "RAG robot": 8
+      }
+    }
+  },
+  {
+    "session_id": "S024",
+    "participant_linkage_key": "H020",
+    "topic": "2026 G7 fragmentation in post-summit global coordination",
+    "baseline": "Co-STORM",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 8,
+        "Co-STORM": 10
+      },
+      "UU Discovery": {
+        "CCA": 10,
+        "Co-STORM": 10
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "Information Gain": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "Trajectory Coherence": {
+        "CCA": 10,
+        "Co-STORM": 10
+      },
+      "Clarity": {
+        "CCA": 10,
+        "Co-STORM": 10
+      },
+      "Engagement": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "Depth Appropriateness": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "Breadth": {
+        "CCA": 10,
+        "Co-STORM": 10
+      }
+    }
+  },
+  {
+    "session_id": "S025",
+    "participant_linkage_key": "H020",
+    "topic": "2026 US-Iran conflict and global energy market volatility",
+    "baseline": "RAG robot",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "UU Discovery": {
+        "CCA": 10,
+        "RAG robot": 8
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 8,
+        "RAG robot": 10
+      },
+      "Information Gain": {
+        "CCA": 10,
+        "RAG robot": 8
+      },
+      "Trajectory Coherence": {
+        "CCA": 8,
+        "RAG robot": 10
+      },
+      "Clarity": {
+        "CCA": 8,
+        "RAG robot": 10
+      },
+      "Engagement": {
+        "CCA": 8,
+        "RAG robot": 10
+      },
+      "Depth Appropriateness": {
+        "CCA": 10,
+        "RAG robot": 10
+      },
+      "Breadth": {
+        "CCA": 10,
+        "RAG robot": 8
+      }
+    }
+  },
+  {
+    "session_id": "S026",
+    "participant_linkage_key": "H006",
+    "topic": "2026 [personal identifier removed] on short-video platforms",
+    "baseline": "Co-STORM",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "UU Discovery": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "Information Gain": {
+        "CCA": 6,
+        "Co-STORM": 6
+      },
+      "Trajectory Coherence": {
+        "CCA": 6,
+        "Co-STORM": 4
+      },
+      "Clarity": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "Engagement": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Depth Appropriateness": {
+        "CCA": 6,
+        "Co-STORM": 6
+      },
+      "Breadth": {
+        "CCA": 8,
+        "Co-STORM": 6
+      }
+    }
+  },
+  {
+    "session_id": "S027",
+    "participant_linkage_key": "H014",
+    "topic": "2026 Digital culture fragmentation in post-truth media environments",
+    "baseline": "Co-STORM",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 6,
+        "Co-STORM": 8
+      },
+      "UU Discovery": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 6,
+        "Co-STORM": 6
+      },
+      "Information Gain": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Trajectory Coherence": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Clarity": {
+        "CCA": 6,
+        "Co-STORM": 8
+      },
+      "Engagement": {
+        "CCA": 6,
+        "Co-STORM": 8
+      },
+      "Depth Appropriateness": {
+        "CCA": 4,
+        "Co-STORM": 6
+      },
+      "Breadth": {
+        "CCA": 8,
+        "Co-STORM": 6
+      }
+    }
+  },
+  {
+    "session_id": "S028",
+    "participant_linkage_key": "H014",
+    "topic": "Global governance frameworks for frontier AI safety regulation",
+    "baseline": "RAG robot",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "UU Discovery": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 6,
+        "RAG robot": 4
+      },
+      "Information Gain": {
+        "CCA": 8,
+        "RAG robot": 4
+      },
+      "Trajectory Coherence": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "Clarity": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "Engagement": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Depth Appropriateness": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "Breadth": {
+        "CCA": 8,
+        "RAG robot": 8
+      }
+    }
+  },
+  {
+    "session_id": "S029",
+    "participant_linkage_key": "H014",
+    "topic": "2026 [personal identifier removed]",
+    "baseline": "Co-STORM",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "UU Discovery": {
+        "CCA": 8,
+        "Co-STORM": 10
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 10,
+        "Co-STORM": 10
+      },
+      "Information Gain": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Trajectory Coherence": {
+        "CCA": 8,
+        "Co-STORM": 10
+      },
+      "Clarity": {
+        "CCA": 6,
+        "Co-STORM": 6
+      },
+      "Engagement": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "Depth Appropriateness": {
+        "CCA": 6,
+        "Co-STORM": 6
+      },
+      "Breadth": {
+        "CCA": 10,
+        "Co-STORM": 10
+      }
+    }
+  },
+  {
+    "session_id": "S030",
+    "participant_linkage_key": "H004",
+    "topic": "2026 G7 fragmentation in post-summit global coordination",
+    "baseline": "RAG robot",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 8,
+        "RAG robot": 4
+      },
+      "UU Discovery": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "Information Gain": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "Trajectory Coherence": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Clarity": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "Engagement": {
+        "CCA": 8,
+        "RAG robot": 4
+      },
+      "Depth Appropriateness": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "Breadth": {
+        "CCA": 8,
+        "RAG robot": 6
+      }
+    }
+  },
+  {
+    "session_id": "S031",
+    "participant_linkage_key": "H004",
+    "topic": "2026 US-Iran conflict and global energy market volatility",
+    "baseline": "Co-STORM",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "UU Discovery": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "Information Gain": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Trajectory Coherence": {
+        "CCA": 6,
+        "Co-STORM": 8
+      },
+      "Clarity": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "Engagement": {
+        "CCA": 6,
+        "Co-STORM": 6
+      },
+      "Depth Appropriateness": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Breadth": {
+        "CCA": 8,
+        "Co-STORM": 8
+      }
+    }
+  },
+  {
+    "session_id": "S032",
+    "participant_linkage_key": "H021",
+    "topic": "2026 [personal identifier removed] in digitally mediated societies",
+    "baseline": "Co-STORM",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 8,
+        "Co-STORM": 10
+      },
+      "UU Discovery": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "Information Gain": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "Trajectory Coherence": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Clarity": {
+        "CCA": 6,
+        "Co-STORM": 6
+      },
+      "Engagement": {
+        "CCA": 6,
+        "Co-STORM": 8
+      },
+      "Depth Appropriateness": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Breadth": {
+        "CCA": 8,
+        "Co-STORM": 8
+      }
+    }
+  },
+  {
+    "session_id": "S033",
+    "participant_linkage_key": "H010",
+    "topic": "Global governance frameworks for frontier AI safety regulation",
+    "baseline": "Co-STORM",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 6,
+        "Co-STORM": 6
+      },
+      "UU Discovery": {
+        "CCA": 6,
+        "Co-STORM": 6
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 6,
+        "Co-STORM": 6
+      },
+      "Information Gain": {
+        "CCA": 6,
+        "Co-STORM": 6
+      },
+      "Trajectory Coherence": {
+        "CCA": 6,
+        "Co-STORM": 6
+      },
+      "Clarity": {
+        "CCA": 6,
+        "Co-STORM": 6
+      },
+      "Engagement": {
+        "CCA": 6,
+        "Co-STORM": 6
+      },
+      "Depth Appropriateness": {
+        "CCA": 6,
+        "Co-STORM": 6
+      },
+      "Breadth": {
+        "CCA": 8,
+        "Co-STORM": 8
+      }
+    }
+  },
+  {
+    "session_id": "S034",
+    "participant_linkage_key": "H010",
+    "topic": "2026 [personal identifier removed]",
+    "baseline": "RAG robot",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "UU Discovery": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Information Gain": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Trajectory Coherence": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Clarity": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Engagement": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Depth Appropriateness": {
+        "CCA": 8,
+        "RAG robot": 8
+      },
+      "Breadth": {
+        "CCA": 8,
+        "RAG robot": 8
+      }
+    }
+  },
+  {
+    "session_id": "S035",
+    "participant_linkage_key": "H015",
+    "topic": "2026 G7 fragmentation in post-summit global coordination",
+    "baseline": "Co-STORM",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "UU Discovery": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "Information Gain": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "Trajectory Coherence": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "Clarity": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "Engagement": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "Depth Appropriateness": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "Breadth": {
+        "CCA": 8,
+        "Co-STORM": 8
+      }
+    }
+  },
+  {
+    "session_id": "S036",
+    "participant_linkage_key": "H015",
+    "topic": "2026 US-Iran conflict and global energy market volatility",
+    "baseline": "RAG robot",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 10,
+        "RAG robot": 10
+      },
+      "UU Discovery": {
+        "CCA": 10,
+        "RAG robot": 10
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 10,
+        "RAG robot": 10
+      },
+      "Information Gain": {
+        "CCA": 10,
+        "RAG robot": 10
+      },
+      "Trajectory Coherence": {
+        "CCA": 10,
+        "RAG robot": 10
+      },
+      "Clarity": {
+        "CCA": 10,
+        "RAG robot": 10
+      },
+      "Engagement": {
+        "CCA": 10,
+        "RAG robot": 10
+      },
+      "Depth Appropriateness": {
+        "CCA": 10,
+        "RAG robot": 10
+      },
+      "Breadth": {
+        "CCA": 10,
+        "RAG robot": 10
+      }
+    }
+  },
+  {
+    "session_id": "S037",
+    "participant_linkage_key": "H007",
+    "topic": "2026 Digital culture fragmentation in post-truth media environments",
+    "baseline": "RAG robot",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 10,
+        "RAG robot": 8
+      },
+      "UU Discovery": {
+        "CCA": 8,
+        "RAG robot": 4
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 10,
+        "RAG robot": 2
+      },
+      "Information Gain": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "Trajectory Coherence": {
+        "CCA": 6,
+        "RAG robot": 8
+      },
+      "Clarity": {
+        "CCA": 6,
+        "RAG robot": 8
+      },
+      "Engagement": {
+        "CCA": 8,
+        "RAG robot": 6
+      },
+      "Depth Appropriateness": {
+        "CCA": 6,
+        "RAG robot": 6
+      },
+      "Breadth": {
+        "CCA": 6,
+        "RAG robot": 8
+      }
+    }
+  },
+  {
+    "session_id": "S038",
+    "participant_linkage_key": "H007",
+    "topic": "2026 US-Iran conflict escalation and regional diplomatic realignment",
+    "baseline": "Co-STORM",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "UU Discovery": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "Information Gain": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "Trajectory Coherence": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Clarity": {
+        "CCA": 6,
+        "Co-STORM": 8
+      },
+      "Engagement": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Depth Appropriateness": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "Breadth": {
+        "CCA": 10,
+        "Co-STORM": 4
+      }
+    }
+  },
+  {
+    "session_id": "S039",
+    "participant_linkage_key": "H013",
+    "topic": "2026 [personal identifier removed]",
+    "baseline": "Co-STORM",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "UU Discovery": {
+        "CCA": 10,
+        "Co-STORM": 6
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "Information Gain": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "Trajectory Coherence": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Clarity": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Engagement": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "Depth Appropriateness": {
+        "CCA": 10,
+        "Co-STORM": 6
+      },
+      "Breadth": {
+        "CCA": 8,
+        "Co-STORM": 6
+      }
+    }
+  },
+  {
+    "session_id": "S040",
+    "participant_linkage_key": "H018",
+    "topic": "2026 AI-driven labor displacement and welfare system restructuring",
+    "baseline": "Co-STORM",
+    "ratings": {
+      "Aha Moment": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "UU Discovery": {
+        "CCA": 8,
+        "Co-STORM": 10
+      },
+      "Guidance Ease & Question Insightfulness": {
+        "CCA": 6,
+        "Co-STORM": 8
+      },
+      "Information Gain": {
+        "CCA": 8,
+        "Co-STORM": 10
+      },
+      "Trajectory Coherence": {
+        "CCA": 8,
+        "Co-STORM": 10
+      },
+      "Clarity": {
+        "CCA": 10,
+        "Co-STORM": 8
+      },
+      "Engagement": {
+        "CCA": 8,
+        "Co-STORM": 6
+      },
+      "Depth Appropriateness": {
+        "CCA": 8,
+        "Co-STORM": 8
+      },
+      "Breadth": {
+        "CCA": 8,
+        "Co-STORM": 8
+      }
+    }
+  }
+]

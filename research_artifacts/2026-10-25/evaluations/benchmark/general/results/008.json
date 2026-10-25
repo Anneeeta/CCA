@@ -1,0 +1,45 @@
+{
+  "task": "008_ursula-s-character-in-disney-s-the-little-mermaid",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "LLM Baseline",
+    "B": "CCA",
+    "C": "Co-STORM"
+  },
+  "raw": "System A:\n  Clarity: 8.2/10\n  Engagement: 7.6/10\n  Depth Appropriateness: 8.4/10\n  Breadth: 8.6/10\nSystem B:\n  Clarity: 8.5/10\n  Engagement: 8.3/10\n  Depth Appropriateness: 8.2/10\n  Breadth: 8.4/10\nSystem C:\n  Clarity: 7.4/10\n  Engagement: 6.8/10\n  Depth Appropriateness: 6.6/10\n  Breadth: 6.2/10\n\nExplanation:\n[A|Clarity] Round 1's answer defines queer-coding, the monstrous feminine, and the voice-theft metaphor with concrete anchors (\"Ursula's design (modeled partly on the drag performer Divine)\"), and Round 3's witch-archetype section explains the bubble/cauldron/incantation markers with the actual spell quoted. The attested/interpretation/inference distinction in the final summary is a strong clarity device. Minor gap: Round 2's caveat about tie-in fiction vs. canon could have been signposted earlier.\n\n[A|Engagement] The system tracks the user's stated intent (origins, identity, exclusion) in Round 2 and directly answers it, then in Round 3 responds to \"What else should I know?\" with genuinely additive material (Divine lineage, reclamation debate, Vanessa finding) rather than repetition. The closing summary's \"Key Scholarly Tensions\" table invites continued comparison. Gap: no explicit invitation or scaffold for the user to pursue a specific thread further.\n\n[A|Depth Appropriateness] Foundations (queer-coding, body politics) are established in Round 1 before Round 2's origins discussion and Round 3's deeper witch-archetype and Divine material. The reclamation-vs-stereotype debate is held in tension rather than resolved, which suits cultural-studies depth. The tie-in fiction caveat (\"Treat this as tie-in fiction, not film canon\") appropriately bounds claims.\n\n[A|Breadth] The interaction covers queer coding, body/fat politics, the voice-theft-as-rape reading, power/gender dynamics, origins and banishment, witch archetype, Divine/drag lineage, the 2023 remake, and expanded-universe fiction—each developed enough to be usable, with relationships drawn (e.g., \"her body is the hinge where queer-coding and fatness co-produce each other\"). The tension table explicitly connects perspectives.\n\n[B|Clarity] Round 1's instructor answer explains overdetermination and narrative function with clear examples (\"the contract that trades Ariel's voice for legs is what makes Ariel's agency... legible\"), and Round 2's aunt-reframing answer separates attested production facts from interpretation. The final summary's attested/interpretation/inference columns are an unusually clear device. Minor gap: Round 3's \"cuntification\" concept is referenced but not fully unpacked for a newcomer.\n\n[B|Engagement] The student's candidate questions show active goal-directed exploration, and the instructor answers respond to the selected questions with concrete evidence (Ashman's Joan Collins model, the abandoned sister-of-Triton concept). Round 3's \"Poor Unfortunate Souls\" analysis connects staging, vocal delivery, and lyric to the drag/diva reading in a way that makes the user's task concrete. The extension concepts (overdetermination, double bind) give the user tools for further analysis.\n\n[B|Depth Appropriateness] The progression from overdetermination (Round 1) to production origins (Round 2) to musical performance (Round 3) builds coherently. The attested/interpretation/inference separation is consistently maintained, and speculative claims are flagged (\"claims of single authorial intent are speculative\"). Depth is appropriate for a cultural-studies inquiry without assuming prior expertise.\n\n[B|Breadth] The interaction covers queer-coding, fatness/body politics, capitalist contract critique, narrative function, adaptation history, drag/diva performance, production origins, and the aunt reframing—each with developed relationships (e.g., \"the same performance that reads as queer power is also the site of commodification\"). The final summary's \"Unresolved questions\" section explicitly marks boundaries.\n\n[C|Clarity] The warm-start and Round 1 answers explain the Divine lineage and drag origins with concrete quotes (\"Pink Flamingos was on an endless loop at the Bijou\"), and Round 2's answer clearly states the film's narrative gap (\"the film never explained the reason\"). However, Round 3's \"Disney animation historian\" answer introduces the Ashman sister-of-Triton concept without fully connecting it to the earlier Round 2 discussion of the same gap, requiring the user to reconstruct the link.\n\n[C|Engagement] The warm-start dialogue on Pat Carroll's casting is engaging and concrete, and Round 1's drag-origin answer directly addresses the user's topic. However, Round 3's autonomous continuation (no new user input) shifts to a \"Disney animation historian\" role without clear signaling to the user that this is a new angle rather than a continuation of the previous answer. The final summary is comprehensive but does not explicitly connect the casting saga to the origins discussion.\n\n[C|Depth Appropriateness] The casting and vocal-performance material (Carroll's \"ex-Shakespearean actress who now sold cars\" conception, the Ashman demo) is appropriately detailed for a production-history inquiry. However, Round 2's origins answer is somewhat shallow—it lists tie-in sources (Valentino's novel, Broadway musical) without explaining how they differ or why the gap matters culturally. Round 3's historian answer adds needed depth but arrives after the user's question has already been answered.\n\n[C|Breadth] The interaction covers the Divine/drag lineage, the casting saga (Joan Collins, Bea Arthur, Elaine Stritch, Pat Carroll), vocal performance, and origins/banishment. However, these dimensions are not well connected: the casting material (warm-start, Round 1) and the origins material (Round 2, Round 3) are treated as separate blocks rather than as aspects of a single character-construction story. The final summary lists them side by side without drawing relationships.",
+  "scores": {
+    "LLM Baseline": {
+      "Clarity": 8.2,
+      "Engagement": 7.6,
+      "Depth Appropriateness": 8.4,
+      "Breadth": 8.6
+    },
+    "CCA": {
+      "Clarity": 8.5,
+      "Engagement": 8.3,
+      "Depth Appropriateness": 8.2,
+      "Breadth": 8.4
+    },
+    "Co-STORM": {
+      "Clarity": 7.4,
+      "Engagement": 6.8,
+      "Depth Appropriateness": 6.6,
+      "Breadth": 6.2
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 119879,
+      "completion_tokens": 1323,
+      "total_tokens": 121202,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

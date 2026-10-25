@@ -1,0 +1,45 @@
+{
+  "task": "012_enhancing-human-computer-interaction-with-wearable-devices-via-gesture-o",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "LLM Baseline",
+    "B": "Co-STORM",
+    "C": "CCA"
+  },
+  "raw": "System A:\n  Clarity: 8.2/10\n  Engagement: 7.6/10\n  Depth Appropriateness: 8.0/10\n  Breadth: 8.4/10\nSystem B:\n  Clarity: 7.8/10\n  Engagement: 7.4/10\n  Depth Appropriateness: 7.6/10\n  Breadth: 7.8/10\nSystem C:\n  Clarity: 8.0/10\n  Engagement: 7.8/10\n  Depth Appropriateness: 7.8/10\n  Breadth: 8.2/10\n\nExplanation:\n[A|Clarity] Round 1 assistant explains error tolerance and vocabulary richness with concrete examples (\"coarse recognition (e.g., open palm vs. pinch vs. swipe) is often sufficient\"), and Round 3 organizes ergonomic principles in a table with plain-language explanations (\"users compensate for uncomfortable gestures by rotating other joints; interfaces should tolerate these substitutions\"). Transitions between rounds are logical and the layered architecture in Round 1 is explained step by step. Minor gap: some terms like \"intent prediction\" and \"pre-input signal\" are used without full elaboration.\n\n[A|Engagement] The assistant consistently ties content to the user's stated intent (simplifying interface design) and offers a practical checklist in Round 3 (\"Define interaction zones using shoulder-line and chest-level constraints... Measure performance while walking\"). Round 2 directly addresses the user's request to investigate non-touch methods with specific studies (Rateau et al., Kraus/Flegel). The process supports continued exploration but does not actively invite user participation or pose productive questions.\n\n[A|Depth Appropriateness] Foundations (sensing modalities, error tolerance) are established in Round 1 before deeper ergonomic and mobility considerations in Round 3. Mechanisms are explained (e.g., \"gaze answers where/what, gesture answers how/confirm\"), and trade-offs are acknowledged (\"Rich vocabulary versus ergonomic sustainability\"). Depth is appropriate for a research-oriented request without assuming prior expertise.\n\n[A|Breadth] The interaction covers sensing modalities (IMU, vision, gaze), display types, ergonomic principles, mobility effects, vocabulary design, and evaluation methods, with clear relationships (e.g., \"ergonomic design reduces the errors the recognizer must tolerate\"). Round 3 adds tension analysis and practical checklist. Coverage is multidimensional and connected, though some areas (e.g., specific algorithms) are not developed.\n\n[B|Clarity] The warm-start dialogue and Round 1/2 answers explain concepts with examples (e.g., \"gyro-free IMU... 79.6% less current... ±10 degrees over short periods\"). Round 2's General Knowledge Provider explains the Everyday-AR Golden Ergonomic Canvas clearly (\"chest-level, elbow-anchored posture that keeps meaning clear while cutting fatigue\"). However, some transitions between warm-start topics and the main rounds are abrupt, and Round 3's expert response is dense with citations but less explanatory.\n\n[B|Engagement] The warm-start dialogue poses focused questions (e.g., \"What's the real cost of choosing a gyro-free IMU...\") that directly address practical design trade-offs, engaging the user in specific problems. Round 2 connects to the user's request for non-touch methods with concrete prevalence statistics (\"Select appeared in 96%... Throw (7.7%)\"). The process is purposeful but the final summary is more consolidative than invitational.\n\n[B|Depth Appropriateness] Technical depth is appropriate for a research context: hardware trade-offs (ODR, power consumption), gesture vocabulary design, and cross-device consistency are explained with mechanisms. Round 3's expert adds methodological nuance (cue design, participant details) but assumes familiarity with the CHI paper. Depth is consistent but occasionally dense.\n\n[B|Breadth] Covers hardware (IMU, gyro-free), gesture vocabulary design (user vs. designer), cross-device consistency, latency/pipeline architecture, and ergonomic frameworks. Relationships are drawn (e.g., \"AR feedback can mitigate both weaknesses\" of user-defined and designer-provided sets). Coverage is broad but some areas (e.g., display types) are less developed than others.\n\n[C|Clarity] The bootstrap overview explains six areas with clear mechanisms and examples (e.g., \"IMUs... are cheap, low-power, and always-on... but they struggle to distinguish similar-looking gestures\"). Round 1's Instructor answer explains IMU vs. vision trade-offs with concrete comparisons (\"IMU wins on power and usually latency\"). Round 3's Instructor explains vocabulary scaling mechanisms clearly (\"more gestures means more gestures that look alike\"). Transitions between rounds are logical.\n\n[C|Engagement] The Student's candidate questions show purposeful selection aligned with the user's intent (e.g., Round 2 selects \"What evidence exists that gesture-based interaction... actually reduces interface complexity\"). The Instructor's answers directly address the selected questions with practical takeaways (\"Design hybrid sensing (IMU always-on gating plus vision for precision)\"). The process supports the user's task but does not actively involve the user in choices.\n\n[C|Depth Appropriateness] Foundations are established in the bootstrap and Round 1 before deeper analysis in Rounds 2-3. Mechanisms are explained (e.g., \"latency grows mainly in the rejection and verification stage\"). Depth is appropriate for a research question, though Round 3's discussion of lighting/occlusion could include more concrete mitigation examples.\n\n[C|Breadth] Covers sensing technologies, display types, evidence for complexity reduction, calibration prerequisites, vocabulary scaling, and environmental conditions. Relationships are drawn (e.g., \"vocabulary size, lighting, occlusion, and display type are coupled variables\"). Coverage is well-developed and connected, with clear boundaries (e.g., \"no clean published curve exists for exactly 5 vs 20 vs 50\").",
+  "scores": {
+    "LLM Baseline": {
+      "Clarity": 8.2,
+      "Engagement": 7.6,
+      "Depth Appropriateness": 8.0,
+      "Breadth": 8.4
+    },
+    "Co-STORM": {
+      "Clarity": 7.8,
+      "Engagement": 7.4,
+      "Depth Appropriateness": 7.6,
+      "Breadth": 7.8
+    },
+    "CCA": {
+      "Clarity": 8.0,
+      "Engagement": 7.8,
+      "Depth Appropriateness": 7.8,
+      "Breadth": 8.2
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 143081,
+      "completion_tokens": 1238,
+      "total_tokens": 144319,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "variant": "no_expert_instructor_separation",
+  "task": "080_semiconductor-supply-chain-resilience-and-disruption",
+  "sequence": [
+    "full",
+    "no_expert_instructor_separation"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 8.2,
+    "Engagement": 7.6,
+    "Depth Appropriateness": 8.4,
+    "Breadth": 8.6
+  },
+  "status": "complete",
+  "attempt": 2,
+  "raw": "{\"Clarity\": 0.3, \"Engagement\": 0.2, \"Depth Appropriateness\": 0.1, \"Breadth\": 0.2}",
+  "deltas": {
+    "Clarity": 0.3,
+    "Engagement": 0.2,
+    "Depth Appropriateness": 0.1,
+    "Breadth": 0.2
+  },
+  "calibrated_target_scores": {
+    "Clarity": 8.5,
+    "Engagement": 7.8,
+    "Depth Appropriateness": 8.5,
+    "Breadth": 8.799999999999999
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 179086,
+      "completion_tokens": 40,
+      "total_tokens": 179126,
+      "cached_tokens": 179072,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

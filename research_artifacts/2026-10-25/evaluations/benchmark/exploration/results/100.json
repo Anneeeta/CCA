@@ -1,0 +1,48 @@
+{
+  "task": "100_gender-differences-in-media-coverage-and-public-reactions",
+  "status": "complete",
+  "protocol": "exploration_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "CCA",
+    "B": "Co-STORM",
+    "C": "LLM Baseline"
+  },
+  "raw": "System A:\n  Inquiry Relevance: 8.5/10\n  Perspective Expansion: 8.0/10\n  Evidence-Based Progress: 8.0/10\n  Incremental Value: 8.0/10\n  Adaptive Coherence: 8.5/10\nSystem B:\n  Inquiry Relevance: 6.5/10\n  Perspective Expansion: 5.5/10\n  Evidence-Based Progress: 6.0/10\n  Incremental Value: 5.5/10\n  Adaptive Coherence: 6.0/10\nSystem C:\n  Inquiry Relevance: 7.5/10\n  Perspective Expansion: 7.0/10\n  Evidence-Based Progress: 7.5/10\n  Incremental Value: 7.0/10\n  Adaptive Coherence: 7.0/10\n\nExplanation:\n[A|Inquiry Relevance] Round 1 Student selected a platform-differentiation question directly matching the topic; Round 2 shifted to supply-demand confounding after the economic-impact guidance was introduced; Round 3 pursued outlet-type framing variation. Each selection tracks the evolving user guidance and builds on prior discussion rather than drifting.\n\n[A|Perspective Expansion] The layered-platform model (traditional outlets set authority/reach, social channels amplify) and the gender-marking backfire mechanism are developed as specific, consequential perspectives not present in the bootstrap overview. The warmth-competence double bind is connected to both coverage choices and audience backlash.\n\n[A|Evidence-Based Progress] The \"paper cut\" pattern (Shor et al., Social Problems 2024) is cited with specific design details (14 million names, 1,323 newspapers, occupation controls). Advocacy backfire is framed as a testable hypothesis with a pre/post design, and the Swiss election study (Gessler et al.) is used to ground the discussion. Limitations (thin evidence on transmission magnitudes, sign ambiguity from Brooks & Hayes) are explicitly preserved.\n\n[A|Incremental Value] The user receives: (1) a layered platform framework replacing a simple traditional-vs-social binary; (2) a concrete identification strategy (within-candidate variation, audience panels, ownership-change instruments) with stated assumptions; (3) the gender-marking backfire concept with a measurement recommendation (separate salience from tone). These are distinct additions, not restatements of the bootstrap.\n\n[A|Adaptive Coherence] Round 1's platform question flows into Round 2's supply-demand confounding (audience composition differs by platform), which flows into Round 3's outlet-type question (gatekeeping as a supply-side variable). The final summary explicitly links these threads. The shift to economic impact in Round 2 responds to the new user guidance without abandoning prior findings.\n\n[B|Inquiry Relevance] The warm-start discussion on the \"paper cut\" and two-sided health news is tangentially related but not tightly focused on the stated topic. Round 1's general knowledge provider addresses the topic directly. Round 2's shift to CEO coverage and investment decisions is relevant to the economic-impact guidance. Round 3's researcher contribution on German board coverage is relevant but arrives without a clear user prompt.\n\n[B|Perspective Expansion] The \"paper cut\" mechanism (fame amplifies rather than mitigates gendered scrutiny) is a useful perspective. The muted group theory observation (female leaders always discussed in context of male politicians) is specific. However, the two-sided health news study, while interesting, is a domain shift that is not well-integrated into the media-coverage-of-women-in-public-life thread.\n\n[B|Evidence-Based Progress] The \"paper cut\" study is cited with specific design details (14 million names, 1,323 newspapers, encyclopedic sentiment control). The CEO experiment (Kinne & Sondergeld) is described with specific findings (lower investment when family is neutrally mentioned, no penalty for trade-off framing). The German board coverage analysis (48,427 articles, word-level evidence) is concrete. However, the health news study's relevance to the main topic is not well-justified.\n\n[B|Incremental Value] The user receives: (1) the \"paper cut\" finding with its methodological innovation; (2) the CEO experiment showing framing affects investment decisions; (3) the German board coverage analysis with word-level evidence. However, the health news study adds a domain-specific finding that may not generalize, and the connection between these strands is not well-developed.\n\n[B|Adaptive Coherence] The warm-start discussion on the \"paper cut\" is continued in Round 1. Round 2 shifts to economic impact in response to guidance. Round 3's researcher contribution on German board coverage is relevant but arrives without clear user prompting, creating a slight disconnect. The final summary attempts to integrate these strands but the health news study remains somewhat tangential.\n\n[C|Inquiry Relevance] Round 1 addresses the topic directly with a structured overview. Round 2 responds to the economic-impact guidance with a movie revenue study and CEO experiment. Round 3's \"what else should I know\" prompt is answered with additional research strands (athlete portraits, scandals). Each response is relevant to the stated goal.\n\n[C|Perspective Expansion] The \"paper cut\" thesis is developed as a reframing of the glass ceiling metaphor. The athlete portraits study introduces the perception channel as a causal lever. The scandals analysis extends the framework to blame-heavy contexts. These are relevant perspectives, though the athlete study's convenience sample limits generalizability.\n\n[C|Evidence-Based Progress] The \"paper cut\" study is cited with specific design details. The movie revenue regression is interpreted with coefficient-level analysis (main effect +0.0236, interaction -0.0100). The CEO experiment is described with specific findings. The scandals analysis is grounded in the gendered mediation framework. Limitations (external validity, measurement of bias, equilibrium effects) are explicitly noted.\n\n[C|Incremental Value] The user receives: (1) a structured overview of the descriptive foundation; (2) an economic transmission model with three channels (demand, belief, supply); (3) additional research strands (athlete portraits, scandals) that extend the framework. The movie revenue analysis provides a concrete quantitative anchor.\n\n[C|Adaptive Coherence] Round 1 establishes the descriptive foundation. Round 2 builds on this with economic consequences. Round 3 extends to additional research strands. The final summary integrates these threads into a coherent narrative. The progression is logical and cumulative, though the athlete study's convenience sample is a noted limitation.",
+  "scores": {
+    "CCA": {
+      "Inquiry Relevance": 8.5,
+      "Perspective Expansion": 8.0,
+      "Evidence-Based Progress": 8.0,
+      "Incremental Value": 8.0,
+      "Adaptive Coherence": 8.5
+    },
+    "Co-STORM": {
+      "Inquiry Relevance": 6.5,
+      "Perspective Expansion": 5.5,
+      "Evidence-Based Progress": 6.0,
+      "Incremental Value": 5.5,
+      "Adaptive Coherence": 6.0
+    },
+    "LLM Baseline": {
+      "Inquiry Relevance": 7.5,
+      "Perspective Expansion": 7.0,
+      "Evidence-Based Progress": 7.5,
+      "Incremental Value": 7.0,
+      "Adaptive Coherence": 7.0
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 150511,
+      "completion_tokens": 1391,
+      "total_tokens": 151902,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

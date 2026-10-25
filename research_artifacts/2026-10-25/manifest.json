@@ -1,0 +1,111 @@
+{
+  "release_date": "2026-10-25",
+  "benchmark_tasks": 100,
+  "benchmark_systems": [
+    "CCA",
+    "Co-STORM",
+    "RAG"
+  ],
+  "ablations": {
+    "no_ms": "w/o Learner State",
+    "random_selection": "w/o Question Selection",
+    "no_shared_context": "w/o Shared Knowledge Context",
+    "no_patches": "w/o Cross-Round Adaptation",
+    "no_expert_instructor_separation": "w/o Expert-Instructor Separation"
+  },
+  "benchmark_evaluations": 200,
+  "ablation_evaluations": 1000,
+  "generation_records": 800,
+  "human_paired_sessions": 40,
+  "human_rating_values": 720,
+  "human_participant_linkage_keys": 26,
+  "general_metrics": [
+    "Clarity",
+    "Engagement",
+    "Depth Appropriateness",
+    "Breadth"
+  ],
+  "exploratory_metrics": [
+    "Inquiry Relevance",
+    "Perspective Expansion",
+    "Evidence-Based Progress",
+    "Incremental Value",
+    "Adaptive Coherence"
+  ],
+  "archives": [
+    {
+      "file": "archives/benchmark_evaluation_inputs.jsonl.xz",
+      "records": 200,
+      "bytes": 16264808
+    },
+    {
+      "file": "archives/ablation_evaluation_inputs_no_ms.jsonl.xz",
+      "records": 200,
+      "bytes": 21619172
+    },
+    {
+      "file": "archives/ablation_evaluation_inputs_random_selection.jsonl.xz",
+      "records": 200,
+      "bytes": 21483848
+    },
+    {
+      "file": "archives/ablation_evaluation_inputs_no_shared_context.jsonl.xz",
+      "records": 200,
+      "bytes": 21809440
+    },
+    {
+      "file": "archives/ablation_evaluation_inputs_no_patches.jsonl.xz",
+      "records": 200,
+      "bytes": 21683668
+    },
+    {
+      "file": "archives/ablation_evaluation_inputs_no_expert_instructor_separation.jsonl.xz",
+      "records": 200,
+      "bytes": 21590252
+    },
+    {
+      "file": "archives/generation_CCA.jsonl.xz",
+      "records": 100,
+      "bytes": 19210220
+    },
+    {
+      "file": "archives/generation_Co-STORM.jsonl.xz",
+      "records": 100,
+      "bytes": 4789332
+    },
+    {
+      "file": "archives/generation_RAG.jsonl.xz",
+      "records": 100,
+      "bytes": 1995468
+    },
+    {
+      "file": "archives/generation_no_ms.jsonl.xz",
+      "records": 100,
+      "bytes": 18736584
+    },
+    {
+      "file": "archives/generation_random_selection.jsonl.xz",
+      "records": 100,
+      "bytes": 19025180
+    },
+    {
+      "file": "archives/generation_no_shared_context.jsonl.xz",
+      "records": 100,
+      "bytes": 19298668
+    },
+    {
+      "file": "archives/generation_no_patches.jsonl.xz",
+      "records": 100,
+      "bytes": 19216764
+    },
+    {
+      "file": "archives/generation_no_expert_instructor_separation.jsonl.xz",
+      "records": 100,
+      "bytes": 19064084
+    }
+  ],
+  "evaluation_model": "mimo-v2.6-flash",
+  "generation_model_api_id": "deepseek-flash",
+  "benchmark_unit": "one joint three-system judgement per task and rubric",
+  "ablation_unit": "one target-minus-task-specific-Full-reference difference vector per task, variant and rubric"
+}

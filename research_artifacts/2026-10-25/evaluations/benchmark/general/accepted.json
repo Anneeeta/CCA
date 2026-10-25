@@ -1,0 +1,502 @@
+{
+  "001_utilization-of-weather-forecasting-for-wind-and-solar-energy-assessment": {
+    "path": "evaluations/benchmark/general/results/001.json",
+    "sha256": "926c662d4dce86d6055bf41f1bbe7d089b41fb7ab36df7ae9e8085eb7af08f8a",
+    "source_record_sha256": "df6d30bde57f0edb834179471bceb8254eceea33c47a44f40787c1b9363f391a"
+  },
+  "002_bathroom-remodeling": {
+    "path": "evaluations/benchmark/general/results/002.json",
+    "sha256": "52598b750539c88c3eae1456adb3d51b398cb6c18d64d41948bacec848144d3c",
+    "source_record_sha256": "6ae12b9095af80e93a8358610b41fce1b92975423f21cecce832520774ecadb5"
+  },
+  "003_effective-feedback-practices-in-professional-settings": {
+    "path": "evaluations/benchmark/general/results/003.json",
+    "sha256": "bc8a3d9ff76e638a0cb869853604d1f233fd2f35d49af907aad6e246cba9a0ac",
+    "source_record_sha256": "8bfdc540f91df5ff6b40f5dede08a18c40a38cf1462a84b1e97f52a1216d3e9f"
+  },
+  "004_chatbot-for-analyzing-financial-data-in-business-and-economics": {
+    "path": "evaluations/benchmark/general/results/004.json",
+    "sha256": "38630686b8fcb78d5eac0ce9f6b74513b08f142194338d7f0588550e86ad3e29",
+    "source_record_sha256": "b460f1820f9ac200b54e636f68b61351624fb25489660c2ddc19efc4050bebda"
+  },
+  "005_recent-legal-cases-in-the-us-involving-hardware-technology-innovations": {
+    "path": "evaluations/benchmark/general/results/005.json",
+    "sha256": "7c2124c752de7b14f7d80645ef5fe7667fd1a8c20c658b888d1ef1bb1e93adf5",
+    "source_record_sha256": "b11eb0ccc6d7337baa4ad15ba398f42f13bd1c1b7c341687f880725c222052c2"
+  },
+  "006_trade-war-between-us-and-china": {
+    "path": "evaluations/benchmark/general/results/006.json",
+    "sha256": "ba407308df3d7bf93be5b3ce65f175e24d6c08c7e2a601b9d85ac5f2b7e89bba",
+    "source_record_sha256": "553f48e7e7d04473eeec5ed6db474a5a9b7895455128c46d886509840b585b48"
+  },
+  "007_introduction-to-kubernetes-backup-and-persistent-storage": {
+    "path": "evaluations/benchmark/general/results/007.json",
+    "sha256": "e9e8b0ad6c02cee4f046c17618bc8d6df59c3eef232727ea1da09b20009e6899",
+    "source_record_sha256": "b2b09c31475de20752cc8a3197d5cf43076e2da37635f3b9af422359eb21dfd4"
+  },
+  "008_ursula-s-character-in-disney-s-the-little-mermaid": {
+    "path": "evaluations/benchmark/general/results/008.json",
+    "sha256": "124becf1ebb96c2ad0632b0bd7118875ab841df9473059b871517a49265e3ca9",
+    "source_record_sha256": "f6bd59b71ec098058ff2b39b02a8d21d533650b0d8571db4cdc828cbf99d28cb"
+  },
+  "009_effectiveness-of-pico-8-and-fantasy-game-consoles-in-niche-gaming-commun": {
+    "path": "evaluations/benchmark/general/results/009.json",
+    "sha256": "305a98ec4b9045bf09af9d8aa0f06b17dd9fb7286b7289470bdbe057c4b6744c",
+    "source_record_sha256": "24774cb9425518a9e0d467bcd50e6a55b57a8d4251921ad8ba92fde5642eedfe"
+  },
+  "010_graphics-processing-unit": {
+    "path": "evaluations/benchmark/general/results/010.json",
+    "sha256": "e1b1f38ffc0ad86b53cc3de42f7cd87d15e8c61ae91ccf5b7e298f4021e0b0cb",
+    "source_record_sha256": "644ade4d3bf35e5dd3bc58c692250cdd479e8bfeb4256d998cd9d5d241a82f5f"
+  },
+  "011_application-of-artificial-intelligence-in-preserving-intangible-cultural": {
+    "path": "evaluations/benchmark/general/results/011.json",
+    "sha256": "b85e09e7f452e70ebe1d7ae172542eb0c7c9a090881f5a0c9a7269e7435b41bd",
+    "source_record_sha256": "a9a11c2aa16439a0d47bd83879a456eb02e996197663156707b0469619b21e7e"
+  },
+  "012_enhancing-human-computer-interaction-with-wearable-devices-via-gesture-o": {
+    "path": "evaluations/benchmark/general/results/012.json",
+    "sha256": "d359b66af1ef0a141ae44a4d40b890d87640a9495f6d26f2443c917c528564c9",
+    "source_record_sha256": "bfc6d38cc7deb95ba7a2dd34dba74cec5503174fb89c6149688babb8ebe3f6eb"
+  },
+  "013_ai-for-predicting-health-index-from-gut-microbiome": {
+    "path": "evaluations/benchmark/general/results/013.json",
+    "sha256": "487da1f026e7c369f0d8308ef47678adff25c959be9866e644b67b50ac39f592",
+    "source_record_sha256": "4d8fffd6e4b4ba30d13a3c843009747cfa32fb200bbbc61412fa9c60d8ea5598"
+  },
+  "014_facial-recognition-in-check-in-and-clock-in-systems": {
+    "path": "evaluations/benchmark/general/results/014.json",
+    "sha256": "32738b918c57c1a03b38c3f182e8455339dcdc847178a6a6c01fbc77d5583d76",
+    "source_record_sha256": "c3faf1789089face2040ccbe1cd1db85940e236c84bef998c7cdd0fd835b0382"
+  },
+  "015_west-coast-synthesis": {
+    "path": "evaluations/benchmark/general/results/015.json",
+    "sha256": "6b372c69dd169aa0697fa93f622f770b4fb682fd54e3004ab3f99fd3cde59fa3",
+    "source_record_sha256": "f7cd721b28a974e65c7f827bffefd95f4d037a177d4114843eb1d98b4c3125dc"
+  },
+  "016_blockchain-anomaly-detection-using-large-models": {
+    "path": "evaluations/benchmark/general/results/016.json",
+    "sha256": "6425b79ab7595541430874eb8544a37c26aa258792ed87228a622947a7fef1d9",
+    "source_record_sha256": "8f99c8c6bc192a84081b8f0825fdf9051952bd7fc9d90c39b6e33ce3486e132a"
+  },
+  "017_synthetic-biology": {
+    "path": "evaluations/benchmark/general/results/017.json",
+    "sha256": "5beab80471808b432375ef24877a1c04612822d65fc64b72700dace9d72af845",
+    "source_record_sha256": "e12764f63c6fce3740c4a2b0a8ed667b916ceda2373f139b32c4728c4e0935d0"
+  },
+  "018_the-latest-advances-in-anti-aging-research": {
+    "path": "evaluations/benchmark/general/results/018.json",
+    "sha256": "f9deb397823ead5816c6699d8d89163b2941fe0d01d932c48eb963f452dff3ca",
+    "source_record_sha256": "e0637a3466fd6aa43959bd64979995ce0752768e53a4d0690f83a12716452802"
+  },
+  "019_automating-powerpoint-slide-creation-with-python": {
+    "path": "evaluations/benchmark/general/results/019.json",
+    "sha256": "ab3aa1bcd750e617122e5b19e21fade27612a9864de830ffb2d05ca229275e4a",
+    "source_record_sha256": "5fc550df71307dc63e16c812c44ed41b3a624e721093503d1e1c182ec19ede82"
+  },
+  "020_information-security-principles-practices-and-emerging-trends": {
+    "path": "evaluations/benchmark/general/results/020.json",
+    "sha256": "6cb394edb08535aa2ba0e4e4c2e3fc58c07fd794aedc6b559ce925f1e75b4fd8",
+    "source_record_sha256": "bc6650c1daaafea6f47c05f8cc31fd32f11a2450b73ce95e19737ab2f0b8d0dd"
+  },
+  "021_emissions-from-cooking-food": {
+    "path": "evaluations/benchmark/general/results/021.json",
+    "sha256": "0f058d77ccad33c041766a8308976eb84e34c927e900264efef372d13f562032",
+    "source_record_sha256": "e8d91a6be28ce84349a85b0044601397339a65669ea431f14b48799709105834"
+  },
+  "022_the-effects-of-nmn-supplements-on-human-anti-aging": {
+    "path": "evaluations/benchmark/general/results/022.json",
+    "sha256": "23c354a892d31c02bc709834a44bfa036ebeaa1a953e1c88c0a83adee6a3253a",
+    "source_record_sha256": "d18b444c9840692a82046b936498b83e9a6a8e5375c062823cbe2c67e9b105fe"
+  },
+  "023_integrating-multiple-llms": {
+    "path": "evaluations/benchmark/general/results/023.json",
+    "sha256": "497b9721cef8d5f76d714c224dd4e37e9c32f1d6d73dd64306256b0b76e86c9e",
+    "source_record_sha256": "7bbd8b8325f5343e3a2751e9adbe75175357116ded7d932f94ef72f68afc9f15"
+  },
+  "024_taylor-swift": {
+    "path": "evaluations/benchmark/general/results/024.json",
+    "sha256": "6ebcc5c7bcf3a7325537e43f77cb9f9f25c29ad4bd9ba704d46ed81bedb08210",
+    "source_record_sha256": "9e15f950d5b6cece7f7b34f80d2c87d257c44c3f4dcb0536b7ddf52dad8b30a2"
+  },
+  "025_alphafold": {
+    "path": "evaluations/benchmark/general/results/025.json",
+    "sha256": "7199e6e9835ba307fd9ae27a5dc355da6b06314f503ea331e0291c869a661d38",
+    "source_record_sha256": "2bdc66c2e551b51ed58e1f6ce8f8752de52e6773b342109293ffd10dd4653687"
+  },
+  "026_audio-visual-content-dissemination-and-audience-feedback-on-douyin": {
+    "path": "evaluations/benchmark/general/results/026.json",
+    "sha256": "e065bcb131fc9869463b84098157d44216de7cca8cbbe40c45c7ba581e437537",
+    "source_record_sha256": "461893a9bd15862553b8f95ee0047580d01d145f82bf0634734d57a0b58be1d4"
+  },
+  "027_the-impact-of-digital-literacy-and-iot-on-precision-agriculture-among-sm": {
+    "path": "evaluations/benchmark/general/results/027.json",
+    "sha256": "f878db84c8b1701addead0e89cbc74b8c514a4396f109c82cf2c4e348ce64033",
+    "source_record_sha256": "8e59a340f605fb5529244ac87686e1b1793a32bf87968210cba05cd31df58033"
+  },
+  "028_the-application-of-iot-digitalization-and-ai-in-the-oil-and-natural-gas": {
+    "path": "evaluations/benchmark/general/results/028.json",
+    "sha256": "9fcbeef4a85f4fa526b4b54854b3a4cd45c2a286c8abed7cd9376591d8aaca9c",
+    "source_record_sha256": "8ede3aafaf038e2e8dca80623c31445d4a2c96886c015523db009beaf9d9e4b1"
+  },
+  "029_simultaneous-localization-and-mapping": {
+    "path": "evaluations/benchmark/general/results/029.json",
+    "sha256": "9cb1ad397490024991dc9a340d6c0ac78f1c28a4dd31c6128f4614feb13ab45e",
+    "source_record_sha256": "e43c845973fc094316df564e0ddc3e47a707069e5659efd1d99de325e52b6914"
+  },
+  "030_image-processing-techniques-for-cellular-analysis": {
+    "path": "evaluations/benchmark/general/results/030.json",
+    "sha256": "c430cf3e5caeec5660e48b56bfa76998717614d0b9bc962085f9cb0530e007c7",
+    "source_record_sha256": "da39770681f789fed189c3f4000417c3623b68100973d73e829674d5d5e8996f"
+  },
+  "031_internal-motivation-in-student-learning": {
+    "path": "evaluations/benchmark/general/results/031.json",
+    "sha256": "94810bdd98fa83128fb3212a08be74d71fdd282fe9fc2f0beae3f2409fbdf9a7",
+    "source_record_sha256": "1976b02c9a56cbe304c9e5691113efbf8716b34bc61998c94d5d56d5e4184a55"
+  },
+  "032_pyspark": {
+    "path": "evaluations/benchmark/general/results/032.json",
+    "sha256": "b678bd36f9af6659b4a8c5e938a1da3d936fa029ded7e00c64d1817e13937b0c",
+    "source_record_sha256": "454281f155aeae581e4cea197c8e1a1a1369f90f478fc8ae4dd126e581aac7e1"
+  },
+  "033_komondor-the-mop-dog": {
+    "path": "evaluations/benchmark/general/results/033.json",
+    "sha256": "f19e15b4a48d94b9223075958a6d3f3fc4f9c88a355987bbd505ebde31932d13",
+    "source_record_sha256": "efaf1a5b357a3462b7205381a1b4bdbd0e94d6ca227c94788de86898d5ded78b"
+  },
+  "034_accessibility-in-data-visualization": {
+    "path": "evaluations/benchmark/general/results/034.json",
+    "sha256": "4c783cf6480d1dfe466739456d8d121324c5e5a27a4287dc0e8c3bde605c4389",
+    "source_record_sha256": "620a4614cf8793fbfc5e73492d4746056e8f17c0102f037c34be4afdb9540ac3"
+  },
+  "035_key-technologies-in-pipeline-engineering-and-gas-storage-facility-constr": {
+    "path": "evaluations/benchmark/general/results/035.json",
+    "sha256": "b4d43b9f186439cb4390ce45212084d2c5153f02f948e05861995b1b2ce1126c",
+    "source_record_sha256": "5d7059882052e37ed0a5fcd023c572fd47e1f504f64cd4ec76aa2d978ca8ffab"
+  },
+  "036_latest-advancements-in-natural-language-processing-nlp-algorithms-and-th": {
+    "path": "evaluations/benchmark/general/results/036.json",
+    "sha256": "15a7e5ae0b76035258f891a2ed94b857bb072e6ea908ee1de83361fb3c793293",
+    "source_record_sha256": "99b3c88bbe0c612be4c74b206a6d36195e87ce7674e5105158217c657896d5ab"
+  },
+  "037_efficacy-of-vr-based-motion-capture-for-ergonomics-in-manual-operation": {
+    "path": "evaluations/benchmark/general/results/037.json",
+    "sha256": "ae1c8c8e9ee8c2f76e14d35b2856f6ae36456c80f506c51cb28c8a819f8a6ec0",
+    "source_record_sha256": "0671d3a8c6a0ac53dedd3d47630d217158a0685cafa10cf240aef90a20c2b756"
+  },
+  "038_changes-to-medicare-part-d-in-2025": {
+    "path": "evaluations/benchmark/general/results/038.json",
+    "sha256": "31bb8617c0afaf5eac0cc7d1dc962ab4842ee3b0958ec20dfe0cef590296096f",
+    "source_record_sha256": "87eae89019f81d8ea854090a4ed1cb089b797616ab1925bd9184670008103f83"
+  },
+  "039_collaborative-learning-in-music-education": {
+    "path": "evaluations/benchmark/general/results/039.json",
+    "sha256": "abfcf2cd3790ca5a5355cf8800015cddc77b2f364f3ed68c933139422748e26c",
+    "source_record_sha256": "f44fac51caaecc53861af98836fd72cf793f315e5f1ecf251f04b757f90bbf18"
+  },
+  "040_privacy-in-large-language-models": {
+    "path": "evaluations/benchmark/general/results/040.json",
+    "sha256": "a2660737360f91df2203f337a64eb3783acb90c770edcd85b6872725b6fa4fe5",
+    "source_record_sha256": "cec7082504b6a8e9e0f492d49da30a9b5214eba454a4c495bd103f9b0534e73c"
+  },
+  "041_artificial-general-intelligence-agi": {
+    "path": "evaluations/benchmark/general/results/041.json",
+    "sha256": "a082f4838ac98add5de6eb915042797a8d36fd58b478b84e66e25292b91f7f48",
+    "source_record_sha256": "ecc497357216c9a3e332dea8e0b9960a5a7cb543f598833cac316279e77c18b9"
+  },
+  "042_drug-and-alcohol-psychological-assessment-tools": {
+    "path": "evaluations/benchmark/general/results/042.json",
+    "sha256": "4f0cdea92aa47a6a4722916b3316c5979ab9d43cef22ffeda1f2307a81012001",
+    "source_record_sha256": "b4802ac7f602e47fb009372ee3724650b02666b131becaf1a364fbf13042c148"
+  },
+  "043_biotechnology-for-prospecting-natural-bioactives-in-health": {
+    "path": "evaluations/benchmark/general/results/043.json",
+    "sha256": "99c7eaefbc9dde6fe6ed03106924028ca34835e71bbbf8b0de5bbb56fca28337",
+    "source_record_sha256": "ec40e9be9f25c4d2009eb0973ab28d187c00150ddb708699ae7886b5488b498d"
+  },
+  "044_development-of-a-shared-trading-currency-to-facilitate-international-tra": {
+    "path": "evaluations/benchmark/general/results/044.json",
+    "sha256": "0cd55f3de8d09dd26699c8c6bd2b76b1f1962d89db954219f784272ca45a4230",
+    "source_record_sha256": "86726c5ddcefaf786ab7b8cfecd304573d364ff51f73bbae8f6cd2d23c386360"
+  },
+  "045_single-cell-sequencing": {
+    "path": "evaluations/benchmark/general/results/045.json",
+    "sha256": "84b6a03b065e610cb2da018c96be1c90e23ab466f1e1a1f09df1becf4f4ade53",
+    "source_record_sha256": "e5c834b3eeada51b4bccf3f129ea91da47862930a8af8e06739bb5fea7756ac5"
+  },
+  "046_artificial-intelligence-and-copyright-dilemma": {
+    "path": "evaluations/benchmark/general/results/046.json",
+    "sha256": "6c3431f3b823e2889a7637d327e081527dc9dd25e6537da9a6ddaf3766ef8bf7",
+    "source_record_sha256": "bd5f57985d40cf6a18636254ad4ab97c18515575257eae5989a093d78f14994c"
+  },
+  "047_dataset-processing-for-large-language-models": {
+    "path": "evaluations/benchmark/general/results/047.json",
+    "sha256": "9c800386b8d825ded9072d284c9980f98b9f4da32df6a759c8209623de65e7c1",
+    "source_record_sha256": "27224b3c6df8e936f80100fcbcafc4b5e17233af20d48114d8d43065078982e5"
+  },
+  "048_medical-simulation-teaching": {
+    "path": "evaluations/benchmark/general/results/048.json",
+    "sha256": "0e3ce3876709d92e1046c46fe92ce08edc4f5b1e976569047f217f2bbf3e116e",
+    "source_record_sha256": "fc490da274071ca603d1fa16e4107b3bcc4b6b114e4fb7894835aebdbaf76604"
+  },
+  "049_end-user-personalization-in-human-computer-interaction": {
+    "path": "evaluations/benchmark/general/results/049.json",
+    "sha256": "51587861dc18c00a7743831eb84c10b8fd89dcddc7abe43f7d0c5a1fd3005fe0",
+    "source_record_sha256": "664061099936f6d379a140cbe53e87a89f5a643f52362278376d73dbba022de5"
+  },
+  "050_future-of-serverless-in-cloud-development": {
+    "path": "evaluations/benchmark/general/results/050.json",
+    "sha256": "8e47e7ba8149950981e287436a9e1cc139ea08cebdbf64d56a7e20dcdf5a2769",
+    "source_record_sha256": "22957f7bec403be450f09f55ff68392d9c783d259a43d82e13e5513580f35b9b"
+  },
+  "051_macroscopic-quantum-coherence": {
+    "path": "evaluations/benchmark/general/results/051.json",
+    "sha256": "964197f24b33f536aeec2ea71f62ebf3fe835deb1c118a407bc0e14197e6de52",
+    "source_record_sha256": "6ccec468c40d70c68ad3121fc735134c3a101068564a998a8ce6e2c9d5d3127f"
+  },
+  "052_what-is-webflow-and-how-does-it-enhance-seo": {
+    "path": "evaluations/benchmark/general/results/052.json",
+    "sha256": "9bfedd8488235bfac1cf1347ec42878bc5182b0d0fec9dfd9e5137611fcd1e84",
+    "source_record_sha256": "a33bcd619f02b8078c94efd96307926dd2f9975060fe51accfab199eb515a452"
+  },
+  "053_ai-tools-for-content-creation-in-fashion-and-beauty": {
+    "path": "evaluations/benchmark/general/results/053.json",
+    "sha256": "d72a9031bbeb64311a705e22f93b0ec807d63637a08aa331c9e19a982f0514b1",
+    "source_record_sha256": "03662e9c2ab9bcec5593b31224ab2c8c39c1bdc80f0afa37cf320f69594e81b0"
+  },
+  "054_criticisms-of-agile-software-development-in-practice": {
+    "path": "evaluations/benchmark/general/results/054.json",
+    "sha256": "68eafd488c726990629dbffb5b1a5aec5d32cb4be57d0994ffc93ccccaa9c17e",
+    "source_record_sha256": "9f1e2f16da46f7af9a60a239295995118527bffa7c15b47d95b66c27393be737"
+  },
+  "055_richard-dattner": {
+    "path": "evaluations/benchmark/general/results/055.json",
+    "sha256": "d8bf3cef3aa47235343f286ba595c462966324aaabea48e1b7ca55dfab2572da",
+    "source_record_sha256": "ba8c2adb342ba2967ee7630dbbfaf3328c61f5423b557de36a51b0eaf7bc11fe"
+  },
+  "056_benchmarking-chroma-db-against-other-vector-databases-in-llamaindex": {
+    "path": "evaluations/benchmark/general/results/056.json",
+    "sha256": "7ef8cf8533cf5901213e81307e2828458968493551ec5ce3a5342ade60a00859",
+    "source_record_sha256": "d449330d7c177a05c3f58088cc8f899d3060b254c1570a9c239243fe5d74384c"
+  },
+  "057_building-a-personal-knowledge-system": {
+    "path": "evaluations/benchmark/general/results/057.json",
+    "sha256": "a3b7ca9f637bf4f1c1ae290b26429c97736c5148e4024ecafad54fadfd48d805",
+    "source_record_sha256": "033a9fa3c1d6640dd086c631900c7ccc7cb72f9b384bb09ae3da0ee637d1c8d9"
+  },
+  "058_seo": {
+    "path": "evaluations/benchmark/general/results/058.json",
+    "sha256": "3b59028ee5f828f8be7dd2b09308f1a8b912a479df56ebd3456aad25aa228015",
+    "source_record_sha256": "a71923fb49f29cd6c7fe075744fd53851f4091eae5bd0e470fba97239ccdcde7"
+  },
+  "059_licensing-implications-for-open-source-deep-learning-models-on-github": {
+    "path": "evaluations/benchmark/general/results/059.json",
+    "sha256": "7f5cc592a935ab802b8ee00e60413781a987ad27a049eda2caef630a54ed62d9",
+    "source_record_sha256": "0e2cf50df30b14955d8c9756b68d44b4abbc5278fbfaabc8a5b90cbaf59f9e6c"
+  },
+  "060_validation-of-gpt-chatbot-usage-in-educational-settings": {
+    "path": "evaluations/benchmark/general/results/060.json",
+    "sha256": "eb82142073c6445e3be1bf39dcc3aa16a4ad2eb04a912e1948670eab73f8a83b",
+    "source_record_sha256": "faacced49413f25a402825d4473c9a6ad2c3044608d9464c2e9d4ba6ce19e33f"
+  },
+  "061_environmental-impact-on-personal-growth-and-perspective": {
+    "path": "evaluations/benchmark/general/results/061.json",
+    "sha256": "fac255bd4655189ada195db9bd91d01f36e0a2d1c12d001250a4c87571035b70",
+    "source_record_sha256": "3fd979a898937581f06e546baaf0f0c89d60fd85989f3e150c0aade51319c78b"
+  },
+  "062_2023-gansu-earthquake": {
+    "path": "evaluations/benchmark/general/results/062.json",
+    "sha256": "f96b875b47621c98ee8dd0646a39f959e73929d3ce10262ceaf326ca142d5874",
+    "source_record_sha256": "08467c0b76fe0bb31ee72aae54ea0cc118b70ee1652cf31aa287fc611e88b4cd"
+  },
+  "063_wire-free-localization-techniques-for-breast-surgery": {
+    "path": "evaluations/benchmark/general/results/063.json",
+    "sha256": "c3ff4940699df2034a9372e323981c5f5a123b00273632cf2337207089b21dd8",
+    "source_record_sha256": "95bbc281cdd553656f082b3d79cb01c1e12c830337bb8decdf3586daa46beb4e"
+  },
+  "064_customer-segmentation-in-business-and-economics": {
+    "path": "evaluations/benchmark/general/results/064.json",
+    "sha256": "5494ab41e01641334154e358fe8ed83b4f46c7a65bd52c522a7759d1df8f00f3",
+    "source_record_sha256": "b56f1b9b9e697e586f3a2eb78226461c4bb0e21370a43fb264bc346b7634b7d5"
+  },
+  "065_itinerary-for-a-5-day-trip-on-california-state-route-1": {
+    "path": "evaluations/benchmark/general/results/065.json",
+    "sha256": "42aabeb997ed4812f3271c5083d453ec693e94ba2501bead7a1b855ed99fd825",
+    "source_record_sha256": "068e654b27423251926a5712a3a68c02c5e90c086d60d71126450c34b90f85db"
+  },
+  "066_infosys": {
+    "path": "evaluations/benchmark/general/results/066.json",
+    "sha256": "eaa61d17f3c02f6b4b1c9294fdf6e7018526c90ba28ff6dc08fa782c9c0afc7d",
+    "source_record_sha256": "f69a31dfe293f8ecbc01c2559dc4eee74f1566af8aef778ca7e15d25af7522a2"
+  },
+  "067_understanding-and-managing-dental-phobias-for-patients": {
+    "path": "evaluations/benchmark/general/results/067.json",
+    "sha256": "a4133b2656e7a688ce9994b0bc4e54d9e4c003dec68582531e8cf63c5fbb0ca4",
+    "source_record_sha256": "f632a52c9a1966eb3e69617024b045dae8ffd3e714df10a9b68bb79c0c6b0257"
+  },
+  "068_medical-simulation-scene-quality-evaluation-tool": {
+    "path": "evaluations/benchmark/general/results/068.json",
+    "sha256": "b8e3545c2e2b59d93b1cc924c9415a8895d420d96f368e0219c2066f34142326",
+    "source_record_sha256": "557c71a42127fd88ece3799df19dd705949373822a0dcec76db3461e57edd55f"
+  },
+  "069_ipv4-and-ipv6-networking": {
+    "path": "evaluations/benchmark/general/results/069.json",
+    "sha256": "342d1ae52611206992d5a3dd6980f758bc55352da7074f04e543db43010cf0c8",
+    "source_record_sha256": "7679cff608694074d873df52ddb5f31555b484a246aeabd184833b80d831581b"
+  },
+  "070_unified-framework-for-human-pose-estimation-and-motion-prediction-in-2d": {
+    "path": "evaluations/benchmark/general/results/070.json",
+    "sha256": "336a9cf477383a1d4b2f6564b110db3d04daaaf160e7149ca067dafd38195351",
+    "source_record_sha256": "796d683d116aa8a9d573e74f069e65ad02b5e51808660a9f80578fd5f238dce7"
+  },
+  "071_community-knowledge-management-in-cultural-studies": {
+    "path": "evaluations/benchmark/general/results/071.json",
+    "sha256": "45b5a3bddf8c2e4a840925bda9a167ca7b0c54f186e6bb3cdcba9c6b0dd6e5d3",
+    "source_record_sha256": "47c56c4e445d3f076c7b6ab8ec9f07198bcd8d6ed6811db41563bf93fb9d8c53"
+  },
+  "072_service-quality-in-michelin-restaurants": {
+    "path": "evaluations/benchmark/general/results/072.json",
+    "sha256": "943340d031034399b55fa013c0c7790bd2dacc2d5c9b18a774638ea4377cfdfa",
+    "source_record_sha256": "23645bd219bb81703d8385c602a6c7955cacfa208a2f60953ba84bc6ae09222b"
+  },
+  "073_electricity-generation-using-solar-thermal-energy": {
+    "path": "evaluations/benchmark/general/results/073.json",
+    "sha256": "ae117b953abb619298cbae845c1ade0c0337819a05b3907838ac3d95061dd8ce",
+    "source_record_sha256": "192cad921d138abcaf4f03e5f5954e5a9faa7401143086a5bf8694b636d533d7"
+  },
+  "074_the-emergence-of-artificial-super-intelligence-future-prospects-and-impa": {
+    "path": "evaluations/benchmark/general/results/074.json",
+    "sha256": "b88da686629f49eb3a2347a186a934d63b48adf213b0ad7c0bcbd61c9a87b0f6",
+    "source_record_sha256": "fcb23d9713d43c0a214eaad50bd158bb026b7f84a572ec25975a21b1ad652da1"
+  },
+  "075_comparison-of-self-attention-convolutional-block-attention-module-and-sq": {
+    "path": "evaluations/benchmark/general/results/075.json",
+    "sha256": "2fd8f2c2e4d7132a8053e9a406b6e12b9d91b34d4491136364bcc68b93c1ec4e",
+    "source_record_sha256": "9fb178b0e2df664bfbee252e83658b9c4ccbfd4d57a79e236be7fdbf1aba7489"
+  },
+  "076_2024-hualien-city-earthquake": {
+    "path": "evaluations/benchmark/general/results/076.json",
+    "sha256": "0b9f3511bdb211f70795149ecb4cebf35cbe2aa58d2e4a38f82322bde1837b7b",
+    "source_record_sha256": "119055005dc8954361a4fd73d15ac2f33b137d57182b56f6feda40baaff90910"
+  },
+  "077_genshin-impact-strategies": {
+    "path": "evaluations/benchmark/general/results/077.json",
+    "sha256": "89bc02b8db7ebaec1189caeb7086da26935f8821931a885ea956f354ad74c40c",
+    "source_record_sha256": "185208a6db30e335554ed009b16f2ebb88bbbf299b96c92654c67285e337a0bf"
+  },
+  "078_evolution-and-core-technologies-of-ai": {
+    "path": "evaluations/benchmark/general/results/078.json",
+    "sha256": "52d3f2377d1eb4d0c831393e5c3c72073b4584bf69ef948e8b201554b37416a1",
+    "source_record_sha256": "54d69948d530f0f9cef9b3c97f22ee6d80e363613b94aeee4bf4015d0368b8c3"
+  },
+  "079_fire-rescue-scene-communication": {
+    "path": "evaluations/benchmark/general/results/079.json",
+    "sha256": "078fdfd70fd1a61aefcb685b88608d76310e97b9048dbe0160e1b08d06aa7e34",
+    "source_record_sha256": "5de40682e5acf1f191cfedd9bb85b7127e5222d26de49b8c36220cfb2c682c75"
+  },
+  "080_semiconductor-supply-chain-resilience-and-disruption": {
+    "path": "evaluations/benchmark/general/results/080.json",
+    "sha256": "5a6dd7868635f76e4a2fdca2fdea37727864c7ac0f275e0339099f85979da294",
+    "source_record_sha256": "b1f92afad19bdd434bd1eb1d8d5c8a1a2f8bb90acf047172fa8d0dc8f9b7b79f"
+  },
+  "081_lifelong-learning-in-deep-learning-and-ai": {
+    "path": "evaluations/benchmark/general/results/081.json",
+    "sha256": "fac3a997c3ec31196bd05c82d798149ad24900720c61ac6b3090ae3c56cb54ac",
+    "source_record_sha256": "b33573dd4328dc1f5eb8645e974ff3809c14fabe751b5c63cab17996ab218158"
+  },
+  "082_block-universe-and-the-nature-of-time": {
+    "path": "evaluations/benchmark/general/results/082.json",
+    "sha256": "f186e7e8490f23527f9a9ce8ffd9f320d37073cba876e6a78d0b3225dc026578",
+    "source_record_sha256": "f669e691a8b69675a63d0e74a99e0ce0e14f7ce7f2228adae73806575adeded8"
+  },
+  "083_innovative-strategies-for-enhancing-human-resources-management-in-global": {
+    "path": "evaluations/benchmark/general/results/083.json",
+    "sha256": "d0817eb98ecc75ac6fd2ce3817cb5d791adf99cfcd6b9b0664726b5d93eb1c38",
+    "source_record_sha256": "433c04572d6438142dd09ea9ba29d306efd0f837759f4ad27b4832b44ffe358f"
+  },
+  "084_language-security-and-cross-cultural-communication": {
+    "path": "evaluations/benchmark/general/results/084.json",
+    "sha256": "4e04743bc1a0110aeeaaac7c8ea6cb7908a9ae4f83de8bba42baa728654730e0",
+    "source_record_sha256": "1cd2e6c55f8e8d212b5730b9d5cd7fbccdb9c60546e58c2f99c4d21eb39eb8fc"
+  },
+  "085_bernese-mountain-dogs": {
+    "path": "evaluations/benchmark/general/results/085.json",
+    "sha256": "e55a1e0c4e6f00bc4cfef2fdc7ab0a9053647a94ca17e591d028dd72c2fd4434",
+    "source_record_sha256": "a304afdc8adacfdec49cc7962593f267d8cb7e1f690fcb1b5c5b97490c20c873"
+  },
+  "086_traffic-sign-detection-using-machine-vision": {
+    "path": "evaluations/benchmark/general/results/086.json",
+    "sha256": "3b46989ac89d8503ee7dd875bd1b9fadcb0c9302d245513f93bb505b0daafa31",
+    "source_record_sha256": "10c20273888cd59d7fe01ccb6943db226855951873f3d2135ead8c888e8bcdb3"
+  },
+  "087_application-of-new-drugs-or-devices-in-animal-disease-treatment": {
+    "path": "evaluations/benchmark/general/results/087.json",
+    "sha256": "a9c2dacdb9631ba5ae79dbf93f476bfa751089c90601530767bfe499e4d4b197",
+    "source_record_sha256": "80bf3104d2e7c13a686e48691eed70f0606227ef1b37508452f132c71fb4846f"
+  },
+  "088_overview-of-packet-classification-algorithms-in-network-devices": {
+    "path": "evaluations/benchmark/general/results/088.json",
+    "sha256": "dfc1a88843c29bc2b017f2dcd2a52c8f221356a0fe59078b665f362e19453c39",
+    "source_record_sha256": "10bc4e21da7b01205f4d34763f365967788fface42844a5f0db935213b8007ce"
+  },
+  "089_adaptive-geomagnetic-indoor-navigation-system-by-anomaly-detection-feedb": {
+    "path": "evaluations/benchmark/general/results/089.json",
+    "sha256": "922b9742f06d358bc8c512376f4138eeec4ec6d00e34efff27f16e1e91be7ccd",
+    "source_record_sha256": "93ba6718da26d95b8c6d7863d555b0f99ccf61664427d5faa1394e35d93f0573"
+  },
+  "090_quantum-cryptography": {
+    "path": "evaluations/benchmark/general/results/090.json",
+    "sha256": "17c22135d7631c51b6d5c27874736a52f567f350b9c076953c1c00eb41ef9699",
+    "source_record_sha256": "57a4feca15ff9cbe906a101de3810dd3fac3b1d9aebae0f2ff09774b6a19eb83"
+  },
+  "091_digital-twin-in-data-sciences": {
+    "path": "evaluations/benchmark/general/results/091.json",
+    "sha256": "9f77d4ba253177d19962c05638ad9f740a8954c4b361bb15182131a92fdc349b",
+    "source_record_sha256": "443a0dcd5974e35de427579c802a30fcd53b3847398f779eef9c84c835d91ed0"
+  },
+  "092_based-point-supervised-object-detection": {
+    "path": "evaluations/benchmark/general/results/092.json",
+    "sha256": "8ab1534c8d0b724c4c8f91eed2087bfa6c572f5018461a7afce75415e29a3281",
+    "source_record_sha256": "83c4ffceaf4c0e1f9ce709a4a80aeced5cb0eb2a35937caf94b61aac4ea9cc2d"
+  },
+  "093_state-business-relationship-in-the-digital-economy": {
+    "path": "evaluations/benchmark/general/results/093.json",
+    "sha256": "0841683d50d1444f23225b2cdcd5e7d1f08794d59f8f0c07457ecd10cc4e5788",
+    "source_record_sha256": "5ab5907e867fbc8780560e9f70de9ed790ffbb41e71b55a647dd25df1a6bf5e1"
+  },
+  "094_impact-of-climate-change-on-urban-areas-like-mumbai": {
+    "path": "evaluations/benchmark/general/results/094.json",
+    "sha256": "753c2649e4f0e2e4971784974473b76e0fd42a9ae4e0e63479c9bd9dcdace489",
+    "source_record_sha256": "b4cf93443322087dc6d509910117ecd07c869538ae4f633ca298165c62c998d2"
+  },
+  "095_digital-biomarkers-in-current-clinical-trials": {
+    "path": "evaluations/benchmark/general/results/095.json",
+    "sha256": "923af669fa125ab7acd835ff44086e3b81e081b3fe98f19d58743cea95b686c2",
+    "source_record_sha256": "6e76b055d158e5891141801b35e00bd5e34ddcdf608f533ea1e684d6138e047c"
+  },
+  "096_autonomous-ai-for-research-laboratories": {
+    "path": "evaluations/benchmark/general/results/096.json",
+    "sha256": "c3c6e335869c02e7e38e7ea71c863dffbc696c3141a471a614f0901d79e20d9a",
+    "source_record_sha256": "839c517d637492d74d9a27fdcc1670d44e882c727286922456fcef7f2ef51e98"
+  },
+  "097_history-and-features-of-major-web-browsers": {
+    "path": "evaluations/benchmark/general/results/097.json",
+    "sha256": "3334ef3ff52663a40b8c8237dc89f345a0b5f5631c65e5188ce3f12d6452e2f8",
+    "source_record_sha256": "c561c0189b282dda1e27269d466c31401bdfd7e94af6437a69fa60b96538fee0"
+  },
+  "098_caving-in-fitness": {
+    "path": "evaluations/benchmark/general/results/098.json",
+    "sha256": "f5db8d691df956110a059bd13c0abbaf69dfc91f59be27db6c8f36399399c1b2",
+    "source_record_sha256": "7c36b9c6e30061468cc09fc584fe9ff10b65347cbad926fe43e0855d77263bb3"
+  },
+  "099_integration-of-e-bikes-with-electric-ferries": {
+    "path": "evaluations/benchmark/general/results/099.json",
+    "sha256": "dd51cbaab9514c27b6b64524604fdd7a37ff9a385f877e25251283523748ea27",
+    "source_record_sha256": "b08fafb6a7e9bb6928ec12c25b185083fa8d98150a924eec12c8e61f3486be18"
+  },
+  "100_gender-differences-in-media-coverage-and-public-reactions": {
+    "path": "evaluations/benchmark/general/results/100.json",
+    "sha256": "424b3dda096b2dfb4ab253008c7b312b2b0813b1797205688f393d15f1616f60",
+    "source_record_sha256": "e584fa4eeeda94e294c8040672066849964c1995c714104409f31f05e4252f8b"
+  }
+}

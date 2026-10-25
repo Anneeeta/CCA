@@ -1,0 +1,44 @@
+{
+  "task": "097_history-and-features-of-major-web-browsers",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "LLM Baseline",
+    "B": "CCA",
+    "C": "Co-STORM"
+  },
+  "raw": "System A:\n  Clarity: 8.2/10\n  Engagement: 7.6/10\n  Depth Appropriateness: 8.0/10\n  Breadth: 8.4/10\nSystem B:\n  Clarity: 7.8/10\n  Engagement: 7.2/10\n  Depth Appropriateness: 8.2/10\n  Breadth: 7.6/10\nSystem C:\n  Clarity: 7.4/10\n  Engagement: 6.8/10\n  Depth Appropriateness: 7.0/10\n  Breadth: 7.2/10\n\nExplanation:\n[A|Clarity] Round 1's answer explains what a browser is (\"application software used to explore the World Wide Web... interpreting technologies such as HTML, CSS, and JavaScript\") and Round 2's engine lineage notes (\"WebKit is a fork of KHTML by Apple Inc.... Blink is a 2013 fork of WebKit's WebCore component by Google\") make the engine relationships understandable. The Chrome-vs-Chromium distinction (\"Chrome is built on Chromium, an open-source browser project... Chrome adds proprietary features on top of Chromium\") is clearly explained. Minor gap: some feature lists (Round 2's per-browser bullets) are more enumerative than explanatory in places.\n\n[A|Engagement] The process tracks the user's stated intent closely—Round 2 directly addresses \"origins, unique features, and developer tools... companies behind them\" with a structured table and per-browser features. Round 3's \"What else should I know\" section offers practical guidance (\"For users, the practical guidance is to choose based on privacy, memory use, ecosystem...\") and open questions, supporting continued exploration. Engagement is somewhat limited by the fully expository format with no user-directed questions or choices.\n\n[A|Depth Appropriateness] Foundations (what a browser is, basic history) precede engine lineage, then developer tools, then broader context (market share volatility, engine monoculture). The progression serves the user's investigative intent well. The Chrome/Chromium proprietary-codec detail and the DevTools comparison across engines show appropriate technical depth without unexplained complexity.\n\n[A|Breadth] The interaction covers history, engines, companies, unique features, developer tools, market dynamics, performance trade-offs, privacy trends, and the browser-vs-search-engine distinction. Relationships are drawn (e.g., \"Because most browsers now share Chromium/Blink, engine diversity is shrinking—a concern for web standards and competition\"). The breadth is well-connected rather than a mere list.\n\n[B|Clarity] The Instructor's answers explain mechanisms well—e.g., Round 1: \"vendors shipped experimental features under prefixes such as -webkit-, -moz-, and -ms-, so authors could opt in without breaking other engines\" and the feature-detection alternative (\"you test whether the capability actually works, for example checking that canvas.getContext('2d') returns something usable\"). Round 2's engine-by-engine CSS3 sequencing (Trident's \"late and version-gated path,\" WebKit's pioneering role) is clearly differentiated. Some uncertainty flags (\"treat specific version numbers as approximate\") are honestly communicated but may leave the user without concrete anchors.\n\n[B|Engagement] The Student's selected questions progressively deepen the investigation (standards influence → engine CSS3 differences → prefix debate → JS engines), creating a coherent investigative thread. The Instructor's answers connect each question to the prior round's material. However, the user never personally selects or redirects—the Student agent chooses questions autonomously, so the user's sense of participation is indirect.\n\n[B|Depth Appropriateness] The progression from standards/prefixes to engine-specific implementation to the contested \"crisis vs myth\" debate to JS engines shows coherent deepening. The prefix debate answer appropriately distinguishes documented mechanism from contested interpretation (\"'Crisis' is not a measurable quantity—it is a judgment about developer pain\"). The JS engine section appropriately flags that \"specific version numbers for V8, SpiderMonkey, and JavaScriptCore milestones should be treated as approximate.\"\n\n[B|Breadth] Covers standards bodies, vendor prefixes, engine-specific CSS3 sequencing, the IE-Netscape rivalry's effect on standards, the prefix debate, JS engines, and performance benchmarks. Relationships are drawn (e.g., \"the same 2008–2014 window that produced prefix fragmentation also produced the JS speed race\"). However, the user's original Round 2 intent (origins, features, developer tools of specific browsers like Edge, Brave, Vivaldi, Arc, and their companies) is largely not addressed—the investigation pivots to engine/standards history rather than the named browsers' features and companies.\n\n[C|Clarity] The General Knowledge Provider's Round 1 answer gives a clear chronological history with citations. The Browser engine historian's Round 3 addition clarifies the Blink/WebKit distinction (\"all iOS browsers are required to use WebKit, so Chrome on iOS runs WebKit, while Chrome on Android and desktop uses Blink\"). However, the Round 2 answer openly admits coverage gaps (\"the info I have doesn't cover most of the browsers you listed... so I'd just be speculating there\"), which is honest but leaves the user without the requested information. The final summary is well-organized but relies on citation markers that may not aid a reader's understanding.\n\n[C|Engagement] The warm-start dialogue shows productive question-answer exchanges on related topics. However, in the main rounds, the user's specific Round 2 request (investigating Edge, Firefox, Opera, Safari, GNOME Web, Falkon, Brave, Waterfox, Vivaldi, Arc and their companies) receives only partial coverage—primarily Chrome, with the engine historian adding Blink/WebKit context. The user's stated intent is not fully met, limiting purposeful involvement with their actual task.\n\n[C|Depth Appropriateness] The Chrome-specific details (release dates, languages, engines, platforms) are appropriately concrete. The MV3/ad-blocker discussion in the final summary is well-developed with empirical findings. However, the depth for the user's actual question (features and companies of many browsers) is insufficient—only Chrome is covered in depth, with other browsers mentioned only in passing or not at all.\n\n[C|Breadth] The final summary covers browser wars history, standards movement, Chrome's origins and features, extension API differences, MV3 impact, and rendering engine fragmentation. However, relative to the user's Round 2 intent (investigating many specific browsers and their companies), breadth is limited—most named browsers (Edge, Firefox, Opera, Safari, GNOME Web, Falkon, Brave, Waterfox, Vivaldi, Arc) receive little or no developed coverage of their features, origins, or companies. The breadth within Chrome and the browser-wars history is good, but it does not match the user's requested scope.",
+  "scores": {
+    "LLM Baseline": {
+      "Clarity": 8.2,
+      "Engagement": 7.6,
+      "Depth Appropriateness": 8.0,
+      "Breadth": 8.4
+    },
+    "CCA": {
+      "Clarity": 7.8,
+      "Engagement": 7.2,
+      "Depth Appropriateness": 8.2,
+      "Breadth": 7.6
+    },
+    "Co-STORM": {
+      "Clarity": 7.4,
+      "Engagement": 6.8,
+      "Depth Appropriateness": 7.0,
+      "Breadth": 7.2
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 146939,
+      "completion_tokens": 1444,
+      "total_tokens": 148383,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

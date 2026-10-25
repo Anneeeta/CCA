@@ -1,0 +1,47 @@
+{
+  "task": "012_enhancing-human-computer-interaction-with-wearable-devices-via-gesture-o",
+  "status": "complete",
+  "mapping": {
+    "A": "LLM Baseline",
+    "B": "Co-STORM",
+    "C": "CCA"
+  },
+  "raw": "System A:\n  Inquiry Relevance: 7.5/10\n  Perspective Expansion: 7.0/10\n  Evidence-Based Progress: 7.0/10\n  Incremental Value: 7.5/10\n  Adaptive Coherence: 7.5/10\nSystem B:\n  Inquiry Relevance: 7.0/10\n  Perspective Expansion: 7.5/10\n  Evidence-Based Progress: 6.5/10\n  Incremental Value: 7.0/10\n  Adaptive Coherence: 7.0/10\nSystem C:\n  Inquiry Relevance: 8.0/10\n  Perspective Expansion: 7.5/10\n  Evidence-Based Progress: 7.5/10\n  Incremental Value: 7.5/10\n  Adaptive Coherence: 8.0/10\n\nExplanation:\n[A|Inquiry Relevance] Round 1 directly addressed the topic prompt with a structured overview of gesture/AR modalities; Round 2 pivoted to the new guidance on non-touch interaction, citing Rateau et al. and Kraus/Flegel; Round 3 (\"What else should I know?\") brought in ergonomics and mobility. All three directions serve the stated goal, though Round 1's breadth is somewhat generic.\n\n[A|Perspective Expansion] Round 3 introduced the \"Shoulder paradox\" and mobility degradation as genuinely new lenses (\"walking causes substantial degradation in both error rates and selection times\"), connecting them to earlier error-tolerance claims. Rounds 1–2 mostly restate known modality trade-offs.\n\n[A|Evidence-Based Progress] Retrieval evidence is used to support claims (e.g., \"112,856 interaction frames\" in Round 2; \"±30° envelope\" in Round 3), and limitations are flagged (\"the CHI 2026 paper is premium-access; verify before citing\"). However, no claim is empirically tested or quantitatively compared across rounds.\n\n[A|Incremental Value] Each round adds a distinct layer: Round 1 gives a five-layer architecture; Round 2 adds around-device disambiguation and frame-level methodology; Round 3 adds ergonomic principles and a practical checklist. Some overlap in \"error tolerance\" across rounds.\n\n[A|Adaptive Coherence] Round 2 explicitly builds on Round 1 (\"Building on the earlier 'error tolerance' point...\"), and Round 3 reframes earlier claims (\"the 'flexible modality matching' idea from earlier must be mobility-aware\"). The progression is cumulative and responsive to each new prompt.\n\n[B|Inquiry Relevance] The warm-start dialogue covers gyro-free IMU trade-offs, latency pipelines, cross-device gesture transfer, system architecture, and user-vs-designer vocabulary — all pertinent to the topic. Round 1's answer on Arduino Nano BLE Sense is relevant but narrow; Round 2's answer on the Golden Ergonomic Canvas directly addresses the non-touch guidance.\n\n[B|Perspective Expansion] The warm-start introduces the \"Shoulder paradox\" and \"responsible naturalness\" as reframings; Round 2 extends this with context-weighted gesture variants (\"Throw was strongly frontstage, while Move a little stayed off-stage\"). These are substantive new perspectives on gesture design.\n\n[B|Evidence-Based Progress] Specific statistics are cited (e.g., \"Select appeared in 96% of apps\"; \"79.6% less current than a gyro-based IMU\"), and limitations are noted (\"the gathered material only partially describes the 'Eight-Dimension Ergonomic Table'\"). However, no claim is tested or compared across rounds; evidence is mostly descriptive.\n\n[B|Incremental Value] Round 1 adds a concrete hardware example; Round 2 adds the Canvas framework and corpus statistics; Round 3 (expert) adds methodological caveats (\"ten DPT-trained therapists on Spectacles... 'habitual motor patterns' across general users is untested\"). Each round adds distinct, useful material.\n\n[B|Adaptive Coherence] Round 2 explicitly builds on Round 1 (\"Building on that, the Everyday-AR Golden Ergonomic Canvas...\"); Round 3's expert refines Round 2's claims by flagging untested generalizations. The progression is cumulative, though the warm-start's breadth is not fully integrated into later rounds.\n\n[C|Inquiry Relevance] Round 1 selects \"IMU vs. vision comparison\" — a foundational question for the topic. Round 2 selects \"evidence that gesture reduces complexity\" — directly addressing the user's intent to \"simplify interface design.\" Round 3 selects \"vocabulary size effects\" — a natural follow-up. Each selection uses the preceding discussion and new guidance appropriately.\n\n[C|Perspective Expansion] Round 2 introduces \"hidden prerequisites\" (calibration, training) as a new lens on adoption; Round 3 introduces \"lighting and occlusion\" as environmental failure modes. These are consequential perspectives not explicit in the starting material, and they connect to the user's goal of simplifying interface design.\n\n[C|Evidence-Based Progress] Round 2 cites patent evidence for calibration (\"personalized hand parameters such as finger length, knuckle spacing, and palm size feed the gesture detector\") and flags uncertainty (\"direct head-to-head evidence that gesture beats touch or voice on these metrics is thin\"). Round 3 cites a concrete mitigation (\"generating a difference image between two frames to cancel background ambient IR\") and bounds its applicability (\"assumes a reasonably stable background and adds processing latency\"). Claims are appropriately qualified.\n\n[C|Incremental Value] Round 1 delivers a clear IMU-vs-vision trade-off table; Round 2 delivers a calibration/training framework and a shared metric suite; Round 3 delivers environmental failure modes and sensor-fusion mitigations. Each round adds distinct, actionable understanding with little repetition.\n\n[C|Adaptive Coherence] Round 2 explicitly builds on Round 1 (\"Sensing choice interacts with these costs: IMU is cheap, low-power... while vision gives finger-level pose but is power-hungry\"); Round 3 extends this (\"Sensor fusion is the main mitigation. Pairing vision with an IMU lets one sensor cover the other's weakness\"). The progression is cumulative and responsive to each new question.",
+  "scores": {
+    "LLM Baseline": {
+      "Inquiry Relevance": 7.5,
+      "Perspective Expansion": 7.0,
+      "Evidence-Based Progress": 7.0,
+      "Incremental Value": 7.5,
+      "Adaptive Coherence": 7.5
+    },
+    "Co-STORM": {
+      "Inquiry Relevance": 7.0,
+      "Perspective Expansion": 7.5,
+      "Evidence-Based Progress": 6.5,
+      "Incremental Value": 7.0,
+      "Adaptive Coherence": 7.0
+    },
+    "CCA": {
+      "Inquiry Relevance": 8.0,
+      "Perspective Expansion": 7.5,
+      "Evidence-Based Progress": 7.5,
+      "Incremental Value": 7.5,
+      "Adaptive Coherence": 8.0
+    }
+  },
+  "ranking": [],
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 143407,
+      "completion_tokens": 1309,
+      "total_tokens": 144716,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

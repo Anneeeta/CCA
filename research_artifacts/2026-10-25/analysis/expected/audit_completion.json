@@ -1,0 +1,10 @@
+{
+  "benchmark_tasks_per_suite": 100,
+  "benchmark_accepted_records": 200,
+  "ablation_records_per_suite": 500,
+  "total_raw_records_reparsed": 1200,
+  "original_data_modified": false,
+  "numpy": "2.1.2",
+  "scipy": "1.16.2",
+  "methods": "Task-paired two-sided Wilcoxon, Pratt zero method, auto method, no continuity correction; paired differences rounded to 10 decimal places before ranking; dz uses sample SD of differences; rank-biserial ranks nonzero absolute differences; bootstrap CIs percentile, task resampling."
+}

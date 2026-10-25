@@ -1,0 +1,46 @@
+{
+  "variant": "no_patches",
+  "task": "096_autonomous-ai-for-research-laboratories",
+  "sequence": [
+    "full",
+    "no_patches"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Inquiry Relevance": 8.2,
+    "Perspective Expansion": 8.0,
+    "Evidence-Based Progress": 7.8,
+    "Incremental Value": 7.9,
+    "Adaptive Coherence": 8.1
+  },
+  "status": "complete",
+  "attempt": 2,
+  "raw": "{\"Inquiry Relevance\": 0.3, \"Perspective Expansion\": 0.2, \"Evidence-Based Progress\": 0.1, \"Incremental Value\": 0.2, \"Adaptive Coherence\": 0.1}",
+  "deltas": {
+    "Inquiry Relevance": 0.3,
+    "Perspective Expansion": 0.2,
+    "Evidence-Based Progress": 0.1,
+    "Incremental Value": 0.2,
+    "Adaptive Coherence": 0.1
+  },
+  "calibrated_target_scores": {
+    "Inquiry Relevance": 8.5,
+    "Perspective Expansion": 8.2,
+    "Evidence-Based Progress": 7.8999999999999995,
+    "Incremental Value": 8.1,
+    "Adaptive Coherence": 8.2
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 191157,
+      "completion_tokens": 54,
+      "total_tokens": 191211,
+      "cached_tokens": 92288,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

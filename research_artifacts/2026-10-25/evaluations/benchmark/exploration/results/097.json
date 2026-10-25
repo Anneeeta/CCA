@@ -1,0 +1,48 @@
+{
+  "task": "097_history-and-features-of-major-web-browsers",
+  "status": "complete",
+  "protocol": "exploration_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "LLM Baseline",
+    "B": "CCA",
+    "C": "Co-STORM"
+  },
+  "raw": "System A:\n  Inquiry Relevance: 7.5/10\n  Perspective Expansion: 7.0/10\n  Evidence-Based Progress: 7.5/10\n  Incremental Value: 7.5/10\n  Adaptive Coherence: 7.5/10\nSystem B:\n  Inquiry Relevance: 8.5/10\n  Perspective Expansion: 8.5/10\n  Evidence-Based Progress: 8.5/10\n  Incremental Value: 8.0/10\n  Adaptive Coherence: 8.5/10\nSystem C:\n  Inquiry Relevance: 6.5/10\n  Perspective Expansion: 6.0/10\n  Evidence-Based Progress: 6.0/10\n  Incremental Value: 6.5/10\n  Adaptive Coherence: 6.5/10\n\nExplanation:\n[A|Inquiry Relevance] System A's responses consistently target the user's stated goal. Round 1 addresses \"History and Features of Major Web Browsers\" with a structured overview of origins and features. Round 2 directly responds to the detailed browser list with a table of \"First Release | Developer / Company | Engine\" for each named browser. Round 3's \"What else should I know\" prompt is answered with market dynamics, engine diversity, and the browser-vs-search-engine distinction—all pertinent to the topic. The directions are well-fitted but largely responsive rather than proactively investigative.\n\n[A|Perspective Expansion] Round 2 introduces the Chrome-vs-Chromium distinction (\"Chrome adds proprietary features on top of Chromium, including proprietary codecs\") and engine lineage (KHTML→WebKit→Blink), which are genuinely new perspectives relative to Round 1. Round 3 adds the browser-vs-search-engine clarification and the engine-monoculture concern. These are substantive but the reframings are moderate in depth.\n\n[A|Evidence-Based Progress] Round 2's engine table and lineage notes (\"Blink is a 2013 fork of WebKit's WebCore component by Google\") connect claims to specific technical relationships. Round 3 acknowledges uncertainty appropriately (\"engine diversity is shrinking—a concern for web standards\"). Support is visible but citations are not verified in the record; the reasoning is conceptually sound without overclaiming.\n\n[A|Incremental Value] Round 1 establishes the historical baseline; Round 2 adds the engine/company mapping table and Chrome-vs-Chromium clarification; Round 3 adds market-share volatility and performance trade-offs. Each round contributes distinct useful understanding, though some repetition of the timeline occurs.\n\n[A|Adaptive Coherence] The three rounds build cumulatively: Round 1's history → Round 2's detailed browser/engine mapping → Round 3's broader context. Round 3 explicitly builds on Round 2's engine discussion (\"Because most browsers now share Chromium/Blink, engine diversity is shrinking\"). The progression is coherent and responsive to each prompt.\n\n[B|Inquiry Relevance] System B's student selects questions that directly serve the user's goal at each stage. Round 1's selected question on web standards' influence on browser features is pertinent to \"History and Features.\" Round 2's question on rendering-engine CSS3 approaches directly addresses the user's list of browsers and engines. Round 3's question on the vendor-prefix debate follows naturally from Round 2's discussion of engine differences. Each selection uses available context purposefully.\n\n[B|Perspective Expansion] Round 2 develops the engine-specific CSS3 sequencing perspective (\"Trident's signature was 'feature support arrives with a new major version, and you wait'\"), which is a consequential reframing beyond generic engine descriptions. Round 3 introduces the prefix \"crisis vs. myth\" debate as a contested interpretation, and the JS-engine evolution perspective. These materially extend the investigation with specific, task-relevant views.\n\n[B|Evidence-Based Progress] Round 2's expert evidence distinguishes well-established claims (Trident version mapping) from uncertain ones (\"exact first-version-per-feature claims... should be treated as approximate\"), and flags a genuine conflict (\"sources disagree on whether prefixes were a crisis or a myth\"). Round 3's evidence identifies what would resolve the debate (\"crawl-level prefix-usage rates... developer surveys from the 2011-2014 window\") and bounds uncertainty appropriately. This is careful evidential development.\n\n[B|Incremental Value] Round 1 delivers the standards-convergence explanation with concrete examples (canvas, CSS3 transitions). Round 2 adds the engine-specific CSS3 sequencing analysis with the Trident version mapping. Round 3 adds the JS-engine evolution (V8's 2008 launch, GC improvements) and the prefix-debate resolution criteria. Each round provides distinct, well-founded understanding.\n\n[B|Adaptive Coherence] The three rounds form a clear cumulative inquiry: standards' influence → engine-specific implementation differences → the contested prefix debate and JS engines. Round 3's expert explicitly connects to Round 2's conflict (\"the prefix debate can be partly resolved with measurable usage data\"). The progression tracks unresolved matters usefully.\n\n[C|Inquiry Relevance] System C's Round 1 provides a broad historical overview that addresses the user's goal. Round 2 attempts to address the detailed browser list but acknowledges significant gaps (\"the info I have doesn't cover most of the browsers you listed\"). Round 3's engine historian adds Blink/WebKit lineage information. The directions are relevant but Round 2's coverage is incomplete relative to the user's specific request.\n\n[C|Perspective Expansion] Round 3's engine historian introduces the Blink-fork perspective (\"Chrome's Blink engine was created in 2013, when Google forked WebKit\") and the iOS-WebKit-requirement distinction, which are relevant new perspectives. However, the warm-start discussion covers browser wars and extension APIs without connecting them to the user's specific browser list. The expansion is moderate.\n\n[C|Evidence-Based Progress] Round 1's historical timeline is well-sourced (Mosaic 1993, Netscape 1994, IE 1995). Round 3's Blink-fork explanation cites specific motivations (\"reduce complexity and speed up development\"). However, Round 2's acknowledged gaps limit evidential progress on the user's specific question about GNOME Web, Falkon, Waterfox, Vivaldi, and Arc.\n\n[C|Incremental Value] Round 1 establishes the historical baseline. Round 3 adds the Blink-fork lineage and iOS-WebKit constraint. However, Round 2's acknowledged inability to cover most of the listed browsers limits the incremental value relative to the user's specific request. The warm-start discussion on browser wars and extensions provides useful context but is not clearly connected to the user's stated goal in the recorded rounds.\n\n[C|Adaptive Coherence] The warm-start discussion covers browser wars, standards, and extensions. Round 1 addresses history. Round 2 attempts the detailed browser list but acknowledges gaps. Round 3's engine historian adds relevant lineage information. The progression is generally coherent but Round 2's acknowledged gaps represent a missed connection to the user's specific request.",
+  "scores": {
+    "LLM Baseline": {
+      "Inquiry Relevance": 7.5,
+      "Perspective Expansion": 7.0,
+      "Evidence-Based Progress": 7.5,
+      "Incremental Value": 7.5,
+      "Adaptive Coherence": 7.5
+    },
+    "CCA": {
+      "Inquiry Relevance": 8.5,
+      "Perspective Expansion": 8.5,
+      "Evidence-Based Progress": 8.5,
+      "Incremental Value": 8.0,
+      "Adaptive Coherence": 8.5
+    },
+    "Co-STORM": {
+      "Inquiry Relevance": 6.5,
+      "Perspective Expansion": 6.0,
+      "Evidence-Based Progress": 6.0,
+      "Incremental Value": 6.5,
+      "Adaptive Coherence": 6.5
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 147265,
+      "completion_tokens": 1480,
+      "total_tokens": 148745,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

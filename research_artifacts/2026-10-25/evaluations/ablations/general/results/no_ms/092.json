@@ -1,0 +1,42 @@
+{
+  "variant": "no_ms",
+  "task": "092_based-point-supervised-object-detection",
+  "sequence": [
+    "full",
+    "no_ms"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 8.2,
+    "Engagement": 7.6,
+    "Depth Appropriateness": 8.4,
+    "Breadth": 8.6
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Clarity\": 0.3, \"Engagement\": 0.4, \"Depth Appropriateness\": 0.2, \"Breadth\": 0.4}",
+  "deltas": {
+    "Clarity": 0.3,
+    "Engagement": 0.4,
+    "Depth Appropriateness": 0.2,
+    "Breadth": 0.4
+  },
+  "calibrated_target_scores": {
+    "Clarity": 8.5,
+    "Engagement": 8.0,
+    "Depth Appropriateness": 8.6,
+    "Breadth": 9.0
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 179200,
+      "completion_tokens": 40,
+      "total_tokens": 179240,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "variant": "no_ms",
+  "task": "047_dataset-processing-for-large-language-models",
+  "sequence": [
+    "full",
+    "no_ms"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 8.5,
+    "Engagement": 8.0,
+    "Depth Appropriateness": 8.2,
+    "Breadth": 8.5
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Clarity\": -0.3, \"Engagement\": 0.2, \"Depth Appropriateness\": 0.1, \"Breadth\": -0.2}",
+  "deltas": {
+    "Clarity": -0.3,
+    "Engagement": 0.2,
+    "Depth Appropriateness": 0.1,
+    "Breadth": -0.2
+  },
+  "calibrated_target_scores": {
+    "Clarity": 8.2,
+    "Engagement": 8.2,
+    "Depth Appropriateness": 8.299999999999999,
+    "Breadth": 8.3
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 191996,
+      "completion_tokens": 40,
+      "total_tokens": 192036,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

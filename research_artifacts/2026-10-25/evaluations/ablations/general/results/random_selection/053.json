@@ -1,0 +1,43 @@
+{
+  "variant": "random_selection",
+  "task": "053_ai-tools-for-content-creation-in-fashion-and-beauty",
+  "sequence": [
+    "full",
+    "random_selection"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 7.4,
+    "Engagement": 6.6,
+    "Depth Appropriateness": 7.8,
+    "Breadth": 7.6
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Clarity\": 0.2, \"Engagement\": 0.3, \"Depth Appropriateness\": 0.1, \"Breadth\": 0.1}",
+  "deltas": {
+    "Clarity": 0.2,
+    "Engagement": 0.3,
+    "Depth Appropriateness": 0.1,
+    "Breadth": 0.1
+  },
+  "calibrated_target_scores": {
+    "Clarity": 7.6000000000000005,
+    "Engagement": 6.8999999999999995,
+    "Depth Appropriateness": 7.8999999999999995,
+    "Breadth": 7.699999999999999
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 202175,
+      "completion_tokens": 40,
+      "total_tokens": 202215,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "variant": "no_patches",
+  "task": "061_environmental-impact-on-personal-growth-and-perspective",
+  "sequence": [
+    "full",
+    "no_patches"
+  ],
+  "reference_position": 1,
+  "reference_scores": {
+    "Clarity": 8.2,
+    "Engagement": 7.8,
+    "Depth Appropriateness": 8.5,
+    "Breadth": 8.8
+  },
+  "status": "complete",
+  "attempt": 1,
+  "raw": "{\"Clarity\": -0.3, \"Engagement\": 0.1, \"Depth Appropriateness\": -0.2, \"Breadth\": -0.4}",
+  "deltas": {
+    "Clarity": -0.3,
+    "Engagement": 0.1,
+    "Depth Appropriateness": -0.2,
+    "Breadth": -0.4
+  },
+  "calibrated_target_scores": {
+    "Clarity": 7.8999999999999995,
+    "Engagement": 7.8999999999999995,
+    "Depth Appropriateness": 8.3,
+    "Breadth": 8.4
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 187982,
+      "completion_tokens": 40,
+      "total_tokens": 188022,
+      "cached_tokens": 90112,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "task": "004_chatbot-for-analyzing-financial-data-in-business-and-economics",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "Co-STORM",
+    "B": "LLM Baseline",
+    "C": "CCA"
+  },
+  "raw": "System A:\n  Clarity: 7.6/10\n  Engagement: 7.2/10\n  Depth Appropriateness: 7.8/10\n  Breadth: 7.4/10\nSystem B:\n  Clarity: 8.2/10\n  Engagement: 7.8/10\n  Depth Appropriateness: 7.6/10\n  Breadth: 8.0/10\nSystem C:\n  Clarity: 8.4/10\n  Engagement: 8.0/10\n  Depth Appropriateness: 8.6/10\n  Breadth: 8.2/10\n\nExplanation:\n[A|Clarity] In the warm-start moderator-expert exchange, the expert explains why fluency is not evidence of accuracy (\"a confident, well-structured narrative is one of the easiest outputs for modern language models to produce\") and then explains what does earn escalation (audit trail, certified reports, link keys, decomposed drivers). The reasoning chain is understandable. However, in Round 3 the Municipal transparency officer's answer introduces \"PoliQ\" and \"Nuki\" with dense technical detail (vector database, Agentic RAG, bigram bucketing) without explaining what these are or why a resident-facing municipal deployment would need them; the connection to the user's stated intent (helping residents understand town records) requires the reader to reconstruct the bridge themselves. The final summary consolidates well but does not repair this earlier density.\n\n[A|Engagement] The warm-start questions are well-targeted at executive-level concerns (escalation criteria, roadblocks, evaluation metrics, calibrated trust), which gives the user a sense of purposeful exploration. However, the Round 1 and Round 2 answers are delivered as monologues with no visible user contribution beyond the initial prompt; the \"Guest\" utterance is just the topic restated. The process connects to the user's goals but does not actively involve the user in choosing directions or testing understanding.\n\n[A|Depth Appropriateness] The warm-start discussion on audit trails and calibrated trust provides appropriate depth for a CFO/board-level audience: mechanisms (link keys, volume/price/mix decomposition), conditions (two sources of truth = no source of truth), and trade-offs (explanation method vs. user risk-taking level) are all developed. The Round 1 answer on financial chatbots covers capabilities and limitations with reasonable depth. The depth is appropriate for the stated domain (business and economics) but the municipal pivot in Round 2 is comparatively shallow (one paragraph of examples) relative to the financial depth.\n\n[A|Breadth] The interaction covers multiple relevant dimensions: audit trails and escalation, current use cases (market research, fundamental analysis, sentiment), integration roadblocks (privacy, ethics, training), evaluation metrics (indicator alignment, LLM-judge scoring, reasoning depth), explanation design and calibrated trust, and municipal transparency applications. These are partly connected through the recurring theme of \"grounded, auditable answers.\" However, the municipal dimension is only briefly touched and not integrated with the earlier financial-analysis themes; the breadth is wide but the connections across the two domains are thin.\n\n[B|Clarity] Round 1's answer uses clear tables and section headings to explain what a financial-data chatbot is, its capabilities, architecture, and limitations. The explanation of multi-agent design (\"Explicit agent roles — e.g., a 'Data Retrieval Agent,' a 'Ratio Calculation Agent'\") is concrete and understandable. Round 2's answer on town records similarly uses plain language (\"Municipal information is public but not accessible\") and concrete examples (\"What does the new short-term rental ordinance mean for me?\"). The final summary is well-organized. The clarity is consistently high across turns.\n\n[B|Engagement] The answers connect to the user's goals by providing practical use cases, design recommendations, and risk guardrails. Round 2's answer ends with an offer to go deeper (\"Would you like a sample resident-question walkthrough...\"), which is a generic invitation rather than a substantive engagement move. The Round 3 answer reframes the topic productively (explainer vs. advisor paradigm) but the user's \"What else should I know?\" prompt is vague, and the system responds with a broad contextual answer rather than probing what the user actually needs. Involvement is purposeful but not deeply interactive.\n\n[B|Depth Appropriateness] Round 1 provides appropriate depth on architecture (multi-agent, context engineering) and limitations (data quality dependency). Round 2 provides appropriate depth on municipal use cases and guardrails. Round 3 introduces the explainer/advisor distinction with reasonable depth. However, the depth is somewhat uniform across rounds; the system does not progressively deepen based on user signals (there are no substantive user signals to respond to). The depth is workable but not exceptional.\n\n[B|Breadth] The interaction covers: definition and capabilities of financial chatbots, multi-agent architecture, municipal transparency applications (Palm Beach, Saratoga, Chattanooga, Santa Cruz), risks and guardrails, evaluation challenges, and the broader paradigm shift from explainers to autonomous analysts. These dimensions are connected through the recurring theme of \"grounded, cited, current\" answers. The breadth is well-developed and the relationships between dimensions (e.g., how municipal guardrails parallel financial guardrails) are made explicit.\n\n[C|Clarity] The Instructor's answers explain complex mechanisms through concrete examples and policy ladders. For instance, the disambiguation policy is explained as a three-tier ladder (\"(1) answer with a disclosed default... (2) ask one targeted clarifying question... (3) decline rather than invent numbers\") with a concrete example (\"Net margin, FY2024, per our metric dictionary\"). The evidence chain for \"why did opex rise\" is explained link by link with clear reasoning. The final synthesis is well-organized and uses precise language. The clarity is consistently high.\n\n[C|Engagement] The Student's candidate questions are well-targeted at specific gaps (disambiguation, evaluation, failure modes, evidence chains, real-time vs. audited data), and the Instructor's answers directly address these with concrete mechanisms and trade-offs. The process feels like a purposeful investigation guided by the user's evolving interests. The final synthesis consolidates the findings coherently. The engagement is strong because each round builds on the previous one in a way the user can follow.\n\n[C|Depth Appropriateness] The depth develops coherently: Round 1 establishes the disambiguation problem and evaluation framework; Round 2 applies these to the municipal context (multi-year trends, line-item explanations); Round 3 returns to corporate evidence chains and data vintage. Each round provides mechanisms, conditions, examples, and trade-offs at a level appropriate for the stated domain. The depth is neither too shallow nor excessively technical; it serves the user's goal of understanding how to build reliable financial-data chatbots.\n\n[C|Breadth] The interaction covers: disambiguation and semantic layers, evaluation beyond accuracy (fidelity, auditability, standards conformance), municipal multi-year trend failure modes (tax-base discontinuity, revaluation, fiscal-year boundaries), line-item explanation prerequisites (ordinance-ledger-minutes linkage), corporate evidence chains (income statement → MD&A → footnotes → cash flow), and real-time vs. audited data trade-offs. These dimensions are connected through the recurring theme of \"governed definitions, explicit disambiguation, traceable evidence chains.\" The breadth is well-developed and the relationships between dimensions are made explicit.",
+  "scores": {
+    "Co-STORM": {
+      "Clarity": 7.6,
+      "Engagement": 7.2,
+      "Depth Appropriateness": 7.8,
+      "Breadth": 7.4
+    },
+    "LLM Baseline": {
+      "Clarity": 8.2,
+      "Engagement": 7.8,
+      "Depth Appropriateness": 7.6,
+      "Breadth": 8.0
+    },
+    "CCA": {
+      "Clarity": 8.4,
+      "Engagement": 8.0,
+      "Depth Appropriateness": 8.6,
+      "Breadth": 8.2
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 150450,
+      "completion_tokens": 1582,
+      "total_tokens": 152032,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

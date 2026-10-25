@@ -1,0 +1,48 @@
+{
+  "task": "054_criticisms-of-agile-software-development-in-practice",
+  "status": "complete",
+  "protocol": "exploration_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "LLM Baseline",
+    "B": "Co-STORM",
+    "C": "CCA"
+  },
+  "raw": "System A:\n  Inquiry Relevance: 6.5/10\n  Perspective Expansion: 6.0/10\n  Evidence-Based Progress: 6.5/10\n  Incremental Value: 6.5/10\n  Adaptive Coherence: 7.0/10\nSystem B:\n  Inquiry Relevance: 7.0/10\n  Perspective Expansion: 6.5/10\n  Evidence-Based Progress: 6.0/10\n  Incremental Value: 6.5/10\n  Adaptive Coherence: 6.5/10\nSystem C:\n  Inquiry Relevance: 8.5/10\n  Perspective Expansion: 8.0/10\n  Evidence-Based Progress: 8.0/10\n  Incremental Value: 8.0/10\n  Adaptive Coherence: 8.5/10\n\nExplanation:\n[A|Inquiry Relevance] System A's rounds track the user's prompts directly (criticisms → outcomes after prolonged use → \"what else should I know\"), producing structured syntheses each time. The directions are pertinent but largely responsive summaries rather than purposeful inquiry choices; e.g., Round 3's \"What Else to Know\" answer organizes backlash, failure cases, and rebuttals without pursuing a consequential next investigative step. Pertinent but not exceptionally well-judged.\n\n[A|Perspective Expansion] Round 1 develops a four-theme taxonomy (structural tensions, implementation failures, epistemic gaps, human costs) and Round 3 adds the \"backlash ≠ refutation\" and \"criticisms are contested\" angles. These are relevant reframings but mostly reorganize perspectives already present in the retrieval evidence rather than materially extending the investigation.\n\n[A|Evidence-Based Progress] The answers connect retrieved sources to claims (e.g., booking-system failure tied to documentation/non-functional-requirement criticisms; rebuttal literature as counterweight) and mark uncertainty (\"the quantitative magnitude... is not established\"). Support is relevant but the treatment is more synthesis than progressive narrowing of specific unresolved issues.\n\n[A|Incremental Value] Successive rounds add distinct material: Round 2's bimodal verdict table and Round 3's failure-case and rebuttal material extend beyond Round 1's taxonomy. Some repetition of the \"institutionalization vs. values\" theme across rounds limits distinct gain.\n\n[A|Adaptive Coherence] Rounds build cumulatively: Round 2 explicitly references Round 1's themes (\"the earlier-noted concerns about 'fake Agile'\"), and Round 3 refines the verdict. The progression is coherent and responsive to each prompt, though it does not redirect or deepen in response to new evidence beyond the supplied retrieval.\n\n[B|Inquiry Relevance] System B's warm-start dialogue and rounds pursue cargo-cult Agile, Scrum theater, and flow-based alternatives—directly pertinent to the user's criticism-focused goal. The moderator's questions (e.g., \"what's actually driving this gap between adopting the framework and achieving genuine agility?\") target consequential next steps. Slightly less tightly aligned to the specific \"prolonged use outcomes\" prompt in Round 2 than System C's choices.\n\n[B|Perspective Expansion] The dialogue develops the \"Agile theater\" mechanism, the Solstice Analytics diagnostic case, and the flow-based/lean alternative with concrete practices (pull-based planning, collective ownership, PR reviews as learning). The Frontier Financial case adds a cultural/power-structure perspective. Several relevant perspectives are substantively developed, though the flow-based section is more descriptive than investigative.\n\n[B|Evidence-Based Progress] The answers cite specific cases (Solstice Analytics ceremonies, Frontier Financial's \"agile theater\" diagnosis and 12-month recovery) and connect them to claims about root causes (managerial control, missing empowerment). Support is relevant but the treatment is more illustrative than progressively narrowing uncertainty; the practitioner's pushback (\"implementation failure than anything inherent\") is asserted rather than tested.\n\n[B|Incremental Value] The warm-start and rounds add distinct material: the diagnostic telltale signs of Scrum theater, the Frontier case's root-cause analysis, and the flow-based alternative's day-to-day practices. The practitioner round's Frontier recovery data (release cycles quarterly → bi-weekly) adds a concrete outcome. Some repetition of the cargo-cult theme across turns limits distinct gain.\n\n[B|Adaptive Coherence] The dialogue builds cumulatively: later questions explicitly reference earlier ones (\"We keep hearing about 'cargo cult Agile'...\"), and the flow-based question extends the ceremony-criticism thread. The practitioner round responds to the accumulated criticism with a counterpoint. Generally cumulative, though the flow-based question introduces a somewhat distinct direction without explicit linkage to the \"prolonged use\" evaluation.\n\n[C|Inquiry Relevance] System C's Student selects questions that directly target the user's goal and build on prior rounds: Round 1's boundary-conditions question (\"Under what boundary conditions... does Agile practice break down\"), Round 2's early-warning-indicator question, and Round 3's fixed-deadline-contract question. Each choice uses available context and targets a consequential next step (e.g., Round 2's rationale: \"Seeks a validated leading indicator for the label-survives-agility-dies pattern, with explicit boundary conditions for generalization\").\n\n[C|Perspective Expansion] The rounds develop consequential perspectives: boundary conditions (team size, regulation, contracts, distribution) as the frame for criticisms; the misattribution-vs.-causal-effect distinction; the \"follow-through void\" as a diagnostic concept; and the constraint-first vs. retrofit compliance distinction. Round 3's confounding question materially extends the investigation by asking whether Agile's observed failures are organizational rather than method-specific.\n\n[C|Evidence-Based Progress] The Expert's research connects specific evidence to claims and marks uncertainty precisely: \"no retrieved source gives a head-to-head quantitative comparison of cargo-cult Agile versus disciplined waterfall\" and \"the closure-rate claim is a plausible heuristic with asserted predictive value, not a quantified predictor with published sensitivity/specificity.\" The Instructor's answers distinguish mechanism-level support from open empirical questions, productively bounding unresolved issues.\n\n[C|Incremental Value] Successive rounds provide distinct, well-founded contributions: Round 1 establishes boundary conditions and the misattribution analysis; Round 2 adds the closure-rate indicator with team-shape-specific guidance and the compliance-constraint distinction; Round 3 adds the fixed-deadline contract analysis and study designs (matched-pair, stepped-wedge) to isolate Agile's effect. Each round yields actionable investigation bases with little unproductive repetition.\n\n[C|Adaptive Coherence] The rounds form a clear cumulative inquiry: Round 1's boundary conditions motivate Round 2's indicator question; Round 2's distributed-team and compliance discussions motivate Round 3's confounding question. The Student's rationales explicitly reference prior rounds (e.g., Round 2: \"Closure-rate thresholds may not generalize to large distributed settings\"). The progression integrates prior findings into productive next steps without manufactured pivots.",
+  "scores": {
+    "LLM Baseline": {
+      "Inquiry Relevance": 6.5,
+      "Perspective Expansion": 6.0,
+      "Evidence-Based Progress": 6.5,
+      "Incremental Value": 6.5,
+      "Adaptive Coherence": 7.0
+    },
+    "Co-STORM": {
+      "Inquiry Relevance": 7.0,
+      "Perspective Expansion": 6.5,
+      "Evidence-Based Progress": 6.0,
+      "Incremental Value": 6.5,
+      "Adaptive Coherence": 6.5
+    },
+    "CCA": {
+      "Inquiry Relevance": 8.5,
+      "Perspective Expansion": 8.0,
+      "Evidence-Based Progress": 8.0,
+      "Incremental Value": 8.0,
+      "Adaptive Coherence": 8.5
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 158136,
+      "completion_tokens": 1470,
+      "total_tokens": 159606,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

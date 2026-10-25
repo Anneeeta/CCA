@@ -1,0 +1,44 @@
+{
+  "task": "098_caving-in-fitness",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "LLM Baseline",
+    "B": "Co-STORM",
+    "C": "CCA"
+  },
+  "raw": "System A:\n  Clarity: 7.2/10\n  Engagement: 6.5/10\n  Depth Appropriateness: 6.8/10\n  Breadth: 7.0/10\nSystem B:\n  Clarity: 7.5/10\n  Engagement: 7.0/10\n  Depth Appropriateness: 7.2/10\n  Breadth: 7.8/10\nSystem C:\n  Clarity: 7.8/10\n  Engagement: 7.5/10\n  Depth Appropriateness: 8.0/10\n  Breadth: 8.2/10\n\nExplanation:\n[A|Clarity] Round 1 answer explains the \"Cave\" gym-brand meaning with concrete details (e.g., \"The Cave Gym (Toowoomba, Australia)... hybrid training... Bronze at $22/week\"), but Round 2's pivot to actual cave exploration is not explicitly bridged from Round 1's gym-brand framing, leaving the user to reconcile two meanings of \"caving\" without a stated transition. The Round 3 answer does clarify the terminology split (\"'Knee caving' is a third, unrelated usage\"), which helps, but the earlier unexplained shift is a gap.\n\n[A|Engagement] The answers connect to the user's stated intent (what caving is, how to start, equipment, safety) and offer follow-up (\"let me know your location and goals\"), but the Round 1 gym-brand interpretation does not match the likely user intent of caving-as-adventure-sport, so the first response's relevance is questionable; the process is generally followable but the initial mismatch weakens involvement.\n\n[A|Depth Appropriateness] Round 2 provides workable depth on starting (guided recreational routes, health screening) and safety (never cave alone, hypothermia), with a reasonable equipment table; however, the Round 3 \"what else\" answer branches into tangential topics (Mars lava tubes, AI consciousness) that are only loosely tied to the user's fitness-oriented goal, so depth is uneven across rounds.\n\n[A|Breadth] The interaction covers gym-brand caving, sport caving (definition, starting, gear, safety), and a terminology warning, with some connection (e.g., \"the 'extra' knowledge splits into three buckets\"); however, the Round 1 gym-brand content is only marginally relevant to the user's likely intent, and the Round 3 science/philosophy material is peripheral, so breadth is real but partly diluted by off-target content.\n\n[B|Clarity] The General Knowledge Provider in Round 1 explains caving's intensity profile with specific figures (\"moderate-intensity exercise... between recreational visits to natural environments (≈3–3.5 METs) and recreational scuba diving (≈5–6 METs)\") and the Round 2 answer gives concrete equipment standards (\"hard-shell... helmet... CE-EN 12492, UIAA 106, AS 2316\"), which are understandable; the certified instructor's Round 3 answer clearly distinguishes caving from potholing and explains the CL1/CL2 qualification ladder, so key points are consistently explained.\n\n[B|Engagement] The answers stay tied to the user's intent (what caving is, how to start, equipment, safety) and the Round 3 instructor answer offers a concrete entry pathway (\"connect with a qualified guide or club... Speleological Union of Ireland\"), which supports continued involvement; the process is purposeful but does not actively invite the user to choose or steer, so involvement is steady rather than exceptional.\n\n[B|Depth Appropriateness] Round 1 gives a reasonable physiological foundation (METs, energy expenditure, experience effects) and Round 2 provides detailed, standard-referenced equipment and safety guidance; Round 3 adds a structured entry pathway with qualification levels, which matches the user's \"how to start\" goal; depth is workable and progressively relevant, though the physiological detail in Round 1 is somewhat dense relative to the practical questions that follow.\n\n[B|Breadth] The interaction covers physiological demands (energy expenditure, METs, gender/experience effects), equipment (helmets, lights, ropes, standards), safety (supervision, conservation, first aid), and entry pathways (CL1/CL2 qualifications, SUI guidance), with connections (e.g., equipment standards tied to safety, qualifications tied to supervision); this is a well-developed set of relevant perspectives for the user's goal.\n\n[C|Clarity] The Instructor's answers explain the \"limiter shift\" concept clearly (\"the point where your central aerobic capacity stops being the bottleneck and a local constraint... takes over\") and give concrete, understandable field tests (e.g., \"squeeze a handheld dynamometer at about half your maximum and hold until you fatigue\"); the progression from physiological demands to boundary conditions to metrics to hidden prerequisites is followable, with the final synthesis consolidating the key points (\"train the engine, but screen and train the periphery\").\n\n[C|Engagement] The Student's selected questions track the user's evolving intent (from \"what caving is\" to \"how to start\" to \"what else\"), and the Instructor's answers connect each response to the user's practical goal (e.g., \"For program design, that implies a two-layer approach\"); the process supports involvement through concrete, actionable guidance rather than performative questioning, though the user does not actively steer each round.\n\n[C|Depth Appropriateness] The interaction builds from physiological foundations (aerobic base, grip bias, thermoregulation) to boundary conditions, field metrics, and hidden prerequisites, with appropriate uncertainty flagged (\"no caving-specific validation exists\"); the depth matches the user's fitness-oriented goal and progressively addresses more specific questions, with the final synthesis appropriately consolidating rather than adding unnecessary complexity.\n\n[C|Breadth] The interaction covers physiological demands, transfer boundaries, energy expenditure, field metrics, weekly volume, hidden prerequisites, and trade-offs of grip emphasis, with clear relationships (e.g., \"the 'limiter shift'... tells you what to test and train next\"); this is a coherent, multidimensional understanding of caving-as-fitness, well-connected to the user's goal, with the final synthesis tying the dimensions together.",
+  "scores": {
+    "LLM Baseline": {
+      "Clarity": 7.2,
+      "Engagement": 6.5,
+      "Depth Appropriateness": 6.8,
+      "Breadth": 7.0
+    },
+    "Co-STORM": {
+      "Clarity": 7.5,
+      "Engagement": 7.0,
+      "Depth Appropriateness": 7.2,
+      "Breadth": 7.8
+    },
+    "CCA": {
+      "Clarity": 7.8,
+      "Engagement": 7.5,
+      "Depth Appropriateness": 8.0,
+      "Breadth": 8.2
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 146530,
+      "completion_tokens": 1326,
+      "total_tokens": 147856,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

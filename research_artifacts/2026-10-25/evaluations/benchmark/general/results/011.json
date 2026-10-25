@@ -1,0 +1,45 @@
+{
+  "task": "011_application-of-artificial-intelligence-in-preserving-intangible-cultural",
+  "status": "complete",
+  "protocol": "user_experience_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "LLM Baseline",
+    "B": "Co-STORM",
+    "C": "CCA"
+  },
+  "raw": "System A:\n  Clarity: 8.2/10\n  Engagement: 7.6/10\n  Depth Appropriateness: 8.0/10\n  Breadth: 8.4/10\nSystem B:\n  Clarity: 7.8/10\n  Engagement: 7.2/10\n  Depth Appropriateness: 7.4/10\n  Breadth: 7.6/10\nSystem C:\n  Clarity: 8.4/10\n  Engagement: 8.2/10\n  Depth Appropriateness: 8.6/10\n  Breadth: 8.2/10\n\nExplanation:\n[A|Clarity] Round 1's opening establishes the living-heritage framing with a clear explanation of why ICH differs from tangible heritage (\"ICH is not a static 'slice of history' but a living cultural life-form\"), and Round 3's technical passage on the Shu embroidery pipeline explains transfer learning and ADA in accessible terms (\"small-data is the norm, not the exception... so techniques like transfer learning and ADA are not optional refinements\"). The risk table in Round 1 pairs each risk with a mitigation, aiding comprehension. Minor gaps: some transitions between application domains and governance principles assume the reader has absorbed the UNESCO framing without restating it.\n\n[A|Engagement] The responses consistently tie content back to the user's stated intent, e.g., Round 2 opens by reframing \"latest advancements\" as \"a shift in governance philosophy,\" directly addressing the prompt's framing. Round 3's \"What to Watch Next\" list gives the user concrete forward-looking threads. However, the process is largely one-directional delivery; there are no productive questions or invitations that would let the user steer, and the closing synthesis reads as a report rather than a collaborative investigation.\n\n[A|Depth Appropriateness] Round 1 builds from the 2003 Convention principle to specific application domains with mechanisms (multimodal capture, gesture analysis, knowledge graphs), and Round 3 adds genuine technical depth (StyleGAN3, Adam optimizer parameters, ADA) while explaining why small-data techniques matter. The progression from conceptual framing to engineering detail serves a user asking to \"examine latest advancements and methodologies.\" The risk/mitigation table appropriately matches depth to consequence.\n\n[A|Breadth] The interaction covers documentation, immersive training, storytelling, community-centered governance, technical pipelines, systematic-review methodology, institutional geography, and specific risks (data ownership, IP, consent, decontextualization). Round 3's concrete questions (\"Who owns the training data when a StyleGAN is fine-tuned on a community's embroidery patterns?\") connect technical and ethical dimensions. The breadth is well-organized around the community-centeredness principle rather than being a laundry list.\n\n[B|Clarity] The General Knowledge Provider's Round 1 answer explains the dual-path model and the \"Henan ICH One Map\" example concretely, and Round 2's multimodal system description is understandable (\"knowledge coverage up 54%, user engagement up 52%\"). The warm-start dialogue's answers on ownership and colonial risk are clearly stated. However, Round 3's AI Research Scientist question is highly technical (\"which benchmarks and evaluation protocols would you all actually trust\") and the dialogue ends without an answer, leaving the user with an unanswered technical question. Some citation-heavy passages read as source summaries rather than explanations.\n\n[B|Engagement] The warm-start dialogue models a genuine question-and-answer process with substantive moderator questions (\"who should own and control the digital records it creates—and what happens when communities aren't at the table?\"). The General Knowledge Provider's Round 1 answer directly addresses the user's topic. However, the final round's unanswered information request from the AI Research Scientist leaves the process hanging—the user sees a question posed but no resolution, which weakens the sense of a completed learning arc.\n\n[B|Depth Appropriateness] The warm-start dialogue provides good depth on governance mechanisms (Pacific Model Law, condition-based protection, US Indian Arts and Crafts Act) and on indigenous data sovereignty with concrete examples (India's land registry, Nagaland carbon data). Round 1's answer appropriately surveys the field. However, Round 2's answer is somewhat list-like, enumerating application areas (\"AIGC for heritage music creation in teaching[2], sustainable innovation in traditional crafts like Wenzhou blue clamp-resist dyeing[3]\") without developing any of them, and the final summary's \"Governance Mechanisms in Practice\" section acknowledges that \"community-level control mechanisms... are less well documented,\" which is honest but leaves a gap.\n\n[B|Breadth] The dialogue covers community-centered AI, intergenerational transmission, indigenous data sovereignty, ownership and control of digital records, governance mechanisms, and specific licensing models. The warm-start dialogue's progression from ownership to colonial risk to licensing models creates useful connections. However, the application-side coverage (Round 2) is thinner and more list-like than the governance-side coverage, and the unanswered Round 3 question about evaluation benchmarks represents a perspective that was raised but not developed.\n\n[C|Clarity] The Instructor's answers consistently explain mechanisms with concrete reasoning, e.g., Round 1: \"A recording only ever captures one occasion, so good documentation deliberately gathers multiple performances, the practitioner's own explanations of what they are doing and why, the social setting, and the differences between occasions.\" Round 3's explanation of silent failure is particularly clear: \"the archive still looks healthy. Record counts stay stable, version numbers tick along, query traffic continues, but the corpus has quietly frozen into exactly the static tombstone that re-ingestion was meant to prevent.\" The tombstone metaphor is introduced and developed across rounds, aiding comprehension.\n\n[C|Engagement] The Student's candidate questions show a purposeful investigative process, and the selected questions progressively deepen the inquiry (from avoiding tombstone archives, to concrete mechanisms, to hidden prerequisites). The Instructor's answers address the user's evolving needs and use concrete examples (Jino traditional knowledge, Singapore Tamil/Malay encyclopedia). Round 3's \"dormant-versus-current status flag\" extension gives the user a practical concept to carry forward. The process feels like a guided investigation rather than a report.\n\n[C|Depth Appropriateness] The progression is well-judged: Round 1 establishes the tombstone risk and design principles, Round 2 operationalizes them into five mechanisms with evaluation criteria, and Round 3 probes failure modes and boundary conditions. Round 3's honest uncertainty flagging (\"the sources establish principles and the rural/age digital-divide gradient, but they do not measure re-ingestion decay rates in heritage archives specifically\") appropriately marks the limits of evidence. The conjunctive consent model for lineage-bounded traditions is explained at a level that serves the user's deepening inquiry without unexplained complexity.\n\n[C|Breadth] The interaction develops documentation design, promotion assumptions, re-ingestion failure modes, consent under internal disagreement, evaluation metrics, and governance mechanisms, with clear relationships among them (e.g., how promotion assumptions connect to consent-gated access). Round 2's \"assumption register\" concept bridges technical and governance dimensions. The final summary's unresolved questions section honestly identifies gaps (re-ingestion decay rates, dispute-resolution mechanisms in practice) rather than claiming false completeness. The breadth is focused on the user's target problem rather than expanding away from it.",
+  "scores": {
+    "LLM Baseline": {
+      "Clarity": 8.2,
+      "Engagement": 7.6,
+      "Depth Appropriateness": 8.0,
+      "Breadth": 8.4
+    },
+    "Co-STORM": {
+      "Clarity": 7.8,
+      "Engagement": 7.2,
+      "Depth Appropriateness": 7.4,
+      "Breadth": 7.6
+    },
+    "CCA": {
+      "Clarity": 8.4,
+      "Engagement": 8.2,
+      "Depth Appropriateness": 8.6,
+      "Breadth": 8.2
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 129571,
+      "completion_tokens": 1543,
+      "total_tokens": 131114,
+      "cached_tokens": 98304,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}

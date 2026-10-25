@@ -1,0 +1,178 @@
+{
+  "totals": [
+    {
+      "system": "CCA",
+      "tasks": 100,
+      "input_tokens": 6148165,
+      "output_tokens": 1786750,
+      "total_tokens": 7934915,
+      "model_calls": 3101,
+      "mean_tokens_per_task": 79349.15,
+      "sd_tokens_per_task": 3355.5274265912444
+    },
+    {
+      "system": "Co-STORM",
+      "tasks": 100,
+      "input_tokens": 5173503,
+      "output_tokens": 1519976,
+      "total_tokens": 6693479,
+      "model_calls": 6237,
+      "mean_tokens_per_task": 66934.79,
+      "sd_tokens_per_task": 14888.171200074483
+    },
+    {
+      "system": "RAG",
+      "tasks": 100,
+      "input_tokens": 899394,
+      "output_tokens": 589695,
+      "total_tokens": 1489089,
+      "model_calls": 400,
+      "mean_tokens_per_task": 14890.89,
+      "sd_tokens_per_task": 3630.3755069016083
+    }
+  ],
+  "scope": "Recorded model tokens of final100 successful generation runs only: includes initialization, dialogue, internal updates and final synthesis. Excludes evaluation, preflight and superseded/failed attempts. Not total billed experimentation cost and does not account for search API monetary charges.",
+  "sources": [
+    {
+      "system": "CCA",
+      "path": "<local-workspace>\\CCA\\outputs\\pilot_gate\\20261021_123521_full_5901ad2a\\private\\recovery_001\\combined_results.json",
+      "sha256": "b8fcb1a276ffebebf54a8a8525b9a9dd4998d6c62c3de1d4164fda90c4b188cf"
+    },
+    {
+      "system": "Co-STORM",
+      "path": "<local-workspace>\\CCA\\outputs\\costorm_gate\\20261021_161754_deepseek\\direct_recovery_002\\combined_results.json",
+      "sha256": "3e63a7ed2015a5d4c943c95095d0cf1331208e47730725e36edacaa1b16b9d33"
+    },
+    {
+      "system": "RAG",
+      "path": "<local-workspace>\\CCA\\outputs\\rag_gate\\20261021_180142_deepseek\\combined_results.json",
+      "sha256": "043ee8ab8c79e9bf2ee989f87e2c2f287566c72381b9d21300af6e9859cee115"
+    }
+  ],
+  "configuration": {
+    "CCA": {
+      "num_candidates": 5,
+      "require_candidate_count": true,
+      "enable_student_pool": true,
+      "enable_student_questions": true,
+      "student_candidate_state": true,
+      "selection_policy": "utility",
+      "selection_seed": 4005481,
+      "questions_per_round": 2,
+      "selection_diversity": true,
+      "score_use_state": true,
+      "score_use_guidance": true,
+      "score_use_novelty": true,
+      "enable_arbiter": true,
+      "enable_auto_patches": true,
+      "shared_knowledge_mode": "update",
+      "use_shared_context": true,
+      "enable_expert_analysis": true,
+      "deduplicate_student_pool": true,
+      "deduplicate_shared_pool": true,
+      "compact_context": true,
+      "history_mode": "summary",
+      "summary_mode": "extractive",
+      "history_context_max_chars": 6500,
+      "final_history_max_chars": 10000,
+      "pool_context_max_chars": 5000,
+      "helper_context_max_chars": 1800,
+      "round_summary_max_chars": 2200,
+      "pool_context_max_items": 12,
+      "top_k_similarity": 3,
+      "weights": {
+        "alpha": 0.3,
+        "beta": 0.3,
+        "gamma": 0.4
+      },
+      "bootstrap": true,
+      "embedding_model": "<local-workspace>\\CCA\\models\\all-MiniLM-L6-v2",
+      "allow_llm_ranking_fallback": false,
+      "enable_retrieval": true,
+      "retriever_type": "deepseek",
+      "retriever_max_results": 5,
+      "retriever_max_snippets_per_turn": 5,
+      "retriever_context_max_chars": 3000,
+      "tavily_search_depth": "basic",
+      "deepseek_search_need_content": false,
+      "deepseek_search_timeout": 20.0
+    },
+    "CCA_model": {
+      "chat_model": "deepseek-flash",
+      "reasoner_model": "deepseek-flash",
+      "temperature": 0.6,
+      "top_p": 0.9,
+      "max_tokens": 81920,
+      "instructor_max_tokens": 81920,
+      "expert_max_tokens": 81920,
+      "student": {
+        "model": "deepseek-flash",
+        "temperature": 0.7,
+        "top_p": null,
+        "max_tokens": 81920
+      },
+      "instructor": {
+        "model": "deepseek-flash",
+        "temperature": 0.4,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "expert": {
+        "model": "deepseek-flash",
+        "temperature": 0.2,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "arbiter": {
+        "model": "deepseek-flash",
+        "temperature": 0.0,
+        "top_p": null,
+        "max_tokens": 81920
+      },
+      "evaluator": {
+        "model": null,
+        "temperature": 0.0,
+        "top_p": null,
+        "max_tokens": 81920
+      }
+    },
+    "Co-STORM": {
+      "dataset_sha256": "1633e6b147f2a3a77a189a016d2f36e5e32c0db50b550b89211f4520dce8a305",
+      "code_sha256": "c2eb1f37370291041d85cc697c2f4638d4cf94210a003aaa052b5bb40df666f9",
+      "config_sha256": "c59fa9bae06763ae9a6be45946730a96e5c41d19a07b1611ac0bbfedac9ad34c",
+      "model": "deepseek-flash",
+      "endpoint": "https://api.deepseek.com/v1",
+      "retriever": "official_deepseek_search",
+      "search_k": 5,
+      "search_qps": 100,
+      "pilot_workers": 10,
+      "bulk_workers": 90,
+      "rounds_after_warmstart": 3,
+      "warmstart_experts": 2,
+      "warmstart_turns_per_expert": 2,
+      "evaluation": "generation only; no evaluator calls",
+      "cache": false
+    },
+    "RAG": {
+      "dataset_sha256": "1633e6b147f2a3a77a189a016d2f36e5e32c0db50b550b89211f4520dce8a305",
+      "source_sha256": "781f8a1e496ca3af84f2e68c0cc478956fd5ea365dd628b864348882d7c64b6f",
+      "config_sha256": "c59fa9bae06763ae9a6be45946730a96e5c41d19a07b1611ac0bbfedac9ad34c",
+      "model": "deepseek-flash",
+      "endpoint": "https://api.deepseek.com/v1",
+      "thinking": false,
+      "proxy_mode": "direct",
+      "search": "official_deepseek_search",
+      "search_k": 3,
+      "evidence_chars_per_result": 500,
+      "rounds": 3,
+      "followup": "What else should I know about this topic?",
+      "summary_words": "800-1500",
+      "temperature": 0.6,
+      "top_p": 0.9,
+      "max_tokens": 81920,
+      "pilot_workers": 10,
+      "bulk_workers": 90,
+      "scope": "Generation only; preserve existing RAG search-answer-summary method; no judge calls."
+    }
+  }
+}

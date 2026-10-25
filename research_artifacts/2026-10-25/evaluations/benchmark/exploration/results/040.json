@@ -1,0 +1,48 @@
+{
+  "task": "040_privacy-in-large-language-models",
+  "status": "complete",
+  "protocol": "exploration_decimal_v1",
+  "attempt": 1,
+  "mapping": {
+    "A": "CCA",
+    "B": "LLM Baseline",
+    "C": "Co-STORM"
+  },
+  "raw": "System A:\n  Inquiry Relevance: 8.6/10\n  Perspective Expansion: 8.8/10\n  Evidence-Based Progress: 8.4/10\n  Incremental Value: 8.7/10\n  Adaptive Coherence: 8.5/10\nSystem B:\n  Inquiry Relevance: 7.4/10\n  Perspective Expansion: 7.0/10\n  Evidence-Based Progress: 6.6/10\n  Incremental Value: 7.2/10\n  Adaptive Coherence: 7.3/10\nSystem C:\n  Inquiry Relevance: 7.6/10\n  Perspective Expansion: 7.2/10\n  Evidence-Based Progress: 7.0/10\n  Incremental Value: 7.4/10\n  Adaptive Coherence: 7.1/10\n\nExplanation:\n[A|Inquiry Relevance] Round 1 (Student) selected \"What hidden assumptions underlie current privacy-preserving techniques for LLMs...\" after the user guidance \"Privacy in Large Language Models / Domain: science -> applied science -> computer science\" — a direction that probes how guarantees fail in deployment, directly serving a research-proposal goal. Round 2 (Student) selected the contextual-integrity detection question after the guidance \"To understand existing research for writing a research proposal on privacy concerns in large language models,\" matching the stated intent. Round 3 selected the MemLens boundary-conditions question and then the canary-representativeness question, both consequential for a proposal's methodology. All four selections use the guidance available at the time; no gratuitous clarification appears.\n\n[A|Perspective Expansion] Round 1's expert answer develops four hidden assumptions (static data, provider trust, privacy-as-confidentiality, deduplication) with concrete failure consequences (\"an epsilon budget computed at pre-training simply does not cover later stages\"). Round 2 extends to contextual-integrity detection as a distinct problem from extraction/MIA, and Round 3 reframes canaries as proxies whose representativeness assumption \"fails silently rather than gracefully.\" These are task-specific reframings connected to the proposal goal, not generic checklists.\n\n[A|Evidence-Based Progress] Round 1's expert cites specific findings (fine-tuning memorization \"poorly understood,\" DP noise distorting self-attention) and distinguishes supported direction of bias from unverified magnitude. Round 3 explicitly labels FP/FN rates under quantization as \"plausible but unverified—no cited source reports calibrated rates,\" preserving uncertainty. Retrieval sources (MemLens, canary papers) are supplied but not independently verified here; the visible reasoning appropriately bounds claims.\n\n[A|Incremental Value] Chronologically: Round 1 delivers a structured assumption-failure analysis; Round 2 delivers three CI-detection families plus per-stage epsilon composition guidance; Round 3 delivers deployment-boundary analysis for MemLens and canary bias directions. Each round adds distinct, usable material for a proposal (e.g., \"report epsilon per stage... rather than one number\") with limited repetition.\n\n[A|Adaptive Coherence] Round 1's answer ends with a lifecycle framing that Round 2's epsilon-composition question directly builds on (\"The load-bearing assumption here is the static-data assumption\"). Round 3's canary question follows from Round 2's measurement discussion. The final summary integrates all four rounds into a coherent lifecycle narrative, showing cumulative tracking rather than disconnected pivots.\n\n[B|Inquiry Relevance] Round 1 responds to \"Privacy in Large Language Models (Domain: science -> applied science -> computer science)\" with a lifecycle overview and highlights test-time scaling — pertinent but largely restating the retrieved survey's structure. Round 2 addresses the research-proposal intent by proposing a \"privacy paradox\" framing and five candidate angles, which serve the goal. Round 3 (\"What else should I know\") introduces the adversary-access framework and PEARL critique, relevant to proposal scoping. Directions are pertinent but some Round 1 content is orientation rather than inquiry advancement.\n\n[B|Perspective Expansion] Round 2 introduces the safety/security/privacy triad disambiguation and the \"privacy paradox\" as an organizing frame; Round 3 adds the black/gray/white-box adversary framework and split-learning dual-sided leakage as a new surface. These are relevant new perspectives, though Round 1's contribution is mostly a restatement of lifecycle categories already present in the retrieved survey abstract.\n\n[B|Evidence-Based Progress] Round 2 cites the SoK's PRISMA methodology and Shokri et al. (2017) as foundational, and Round 3 cites PEARL's entropy critique of DP. However, the answers repeatedly flag that excerpts are \"truncated\" and must be retrieved before citing — appropriately cautious, but this means claims remain at the level of abstract summaries rather than developed evidence. Support is visible but thin; no source passages are supplied for verification.\n\n[B|Incremental Value] Round 2 delivers a proposal structure mapping and five candidate gaps; Round 3 delivers the five-paradigm taxonomy and the PEARL/split-learning complications. These are distinct additions. However, Round 1's contribution largely mirrors the retrieved survey's own categorization, and several Round 3 items (e.g., \"the fifth paradigm... is inferred\") are explicitly unverified, limiting countable value.\n\n[B|Adaptive Coherence] Round 2 explicitly builds on Round 1's lifecycle view by adding the adversary-access framework as a replacement/complement (\"This replaces the lifecycle-only view with a threat-model-first view\"). Round 3 continues by engaging the DP critique raised in Round 2's mitigation table. The progression is cumulative and responds to the shifting prompts, though the final summary's synthesis is more polished than the incremental turns themselves.\n\n[C|Inquiry Relevance] The warm-start and Round 1 respond to \"Privacy in Large Language Models / Domain: science -> applied science -> computer science\" with lifecycle risks and inference-stage techniques — pertinent. Round 2 addresses the research-proposal intent by organizing risks into three dimensions and mitigations across pre-training/fine-tuning/inference. Round 3 (autonomous continuation) by the \"Privacy in machine learning researcher\" focuses on MIA/canary/extraction methodology maturity and ICL auditing gaps — a well-targeted direction for a proposal, though the autonomous nature means it responds to no new user input.\n\n[C|Perspective Expansion] Round 3's researcher distinguishes \"what's mature from what isn't\" in privacy auditing and identifies ICL-specific auditing as \"the real gap\" — a useful reframing for proposal positioning. The warm-start discussion of memorization-vs-generalization (3.6 bits/parameter, capacity saturation) adds a technical perspective. However, Round 1 and Round 2 largely reorganize retrieved survey content rather than developing genuinely new analytical angles.\n\n[C|Evidence-Based Progress] Round 3 cites specific empirical findings (ContextLeak's \"input-output query strategy with a hex canary on SubJ over 100 queries\") and honestly flags that \"the gathered work leans heavily on one auditing framework... so relative-maturity claims are inferred rather than comparative.\" Round 2 similarly notes the source is \"a single source... worth corroborating.\" This appropriate qualification supports moderate evidence use, though most claims rest on abstract-level summaries without supplied passages.\n\n[C|Incremental Value] Chronologically: warm-start delivers memorization-capacity and GDPR-tension framings; Round 1 delivers lifecycle technique categorization with specific numbers (71.74% leakage at ε=0.1, ATDP's 90% training-time reduction); Round 2 delivers a three-risk-dimension taxonomy; Round 3 delivers the methodology-maturity assessment and ICL-auditing gap. The specific empirical figures and the maturity/gap analysis are distinct additions, though Rounds 1-2 overlap substantially with retrieved survey structure.\n\n[C|Adaptive Coherence] Round 2 builds on Round 1's lifecycle view by adding risk-dimension organization (\"organizing existing mitigation strategies across the pre-training, fine-tuning, and inference stages\"). Round 3 then shifts to methodology evaluation, which follows from Round 2's proposal-oriented framing. The warm-start-to-Round-1 transition is less clearly linked (warm start covers GDPR and memorization; Round 1 covers inference techniques), and the autonomous Round 3 responds to no explicit new guidance, so adaptation is partly self-directed rather than user-driven.",
+  "scores": {
+    "CCA": {
+      "Inquiry Relevance": 8.6,
+      "Perspective Expansion": 8.8,
+      "Evidence-Based Progress": 8.4,
+      "Incremental Value": 8.7,
+      "Adaptive Coherence": 8.5
+    },
+    "LLM Baseline": {
+      "Inquiry Relevance": 7.4,
+      "Perspective Expansion": 7.0,
+      "Evidence-Based Progress": 6.6,
+      "Incremental Value": 7.2,
+      "Adaptive Coherence": 7.3
+    },
+    "Co-STORM": {
+      "Inquiry Relevance": 7.6,
+      "Perspective Expansion": 7.2,
+      "Evidence-Based Progress": 7.0,
+      "Incremental Value": 7.4,
+      "Adaptive Coherence": 7.1
+    }
+  },
+  "usage": [
+    {
+      "provider": "mimo",
+      "model": "mimo-v2.6-flash",
+      "prompt_tokens": 140719,
+      "completion_tokens": 1770,
+      "total_tokens": 142489,
+      "cached_tokens": 0,
+      "reasoning_tokens": 0,
+      "response_model": "mimo-v2.6-flash",
+      "finish_reason": "stop"
+    }
+  ]
+}
