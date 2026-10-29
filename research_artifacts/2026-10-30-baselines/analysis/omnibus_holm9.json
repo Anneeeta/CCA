@@ -1,0 +1,90 @@
+{
+  "analysis": "post-hoc group-2 omnibus tests for harmonized reporting",
+  "method": "Friedman chi-square with tie correction; Holm over nine metrics",
+  "n_tasks": 100,
+  "scipy_version": "1.16.2",
+  "scores_sha256": "78feed2aa92620dcac8ca69796a53132ef580932848f1dad1ed8e4108042afdf",
+  "metrics": [
+    {
+      "suite": "general",
+      "metric": "Clarity",
+      "n": 100,
+      "statistic": 117.42000000000007,
+      "p": 3.181053457402754e-26,
+      "kendall_w": 0.5871000000000004,
+      "holm9_p": 1.2724213829611015e-25
+    },
+    {
+      "suite": "general",
+      "metric": "Engagement",
+      "n": 100,
+      "statistic": 154.31999999999994,
+      "p": 3.0891413183755318e-34,
+      "kendall_w": 0.7715999999999997,
+      "holm9_p": 2.7802271865379787e-33
+    },
+    {
+      "suite": "general",
+      "metric": "Depth Appropriateness",
+      "n": 100,
+      "statistic": 127.91478696741856,
+      "p": 1.6736202929172156e-28,
+      "kendall_w": 0.6395739348370928,
+      "holm9_p": 1.3388962343337724e-27
+    },
+    {
+      "suite": "general",
+      "metric": "Breadth",
+      "n": 100,
+      "statistic": 14.54408060453395,
+      "p": 0.0006946931627951791,
+      "kendall_w": 0.07272040302266974,
+      "holm9_p": 0.0006946931627951791
+    },
+    {
+      "suite": "exploration",
+      "metric": "Inquiry Relevance",
+      "n": 100,
+      "statistic": 115.3740053050398,
+      "p": 8.848162101669783e-26,
+      "kendall_w": 0.576870026525199,
+      "holm9_p": 2.654448630500935e-25
+    },
+    {
+      "suite": "exploration",
+      "metric": "Perspective Expansion",
+      "n": 100,
+      "statistic": 125.21989528795815,
+      "p": 6.439397371309872e-28,
+      "kendall_w": 0.6260994764397908,
+      "holm9_p": 3.219698685654936e-27
+    },
+    {
+      "suite": "exploration",
+      "metric": "Evidence-Based Progress",
+      "n": 100,
+      "statistic": 125.81201044386414,
+      "p": 4.789267044674793e-28,
+      "kendall_w": 0.6290600522193207,
+      "holm9_p": 2.873560226804876e-27
+    },
+    {
+      "suite": "exploration",
+      "metric": "Incremental Value",
+      "n": 100,
+      "statistic": 114.93956043956047,
+      "p": 1.0994907357160527e-25,
+      "kendall_w": 0.5746978021978023,
+      "holm9_p": 2.654448630500935e-25
+    },
+    {
+      "suite": "exploration",
+      "metric": "Adaptive Coherence",
+      "n": 100,
+      "statistic": 127.44148936170221,
+      "p": 2.1204703408792326e-28,
+      "kendall_w": 0.637207446808511,
+      "holm9_p": 1.4843292386154629e-27
+    }
+  ]
+}

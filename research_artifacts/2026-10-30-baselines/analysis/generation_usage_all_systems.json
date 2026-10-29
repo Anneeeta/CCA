@@ -1,0 +1,60 @@
+{
+  "scope": "provider-reported input and output tokens in the 100 selected successful generation runs per system; excludes evaluator, preflight and superseded runs",
+  "inputs_sha256": {
+    "group1_usage_summary.json": "0f16a9c0501add4e4f9034f455584ffe3110c0fb35d6b4fa040f30207e9a655d",
+    "omnithink.jsonl.xz": "29bc3752f6aae5dfee0af6fbad8fafc67f4c08b65f31e6b6e8f4c8f40adbf216",
+    "opendeepsearch.jsonl.xz": "b277c0ece92fa58597d4303902167dffa57e40c3eb8ca3139190fba056235dc5"
+  },
+  "systems": {
+    "CCA": {
+      "tasks": 100,
+      "calls": 3101,
+      "input": 6148165,
+      "output": 1786750,
+      "total": 7934915,
+      "mean_input": 61481.65,
+      "mean_output": 17867.5,
+      "mean_total": 79349.15
+    },
+    "Co-STORM": {
+      "tasks": 100,
+      "calls": 6237,
+      "input": 5173503,
+      "output": 1519976,
+      "total": 6693479,
+      "mean_input": 51735.03,
+      "mean_output": 15199.76,
+      "mean_total": 66934.79
+    },
+    "RAG robot": {
+      "tasks": 100,
+      "calls": 400,
+      "input": 899394,
+      "output": 589695,
+      "total": 1489089,
+      "mean_input": 8993.94,
+      "mean_output": 5896.95,
+      "mean_total": 14890.89
+    },
+    "OmniThink": {
+      "tasks": 100,
+      "calls": 2100,
+      "input": 8095142,
+      "output": 2504357,
+      "total": 10599499,
+      "mean_input": 80951.42,
+      "mean_output": 25043.57,
+      "mean_total": 105994.99
+    },
+    "OpenDeepSearch + ReAct": {
+      "tasks": 100,
+      "calls": 930,
+      "input": 2957241,
+      "output": 233756,
+      "total": 3190997,
+      "mean_input": 29572.41,
+      "mean_output": 2337.56,
+      "mean_total": 31909.97
+    }
+  }
+}

@@ -1,0 +1,901 @@
+﻿task,suite,metric,CCA,OmniThink,OpenDeepSearch
+004_chatbot-for-analyzing-financial-data-in-business-and-economics,general,Clarity,8.2,6.8,7.6
+001_utilization-of-weather-forecasting-for-wind-and-solar-energy-assessment,general,Clarity,7.8,7.2,8.3
+002_bathroom-remodeling,general,Clarity,8.3,7.6,8.0
+003_effective-feedback-practices-in-professional-settings,general,Clarity,8.5,7.6,8.2
+006_trade-war-between-us-and-china,general,Clarity,8.3,7.6,8.0
+005_recent-legal-cases-in-the-us-involving-hardware-technology-innovations,general,Clarity,8.2,7.4,7.8
+009_effectiveness-of-pico-8-and-fantasy-game-consoles-in-niche-gaming-commun,general,Clarity,7.9,7.2,7.6
+010_graphics-processing-unit,general,Clarity,7.6,7.4,8.0
+007_introduction-to-kubernetes-backup-and-persistent-storage,general,Clarity,7.6,7.4,8.4
+008_ursula-s-character-in-disney-s-the-little-mermaid,general,Clarity,8.3,7.5,7.2
+011_application-of-artificial-intelligence-in-preserving-intangible-cultural,general,Clarity,8.6,7.6,8.3
+015_west-coast-synthesis,general,Clarity,8.2,7.4,7.8
+012_enhancing-human-computer-interaction-with-wearable-devices-via-gesture-o,general,Clarity,8.4,7.8,7.6
+028_the-application-of-iot-digitalization-and-ai-in-the-oil-and-natural-gas,general,Clarity,8.4,6.4,7.6
+016_blockchain-anomaly-detection-using-large-models,general,Clarity,8.2,7.4,7.6
+029_simultaneous-localization-and-mapping,general,Clarity,8.0,6.5,8.5
+019_automating-powerpoint-slide-creation-with-python,general,Clarity,8.4,7.6,8.2
+014_facial-recognition-in-check-in-and-clock-in-systems,general,Clarity,8.5,6.8,7.8
+021_emissions-from-cooking-food,general,Clarity,8.5,7.5,8.0
+024_taylor-swift,general,Clarity,8.2,7.4,7.6
+017_synthetic-biology,general,Clarity,8.3,7.6,7.2
+025_alphafold,general,Clarity,8.2,7.0,7.5
+020_information-security-principles-practices-and-emerging-trends,general,Clarity,8.3,7.2,7.6
+013_ai-for-predicting-health-index-from-gut-microbiome,general,Clarity,8.3,7.6,7.2
+031_internal-motivation-in-student-learning,general,Clarity,7.8,7.2,7.6
+027_the-impact-of-digital-literacy-and-iot-on-precision-agriculture-among-sm,general,Clarity,8.6,7.8,8.2
+026_audio-visual-content-dissemination-and-audience-feedback-on-douyin,general,Clarity,8.4,7.8,7.6
+018_the-latest-advances-in-anti-aging-research,general,Clarity,7.4,7.8,7.6
+030_image-processing-techniques-for-cellular-analysis,general,Clarity,8.2,7.2,7.8
+023_integrating-multiple-llms,general,Clarity,8.5,7.5,8.2
+038_changes-to-medicare-part-d-in-2025,general,Clarity,7.2,6.8,8.5
+033_komondor-the-mop-dog,general,Clarity,8.4,7.6,7.8
+032_pyspark,general,Clarity,7.8,7.2,8.4
+042_drug-and-alcohol-psychological-assessment-tools,general,Clarity,8.4,7.8,8.2
+037_efficacy-of-vr-based-motion-capture-for-ergonomics-in-manual-operation,general,Clarity,7.6,6.8,7.4
+035_key-technologies-in-pipeline-engineering-and-gas-storage-facility-constr,general,Clarity,7.9,6.9,7.6
+036_latest-advancements-in-natural-language-processing-nlp-algorithms-and-th,general,Clarity,8.2,7.5,7.8
+034_accessibility-in-data-visualization,general,Clarity,7.6,7.2,8.0
+044_development-of-a-shared-trading-currency-to-facilitate-international-tra,general,Clarity,8.4,6.2,8.2
+045_single-cell-sequencing,general,Clarity,8.2,6.5,7.2
+039_collaborative-learning-in-music-education,general,Clarity,8.5,7.6,8.3
+043_biotechnology-for-prospecting-natural-bioactives-in-health,general,Clarity,7.8,7.2,7.6
+041_artificial-general-intelligence-agi,general,Clarity,7.8,6.8,7.5
+046_artificial-intelligence-and-copyright-dilemma,general,Clarity,8.4,7.2,7.6
+052_what-is-webflow-and-how-does-it-enhance-seo,general,Clarity,7.9,7.3,7.6
+047_dataset-processing-for-large-language-models,general,Clarity,8.3,7.2,3.5
+049_end-user-personalization-in-human-computer-interaction,general,Clarity,8.4,7.8,7.6
+055_richard-dattner,general,Clarity,7.8,7.0,7.2
+050_future-of-serverless-in-cloud-development,general,Clarity,8.2,7.8,8.0
+053_ai-tools-for-content-creation-in-fashion-and-beauty,general,Clarity,7.8,7.2,7.5
+056_benchmarking-chroma-db-against-other-vector-databases-in-llamaindex,general,Clarity,8.1,7.9,7.6
+059_licensing-implications-for-open-source-deep-learning-models-on-github,general,Clarity,7.6,7.2,8.3
+048_medical-simulation-teaching,general,Clarity,8.5,7.5,8.0
+051_macroscopic-quantum-coherence,general,Clarity,7.8,5.2,7.6
+054_criticisms-of-agile-software-development-in-practice,general,Clarity,8.6,8.2,7.4
+057_building-a-personal-knowledge-system,general,Clarity,8.5,6.8,7.2
+060_validation-of-gpt-chatbot-usage-in-educational-settings,general,Clarity,8.6,7.8,7.4
+065_itinerary-for-a-5-day-trip-on-california-state-route-1,general,Clarity,8.6,7.4,8.2
+058_seo,general,Clarity,7.6,7.8,8.4
+066_infosys,general,Clarity,7.8,7.2,6.5
+068_medical-simulation-scene-quality-evaluation-tool,general,Clarity,7.8,7.0,8.2
+064_customer-segmentation-in-business-and-economics,general,Clarity,7.6,7.2,8.0
+063_wire-free-localization-techniques-for-breast-surgery,general,Clarity,7.6,7.2,8.1
+061_environmental-impact-on-personal-growth-and-perspective,general,Clarity,7.5,7.2,7.8
+070_unified-framework-for-human-pose-estimation-and-motion-prediction-in-2d,general,Clarity,8.3,7.2,7.8
+078_evolution-and-core-technologies-of-ai,general,Clarity,8.3,7.2,7.8
+067_understanding-and-managing-dental-phobias-for-patients,general,Clarity,8.0,7.2,8.5
+077_genshin-impact-strategies,general,Clarity,8.2,7.8,7.6
+071_community-knowledge-management-in-cultural-studies,general,Clarity,8.3,7.6,7.4
+072_service-quality-in-michelin-restaurants,general,Clarity,8.0,7.6,8.2
+074_the-emergence-of-artificial-super-intelligence-future-prospects-and-impa,general,Clarity,7.8,5.2,7.2
+069_ipv4-and-ipv6-networking,general,Clarity,8.2,7.8,8.4
+087_application-of-new-drugs-or-devices-in-animal-disease-treatment,general,Clarity,7.6,6.8,7.4
+079_fire-rescue-scene-communication,general,Clarity,8.3,7.6,6.2
+090_quantum-cryptography,general,Clarity,8.3,7.9,7.6
+088_overview-of-packet-classification-algorithms-in-network-devices,general,Clarity,8.2,7.2,7.8
+083_innovative-strategies-for-enhancing-human-resources-management-in-global,general,Clarity,8.6,7.4,8.2
+075_comparison-of-self-attention-convolutional-block-attention-module-and-sq,general,Clarity,8.5,7.5,8.2
+081_lifelong-learning-in-deep-learning-and-ai,general,Clarity,7.5,7.2,7.8
+091_digital-twin-in-data-sciences,general,Clarity,8.2,7.5,8.0
+086_traffic-sign-detection-using-machine-vision,general,Clarity,8.3,8.1,8.6
+092_based-point-supervised-object-detection,general,Clarity,8.2,7.5,7.8
+089_adaptive-geomagnetic-indoor-navigation-system-by-anomaly-detection-feedb,general,Clarity,8.4,7.2,8.0
+093_state-business-relationship-in-the-digital-economy,general,Clarity,8.4,7.6,7.8
+094_impact-of-climate-change-on-urban-areas-like-mumbai,general,Clarity,8.3,7.2,8.0
+099_integration-of-e-bikes-with-electric-ferries,general,Clarity,7.9,7.2,7.6
+097_history-and-features-of-major-web-browsers,general,Clarity,7.0,7.8,7.2
+096_autonomous-ai-for-research-laboratories,general,Clarity,8.0,6.2,8.3
+098_caving-in-fitness,general,Clarity,8.5,7.6,8.2
+095_digital-biomarkers-in-current-clinical-trials,general,Clarity,8.4,7.2,7.8
+073_electricity-generation-using-solar-thermal-energy,general,Clarity,8.3,7.4,7.6
+040_privacy-in-large-language-models,general,Clarity,8.2,7.4,7.6
+022_the-effects-of-nmn-supplements-on-human-anti-aging,general,Clarity,8.4,7.8,8.2
+062_2023-gansu-earthquake,general,Clarity,8.0,7.0,7.5
+080_semiconductor-supply-chain-resilience-and-disruption,general,Clarity,7.8,7.4,7.6
+100_gender-differences-in-media-coverage-and-public-reactions,general,Clarity,8.2,7.6,7.8
+084_language-security-and-cross-cultural-communication,general,Clarity,7.6,6.8,7.8
+076_2024-hualien-city-earthquake,general,Clarity,8.2,7.8,7.4
+085_bernese-mountain-dogs,general,Clarity,8.4,7.4,7.6
+082_block-universe-and-the-nature-of-time,general,Clarity,7.8,6.5,8.2
+004_chatbot-for-analyzing-financial-data-in-business-and-economics,general,Engagement,8.0,5.6,7.2
+001_utilization-of-weather-forecasting-for-wind-and-solar-energy-assessment,general,Engagement,8.2,6.5,7.0
+002_bathroom-remodeling,general,Engagement,7.8,6.2,7.4
+003_effective-feedback-practices-in-professional-settings,general,Engagement,8.3,6.8,7.8
+006_trade-war-between-us-and-china,general,Engagement,8.5,6.8,6.5
+005_recent-legal-cases-in-the-us-involving-hardware-technology-innovations,general,Engagement,8.4,6.8,7.5
+009_effectiveness-of-pico-8-and-fantasy-game-consoles-in-niche-gaming-commun,general,Engagement,8.1,6.8,7.4
+010_graphics-processing-unit,general,Engagement,6.8,5.2,6.0
+007_introduction-to-kubernetes-backup-and-persistent-storage,general,Engagement,7.2,6.8,7.0
+008_ursula-s-character-in-disney-s-the-little-mermaid,general,Engagement,8.5,5.5,5.8
+011_application-of-artificial-intelligence-in-preserving-intangible-cultural,general,Engagement,8.4,6.2,7.1
+015_west-coast-synthesis,general,Engagement,7.6,6.2,5.8
+012_enhancing-human-computer-interaction-with-wearable-devices-via-gesture-o,general,Engagement,8.6,5.4,6.2
+028_the-application-of-iot-digitalization-and-ai-in-the-oil-and-natural-gas,general,Engagement,7.8,4.2,6.2
+016_blockchain-anomaly-detection-using-large-models,general,Engagement,8.5,6.2,5.8
+029_simultaneous-localization-and-mapping,general,Engagement,8.5,5.0,7.5
+019_automating-powerpoint-slide-creation-with-python,general,Engagement,8.2,6.2,7.4
+014_facial-recognition-in-check-in-and-clock-in-systems,general,Engagement,8.2,4.5,6.2
+021_emissions-from-cooking-food,general,Engagement,8.5,5.5,6.0
+024_taylor-swift,general,Engagement,8.0,6.8,7.4
+017_synthetic-biology,general,Engagement,8.5,6.5,6.8
+025_alphafold,general,Engagement,7.8,5.5,6.5
+020_information-security-principles-practices-and-emerging-trends,general,Engagement,8.5,4.8,5.2
+013_ai-for-predicting-health-index-from-gut-microbiome,general,Engagement,7.8,6.2,5.8
+031_internal-motivation-in-student-learning,general,Engagement,8.2,6.6,7.4
+027_the-impact-of-digital-literacy-and-iot-on-precision-agriculture-among-sm,general,Engagement,8.8,6.4,7.6
+026_audio-visual-content-dissemination-and-audience-feedback-on-douyin,general,Engagement,8.6,7.0,6.8
+018_the-latest-advances-in-anti-aging-research,general,Engagement,7.0,6.4,7.2
+030_image-processing-techniques-for-cellular-analysis,general,Engagement,7.5,6.5,6.2
+023_integrating-multiple-llms,general,Engagement,8.8,7.0,7.8
+038_changes-to-medicare-part-d-in-2025,general,Engagement,6.5,5.2,7.0
+033_komondor-the-mop-dog,general,Engagement,7.6,6.2,5.4
+032_pyspark,general,Engagement,8.2,5.8,7.6
+042_drug-and-alcohol-psychological-assessment-tools,general,Engagement,8.2,7.2,7.6
+037_efficacy-of-vr-based-motion-capture-for-ergonomics-in-manual-operation,general,Engagement,7.2,5.6,6.6
+035_key-technologies-in-pipeline-engineering-and-gas-storage-facility-constr,general,Engagement,8.1,6.4,7.2
+036_latest-advancements-in-natural-language-processing-nlp-algorithms-and-th,general,Engagement,8.5,6.0,6.5
+034_accessibility-in-data-visualization,general,Engagement,8.2,5.8,7.4
+044_development-of-a-shared-trading-currency-to-facilitate-international-tra,general,Engagement,8.6,3.4,5.6
+045_single-cell-sequencing,general,Engagement,7.8,4.2,5.8
+039_collaborative-learning-in-music-education,general,Engagement,8.2,7.2,7.8
+043_biotechnology-for-prospecting-natural-bioactives-in-health,general,Engagement,7.5,5.8,6.2
+041_artificial-general-intelligence-agi,general,Engagement,8.2,5.2,6.0
+046_artificial-intelligence-and-copyright-dilemma,general,Engagement,8.6,6.2,6.8
+052_what-is-webflow-and-how-does-it-enhance-seo,general,Engagement,7.2,6.8,7.4
+047_dataset-processing-for-large-language-models,general,Engagement,8.6,6.8,2.0
+049_end-user-personalization-in-human-computer-interaction,general,Engagement,8.6,6.4,7.2
+055_richard-dattner,general,Engagement,8.2,6.5,6.8
+050_future-of-serverless-in-cloud-development,general,Engagement,7.6,6.4,6.8
+053_ai-tools-for-content-creation-in-fashion-and-beauty,general,Engagement,7.5,5.8,6.2
+056_benchmarking-chroma-db-against-other-vector-databases-in-llamaindex,general,Engagement,8.3,7.0,7.2
+059_licensing-implications-for-open-source-deep-learning-models-on-github,general,Engagement,7.4,5.2,6.8
+048_medical-simulation-teaching,general,Engagement,8.5,6.0,7.0
+051_macroscopic-quantum-coherence,general,Engagement,7.5,3.8,6.8
+054_criticisms-of-agile-software-development-in-practice,general,Engagement,8.8,6.8,6.2
+057_building-a-personal-knowledge-system,general,Engagement,8.8,5.2,5.8
+060_validation-of-gpt-chatbot-usage-in-educational-settings,general,Engagement,8.4,6.4,6.2
+065_itinerary-for-a-5-day-trip-on-california-state-route-1,general,Engagement,8.4,6.8,7.6
+058_seo,general,Engagement,8.2,6.2,7.0
+066_infosys,general,Engagement,7.0,6.5,5.5
+068_medical-simulation-scene-quality-evaluation-tool,general,Engagement,7.2,6.5,7.5
+064_customer-segmentation-in-business-and-economics,general,Engagement,7.4,6.8,7.0
+063_wire-free-localization-techniques-for-breast-surgery,general,Engagement,7.4,5.8,6.2
+061_environmental-impact-on-personal-growth-and-perspective,general,Engagement,7.8,6.5,7.0
+070_unified-framework-for-human-pose-estimation-and-motion-prediction-in-2d,general,Engagement,8.5,6.5,6.8
+078_evolution-and-core-technologies-of-ai,general,Engagement,8.5,6.5,6.0
+067_understanding-and-managing-dental-phobias-for-patients,general,Engagement,7.8,5.8,7.0
+077_genshin-impact-strategies,general,Engagement,8.5,5.8,6.2
+071_community-knowledge-management-in-cultural-studies,general,Engagement,8.5,6.8,5.2
+072_service-quality-in-michelin-restaurants,general,Engagement,8.2,6.8,7.4
+074_the-emergence-of-artificial-super-intelligence-future-prospects-and-impa,general,Engagement,7.5,3.8,6.2
+069_ipv4-and-ipv6-networking,general,Engagement,8.0,7.2,7.6
+087_application-of-new-drugs-or-devices-in-animal-disease-treatment,general,Engagement,7.2,5.4,6.2
+079_fire-rescue-scene-communication,general,Engagement,8.1,6.8,5.4
+090_quantum-cryptography,general,Engagement,8.1,7.3,7.2
+088_overview-of-packet-classification-algorithms-in-network-devices,general,Engagement,7.5,5.5,6.2
+083_innovative-strategies-for-enhancing-human-resources-management-in-global,general,Engagement,8.8,6.2,7.6
+075_comparison-of-self-attention-convolutional-block-attention-module-and-sq,general,Engagement,8.8,6.5,7.8
+081_lifelong-learning-in-deep-learning-and-ai,general,Engagement,7.2,5.8,6.5
+091_digital-twin-in-data-sciences,general,Engagement,8.5,6.2,6.5
+086_traffic-sign-detection-using-machine-vision,general,Engagement,8.5,7.2,7.8
+092_based-point-supervised-object-detection,general,Engagement,8.0,5.5,6.0
+089_adaptive-geomagnetic-indoor-navigation-system-by-anomaly-detection-feedb,general,Engagement,8.6,6.5,7.5
+093_state-business-relationship-in-the-digital-economy,general,Engagement,8.6,5.2,5.0
+094_impact-of-climate-change-on-urban-areas-like-mumbai,general,Engagement,8.0,5.8,6.8
+099_integration-of-e-bikes-with-electric-ferries,general,Engagement,8.1,6.8,7.4
+097_history-and-features-of-major-web-browsers,general,Engagement,6.8,6.2,5.5
+096_autonomous-ai-for-research-laboratories,general,Engagement,8.2,5.8,8.5
+098_caving-in-fitness,general,Engagement,8.3,7.2,8.0
+095_digital-biomarkers-in-current-clinical-trials,general,Engagement,8.2,5.8,6.2
+073_electricity-generation-using-solar-thermal-energy,general,Engagement,8.5,6.5,6.8
+040_privacy-in-large-language-models,general,Engagement,8.5,6.2,6.8
+022_the-effects-of-nmn-supplements-on-human-anti-aging,general,Engagement,8.2,6.4,7.6
+062_2023-gansu-earthquake,general,Engagement,8.5,5.5,5.0
+080_semiconductor-supply-chain-resilience-and-disruption,general,Engagement,7.2,6.8,6.6
+100_gender-differences-in-media-coverage-and-public-reactions,general,Engagement,8.6,5.2,6.4
+084_language-security-and-cross-cultural-communication,general,Engagement,7.4,6.2,7.2
+076_2024-hualien-city-earthquake,general,Engagement,8.4,6.2,5.2
+085_bernese-mountain-dogs,general,Engagement,7.6,6.2,6.8
+082_block-universe-and-the-nature-of-time,general,Engagement,7.2,5.5,7.5
+004_chatbot-for-analyzing-financial-data-in-business-and-economics,general,Depth Appropriateness,8.4,6.4,7.8
+001_utilization-of-weather-forecasting-for-wind-and-solar-energy-assessment,general,Depth Appropriateness,8.5,7.0,8.0
+002_bathroom-remodeling,general,Depth Appropriateness,8.6,7.4,7.8
+003_effective-feedback-practices-in-professional-settings,general,Depth Appropriateness,8.6,7.4,8.0
+006_trade-war-between-us-and-china,general,Depth Appropriateness,8.2,7.5,7.8
+005_recent-legal-cases-in-the-us-involving-hardware-technology-innovations,general,Depth Appropriateness,8.3,7.2,7.6
+009_effectiveness-of-pico-8-and-fantasy-game-consoles-in-niche-gaming-commun,general,Depth Appropriateness,8.0,7.0,7.5
+010_graphics-processing-unit,general,Depth Appropriateness,7.2,6.6,6.4
+007_introduction-to-kubernetes-backup-and-persistent-storage,general,Depth Appropriateness,7.8,7.2,8.2
+008_ursula-s-character-in-disney-s-the-little-mermaid,general,Depth Appropriateness,8.4,6.8,6.5
+011_application-of-artificial-intelligence-in-preserving-intangible-cultural,general,Depth Appropriateness,8.2,7.4,7.8
+015_west-coast-synthesis,general,Depth Appropriateness,8.4,6.8,6.4
+012_enhancing-human-computer-interaction-with-wearable-devices-via-gesture-o,general,Depth Appropriateness,8.2,7.6,7.4
+028_the-application-of-iot-digitalization-and-ai-in-the-oil-and-natural-gas,general,Depth Appropriateness,8.2,5.6,6.8
+016_blockchain-anomaly-detection-using-large-models,general,Depth Appropriateness,8.3,7.0,6.8
+029_simultaneous-localization-and-mapping,general,Depth Appropriateness,8.5,6.0,8.0
+019_automating-powerpoint-slide-creation-with-python,general,Depth Appropriateness,8.6,7.2,7.8
+014_facial-recognition-in-check-in-and-clock-in-systems,general,Depth Appropriateness,8.8,6.0,6.5
+021_emissions-from-cooking-food,general,Depth Appropriateness,8.5,7.0,7.5
+024_taylor-swift,general,Depth Appropriateness,8.3,7.0,7.2
+017_synthetic-biology,general,Depth Appropriateness,8.4,7.2,7.0
+025_alphafold,general,Depth Appropriateness,8.5,6.5,7.0
+020_information-security-principles-practices-and-emerging-trends,general,Depth Appropriateness,8.4,6.5,6.8
+013_ai-for-predicting-health-index-from-gut-microbiome,general,Depth Appropriateness,8.5,7.4,6.8
+031_internal-motivation-in-student-learning,general,Depth Appropriateness,7.6,7.0,7.8
+027_the-impact-of-digital-literacy-and-iot-on-precision-agriculture-among-sm,general,Depth Appropriateness,8.8,7.6,8.4
+026_audio-visual-content-dissemination-and-audience-feedback-on-douyin,general,Depth Appropriateness,8.2,7.4,7.2
+018_the-latest-advances-in-anti-aging-research,general,Depth Appropriateness,7.2,7.6,7.4
+030_image-processing-techniques-for-cellular-analysis,general,Depth Appropriateness,8.0,6.8,7.0
+023_integrating-multiple-llms,general,Depth Appropriateness,8.2,7.8,8.0
+038_changes-to-medicare-part-d-in-2025,general,Depth Appropriateness,7.8,6.5,7.5
+033_komondor-the-mop-dog,general,Depth Appropriateness,8.2,7.4,6.6
+032_pyspark,general,Depth Appropriateness,8.0,7.0,7.8
+042_drug-and-alcohol-psychological-assessment-tools,general,Depth Appropriateness,8.3,7.6,8.0
+037_efficacy-of-vr-based-motion-capture-for-ergonomics-in-manual-operation,general,Depth Appropriateness,7.8,6.2,6.8
+035_key-technologies-in-pipeline-engineering-and-gas-storage-facility-constr,general,Depth Appropriateness,8.0,6.8,7.8
+036_latest-advancements-in-natural-language-processing-nlp-algorithms-and-th,general,Depth Appropriateness,8.0,7.0,7.5
+034_accessibility-in-data-visualization,general,Depth Appropriateness,7.4,7.0,7.8
+044_development-of-a-shared-trading-currency-to-facilitate-international-tra,general,Depth Appropriateness,8.2,5.8,7.8
+045_single-cell-sequencing,general,Depth Appropriateness,8.0,6.0,6.8
+039_collaborative-learning-in-music-education,general,Depth Appropriateness,8.4,7.4,8.0
+043_biotechnology-for-prospecting-natural-bioactives-in-health,general,Depth Appropriateness,7.6,6.5,7.0
+041_artificial-general-intelligence-agi,general,Depth Appropriateness,8.0,6.5,6.8
+046_artificial-intelligence-and-copyright-dilemma,general,Depth Appropriateness,8.2,7.4,7.8
+052_what-is-webflow-and-how-does-it-enhance-seo,general,Depth Appropriateness,8.1,7.5,7.8
+047_dataset-processing-for-large-language-models,general,Depth Appropriateness,8.4,7.0,2.5
+049_end-user-personalization-in-human-computer-interaction,general,Depth Appropriateness,8.2,7.5,7.4
+055_richard-dattner,general,Depth Appropriateness,7.6,6.8,7.0
+050_future-of-serverless-in-cloud-development,general,Depth Appropriateness,8.4,7.6,7.4
+053_ai-tools-for-content-creation-in-fashion-and-beauty,general,Depth Appropriateness,7.5,6.5,6.0
+056_benchmarking-chroma-db-against-other-vector-databases-in-llamaindex,general,Depth Appropriateness,8.4,8.2,7.8
+059_licensing-implications-for-open-source-deep-learning-models-on-github,general,Depth Appropriateness,7.8,7.0,8.0
+048_medical-simulation-teaching,general,Depth Appropriateness,8.0,7.0,7.5
+051_macroscopic-quantum-coherence,general,Depth Appropriateness,7.6,5.5,7.2
+054_criticisms-of-agile-software-development-in-practice,general,Depth Appropriateness,8.7,8.0,7.2
+057_building-a-personal-knowledge-system,general,Depth Appropriateness,8.2,6.2,6.5
+060_validation-of-gpt-chatbot-usage-in-educational-settings,general,Depth Appropriateness,8.7,7.6,7.0
+065_itinerary-for-a-5-day-trip-on-california-state-route-1,general,Depth Appropriateness,8.8,7.2,8.0
+058_seo,general,Depth Appropriateness,8.0,7.5,8.2
+066_infosys,general,Depth Appropriateness,7.5,7.0,5.0
+068_medical-simulation-scene-quality-evaluation-tool,general,Depth Appropriateness,7.5,7.2,7.8
+064_customer-segmentation-in-business-and-economics,general,Depth Appropriateness,7.8,7.0,7.6
+063_wire-free-localization-techniques-for-breast-surgery,general,Depth Appropriateness,7.8,6.5,7.0
+061_environmental-impact-on-personal-growth-and-perspective,general,Depth Appropriateness,7.2,7.0,7.5
+070_unified-framework-for-human-pose-estimation-and-motion-prediction-in-2d,general,Depth Appropriateness,8.2,7.0,7.5
+078_evolution-and-core-technologies-of-ai,general,Depth Appropriateness,8.4,7.0,6.5
+067_understanding-and-managing-dental-phobias-for-patients,general,Depth Appropriateness,8.2,6.5,7.5
+077_genshin-impact-strategies,general,Depth Appropriateness,8.3,7.5,7.2
+071_community-knowledge-management-in-cultural-studies,general,Depth Appropriateness,8.4,7.2,6.6
+072_service-quality-in-michelin-restaurants,general,Depth Appropriateness,8.4,7.2,7.8
+074_the-emergence-of-artificial-super-intelligence-future-prospects-and-impa,general,Depth Appropriateness,7.6,5.5,6.8
+069_ipv4-and-ipv6-networking,general,Depth Appropriateness,8.4,8.0,8.2
+087_application-of-new-drugs-or-devices-in-animal-disease-treatment,general,Depth Appropriateness,7.8,6.2,6.6
+079_fire-rescue-scene-communication,general,Depth Appropriateness,8.4,7.4,5.8
+090_quantum-cryptography,general,Depth Appropriateness,8.4,7.5,7.8
+088_overview-of-packet-classification-algorithms-in-network-devices,general,Depth Appropriateness,8.0,7.0,7.5
+083_innovative-strategies-for-enhancing-human-resources-management-in-global,general,Depth Appropriateness,8.7,7.0,8.0
+075_comparison-of-self-attention-convolutional-block-attention-module-and-sq,general,Depth Appropriateness,8.5,7.0,8.0
+081_lifelong-learning-in-deep-learning-and-ai,general,Depth Appropriateness,7.8,7.0,7.5
+091_digital-twin-in-data-sciences,general,Depth Appropriateness,8.8,7.0,7.2
+086_traffic-sign-detection-using-machine-vision,general,Depth Appropriateness,8.2,7.9,8.0
+092_based-point-supervised-object-detection,general,Depth Appropriateness,8.3,6.5,7.0
+089_adaptive-geomagnetic-indoor-navigation-system-by-anomaly-detection-feedb,general,Depth Appropriateness,8.5,7.0,7.8
+093_state-business-relationship-in-the-digital-economy,general,Depth Appropriateness,8.2,7.4,6.8
+094_impact-of-climate-change-on-urban-areas-like-mumbai,general,Depth Appropriateness,8.2,6.5,7.5
+099_integration-of-e-bikes-with-electric-ferries,general,Depth Appropriateness,8.0,7.0,7.8
+097_history-and-features-of-major-web-browsers,general,Depth Appropriateness,7.2,7.5,6.0
+096_autonomous-ai-for-research-laboratories,general,Depth Appropriateness,8.4,6.5,8.2
+098_caving-in-fitness,general,Depth Appropriateness,8.6,7.4,8.3
+095_digital-biomarkers-in-current-clinical-trials,general,Depth Appropriateness,8.0,7.0,7.5
+073_electricity-generation-using-solar-thermal-energy,general,Depth Appropriateness,8.2,7.0,7.2
+040_privacy-in-large-language-models,general,Depth Appropriateness,8.3,7.0,7.2
+022_the-effects-of-nmn-supplements-on-human-anti-aging,general,Depth Appropriateness,8.0,8.2,8.0
+062_2023-gansu-earthquake,general,Depth Appropriateness,8.5,7.5,6.5
+080_semiconductor-supply-chain-resilience-and-disruption,general,Depth Appropriateness,8.0,7.2,6.8
+100_gender-differences-in-media-coverage-and-public-reactions,general,Depth Appropriateness,8.4,7.4,7.6
+084_language-security-and-cross-cultural-communication,general,Depth Appropriateness,7.8,6.4,7.4
+076_2024-hualien-city-earthquake,general,Depth Appropriateness,8.0,7.6,6.4
+085_bernese-mountain-dogs,general,Depth Appropriateness,8.2,6.6,7.2
+082_block-universe-and-the-nature-of-time,general,Depth Appropriateness,7.5,6.0,8.0
+004_chatbot-for-analyzing-financial-data-in-business-and-economics,general,Breadth,8.6,7.2,7.4
+001_utilization-of-weather-forecasting-for-wind-and-solar-energy-assessment,general,Breadth,8.0,7.5,7.8
+002_bathroom-remodeling,general,Breadth,7.2,8.4,7.6
+003_effective-feedback-practices-in-professional-settings,general,Breadth,8.2,8.0,8.4
+006_trade-war-between-us-and-china,general,Breadth,8.4,8.6,7.5
+005_recent-legal-cases-in-the-us-involving-hardware-technology-innovations,general,Breadth,8.0,8.1,7.9
+009_effectiveness-of-pico-8-and-fantasy-game-consoles-in-niche-gaming-commun,general,Breadth,8.2,7.6,7.8
+010_graphics-processing-unit,general,Breadth,6.4,8.2,6.8
+007_introduction-to-kubernetes-backup-and-persistent-storage,general,Breadth,8.2,7.6,8.0
+008_ursula-s-character-in-disney-s-the-little-mermaid,general,Breadth,8.6,7.4,6.8
+011_application-of-artificial-intelligence-in-preserving-intangible-cultural,general,Breadth,8.0,8.5,7.5
+015_west-coast-synthesis,general,Breadth,8.6,7.8,6.6
+012_enhancing-human-computer-interaction-with-wearable-devices-via-gesture-o,general,Breadth,8.0,8.6,8.3
+028_the-application-of-iot-digitalization-and-ai-in-the-oil-and-natural-gas,general,Breadth,8.0,5.8,7.8
+016_blockchain-anomaly-detection-using-large-models,general,Breadth,8.6,7.2,6.4
+029_simultaneous-localization-and-mapping,general,Breadth,8.0,6.5,8.5
+019_automating-powerpoint-slide-creation-with-python,general,Breadth,7.8,8.8,8.6
+014_facial-recognition-in-check-in-and-clock-in-systems,general,Breadth,7.2,8.0,7.5
+021_emissions-from-cooking-food,general,Breadth,8.0,8.0,8.5
+024_taylor-swift,general,Breadth,8.4,7.6,7.0
+017_synthetic-biology,general,Breadth,8.6,8.0,7.4
+025_alphafold,general,Breadth,8.0,7.5,7.2
+020_information-security-principles-practices-and-emerging-trends,general,Breadth,8.2,7.0,7.4
+013_ai-for-predicting-health-index-from-gut-microbiome,general,Breadth,8.7,8.0,6.5
+031_internal-motivation-in-student-learning,general,Breadth,8.0,7.4,8.2
+027_the-impact-of-digital-literacy-and-iot-on-precision-agriculture-among-sm,general,Breadth,8.4,8.2,8.6
+026_audio-visual-content-dissemination-and-audience-feedback-on-douyin,general,Breadth,8.0,8.2,7.4
+018_the-latest-advances-in-anti-aging-research,general,Breadth,7.0,8.2,7.8
+030_image-processing-techniques-for-cellular-analysis,general,Breadth,8.0,8.5,6.0
+023_integrating-multiple-llms,general,Breadth,8.0,8.8,8.5
+038_changes-to-medicare-part-d-in-2025,general,Breadth,8.2,7.5,7.2
+033_komondor-the-mop-dog,general,Breadth,7.8,8.2,6.4
+032_pyspark,general,Breadth,7.6,8.2,7.4
+042_drug-and-alcohol-psychological-assessment-tools,general,Breadth,8.0,8.6,8.4
+037_efficacy-of-vr-based-motion-capture-for-ergonomics-in-manual-operation,general,Breadth,7.4,6.4,6.6
+035_key-technologies-in-pipeline-engineering-and-gas-storage-facility-constr,general,Breadth,7.8,7.2,7.4
+036_latest-advancements-in-natural-language-processing-nlp-algorithms-and-th,general,Breadth,8.3,8.0,7.0
+034_accessibility-in-data-visualization,general,Breadth,7.0,8.2,8.4
+044_development-of-a-shared-trading-currency-to-facilitate-international-tra,general,Breadth,8.8,7.6,7.4
+045_single-cell-sequencing,general,Breadth,8.5,7.0,7.5
+039_collaborative-learning-in-music-education,general,Breadth,7.9,8.5,8.2
+043_biotechnology-for-prospecting-natural-bioactives-in-health,general,Breadth,7.4,7.0,7.8
+041_artificial-general-intelligence-agi,general,Breadth,7.2,7.5,6.5
+046_artificial-intelligence-and-copyright-dilemma,general,Breadth,8.0,8.6,8.2
+052_what-is-webflow-and-how-does-it-enhance-seo,general,Breadth,7.7,8.0,7.5
+047_dataset-processing-for-large-language-models,general,Breadth,8.2,8.5,1.5
+049_end-user-personalization-in-human-computer-interaction,general,Breadth,7.8,8.0,8.3
+055_richard-dattner,general,Breadth,7.4,7.8,7.5
+050_future-of-serverless-in-cloud-development,general,Breadth,8.6,8.2,7.6
+053_ai-tools-for-content-creation-in-fashion-and-beauty,general,Breadth,7.0,8.5,6.5
+056_benchmarking-chroma-db-against-other-vector-databases-in-llamaindex,general,Breadth,8.0,8.5,7.4
+059_licensing-implications-for-open-source-deep-learning-models-on-github,general,Breadth,7.9,7.5,7.6
+048_medical-simulation-teaching,general,Breadth,8.0,8.0,8.5
+051_macroscopic-quantum-coherence,general,Breadth,7.0,7.2,7.8
+054_criticisms-of-agile-software-development-in-practice,general,Breadth,8.9,8.4,7.6
+057_building-a-personal-knowledge-system,general,Breadth,8.6,7.8,7.5
+060_validation-of-gpt-chatbot-usage-in-educational-settings,general,Breadth,8.8,8.2,7.6
+065_itinerary-for-a-5-day-trip-on-california-state-route-1,general,Breadth,8.6,7.8,8.4
+058_seo,general,Breadth,7.4,8.6,8.0
+066_infosys,general,Breadth,6.8,8.2,5.5
+068_medical-simulation-scene-quality-evaluation-tool,general,Breadth,7.0,7.5,8.0
+064_customer-segmentation-in-business-and-economics,general,Breadth,8.2,7.4,7.8
+063_wire-free-localization-techniques-for-breast-surgery,general,Breadth,7.2,7.8,7.5
+061_environmental-impact-on-personal-growth-and-perspective,general,Breadth,7.5,8.2,7.0
+070_unified-framework-for-human-pose-estimation-and-motion-prediction-in-2d,general,Breadth,8.0,7.5,7.2
+078_evolution-and-core-technologies-of-ai,general,Breadth,8.2,7.5,6.8
+067_understanding-and-managing-dental-phobias-for-patients,general,Breadth,7.5,8.2,6.8
+077_genshin-impact-strategies,general,Breadth,8.4,8.0,7.0
+071_community-knowledge-management-in-cultural-studies,general,Breadth,8.6,7.8,7.0
+072_service-quality-in-michelin-restaurants,general,Breadth,8.0,8.4,7.6
+074_the-emergence-of-artificial-super-intelligence-future-prospects-and-impa,general,Breadth,7.0,7.2,6.5
+069_ipv4-and-ipv6-networking,general,Breadth,8.2,8.6,7.4
+087_application-of-new-drugs-or-devices-in-animal-disease-treatment,general,Breadth,8.2,7.0,6.4
+079_fire-rescue-scene-communication,general,Breadth,8.2,8.0,5.6
+090_quantum-cryptography,general,Breadth,8.2,8.0,7.4
+088_overview-of-packet-classification-algorithms-in-network-devices,general,Breadth,8.0,8.0,8.5
+083_innovative-strategies-for-enhancing-human-resources-management-in-global,general,Breadth,8.3,7.8,8.4
+075_comparison-of-self-attention-convolutional-block-attention-module-and-sq,general,Breadth,8.2,8.0,8.5
+081_lifelong-learning-in-deep-learning-and-ai,general,Breadth,7.5,8.2,7.0
+091_digital-twin-in-data-sciences,general,Breadth,8.0,7.8,7.5
+086_traffic-sign-detection-using-machine-vision,general,Breadth,8.4,8.5,8.7
+092_based-point-supervised-object-detection,general,Breadth,8.5,5.0,7.5
+089_adaptive-geomagnetic-indoor-navigation-system-by-anomaly-detection-feedb,general,Breadth,8.0,8.2,8.5
+093_state-business-relationship-in-the-digital-economy,general,Breadth,8.0,8.2,6.4
+094_impact-of-climate-change-on-urban-areas-like-mumbai,general,Breadth,7.8,8.2,7.0
+099_integration-of-e-bikes-with-electric-ferries,general,Breadth,7.5,7.8,8.2
+097_history-and-features-of-major-web-browsers,general,Breadth,7.5,8.5,6.5
+096_autonomous-ai-for-research-laboratories,general,Breadth,8.3,7.5,8.0
+098_caving-in-fitness,general,Breadth,8.2,8.0,8.4
+095_digital-biomarkers-in-current-clinical-trials,general,Breadth,7.6,8.5,8.2
+073_electricity-generation-using-solar-thermal-energy,general,Breadth,8.4,7.8,7.0
+040_privacy-in-large-language-models,general,Breadth,8.4,8.0,7.8
+022_the-effects-of-nmn-supplements-on-human-anti-aging,general,Breadth,8.2,8.6,8.4
+062_2023-gansu-earthquake,general,Breadth,8.5,8.0,7.0
+080_semiconductor-supply-chain-resilience-and-disruption,general,Breadth,7.6,8.2,7.4
+100_gender-differences-in-media-coverage-and-public-reactions,general,Breadth,8.8,8.4,7.2
+084_language-security-and-cross-cultural-communication,general,Breadth,8.2,7.0,7.6
+076_2024-hualien-city-earthquake,general,Breadth,7.6,8.6,6.8
+085_bernese-mountain-dogs,general,Breadth,7.4,8.2,7.8
+082_block-universe-and-the-nature-of-time,general,Breadth,7.0,6.5,8.5
+004_chatbot-for-analyzing-financial-data-in-business-and-economics,exploration,Inquiry Relevance,8.0,6.5,7.5
+001_utilization-of-weather-forecasting-for-wind-and-solar-energy-assessment,exploration,Inquiry Relevance,8.5,7.5,7.0
+002_bathroom-remodeling,exploration,Inquiry Relevance,8.0,8.5,7.5
+003_effective-feedback-practices-in-professional-settings,exploration,Inquiry Relevance,8.0,6.0,8.0
+008_ursula-s-character-in-disney-s-the-little-mermaid,exploration,Inquiry Relevance,8.5,7.5,7.5
+007_introduction-to-kubernetes-backup-and-persistent-storage,exploration,Inquiry Relevance,8.5,6.0,7.5
+010_graphics-processing-unit,exploration,Inquiry Relevance,8.5,7.5,6.5
+006_trade-war-between-us-and-china,exploration,Inquiry Relevance,8.5,7.5,7.0
+005_recent-legal-cases-in-the-us-involving-hardware-technology-innovations,exploration,Inquiry Relevance,8.0,6.5,7.5
+009_effectiveness-of-pico-8-and-fantasy-game-consoles-in-niche-gaming-commun,exploration,Inquiry Relevance,8.5,6.5,7.5
+015_west-coast-synthesis,exploration,Inquiry Relevance,8.5,6.5,7.0
+016_blockchain-anomaly-detection-using-large-models,exploration,Inquiry Relevance,8.5,6.5,7.0
+020_information-security-principles-practices-and-emerging-trends,exploration,Inquiry Relevance,8.5,6.0,6.5
+013_ai-for-predicting-health-index-from-gut-microbiome,exploration,Inquiry Relevance,8.5,7.5,6.5
+024_taylor-swift,exploration,Inquiry Relevance,8.5,6.5,7.5
+021_emissions-from-cooking-food,exploration,Inquiry Relevance,8.5,7.0,7.5
+017_synthetic-biology,exploration,Inquiry Relevance,8.0,6.0,6.0
+012_enhancing-human-computer-interaction-with-wearable-devices-via-gesture-o,exploration,Inquiry Relevance,8.0,7.5,8.5
+011_application-of-artificial-intelligence-in-preserving-intangible-cultural,exploration,Inquiry Relevance,8.0,8.0,6.0
+019_automating-powerpoint-slide-creation-with-python,exploration,Inquiry Relevance,8.0,7.0,8.0
+014_facial-recognition-in-check-in-and-clock-in-systems,exploration,Inquiry Relevance,9.0,6.5,8.5
+025_alphafold,exploration,Inquiry Relevance,8.0,6.0,6.0
+029_simultaneous-localization-and-mapping,exploration,Inquiry Relevance,8.5,5.5,8.5
+026_audio-visual-content-dissemination-and-audience-feedback-on-douyin,exploration,Inquiry Relevance,8.5,7.0,7.5
+018_the-latest-advances-in-anti-aging-research,exploration,Inquiry Relevance,8.5,7.5,8.0
+027_the-impact-of-digital-literacy-and-iot-on-precision-agriculture-among-sm,exploration,Inquiry Relevance,8.0,7.0,8.0
+031_internal-motivation-in-student-learning,exploration,Inquiry Relevance,8.5,6.5,7.5
+023_integrating-multiple-llms,exploration,Inquiry Relevance,8.0,7.5,8.5
+033_komondor-the-mop-dog,exploration,Inquiry Relevance,8.0,8.0,6.0
+035_key-technologies-in-pipeline-engineering-and-gas-storage-facility-constr,exploration,Inquiry Relevance,8.5,7.0,7.5
+030_image-processing-techniques-for-cellular-analysis,exploration,Inquiry Relevance,8.0,3.0,6.0
+032_pyspark,exploration,Inquiry Relevance,8.0,8.0,8.0
+036_latest-advancements-in-natural-language-processing-nlp-algorithms-and-th,exploration,Inquiry Relevance,8.5,7.0,7.5
+034_accessibility-in-data-visualization,exploration,Inquiry Relevance,8.0,7.5,8.5
+044_development-of-a-shared-trading-currency-to-facilitate-international-tra,exploration,Inquiry Relevance,8.5,7.5,7.0
+042_drug-and-alcohol-psychological-assessment-tools,exploration,Inquiry Relevance,7.0,6.0,8.0
+038_changes-to-medicare-part-d-in-2025,exploration,Inquiry Relevance,8.5,3.5,6.5
+041_artificial-general-intelligence-agi,exploration,Inquiry Relevance,9.0,8.5,7.0
+045_single-cell-sequencing,exploration,Inquiry Relevance,8.0,6.0,8.0
+039_collaborative-learning-in-music-education,exploration,Inquiry Relevance,8.0,7.0,8.0
+047_dataset-processing-for-large-language-models,exploration,Inquiry Relevance,8.5,6.5,3.0
+046_artificial-intelligence-and-copyright-dilemma,exploration,Inquiry Relevance,8.0,7.0,8.0
+049_end-user-personalization-in-human-computer-interaction,exploration,Inquiry Relevance,9.0,7.0,8.5
+051_macroscopic-quantum-coherence,exploration,Inquiry Relevance,8.5,6.5,7.0
+052_what-is-webflow-and-how-does-it-enhance-seo,exploration,Inquiry Relevance,8.0,7.0,8.0
+050_future-of-serverless-in-cloud-development,exploration,Inquiry Relevance,8.5,7.5,8.0
+055_richard-dattner,exploration,Inquiry Relevance,7.0,6.5,7.5
+054_criticisms-of-agile-software-development-in-practice,exploration,Inquiry Relevance,8.5,7.0,7.5
+056_benchmarking-chroma-db-against-other-vector-databases-in-llamaindex,exploration,Inquiry Relevance,8.0,7.0,8.0
+048_medical-simulation-teaching,exploration,Inquiry Relevance,8.0,7.5,8.5
+053_ai-tools-for-content-creation-in-fashion-and-beauty,exploration,Inquiry Relevance,8.0,8.0,6.0
+057_building-a-personal-knowledge-system,exploration,Inquiry Relevance,8.0,6.0,8.0
+037_efficacy-of-vr-based-motion-capture-for-ergonomics-in-manual-operation,exploration,Inquiry Relevance,8.5,6.5,7.5
+059_licensing-implications-for-open-source-deep-learning-models-on-github,exploration,Inquiry Relevance,8.5,7.0,8.0
+060_validation-of-gpt-chatbot-usage-in-educational-settings,exploration,Inquiry Relevance,8.5,7.5,6.5
+066_infosys,exploration,Inquiry Relevance,7.0,7.5,5.5
+063_wire-free-localization-techniques-for-breast-surgery,exploration,Inquiry Relevance,8.5,6.5,7.5
+058_seo,exploration,Inquiry Relevance,8.5,7.5,7.0
+068_medical-simulation-scene-quality-evaluation-tool,exploration,Inquiry Relevance,8.5,7.5,8.0
+064_customer-segmentation-in-business-and-economics,exploration,Inquiry Relevance,8.5,6.5,7.5
+065_itinerary-for-a-5-day-trip-on-california-state-route-1,exploration,Inquiry Relevance,8.0,7.5,8.5
+061_environmental-impact-on-personal-growth-and-perspective,exploration,Inquiry Relevance,8.0,8.0,7.0
+069_ipv4-and-ipv6-networking,exploration,Inquiry Relevance,8.2,7.6,7.8
+067_understanding-and-managing-dental-phobias-for-patients,exploration,Inquiry Relevance,8.0,3.0,7.0
+070_unified-framework-for-human-pose-estimation-and-motion-prediction-in-2d,exploration,Inquiry Relevance,8.5,6.5,7.5
+071_community-knowledge-management-in-cultural-studies,exploration,Inquiry Relevance,8.5,6.5,6.0
+073_electricity-generation-using-solar-thermal-energy,exploration,Inquiry Relevance,8.5,6.0,6.5
+078_evolution-and-core-technologies-of-ai,exploration,Inquiry Relevance,8.5,6.5,5.5
+075_comparison-of-self-attention-convolutional-block-attention-module-and-sq,exploration,Inquiry Relevance,8.0,7.5,8.5
+077_genshin-impact-strategies,exploration,Inquiry Relevance,8.5,7.5,6.5
+074_the-emergence-of-artificial-super-intelligence-future-prospects-and-impa,exploration,Inquiry Relevance,8.5,6.5,7.5
+088_overview-of-packet-classification-algorithms-in-network-devices,exploration,Inquiry Relevance,8.5,7.0,7.5
+079_fire-rescue-scene-communication,exploration,Inquiry Relevance,8.0,7.0,6.0
+072_service-quality-in-michelin-restaurants,exploration,Inquiry Relevance,8.5,7.5,8.0
+087_application-of-new-drugs-or-devices-in-animal-disease-treatment,exploration,Inquiry Relevance,8.5,5.5,6.5
+091_digital-twin-in-data-sciences,exploration,Inquiry Relevance,8.5,6.5,7.0
+090_quantum-cryptography,exploration,Inquiry Relevance,8.4,7.2,7.6
+092_based-point-supervised-object-detection,exploration,Inquiry Relevance,8.5,5.5,7.5
+083_innovative-strategies-for-enhancing-human-resources-management-in-global,exploration,Inquiry Relevance,8.5,7.0,7.5
+081_lifelong-learning-in-deep-learning-and-ai,exploration,Inquiry Relevance,8.5,7.5,6.5
+094_impact-of-climate-change-on-urban-areas-like-mumbai,exploration,Inquiry Relevance,8.5,6.5,7.5
+089_adaptive-geomagnetic-indoor-navigation-system-by-anomaly-detection-feedb,exploration,Inquiry Relevance,8.5,7.5,8.0
+093_state-business-relationship-in-the-digital-economy,exploration,Inquiry Relevance,8.0,3.0,5.0
+085_bernese-mountain-dogs,exploration,Inquiry Relevance,8.5,7.0,6.5
+097_history-and-features-of-major-web-browsers,exploration,Inquiry Relevance,7.0,7.5,6.5
+096_autonomous-ai-for-research-laboratories,exploration,Inquiry Relevance,8.0,6.5,8.5
+099_integration-of-e-bikes-with-electric-ferries,exploration,Inquiry Relevance,8.5,6.5,8.0
+098_caving-in-fitness,exploration,Inquiry Relevance,8.5,6.5,7.5
+095_digital-biomarkers-in-current-clinical-trials,exploration,Inquiry Relevance,8.5,6.5,7.5
+028_the-application-of-iot-digitalization-and-ai-in-the-oil-and-natural-gas,exploration,Inquiry Relevance,8.5,5.5,7.5
+043_biotechnology-for-prospecting-natural-bioactives-in-health,exploration,Inquiry Relevance,8.5,6.5,7.0
+082_block-universe-and-the-nature-of-time,exploration,Inquiry Relevance,8.5,7.5,8.0
+040_privacy-in-large-language-models,exploration,Inquiry Relevance,8.5,7.0,7.5
+080_semiconductor-supply-chain-resilience-and-disruption,exploration,Inquiry Relevance,8.5,7.0,7.5
+100_gender-differences-in-media-coverage-and-public-reactions,exploration,Inquiry Relevance,8.0,6.5,7.5
+022_the-effects-of-nmn-supplements-on-human-anti-aging,exploration,Inquiry Relevance,8.0,7.0,8.0
+062_2023-gansu-earthquake,exploration,Inquiry Relevance,8.5,8.5,8.0
+086_traffic-sign-detection-using-machine-vision,exploration,Inquiry Relevance,8.5,7.5,7.0
+076_2024-hualien-city-earthquake,exploration,Inquiry Relevance,8.5,7.5,6.5
+084_language-security-and-cross-cultural-communication,exploration,Inquiry Relevance,8.5,6.5,7.5
+004_chatbot-for-analyzing-financial-data-in-business-and-economics,exploration,Perspective Expansion,8.5,6.0,7.0
+001_utilization-of-weather-forecasting-for-wind-and-solar-energy-assessment,exploration,Perspective Expansion,8.5,7.0,6.5
+002_bathroom-remodeling,exploration,Perspective Expansion,8.5,8.0,5.0
+003_effective-feedback-practices-in-professional-settings,exploration,Perspective Expansion,8.0,6.0,8.0
+008_ursula-s-character-in-disney-s-the-little-mermaid,exploration,Perspective Expansion,8.5,7.5,6.5
+007_introduction-to-kubernetes-backup-and-persistent-storage,exploration,Perspective Expansion,8.0,5.5,6.5
+010_graphics-processing-unit,exploration,Perspective Expansion,8.0,7.5,4.5
+006_trade-war-between-us-and-china,exploration,Perspective Expansion,8.0,7.5,6.5
+005_recent-legal-cases-in-the-us-involving-hardware-technology-innovations,exploration,Perspective Expansion,8.5,6.0,7.0
+009_effectiveness-of-pico-8-and-fantasy-game-consoles-in-niche-gaming-commun,exploration,Perspective Expansion,8.5,6.0,6.5
+015_west-coast-synthesis,exploration,Perspective Expansion,8.0,6.0,4.5
+016_blockchain-anomaly-detection-using-large-models,exploration,Perspective Expansion,8.0,6.0,5.5
+020_information-security-principles-practices-and-emerging-trends,exploration,Perspective Expansion,8.0,5.5,5.0
+013_ai-for-predicting-health-index-from-gut-microbiome,exploration,Perspective Expansion,8.5,7.5,5.5
+024_taylor-swift,exploration,Perspective Expansion,8.5,7.0,6.5
+021_emissions-from-cooking-food,exploration,Perspective Expansion,8.5,7.5,7.0
+017_synthetic-biology,exploration,Perspective Expansion,8.0,6.0,4.0
+012_enhancing-human-computer-interaction-with-wearable-devices-via-gesture-o,exploration,Perspective Expansion,7.5,8.5,8.0
+011_application-of-artificial-intelligence-in-preserving-intangible-cultural,exploration,Perspective Expansion,8.0,8.0,4.0
+019_automating-powerpoint-slide-creation-with-python,exploration,Perspective Expansion,8.0,7.0,7.0
+014_facial-recognition-in-check-in-and-clock-in-systems,exploration,Perspective Expansion,8.5,7.5,7.0
+025_alphafold,exploration,Perspective Expansion,8.0,6.0,4.0
+029_simultaneous-localization-and-mapping,exploration,Perspective Expansion,8.5,5.0,7.5
+026_audio-visual-content-dissemination-and-audience-feedback-on-douyin,exploration,Perspective Expansion,8.5,7.5,7.0
+018_the-latest-advances-in-anti-aging-research,exploration,Perspective Expansion,8.5,7.0,7.0
+027_the-impact-of-digital-literacy-and-iot-on-precision-agriculture-among-sm,exploration,Perspective Expansion,8.0,7.0,8.0
+031_internal-motivation-in-student-learning,exploration,Perspective Expansion,8.5,6.0,6.5
+023_integrating-multiple-llms,exploration,Perspective Expansion,7.5,8.5,8.0
+033_komondor-the-mop-dog,exploration,Perspective Expansion,8.0,8.0,4.0
+035_key-technologies-in-pipeline-engineering-and-gas-storage-facility-constr,exploration,Perspective Expansion,8.5,7.5,7.0
+030_image-processing-techniques-for-cellular-analysis,exploration,Perspective Expansion,8.0,3.0,4.0
+032_pyspark,exploration,Perspective Expansion,8.0,8.0,7.0
+036_latest-advancements-in-natural-language-processing-nlp-algorithms-and-th,exploration,Perspective Expansion,8.0,6.5,6.5
+034_accessibility-in-data-visualization,exploration,Perspective Expansion,8.0,7.0,7.5
+044_development-of-a-shared-trading-currency-to-facilitate-international-tra,exploration,Perspective Expansion,8.5,7.0,5.5
+042_drug-and-alcohol-psychological-assessment-tools,exploration,Perspective Expansion,7.0,6.0,8.0
+038_changes-to-medicare-part-d-in-2025,exploration,Perspective Expansion,8.5,3.0,4.0
+041_artificial-general-intelligence-agi,exploration,Perspective Expansion,9.0,8.0,5.0
+045_single-cell-sequencing,exploration,Perspective Expansion,8.0,6.0,7.0
+039_collaborative-learning-in-music-education,exploration,Perspective Expansion,8.0,7.0,8.0
+047_dataset-processing-for-large-language-models,exploration,Perspective Expansion,8.0,7.0,1.0
+046_artificial-intelligence-and-copyright-dilemma,exploration,Perspective Expansion,8.0,7.0,7.0
+049_end-user-personalization-in-human-computer-interaction,exploration,Perspective Expansion,8.5,7.5,8.0
+051_macroscopic-quantum-coherence,exploration,Perspective Expansion,8.0,7.0,6.0
+052_what-is-webflow-and-how-does-it-enhance-seo,exploration,Perspective Expansion,8.0,6.0,7.0
+050_future-of-serverless-in-cloud-development,exploration,Perspective Expansion,8.0,7.0,6.5
+055_richard-dattner,exploration,Perspective Expansion,7.5,6.0,7.0
+054_criticisms-of-agile-software-development-in-practice,exploration,Perspective Expansion,8.0,7.5,7.0
+056_benchmarking-chroma-db-against-other-vector-databases-in-llamaindex,exploration,Perspective Expansion,8.0,7.0,8.0
+048_medical-simulation-teaching,exploration,Perspective Expansion,8.5,7.5,8.0
+053_ai-tools-for-content-creation-in-fashion-and-beauty,exploration,Perspective Expansion,8.0,8.0,4.0
+057_building-a-personal-knowledge-system,exploration,Perspective Expansion,8.0,7.0,7.0
+037_efficacy-of-vr-based-motion-capture-for-ergonomics-in-manual-operation,exploration,Perspective Expansion,8.0,6.0,5.0
+059_licensing-implications-for-open-source-deep-learning-models-on-github,exploration,Perspective Expansion,8.0,6.5,5.5
+060_validation-of-gpt-chatbot-usage-in-educational-settings,exploration,Perspective Expansion,8.0,7.0,5.5
+066_infosys,exploration,Perspective Expansion,7.5,7.0,4.0
+063_wire-free-localization-techniques-for-breast-surgery,exploration,Perspective Expansion,8.5,6.0,6.5
+058_seo,exploration,Perspective Expansion,8.5,7.0,6.5
+068_medical-simulation-scene-quality-evaluation-tool,exploration,Perspective Expansion,8.0,7.5,6.5
+064_customer-segmentation-in-business-and-economics,exploration,Perspective Expansion,8.0,6.0,6.5
+065_itinerary-for-a-5-day-trip-on-california-state-route-1,exploration,Perspective Expansion,8.5,7.0,8.0
+061_environmental-impact-on-personal-growth-and-perspective,exploration,Perspective Expansion,8.0,8.0,7.0
+069_ipv4-and-ipv6-networking,exploration,Perspective Expansion,8.0,7.4,7.0
+067_understanding-and-managing-dental-phobias-for-patients,exploration,Perspective Expansion,8.0,3.0,5.0
+070_unified-framework-for-human-pose-estimation-and-motion-prediction-in-2d,exploration,Perspective Expansion,8.5,6.0,6.5
+071_community-knowledge-management-in-cultural-studies,exploration,Perspective Expansion,8.0,6.0,5.5
+073_electricity-generation-using-solar-thermal-energy,exploration,Perspective Expansion,8.0,5.5,5.5
+078_evolution-and-core-technologies-of-ai,exploration,Perspective Expansion,8.0,7.0,3.5
+075_comparison-of-self-attention-convolutional-block-attention-module-and-sq,exploration,Perspective Expansion,8.5,7.5,8.0
+077_genshin-impact-strategies,exploration,Perspective Expansion,8.0,7.0,5.0
+074_the-emergence-of-artificial-super-intelligence-future-prospects-and-impa,exploration,Perspective Expansion,8.0,6.0,5.5
+088_overview-of-packet-classification-algorithms-in-network-devices,exploration,Perspective Expansion,8.5,7.5,7.0
+079_fire-rescue-scene-communication,exploration,Perspective Expansion,8.0,7.0,4.0
+072_service-quality-in-michelin-restaurants,exploration,Perspective Expansion,8.5,7.0,7.5
+087_application-of-new-drugs-or-devices-in-animal-disease-treatment,exploration,Perspective Expansion,8.0,4.5,4.0
+091_digital-twin-in-data-sciences,exploration,Perspective Expansion,8.0,6.5,5.5
+090_quantum-cryptography,exploration,Perspective Expansion,8.6,7.0,7.4
+092_based-point-supervised-object-detection,exploration,Perspective Expansion,8.0,4.0,5.5
+083_innovative-strategies-for-enhancing-human-resources-management-in-global,exploration,Perspective Expansion,8.5,6.0,6.5
+081_lifelong-learning-in-deep-learning-and-ai,exploration,Perspective Expansion,8.5,7.0,5.5
+094_impact-of-climate-change-on-urban-areas-like-mumbai,exploration,Perspective Expansion,8.5,6.0,5.5
+089_adaptive-geomagnetic-indoor-navigation-system-by-anomaly-detection-feedb,exploration,Perspective Expansion,8.5,7.0,6.5
+093_state-business-relationship-in-the-digital-economy,exploration,Perspective Expansion,8.0,3.0,4.0
+085_bernese-mountain-dogs,exploration,Perspective Expansion,8.5,7.5,5.0
+097_history-and-features-of-major-web-browsers,exploration,Perspective Expansion,6.5,8.0,4.0
+096_autonomous-ai-for-research-laboratories,exploration,Perspective Expansion,8.5,7.0,8.0
+099_integration-of-e-bikes-with-electric-ferries,exploration,Perspective Expansion,8.5,6.0,7.0
+098_caving-in-fitness,exploration,Perspective Expansion,8.5,6.0,7.0
+095_digital-biomarkers-in-current-clinical-trials,exploration,Perspective Expansion,8.5,6.5,7.0
+028_the-application-of-iot-digitalization-and-ai-in-the-oil-and-natural-gas,exploration,Perspective Expansion,8.5,5.0,6.5
+043_biotechnology-for-prospecting-natural-bioactives-in-health,exploration,Perspective Expansion,8.5,5.5,5.0
+082_block-universe-and-the-nature-of-time,exploration,Perspective Expansion,8.0,7.5,7.5
+040_privacy-in-large-language-models,exploration,Perspective Expansion,8.5,7.5,6.5
+080_semiconductor-supply-chain-resilience-and-disruption,exploration,Perspective Expansion,8.0,7.5,5.5
+100_gender-differences-in-media-coverage-and-public-reactions,exploration,Perspective Expansion,8.0,6.0,6.5
+022_the-effects-of-nmn-supplements-on-human-anti-aging,exploration,Perspective Expansion,8.0,8.0,7.0
+062_2023-gansu-earthquake,exploration,Perspective Expansion,8.5,8.5,7.0
+086_traffic-sign-detection-using-machine-vision,exploration,Perspective Expansion,8.0,7.0,5.5
+076_2024-hualien-city-earthquake,exploration,Perspective Expansion,8.5,7.0,4.5
+084_language-security-and-cross-cultural-communication,exploration,Perspective Expansion,8.0,6.0,6.5
+004_chatbot-for-analyzing-financial-data-in-business-and-economics,exploration,Evidence-Based Progress,8.0,6.5,7.0
+001_utilization-of-weather-forecasting-for-wind-and-solar-energy-assessment,exploration,Evidence-Based Progress,8.0,7.5,7.0
+002_bathroom-remodeling,exploration,Evidence-Based Progress,8.5,7.5,6.5
+003_effective-feedback-practices-in-professional-settings,exploration,Evidence-Based Progress,8.0,6.0,8.0
+008_ursula-s-character-in-disney-s-the-little-mermaid,exploration,Evidence-Based Progress,8.5,7.0,7.5
+007_introduction-to-kubernetes-backup-and-persistent-storage,exploration,Evidence-Based Progress,8.0,5.5,6.5
+010_graphics-processing-unit,exploration,Evidence-Based Progress,8.5,7.0,5.5
+006_trade-war-between-us-and-china,exploration,Evidence-Based Progress,8.5,7.5,7.0
+005_recent-legal-cases-in-the-us-involving-hardware-technology-innovations,exploration,Evidence-Based Progress,8.0,6.5,7.5
+009_effectiveness-of-pico-8-and-fantasy-game-consoles-in-niche-gaming-commun,exploration,Evidence-Based Progress,7.5,6.5,7.0
+015_west-coast-synthesis,exploration,Evidence-Based Progress,8.5,6.5,6.0
+016_blockchain-anomaly-detection-using-large-models,exploration,Evidence-Based Progress,8.5,6.5,6.0
+020_information-security-principles-practices-and-emerging-trends,exploration,Evidence-Based Progress,7.5,5.0,5.5
+013_ai-for-predicting-health-index-from-gut-microbiome,exploration,Evidence-Based Progress,8.5,7.5,6.5
+024_taylor-swift,exploration,Evidence-Based Progress,8.0,6.5,7.0
+021_emissions-from-cooking-food,exploration,Evidence-Based Progress,8.0,7.0,7.5
+017_synthetic-biology,exploration,Evidence-Based Progress,8.0,4.0,6.0
+012_enhancing-human-computer-interaction-with-wearable-devices-via-gesture-o,exploration,Evidence-Based Progress,8.0,7.0,7.5
+011_application-of-artificial-intelligence-in-preserving-intangible-cultural,exploration,Evidence-Based Progress,6.0,8.0,6.0
+019_automating-powerpoint-slide-creation-with-python,exploration,Evidence-Based Progress,8.0,6.0,7.0
+014_facial-recognition-in-check-in-and-clock-in-systems,exploration,Evidence-Based Progress,9.0,6.0,8.0
+025_alphafold,exploration,Evidence-Based Progress,8.0,6.0,6.0
+029_simultaneous-localization-and-mapping,exploration,Evidence-Based Progress,8.0,5.5,7.5
+026_audio-visual-content-dissemination-and-audience-feedback-on-douyin,exploration,Evidence-Based Progress,8.5,7.0,7.5
+018_the-latest-advances-in-anti-aging-research,exploration,Evidence-Based Progress,8.0,7.0,7.5
+027_the-impact-of-digital-literacy-and-iot-on-precision-agriculture-among-sm,exploration,Evidence-Based Progress,8.0,7.0,8.0
+031_internal-motivation-in-student-learning,exploration,Evidence-Based Progress,8.0,6.5,7.0
+023_integrating-multiple-llms,exploration,Evidence-Based Progress,8.5,8.0,8.5
+033_komondor-the-mop-dog,exploration,Evidence-Based Progress,8.0,8.0,6.0
+035_key-technologies-in-pipeline-engineering-and-gas-storage-facility-constr,exploration,Evidence-Based Progress,8.5,7.0,7.5
+030_image-processing-techniques-for-cellular-analysis,exploration,Evidence-Based Progress,7.0,4.0,5.0
+032_pyspark,exploration,Evidence-Based Progress,8.0,7.0,7.0
+036_latest-advancements-in-natural-language-processing-nlp-algorithms-and-th,exploration,Evidence-Based Progress,8.5,6.5,7.0
+034_accessibility-in-data-visualization,exploration,Evidence-Based Progress,7.5,7.5,8.0
+044_development-of-a-shared-trading-currency-to-facilitate-international-tra,exploration,Evidence-Based Progress,8.0,7.5,7.0
+042_drug-and-alcohol-psychological-assessment-tools,exploration,Evidence-Based Progress,7.0,6.0,8.0
+038_changes-to-medicare-part-d-in-2025,exploration,Evidence-Based Progress,8.0,4.5,6.0
+041_artificial-general-intelligence-agi,exploration,Evidence-Based Progress,8.5,7.5,6.5
+045_single-cell-sequencing,exploration,Evidence-Based Progress,8.0,6.0,7.0
+039_collaborative-learning-in-music-education,exploration,Evidence-Based Progress,8.0,7.0,8.0
+047_dataset-processing-for-large-language-models,exploration,Evidence-Based Progress,8.0,6.0,1.0
+046_artificial-intelligence-and-copyright-dilemma,exploration,Evidence-Based Progress,8.0,7.0,8.0
+049_end-user-personalization-in-human-computer-interaction,exploration,Evidence-Based Progress,8.0,6.5,7.5
+051_macroscopic-quantum-coherence,exploration,Evidence-Based Progress,8.0,6.0,6.5
+052_what-is-webflow-and-how-does-it-enhance-seo,exploration,Evidence-Based Progress,8.0,6.0,7.0
+050_future-of-serverless-in-cloud-development,exploration,Evidence-Based Progress,8.5,7.0,7.5
+055_richard-dattner,exploration,Evidence-Based Progress,7.0,6.5,7.5
+054_criticisms-of-agile-software-development-in-practice,exploration,Evidence-Based Progress,8.5,7.0,7.5
+056_benchmarking-chroma-db-against-other-vector-databases-in-llamaindex,exploration,Evidence-Based Progress,8.0,7.0,7.0
+048_medical-simulation-teaching,exploration,Evidence-Based Progress,8.0,7.0,8.5
+053_ai-tools-for-content-creation-in-fashion-and-beauty,exploration,Evidence-Based Progress,8.0,8.0,5.0
+057_building-a-personal-knowledge-system,exploration,Evidence-Based Progress,8.0,6.0,7.0
+037_efficacy-of-vr-based-motion-capture-for-ergonomics-in-manual-operation,exploration,Evidence-Based Progress,8.5,6.0,7.0
+059_licensing-implications-for-open-source-deep-learning-models-on-github,exploration,Evidence-Based Progress,7.5,6.0,7.0
+060_validation-of-gpt-chatbot-usage-in-educational-settings,exploration,Evidence-Based Progress,8.5,7.0,6.0
+066_infosys,exploration,Evidence-Based Progress,7.0,7.5,5.0
+063_wire-free-localization-techniques-for-breast-surgery,exploration,Evidence-Based Progress,8.0,7.5,7.0
+058_seo,exploration,Evidence-Based Progress,8.5,6.5,7.0
+068_medical-simulation-scene-quality-evaluation-tool,exploration,Evidence-Based Progress,8.5,7.0,7.5
+064_customer-segmentation-in-business-and-economics,exploration,Evidence-Based Progress,8.5,6.5,7.0
+065_itinerary-for-a-5-day-trip-on-california-state-route-1,exploration,Evidence-Based Progress,8.0,7.5,8.5
+061_environmental-impact-on-personal-growth-and-perspective,exploration,Evidence-Based Progress,8.0,8.0,7.0
+069_ipv4-and-ipv6-networking,exploration,Evidence-Based Progress,7.6,7.2,7.4
+067_understanding-and-managing-dental-phobias-for-patients,exploration,Evidence-Based Progress,8.0,4.0,6.0
+070_unified-framework-for-human-pose-estimation-and-motion-prediction-in-2d,exploration,Evidence-Based Progress,8.0,6.5,7.0
+071_community-knowledge-management-in-cultural-studies,exploration,Evidence-Based Progress,8.5,6.5,5.5
+073_electricity-generation-using-solar-thermal-energy,exploration,Evidence-Based Progress,8.5,5.5,6.0
+078_evolution-and-core-technologies-of-ai,exploration,Evidence-Based Progress,8.0,6.0,4.5
+075_comparison-of-self-attention-convolutional-block-attention-module-and-sq,exploration,Evidence-Based Progress,8.5,7.0,8.5
+077_genshin-impact-strategies,exploration,Evidence-Based Progress,8.0,7.0,6.0
+074_the-emergence-of-artificial-super-intelligence-future-prospects-and-impa,exploration,Evidence-Based Progress,7.5,5.5,6.5
+088_overview-of-packet-classification-algorithms-in-network-devices,exploration,Evidence-Based Progress,8.0,7.0,7.5
+079_fire-rescue-scene-communication,exploration,Evidence-Based Progress,8.0,6.0,5.0
+072_service-quality-in-michelin-restaurants,exploration,Evidence-Based Progress,8.0,6.5,7.5
+087_application-of-new-drugs-or-devices-in-animal-disease-treatment,exploration,Evidence-Based Progress,7.5,5.0,5.5
+091_digital-twin-in-data-sciences,exploration,Evidence-Based Progress,8.0,6.0,6.0
+090_quantum-cryptography,exploration,Evidence-Based Progress,8.5,6.8,7.8
+092_based-point-supervised-object-detection,exploration,Evidence-Based Progress,8.0,4.5,6.0
+083_innovative-strategies-for-enhancing-human-resources-management-in-global,exploration,Evidence-Based Progress,8.0,6.5,7.0
+081_lifelong-learning-in-deep-learning-and-ai,exploration,Evidence-Based Progress,8.0,7.5,6.0
+094_impact-of-climate-change-on-urban-areas-like-mumbai,exploration,Evidence-Based Progress,8.5,6.5,7.0
+089_adaptive-geomagnetic-indoor-navigation-system-by-anomaly-detection-feedb,exploration,Evidence-Based Progress,7.5,6.5,7.0
+093_state-business-relationship-in-the-digital-economy,exploration,Evidence-Based Progress,7.0,4.0,5.0
+085_bernese-mountain-dogs,exploration,Evidence-Based Progress,8.5,6.5,6.0
+097_history-and-features-of-major-web-browsers,exploration,Evidence-Based Progress,6.5,7.0,5.5
+096_autonomous-ai-for-research-laboratories,exploration,Evidence-Based Progress,8.0,6.0,7.5
+099_integration-of-e-bikes-with-electric-ferries,exploration,Evidence-Based Progress,8.0,6.0,7.5
+098_caving-in-fitness,exploration,Evidence-Based Progress,8.5,6.5,7.5
+095_digital-biomarkers-in-current-clinical-trials,exploration,Evidence-Based Progress,8.0,6.0,7.0
+028_the-application-of-iot-digitalization-and-ai-in-the-oil-and-natural-gas,exploration,Evidence-Based Progress,8.0,5.5,7.0
+043_biotechnology-for-prospecting-natural-bioactives-in-health,exploration,Evidence-Based Progress,8.0,6.0,6.5
+082_block-universe-and-the-nature-of-time,exploration,Evidence-Based Progress,8.5,7.0,7.5
+040_privacy-in-large-language-models,exploration,Evidence-Based Progress,8.0,7.0,7.5
+080_semiconductor-supply-chain-resilience-and-disruption,exploration,Evidence-Based Progress,8.5,6.5,6.0
+100_gender-differences-in-media-coverage-and-public-reactions,exploration,Evidence-Based Progress,7.5,7.0,7.5
+022_the-effects-of-nmn-supplements-on-human-anti-aging,exploration,Evidence-Based Progress,8.0,7.0,8.0
+062_2023-gansu-earthquake,exploration,Evidence-Based Progress,8.5,8.0,7.5
+086_traffic-sign-detection-using-machine-vision,exploration,Evidence-Based Progress,8.5,7.0,7.5
+076_2024-hualien-city-earthquake,exploration,Evidence-Based Progress,8.0,7.5,6.0
+084_language-security-and-cross-cultural-communication,exploration,Evidence-Based Progress,7.5,6.5,7.0
+004_chatbot-for-analyzing-financial-data-in-business-and-economics,exploration,Incremental Value,8.0,6.5,7.5
+001_utilization-of-weather-forecasting-for-wind-and-solar-energy-assessment,exploration,Incremental Value,8.5,7.5,7.0
+002_bathroom-remodeling,exploration,Incremental Value,8.0,8.0,6.5
+003_effective-feedback-practices-in-professional-settings,exploration,Incremental Value,8.0,6.0,8.0
+008_ursula-s-character-in-disney-s-the-little-mermaid,exploration,Incremental Value,8.5,7.5,7.5
+007_introduction-to-kubernetes-backup-and-persistent-storage,exploration,Incremental Value,8.5,5.5,7.0
+010_graphics-processing-unit,exploration,Incremental Value,8.5,7.5,5.5
+006_trade-war-between-us-and-china,exploration,Incremental Value,8.5,7.5,7.0
+005_recent-legal-cases-in-the-us-involving-hardware-technology-innovations,exploration,Incremental Value,8.0,6.5,7.5
+009_effectiveness-of-pico-8-and-fantasy-game-consoles-in-niche-gaming-commun,exploration,Incremental Value,8.0,6.5,7.5
+015_west-coast-synthesis,exploration,Incremental Value,8.5,6.5,6.0
+016_blockchain-anomaly-detection-using-large-models,exploration,Incremental Value,8.5,6.0,6.5
+020_information-security-principles-practices-and-emerging-trends,exploration,Incremental Value,8.0,6.5,6.0
+013_ai-for-predicting-health-index-from-gut-microbiome,exploration,Incremental Value,8.5,7.5,6.5
+024_taylor-swift,exploration,Incremental Value,8.5,6.5,7.5
+021_emissions-from-cooking-food,exploration,Incremental Value,8.5,7.5,7.5
+017_synthetic-biology,exploration,Incremental Value,8.0,6.0,6.0
+012_enhancing-human-computer-interaction-with-wearable-devices-via-gesture-o,exploration,Incremental Value,8.0,7.5,8.0
+011_application-of-artificial-intelligence-in-preserving-intangible-cultural,exploration,Incremental Value,8.0,8.0,6.0
+019_automating-powerpoint-slide-creation-with-python,exploration,Incremental Value,8.0,7.0,8.0
+014_facial-recognition-in-check-in-and-clock-in-systems,exploration,Incremental Value,9.0,6.5,8.5
+025_alphafold,exploration,Incremental Value,8.0,6.0,6.0
+029_simultaneous-localization-and-mapping,exploration,Incremental Value,8.5,5.5,8.0
+026_audio-visual-content-dissemination-and-audience-feedback-on-douyin,exploration,Incremental Value,8.5,7.5,7.5
+018_the-latest-advances-in-anti-aging-research,exploration,Incremental Value,8.5,7.0,7.5
+027_the-impact-of-digital-literacy-and-iot-on-precision-agriculture-among-sm,exploration,Incremental Value,8.0,7.0,8.0
+031_internal-motivation-in-student-learning,exploration,Incremental Value,8.5,6.5,7.5
+023_integrating-multiple-llms,exploration,Incremental Value,8.0,8.0,8.5
+033_komondor-the-mop-dog,exploration,Incremental Value,8.0,8.0,6.0
+035_key-technologies-in-pipeline-engineering-and-gas-storage-facility-constr,exploration,Incremental Value,8.5,7.5,7.5
+030_image-processing-techniques-for-cellular-analysis,exploration,Incremental Value,8.0,3.0,6.0
+032_pyspark,exploration,Incremental Value,8.0,8.0,8.0
+036_latest-advancements-in-natural-language-processing-nlp-algorithms-and-th,exploration,Incremental Value,8.5,7.0,7.5
+034_accessibility-in-data-visualization,exploration,Incremental Value,8.0,7.5,8.0
+044_development-of-a-shared-trading-currency-to-facilitate-international-tra,exploration,Incremental Value,8.5,7.5,7.0
+042_drug-and-alcohol-psychological-assessment-tools,exploration,Incremental Value,7.0,6.0,8.0
+038_changes-to-medicare-part-d-in-2025,exploration,Incremental Value,8.5,4.0,5.5
+041_artificial-general-intelligence-agi,exploration,Incremental Value,9.0,8.0,6.5
+045_single-cell-sequencing,exploration,Incremental Value,8.0,6.0,7.0
+039_collaborative-learning-in-music-education,exploration,Incremental Value,8.0,7.0,8.0
+047_dataset-processing-for-large-language-models,exploration,Incremental Value,8.5,6.5,1.5
+046_artificial-intelligence-and-copyright-dilemma,exploration,Incremental Value,8.0,7.0,8.0
+049_end-user-personalization-in-human-computer-interaction,exploration,Incremental Value,8.5,7.0,8.0
+051_macroscopic-quantum-coherence,exploration,Incremental Value,8.0,6.5,6.5
+052_what-is-webflow-and-how-does-it-enhance-seo,exploration,Incremental Value,8.0,6.0,7.0
+050_future-of-serverless-in-cloud-development,exploration,Incremental Value,8.5,7.5,8.0
+055_richard-dattner,exploration,Incremental Value,7.0,6.5,7.5
+054_criticisms-of-agile-software-development-in-practice,exploration,Incremental Value,8.5,7.5,7.5
+056_benchmarking-chroma-db-against-other-vector-databases-in-llamaindex,exploration,Incremental Value,8.0,7.0,8.0
+048_medical-simulation-teaching,exploration,Incremental Value,8.0,7.5,8.5
+053_ai-tools-for-content-creation-in-fashion-and-beauty,exploration,Incremental Value,8.0,8.0,5.0
+057_building-a-personal-knowledge-system,exploration,Incremental Value,8.0,6.0,8.0
+037_efficacy-of-vr-based-motion-capture-for-ergonomics-in-manual-operation,exploration,Incremental Value,8.5,6.0,6.5
+059_licensing-implications-for-open-source-deep-learning-models-on-github,exploration,Incremental Value,8.0,6.5,7.5
+060_validation-of-gpt-chatbot-usage-in-educational-settings,exploration,Incremental Value,8.5,7.0,6.0
+066_infosys,exploration,Incremental Value,7.0,7.5,5.0
+063_wire-free-localization-techniques-for-breast-surgery,exploration,Incremental Value,8.5,7.5,7.5
+058_seo,exploration,Incremental Value,8.5,7.5,7.0
+068_medical-simulation-scene-quality-evaluation-tool,exploration,Incremental Value,8.5,7.0,7.5
+064_customer-segmentation-in-business-and-economics,exploration,Incremental Value,8.5,6.5,7.5
+065_itinerary-for-a-5-day-trip-on-california-state-route-1,exploration,Incremental Value,8.0,7.5,8.5
+061_environmental-impact-on-personal-growth-and-perspective,exploration,Incremental Value,8.0,8.0,7.0
+069_ipv4-and-ipv6-networking,exploration,Incremental Value,7.9,7.5,7.6
+067_understanding-and-managing-dental-phobias-for-patients,exploration,Incremental Value,8.0,3.0,7.0
+070_unified-framework-for-human-pose-estimation-and-motion-prediction-in-2d,exploration,Incremental Value,8.5,6.5,7.5
+071_community-knowledge-management-in-cultural-studies,exploration,Incremental Value,8.5,6.5,6.0
+073_electricity-generation-using-solar-thermal-energy,exploration,Incremental Value,8.5,6.0,6.0
+078_evolution-and-core-technologies-of-ai,exploration,Incremental Value,8.5,6.5,5.0
+075_comparison-of-self-attention-convolutional-block-attention-module-and-sq,exploration,Incremental Value,8.5,7.5,8.5
+077_genshin-impact-strategies,exploration,Incremental Value,8.5,7.0,6.0
+074_the-emergence-of-artificial-super-intelligence-future-prospects-and-impa,exploration,Incremental Value,8.0,6.5,6.5
+088_overview-of-packet-classification-algorithms-in-network-devices,exploration,Incremental Value,8.5,7.5,7.5
+079_fire-rescue-scene-communication,exploration,Incremental Value,8.0,7.0,5.0
+072_service-quality-in-michelin-restaurants,exploration,Incremental Value,8.5,7.0,7.5
+087_application-of-new-drugs-or-devices-in-animal-disease-treatment,exploration,Incremental Value,8.0,5.0,5.5
+091_digital-twin-in-data-sciences,exploration,Incremental Value,8.5,6.0,6.5
+090_quantum-cryptography,exploration,Incremental Value,8.4,7.4,7.6
+092_based-point-supervised-object-detection,exploration,Incremental Value,8.5,5.0,6.5
+083_innovative-strategies-for-enhancing-human-resources-management-in-global,exploration,Incremental Value,8.0,7.0,7.5
+081_lifelong-learning-in-deep-learning-and-ai,exploration,Incremental Value,8.5,8.0,6.5
+094_impact-of-climate-change-on-urban-areas-like-mumbai,exploration,Incremental Value,8.5,6.5,7.0
+089_adaptive-geomagnetic-indoor-navigation-system-by-anomaly-detection-feedb,exploration,Incremental Value,8.0,7.5,7.5
+093_state-business-relationship-in-the-digital-economy,exploration,Incremental Value,8.0,3.0,5.0
+085_bernese-mountain-dogs,exploration,Incremental Value,8.5,7.0,6.5
+097_history-and-features-of-major-web-browsers,exploration,Incremental Value,6.5,8.0,5.0
+096_autonomous-ai-for-research-laboratories,exploration,Incremental Value,8.0,6.5,8.5
+099_integration-of-e-bikes-with-electric-ferries,exploration,Incremental Value,8.0,6.5,7.5
+098_caving-in-fitness,exploration,Incremental Value,8.5,6.5,7.5
+095_digital-biomarkers-in-current-clinical-trials,exploration,Incremental Value,8.5,6.5,7.5
+028_the-application-of-iot-digitalization-and-ai-in-the-oil-and-natural-gas,exploration,Incremental Value,8.5,5.5,7.5
+043_biotechnology-for-prospecting-natural-bioactives-in-health,exploration,Incremental Value,8.0,6.5,6.0
+082_block-universe-and-the-nature-of-time,exploration,Incremental Value,8.5,7.5,8.0
+040_privacy-in-large-language-models,exploration,Incremental Value,8.5,7.5,7.5
+080_semiconductor-supply-chain-resilience-and-disruption,exploration,Incremental Value,8.5,7.0,6.5
+100_gender-differences-in-media-coverage-and-public-reactions,exploration,Incremental Value,8.0,7.5,7.0
+022_the-effects-of-nmn-supplements-on-human-anti-aging,exploration,Incremental Value,8.0,7.0,8.0
+062_2023-gansu-earthquake,exploration,Incremental Value,8.0,8.5,7.5
+086_traffic-sign-detection-using-machine-vision,exploration,Incremental Value,8.5,7.5,7.5
+076_2024-hualien-city-earthquake,exploration,Incremental Value,8.0,7.5,6.0
+084_language-security-and-cross-cultural-communication,exploration,Incremental Value,8.5,6.0,7.0
+004_chatbot-for-analyzing-financial-data-in-business-and-economics,exploration,Adaptive Coherence,8.5,6.0,7.0
+001_utilization-of-weather-forecasting-for-wind-and-solar-energy-assessment,exploration,Adaptive Coherence,8.5,7.0,6.5
+002_bathroom-remodeling,exploration,Adaptive Coherence,8.5,8.5,6.0
+003_effective-feedback-practices-in-professional-settings,exploration,Adaptive Coherence,8.0,6.0,8.0
+008_ursula-s-character-in-disney-s-the-little-mermaid,exploration,Adaptive Coherence,8.5,7.5,7.5
+007_introduction-to-kubernetes-backup-and-persistent-storage,exploration,Adaptive Coherence,8.5,6.0,6.5
+010_graphics-processing-unit,exploration,Adaptive Coherence,8.5,7.0,6.0
+006_trade-war-between-us-and-china,exploration,Adaptive Coherence,8.5,7.5,7.0
+005_recent-legal-cases-in-the-us-involving-hardware-technology-innovations,exploration,Adaptive Coherence,8.0,6.0,7.5
+009_effectiveness-of-pico-8-and-fantasy-game-consoles-in-niche-gaming-commun,exploration,Adaptive Coherence,8.5,6.0,7.0
+015_west-coast-synthesis,exploration,Adaptive Coherence,8.5,6.0,5.5
+016_blockchain-anomaly-detection-using-large-models,exploration,Adaptive Coherence,8.5,6.5,5.0
+020_information-security-principles-practices-and-emerging-trends,exploration,Adaptive Coherence,8.5,5.5,6.0
+013_ai-for-predicting-health-index-from-gut-microbiome,exploration,Adaptive Coherence,8.5,7.5,6.5
+024_taylor-swift,exploration,Adaptive Coherence,8.5,6.0,7.0
+021_emissions-from-cooking-food,exploration,Adaptive Coherence,8.5,7.5,7.0
+017_synthetic-biology,exploration,Adaptive Coherence,8.0,4.0,6.0
+012_enhancing-human-computer-interaction-with-wearable-devices-via-gesture-o,exploration,Adaptive Coherence,8.5,7.0,8.5
+011_application-of-artificial-intelligence-in-preserving-intangible-cultural,exploration,Adaptive Coherence,8.0,8.0,6.0
+019_automating-powerpoint-slide-creation-with-python,exploration,Adaptive Coherence,8.0,6.0,7.0
+014_facial-recognition-in-check-in-and-clock-in-systems,exploration,Adaptive Coherence,9.0,6.0,8.0
+025_alphafold,exploration,Adaptive Coherence,8.0,6.0,6.0
+029_simultaneous-localization-and-mapping,exploration,Adaptive Coherence,8.5,5.0,7.0
+026_audio-visual-content-dissemination-and-audience-feedback-on-douyin,exploration,Adaptive Coherence,8.5,7.5,7.0
+018_the-latest-advances-in-anti-aging-research,exploration,Adaptive Coherence,8.5,7.5,7.0
+027_the-impact-of-digital-literacy-and-iot-on-precision-agriculture-among-sm,exploration,Adaptive Coherence,8.0,7.0,8.0
+031_internal-motivation-in-student-learning,exploration,Adaptive Coherence,8.5,6.5,7.0
+023_integrating-multiple-llms,exploration,Adaptive Coherence,8.5,7.0,8.0
+033_komondor-the-mop-dog,exploration,Adaptive Coherence,8.0,8.0,6.0
+035_key-technologies-in-pipeline-engineering-and-gas-storage-facility-constr,exploration,Adaptive Coherence,8.5,7.0,7.5
+030_image-processing-techniques-for-cellular-analysis,exploration,Adaptive Coherence,8.0,3.0,5.0
+032_pyspark,exploration,Adaptive Coherence,8.0,8.0,8.0
+036_latest-advancements-in-natural-language-processing-nlp-algorithms-and-th,exploration,Adaptive Coherence,8.5,6.0,7.0
+034_accessibility-in-data-visualization,exploration,Adaptive Coherence,8.5,7.0,8.0
+044_development-of-a-shared-trading-currency-to-facilitate-international-tra,exploration,Adaptive Coherence,8.5,7.0,6.5
+042_drug-and-alcohol-psychological-assessment-tools,exploration,Adaptive Coherence,7.0,6.0,8.0
+038_changes-to-medicare-part-d-in-2025,exploration,Adaptive Coherence,8.5,3.5,5.0
+041_artificial-general-intelligence-agi,exploration,Adaptive Coherence,9.5,8.5,6.0
+045_single-cell-sequencing,exploration,Adaptive Coherence,8.0,6.0,7.0
+039_collaborative-learning-in-music-education,exploration,Adaptive Coherence,8.0,7.0,8.0
+047_dataset-processing-for-large-language-models,exploration,Adaptive Coherence,8.5,6.0,2.0
+046_artificial-intelligence-and-copyright-dilemma,exploration,Adaptive Coherence,8.0,6.0,7.0
+049_end-user-personalization-in-human-computer-interaction,exploration,Adaptive Coherence,9.0,6.5,7.0
+051_macroscopic-quantum-coherence,exploration,Adaptive Coherence,8.5,6.0,5.5
+052_what-is-webflow-and-how-does-it-enhance-seo,exploration,Adaptive Coherence,8.0,6.0,8.0
+050_future-of-serverless-in-cloud-development,exploration,Adaptive Coherence,9.0,7.5,7.0
+055_richard-dattner,exploration,Adaptive Coherence,7.0,6.5,7.5
+054_criticisms-of-agile-software-development-in-practice,exploration,Adaptive Coherence,9.0,7.5,7.0
+056_benchmarking-chroma-db-against-other-vector-databases-in-llamaindex,exploration,Adaptive Coherence,8.0,7.0,8.0
+048_medical-simulation-teaching,exploration,Adaptive Coherence,8.0,7.0,8.5
+053_ai-tools-for-content-creation-in-fashion-and-beauty,exploration,Adaptive Coherence,8.0,8.0,6.0
+057_building-a-personal-knowledge-system,exploration,Adaptive Coherence,8.0,6.0,8.0
+037_efficacy-of-vr-based-motion-capture-for-ergonomics-in-manual-operation,exploration,Adaptive Coherence,8.5,6.5,7.0
+059_licensing-implications-for-open-source-deep-learning-models-on-github,exploration,Adaptive Coherence,8.5,6.0,7.0
+060_validation-of-gpt-chatbot-usage-in-educational-settings,exploration,Adaptive Coherence,8.5,7.0,6.0
+066_infosys,exploration,Adaptive Coherence,7.5,7.0,5.5
+063_wire-free-localization-techniques-for-breast-surgery,exploration,Adaptive Coherence,8.5,7.0,7.5
+058_seo,exploration,Adaptive Coherence,8.5,7.0,6.5
+068_medical-simulation-scene-quality-evaluation-tool,exploration,Adaptive Coherence,8.5,7.0,7.5
+064_customer-segmentation-in-business-and-economics,exploration,Adaptive Coherence,8.5,6.0,7.0
+065_itinerary-for-a-5-day-trip-on-california-state-route-1,exploration,Adaptive Coherence,8.5,7.0,8.5
+061_environmental-impact-on-personal-growth-and-perspective,exploration,Adaptive Coherence,8.0,8.0,7.0
+069_ipv4-and-ipv6-networking,exploration,Adaptive Coherence,8.1,7.3,7.5
+067_understanding-and-managing-dental-phobias-for-patients,exploration,Adaptive Coherence,8.0,3.0,6.0
+070_unified-framework-for-human-pose-estimation-and-motion-prediction-in-2d,exploration,Adaptive Coherence,8.5,7.0,7.0
+071_community-knowledge-management-in-cultural-studies,exploration,Adaptive Coherence,9.0,6.0,5.5
+073_electricity-generation-using-solar-thermal-energy,exploration,Adaptive Coherence,8.5,5.5,6.0
+078_evolution-and-core-technologies-of-ai,exploration,Adaptive Coherence,8.5,6.0,5.0
+075_comparison-of-self-attention-convolutional-block-attention-module-and-sq,exploration,Adaptive Coherence,8.5,7.0,8.0
+077_genshin-impact-strategies,exploration,Adaptive Coherence,8.5,7.0,6.0
+074_the-emergence-of-artificial-super-intelligence-future-prospects-and-impa,exploration,Adaptive Coherence,8.5,6.0,6.5
+088_overview-of-packet-classification-algorithms-in-network-devices,exploration,Adaptive Coherence,9.0,7.5,7.0
+079_fire-rescue-scene-communication,exploration,Adaptive Coherence,8.0,7.0,6.0
+072_service-quality-in-michelin-restaurants,exploration,Adaptive Coherence,8.5,7.0,7.0
+087_application-of-new-drugs-or-devices-in-animal-disease-treatment,exploration,Adaptive Coherence,8.5,5.5,5.0
+091_digital-twin-in-data-sciences,exploration,Adaptive Coherence,8.5,6.5,6.0
+090_quantum-cryptography,exploration,Adaptive Coherence,8.3,7.0,7.5
+092_based-point-supervised-object-detection,exploration,Adaptive Coherence,8.5,5.0,6.0
+083_innovative-strategies-for-enhancing-human-resources-management-in-global,exploration,Adaptive Coherence,8.5,6.5,7.0
+081_lifelong-learning-in-deep-learning-and-ai,exploration,Adaptive Coherence,8.5,7.0,6.0
+094_impact-of-climate-change-on-urban-areas-like-mumbai,exploration,Adaptive Coherence,8.5,6.0,6.5
+089_adaptive-geomagnetic-indoor-navigation-system-by-anomaly-detection-feedb,exploration,Adaptive Coherence,8.5,7.0,7.0
+093_state-business-relationship-in-the-digital-economy,exploration,Adaptive Coherence,8.0,3.0,5.0
+085_bernese-mountain-dogs,exploration,Adaptive Coherence,8.5,7.0,6.0
+097_history-and-features-of-major-web-browsers,exploration,Adaptive Coherence,7.0,7.5,6.0
+096_autonomous-ai-for-research-laboratories,exploration,Adaptive Coherence,8.5,6.0,8.0
+099_integration-of-e-bikes-with-electric-ferries,exploration,Adaptive Coherence,8.5,6.0,7.5
+098_caving-in-fitness,exploration,Adaptive Coherence,8.0,6.0,7.0
+095_digital-biomarkers-in-current-clinical-trials,exploration,Adaptive Coherence,8.5,6.5,7.0
+028_the-application-of-iot-digitalization-and-ai-in-the-oil-and-natural-gas,exploration,Adaptive Coherence,8.5,5.5,7.0
+043_biotechnology-for-prospecting-natural-bioactives-in-health,exploration,Adaptive Coherence,8.5,6.0,6.5
+082_block-universe-and-the-nature-of-time,exploration,Adaptive Coherence,8.5,7.5,7.5
+040_privacy-in-large-language-models,exploration,Adaptive Coherence,8.5,6.5,7.0
+080_semiconductor-supply-chain-resilience-and-disruption,exploration,Adaptive Coherence,9.0,6.5,6.0
+100_gender-differences-in-media-coverage-and-public-reactions,exploration,Adaptive Coherence,8.5,6.0,7.0
+022_the-effects-of-nmn-supplements-on-human-anti-aging,exploration,Adaptive Coherence,8.0,7.0,7.0
+062_2023-gansu-earthquake,exploration,Adaptive Coherence,8.5,8.0,7.0
+086_traffic-sign-detection-using-machine-vision,exploration,Adaptive Coherence,9.0,7.0,6.5
+076_2024-hualien-city-earthquake,exploration,Adaptive Coherence,8.5,7.0,6.0
+084_language-security-and-cross-cultural-communication,exploration,Adaptive Coherence,8.5,6.5,7.0

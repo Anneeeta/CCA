@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "task_count": 100,
+  "generation_counts": {
+    "OmniThink": 100,
+    "OpenDeepSearch": 100
+  },
+  "evaluation_counts": {
+    "omnithink_generation": 100,
+    "opendeepsearch_generation": 100,
+    "evaluation_requests": 200,
+    "accepted_evaluation_results": 200
+  },
+  "judge": "mimo-v2.6-flash",
+  "score_order": "anonymous task-seeded shuffled labels",
+  "scoring": "three records from the same group, no fixed CCA scores",
+  "correction": "27 two-sided paired Wilcoxon tests, Holm family",
+  "redaction_policy": "credentials and absolute local workspace paths removed; original content hashes retained",
+  "redaction_counts": {
+    "sensitive_fields_removed": 0,
+    "credential_patterns_removed": 4,
+    "local_paths_replaced": 1240
+  },
+  "checkpoint_policy": "final information tree plus complete model and retrieval traces; redundant intermediate tree snapshots omitted",
+  "source_scope": "selected successful runs and accepted evaluation records; failed retries are retained in the original local run directories"
+}

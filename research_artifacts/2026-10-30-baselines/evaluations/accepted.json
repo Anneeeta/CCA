@@ -1,0 +1,2402 @@
+[
+  {
+    "task": "001_utilization-of-weather-forecasting-for-wind-and-solar-energy-assessment",
+    "suite": "exploration",
+    "request_sha256": "aada00d2ee5a326e2c52f625f43b32869c7cdb7b4426765c3f11235ec3ba85da",
+    "result_sha256": "5d318e4cdc01b0b072b0a374a7c55909591125836d09d9fe09ab5ad8417dffad",
+    "origin": "prior_blind10",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "001_utilization-of-weather-forecasting-for-wind-and-solar-energy-assessment",
+    "suite": "general",
+    "request_sha256": "f0a29575c1d15a3966766420b3be293c0bbf3cd3c61890ea28055d8a31923887",
+    "result_sha256": "76f8e5e8642a6a0e02e28b25ff04454c4fed86b5609892fefd77eacf4beb0aa4",
+    "origin": "prior_blind10",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "002_bathroom-remodeling",
+    "suite": "exploration",
+    "request_sha256": "4ff1ac6f966ed8bb851ddad84bd77e45eeefdfe3fa35934d594afebd015cb600",
+    "result_sha256": "99baf5ce21927c662c0e08e34abc8d6a87f4b894fb704abf7454fd8ef643ca2c",
+    "origin": "prior_blind10",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "CCA",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "002_bathroom-remodeling",
+    "suite": "general",
+    "request_sha256": "cfb78d55a3a7147e73694ff3269a7f5df2eb40f435cb86499c4730e21d27e028",
+    "result_sha256": "d014a259ae29c221a8b46a6a514bd2dcaa33b2718f0bc79bf7b9d5ee429034c5",
+    "origin": "prior_blind10",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "CCA",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "003_effective-feedback-practices-in-professional-settings",
+    "suite": "exploration",
+    "request_sha256": "b921f7daf41914d54f5ab25badd93df36273fba0174e76c37480ab6402e5d352",
+    "result_sha256": "4aee6f718c785d76f9b0a1977b1eacae7f4a75f3ed0d9de69121394f427e2dd3",
+    "origin": "prior_blind10",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "003_effective-feedback-practices-in-professional-settings",
+    "suite": "general",
+    "request_sha256": "432ae8cc350fa22aebce8ba06b5dd567893d65eff7ceb4b9162cc46bac9aa5db",
+    "result_sha256": "33b180c0a8d39f8ed38a4c54d2527def5a79b22c0aca573a0e079c650af1070a",
+    "origin": "prior_blind10",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "004_chatbot-for-analyzing-financial-data-in-business-and-economics",
+    "suite": "exploration",
+    "request_sha256": "157d45dbdf3d33bc4db0a9bd4f2e1e7f6b186394a595ebc2e77862bdbd2bf20c",
+    "result_sha256": "fbb0d697aa36102aea9b90cbee02ac6db7a33a9bb08c0493d4731ac4c2564b83",
+    "origin": "prior_blind10",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "004_chatbot-for-analyzing-financial-data-in-business-and-economics",
+    "suite": "general",
+    "request_sha256": "67e980009a7195cd00455ae0d1e11296547281f369068107be8e0a418f9a56d0",
+    "result_sha256": "2899cbf5d6a2af01c513d9ce6cc2778f5b01706336b1f48b1859afd71692e86d",
+    "origin": "prior_blind10",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "005_recent-legal-cases-in-the-us-involving-hardware-technology-innovations",
+    "suite": "exploration",
+    "request_sha256": "fc7cdfcc2cb462379a6e548823e5c0148180a386946faf1ce589d34fb035403a",
+    "result_sha256": "dda8693ff0323b054e5dbebd24aeed4dffb273dc1ee87bf541c4bd9ca26c0415",
+    "origin": "prior_blind10",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "005_recent-legal-cases-in-the-us-involving-hardware-technology-innovations",
+    "suite": "general",
+    "request_sha256": "12cb2e142792cd28083eda897a980bb7289a33fe3e53664a5173422d365d560a",
+    "result_sha256": "01d776f6a316150b60c8ee57179f43103dec246d70555cfe0d806f85647a9db6",
+    "origin": "prior_blind10",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "006_trade-war-between-us-and-china",
+    "suite": "exploration",
+    "request_sha256": "74cbbb8714963d0d5df506b020e55485c404d2b03db87d722642ce5e5b2b41db",
+    "result_sha256": "c0cd9cbda293919f0fb3120632c5c302b23d50a3bbfef893ffc20c4375545dd9",
+    "origin": "prior_blind10",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "006_trade-war-between-us-and-china",
+    "suite": "general",
+    "request_sha256": "39884feff68933efde3cb90899cd689c04ddd0d0432b8c9e2fd1ec6d85e2be51",
+    "result_sha256": "7ddd308c6b09cf113b567ed2043611391cf5dff248bd42a114a2728290d8e4de",
+    "origin": "prior_blind10",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "007_introduction-to-kubernetes-backup-and-persistent-storage",
+    "suite": "exploration",
+    "request_sha256": "efe56a868f4390c0e1b8f10a39babe8fa7dcfa269de0a570ba205bb33915b8b1",
+    "result_sha256": "6ee07c3368289289f80a648935daea96010a5a8518352611b94e2417167a411e",
+    "origin": "prior_blind10",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "007_introduction-to-kubernetes-backup-and-persistent-storage",
+    "suite": "general",
+    "request_sha256": "3991dfca0fffb8a4a13a9f2abfbfcbfb6e88a65f3c5816c3a3ca4a1a801dac50",
+    "result_sha256": "d2380f9fb5b07ddd890e0c4b346e80068c3668adc4683ef188b6e6f05ecb2487",
+    "origin": "prior_blind10",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "008_ursula-s-character-in-disney-s-the-little-mermaid",
+    "suite": "exploration",
+    "request_sha256": "5ed4f6a4f1a72e44a3e7eaf27417a2fd59998bf009b05e1c222a3d3ad1a4cbad",
+    "result_sha256": "7a9cf8577f0a563b4fa382d4218d7a19b046ec00a5177752bc1d14143bb02912",
+    "origin": "prior_blind10",
+    "mapping": {
+      "A": "CCA",
+      "B": "OpenDeepSearch",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "008_ursula-s-character-in-disney-s-the-little-mermaid",
+    "suite": "general",
+    "request_sha256": "513e154f04cad531082bc4bb3625cb5b667610a6ad22da121a641a9f94ff7498",
+    "result_sha256": "51591812ce830861fd300b2836d8b292b20fe96fe98443ffb1ff7a7567119859",
+    "origin": "prior_blind10",
+    "mapping": {
+      "A": "CCA",
+      "B": "OpenDeepSearch",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "009_effectiveness-of-pico-8-and-fantasy-game-consoles-in-niche-gaming-commun",
+    "suite": "exploration",
+    "request_sha256": "e303f96765a3364cd54f16ccf8a8bde8aa2b65f1a56a47660105978e2a72d84b",
+    "result_sha256": "d51fb40ae9f6da5ff34fc8b65a9dc1435440f2864265237395814933aa524b62",
+    "origin": "prior_blind10",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "009_effectiveness-of-pico-8-and-fantasy-game-consoles-in-niche-gaming-commun",
+    "suite": "general",
+    "request_sha256": "94ed71bc1154bc9a12ffda3ee30c9510fae9be605e9626fd44cdf81e9f6f92d8",
+    "result_sha256": "fb3e02ccf16bdcff631679872bd86ad9aab53ffe3a395c31822fa293feec5fa6",
+    "origin": "prior_blind10",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "010_graphics-processing-unit",
+    "suite": "exploration",
+    "request_sha256": "e03f6e0f691ca80847ceeeb74753cbcda8240a53bc805cea69401310fe258239",
+    "result_sha256": "bf241801ed06933ef184c529245fb8ede1f6afc5b9098bd7879ae43f2113723d",
+    "origin": "prior_blind10",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "010_graphics-processing-unit",
+    "suite": "general",
+    "request_sha256": "07f5f2fe564793bdb2166e4ab36d9686a3d7724d2f05e75b4f60089b30483fc0",
+    "result_sha256": "b767a0046154e50d913e8f9c25191661b2fda1b797055543c75edc0e2af2659e",
+    "origin": "prior_blind10",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "011_application-of-artificial-intelligence-in-preserving-intangible-cultural",
+    "suite": "exploration",
+    "request_sha256": "579fd19b55e8008eac2bce9b3521af1b02fc96b852f89484a78274b312892265",
+    "result_sha256": "7c5b543eddb4c8301f5419ee97bc471820936d0675be13febfcb4f673e332e4c",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "011_application-of-artificial-intelligence-in-preserving-intangible-cultural",
+    "suite": "general",
+    "request_sha256": "9a7e2ee6c5785e65c04b50e88172cf051b1e830e24d7255d14675c66094ff14e",
+    "result_sha256": "3e15a571adda1a6b234b0fffcf0aed6c9c58db9d01cbe4df1d9efb6804459a9e",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "012_enhancing-human-computer-interaction-with-wearable-devices-via-gesture-o",
+    "suite": "exploration",
+    "request_sha256": "f45b49dfdf3fcab2757550294c2d94b231e410b8450525cf66392d912602f909",
+    "result_sha256": "c4c474d11795e65e405fda532e727e55911f3feafe5ed9e4596d94b3f8c4cbb9",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "012_enhancing-human-computer-interaction-with-wearable-devices-via-gesture-o",
+    "suite": "general",
+    "request_sha256": "68fb359c347dde0b56a5c5246917f8661b623d63ed3e8d549fcc2084e0d98868",
+    "result_sha256": "0ac9815eff8be0e48f28dfb608aaa5d06ebbf87fcfbaf036f65561aa91b28e6c",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "013_ai-for-predicting-health-index-from-gut-microbiome",
+    "suite": "exploration",
+    "request_sha256": "75504ca00810ea0951b41e4cd3f77489265319764c6a50e55b7255dcc1ba16b0",
+    "result_sha256": "66e8a13c1c85738b15df04c09d7e00305e8d667a80d28fee6863e59508145d11",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "013_ai-for-predicting-health-index-from-gut-microbiome",
+    "suite": "general",
+    "request_sha256": "db3c407b4e86c8d16e210b20d6d6510eee79ca8baf44a94e48d0aae04c8ef71c",
+    "result_sha256": "d54465e465ee230e37e93d25b9a0ced2a79e410188ba8c388049d694d826a00d",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "014_facial-recognition-in-check-in-and-clock-in-systems",
+    "suite": "exploration",
+    "request_sha256": "ecf61cfebd192cd273aa14b2af2c6c4b7e5e5e10d8c23e9d3fb992b97d9213b1",
+    "result_sha256": "a668a608058e4d5c4f10f0a55a3d316102eecf7b7e1e240387973521770a5f28",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "014_facial-recognition-in-check-in-and-clock-in-systems",
+    "suite": "general",
+    "request_sha256": "bf5905639886c72168cb8c38baf3c08340d79459e50177767f2c26a13b7a7e73",
+    "result_sha256": "213a78d13e139d5b7c27488889d456b61357e1391ac53c1ffb0b4adc3db60909",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "015_west-coast-synthesis",
+    "suite": "exploration",
+    "request_sha256": "3fb2b8725b31b3b7d4cff97348271bf5af2c626cacf8a09c1b079bbf5665061c",
+    "result_sha256": "dfa2ca048ca768ee0ef7dfaa2b58feb78f584c6454c5543a63e742f37d23e8be",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "015_west-coast-synthesis",
+    "suite": "general",
+    "request_sha256": "29327e9413cf29cb30e616c2b228ff60ccef688b50420a39a2b70207b39b0180",
+    "result_sha256": "8cf54a7643ffc5cd68c52943f8f621afbdbc47d6b9414e7a2dfd0eaf7e94807d",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "016_blockchain-anomaly-detection-using-large-models",
+    "suite": "exploration",
+    "request_sha256": "c63978e8bb2c1da2a88817139820822b443c5692d19aea23bc6a1675fc2dede5",
+    "result_sha256": "a46c5c8ae81785655bd1da0d1fafbb4858e3a956033f19967d18728bb2a9bf91",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "016_blockchain-anomaly-detection-using-large-models",
+    "suite": "general",
+    "request_sha256": "701aa4d612ecee27029e498ea10ffbbd16e1087acdaa73576264c83c50cd40b0",
+    "result_sha256": "4f0ed023304c73ae03f874c10ca7b3c3ea7975fbe6194db2ef67e844141e31fd",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "017_synthetic-biology",
+    "suite": "exploration",
+    "request_sha256": "32b9e8efc6cc2a9d73021bfc936afe36c109790a42aabfa5f78995b194518a2b",
+    "result_sha256": "3b9a0a63388ad38a8e0a93779c5326c0e9df4287f3106027bbc47043b5aaa26c",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OpenDeepSearch",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "017_synthetic-biology",
+    "suite": "general",
+    "request_sha256": "50a7f162474791b675d9a7645e117dc164fddcd7e47ebe13a53dff8ef3b4fed0",
+    "result_sha256": "0ec9a56130fbbf70f8092b657ee5a3ed2702c58405faaf76519ecfb9a196d9d3",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OpenDeepSearch",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "018_the-latest-advances-in-anti-aging-research",
+    "suite": "exploration",
+    "request_sha256": "f792f4cc6b8e9171ae53705d69cc9f8071d67aeccc5e1021098f0bac46f9c986",
+    "result_sha256": "5d590ec275b28aff06acbeab4a231bcd69aea27c5294ba5d570b1cba454dcd7c",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "018_the-latest-advances-in-anti-aging-research",
+    "suite": "general",
+    "request_sha256": "fa9589d71384c84fedd2e9138b41c62b1258c1209cba82d13dc200e1cd39d332",
+    "result_sha256": "f9e98196b92f88c3a3bfef83e4341204d49fd4581710e8de19ec5f27b911540b",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "019_automating-powerpoint-slide-creation-with-python",
+    "suite": "exploration",
+    "request_sha256": "90b7beca57a87ef41b3cd189d558174256607316efd07d6fbad629f6ed3f5e7b",
+    "result_sha256": "814205cee58579ae1b38c776f4c3915aab81c2867f65093ca6f79fee5b2e7085",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "019_automating-powerpoint-slide-creation-with-python",
+    "suite": "general",
+    "request_sha256": "e5165e5e317ef23a0f550bd89be81d002c1e1475523209768cf4d2a146885d49",
+    "result_sha256": "a22312b5522d1f9ec02e9cf88f77c34688945c5ca0ed690f48f89ff2cbfbb171",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "020_information-security-principles-practices-and-emerging-trends",
+    "suite": "exploration",
+    "request_sha256": "e39fbcf3d4478b4fa5f83345b2595b2fc41995c6caac0d72dc45a400c738d05d",
+    "result_sha256": "5e2a6c6c6b444a46ca4cd41f648d8da1093d4687f10517c9f9df25ffa05a13ce",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OpenDeepSearch",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "020_information-security-principles-practices-and-emerging-trends",
+    "suite": "general",
+    "request_sha256": "c89fb2432a48283480ef560a6695e5b437f768ef740e74c1a2876e5f542eac54",
+    "result_sha256": "19b94e564ee1fc4ec14cb6c5c211b6e6305d7c2b271d68e769cd8f6ed967f25a",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OpenDeepSearch",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "021_emissions-from-cooking-food",
+    "suite": "exploration",
+    "request_sha256": "1f5b94624685eb9d9dd727085fbcde20a97665f8b45e0a21d0295f48477ce557",
+    "result_sha256": "97b3e8bab490c2e5589f37a0607883e4ee9c616abe3e3463bc9b2739d749c415",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "021_emissions-from-cooking-food",
+    "suite": "general",
+    "request_sha256": "3a889b3d02c045b3af80dbdb02c8aeed8e22bb9edc97c675d32af6b513b9b149",
+    "result_sha256": "609e83431d0579cfa513b9e01436f4003777c424ec72f2ae3927f8c1eaa7f766",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "022_the-effects-of-nmn-supplements-on-human-anti-aging",
+    "suite": "exploration",
+    "request_sha256": "115c52620bc63c5dc4266a33eaaf92933c2c71d7ae11035a73e7af3611f50b51",
+    "result_sha256": "68b41799448c3ae83f9826826cbdd3dca3daa428b9656ef60de13763f09f620d",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "022_the-effects-of-nmn-supplements-on-human-anti-aging",
+    "suite": "general",
+    "request_sha256": "30f7924d08ecad0b6899f4cdc3a0273b8dfc870c0fb5189bc4346bc2e8fb31e5",
+    "result_sha256": "c321bafdf075868ebb798611d469f28da464e9b2a54b4fca4b7e7ecb7d5553bb",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "023_integrating-multiple-llms",
+    "suite": "exploration",
+    "request_sha256": "5654ed2309878f7b7a88097914d73822bb26b2d431753ee420d042e9ac120e96",
+    "result_sha256": "e26ecbbd08ff519a37470a9615963e24e045b7e3ca3aa4a735a5513705e1f12f",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "023_integrating-multiple-llms",
+    "suite": "general",
+    "request_sha256": "fb7c1c2c31ea0291ce1121bf47c1d5ac090ed1f8b2e0e349b376abc4295466a1",
+    "result_sha256": "6069c3842a230f8e674f689728d8438f2d1bc42a02aec69ffa81268868bb95c8",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "024_taylor-swift",
+    "suite": "exploration",
+    "request_sha256": "4eec455c117d0efb18f2199f805afacd6a6f531a761f11f7740016a8992f9e90",
+    "result_sha256": "35c5dec1155a088a8986ecfd7b80560f76d2e635ef3f10eac4f254d76a169517",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "024_taylor-swift",
+    "suite": "general",
+    "request_sha256": "8178ef24d11ed2c27ed57ef8948714effa78d22348a46e437b4a40123a08eaf1",
+    "result_sha256": "95c2d924d0adbf58b438e4108ce1f179fc8ee1327fe13d0e118d5577797fd516",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "025_alphafold",
+    "suite": "exploration",
+    "request_sha256": "2e23584536d92e2ae7d46079193069438992714d66c394c376a6ec75fa9e2a51",
+    "result_sha256": "06f17849f866170610b2f0f8e08da27e62b81de1e7ef8041a8733b191686aad7",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OpenDeepSearch",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "025_alphafold",
+    "suite": "general",
+    "request_sha256": "3864d7921b5e51691cce312ec801328c0348078546acf5e44762acc61a2b8abb",
+    "result_sha256": "3b09113b773ec6d11d4866fe540004844dd51222883403114f7b08f1d493e7d0",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OpenDeepSearch",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "026_audio-visual-content-dissemination-and-audience-feedback-on-douyin",
+    "suite": "exploration",
+    "request_sha256": "e945696f874f348d1de6a74a42b9851a374565323946f8fef4b3706e41ffaace",
+    "result_sha256": "159928db71598d32ed99dfd60b4e127442523a67e622adcc1e4bdccb24e9415c",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "026_audio-visual-content-dissemination-and-audience-feedback-on-douyin",
+    "suite": "general",
+    "request_sha256": "a0ae03526ea8229a487e5a796e0d9ca93681a4787d49c07326c41de88d99beb4",
+    "result_sha256": "2d3cd21b09397517eb673c005a7404c5746f971d4122e1ad8f7c763dbe4c8b6a",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "027_the-impact-of-digital-literacy-and-iot-on-precision-agriculture-among-sm",
+    "suite": "exploration",
+    "request_sha256": "b3f13b9260a22768f330e95583b0d51553927a63e66ec180aa8960644033dc02",
+    "result_sha256": "d224f543d9cd59aa3207b0ffe4e4fc71c8f9b62fb6fb16cdfb14f26e8eab0170",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "027_the-impact-of-digital-literacy-and-iot-on-precision-agriculture-among-sm",
+    "suite": "general",
+    "request_sha256": "a9bb275d0896e4bdbdc4d194f414ee2d53e83c39b74c5516a64cf72cf7fe0000",
+    "result_sha256": "785cc5e498424a24105558e085200530e27ad023530d4b8a33bae33bb8012b39",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "028_the-application-of-iot-digitalization-and-ai-in-the-oil-and-natural-gas",
+    "suite": "exploration",
+    "request_sha256": "2351f46b456f3ced2e25428fc979de500c338c77477e113ede5f002f1f54a2d4",
+    "result_sha256": "f406c3819ce135e930e25083ea0ec33b89123227351449f580795dc5951304c2",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "028_the-application-of-iot-digitalization-and-ai-in-the-oil-and-natural-gas",
+    "suite": "general",
+    "request_sha256": "9a79dc467d5ff2121ac676a566bc6f7485e6a8f0b6d7a05ca9091284408f0905",
+    "result_sha256": "2d123194554f85ed50ab73129b54bd84e609b1188b7cddfc6facdb7e1dcf3249",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "029_simultaneous-localization-and-mapping",
+    "suite": "exploration",
+    "request_sha256": "70f702fb229732d574e3c31f75799484368a514c4f047d257795c12900870c27",
+    "result_sha256": "d19036c88b80c67f86b40ffc9c88090d516683b83b8d31d3efe94b54911f23b3",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "029_simultaneous-localization-and-mapping",
+    "suite": "general",
+    "request_sha256": "21a850e413c5162ab63c3375f79673bba2581aaeed549918858bf10b0e7dc389",
+    "result_sha256": "ad9ae10d8a3207983fe3a1998a592d1fd674434718b853889d9f8c11b48de830",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "030_image-processing-techniques-for-cellular-analysis",
+    "suite": "exploration",
+    "request_sha256": "c0f5832369c6729edb5a36ce1190d65fea860636dc23f6067ae522c94b1d6196",
+    "result_sha256": "f3d1cc6a99bc2cfd29d464934f4834062d2235a830197a70535d2f362acaf9d0",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "030_image-processing-techniques-for-cellular-analysis",
+    "suite": "general",
+    "request_sha256": "7fc933a67d2d623b6edbabbf89d4231f88d8973225e0621ec4b88e7afdc81e89",
+    "result_sha256": "1cb31546cfb81d77351e5fd5429ef859e8452334c6d0f4e32c324d6c5e795789",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "031_internal-motivation-in-student-learning",
+    "suite": "exploration",
+    "request_sha256": "1bf9c054d34fcec504eb2af8c6c2c93bf654664267fd5bbe8d9664e5a4445307",
+    "result_sha256": "2fd0609c10fb05402bad7a05a824de5e904d654f9d8d3bc8262645ebefd1958b",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "031_internal-motivation-in-student-learning",
+    "suite": "general",
+    "request_sha256": "db6204a32a5ace6ce81a06e71debb8327e32c8b8c5d396a2fe4e92b3a721cd24",
+    "result_sha256": "30e56dde564f49e11b46321d7a3434a84c54014d477f32c4ee5035eff3f44684",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "032_pyspark",
+    "suite": "exploration",
+    "request_sha256": "6bca653635c47219b3d9a281140ad66274f052ec6bb79ce3f98898c8e664d2c0",
+    "result_sha256": "71d8142221ef868572755e2e551604922351c37daedaae43071c56805a45d651",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "032_pyspark",
+    "suite": "general",
+    "request_sha256": "c747aa35ef0651566ad13ae23a19ea85eac8ef9fd46556240efa8d436319a16f",
+    "result_sha256": "e667806934c87e3c85dd29c89dfc078ca350dd372afab3b82f54fa441f53d97d",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "033_komondor-the-mop-dog",
+    "suite": "exploration",
+    "request_sha256": "cd40d3168f65e0b46ef3734fd8071c9096bedd5f112f1a7689a87f10f4830969",
+    "result_sha256": "2190b2064e9f2daa91e9e99ce2b10acfeffd3611230bd6d2667f4cc5d883fe9f",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "033_komondor-the-mop-dog",
+    "suite": "general",
+    "request_sha256": "92279f15cc22ffff59640196fe46d71e8b462a997de1ce77f2bd15051f1be00f",
+    "result_sha256": "cd0f4a5e4b46c8a8292dcb6b9d292ffd8a5df0de4a70cbe86c549d78eee7fb9a",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "034_accessibility-in-data-visualization",
+    "suite": "exploration",
+    "request_sha256": "a77777e19d6bbcb78bcea337f1e3006651027aec2bf5887f607d2a9638b07039",
+    "result_sha256": "430c60d81e2894be1edb318c4b5ce79a3176d8297c3380b96b6b376a0b8c16c2",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "034_accessibility-in-data-visualization",
+    "suite": "general",
+    "request_sha256": "2ed8a897791fc09d620e4a764a9b133365d460c989d5fde2380eaac1f3711443",
+    "result_sha256": "62f94b12ad7fcfab96ade471a324deafd436995a3a5bb52c495ab9170801b443",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "035_key-technologies-in-pipeline-engineering-and-gas-storage-facility-constr",
+    "suite": "exploration",
+    "request_sha256": "dfec8f145635c67adc84900cde8f300357cf56b02ee3e8c0cda7dd685bd25235",
+    "result_sha256": "20a1eb2c9c6af35ab8e5ef1e44b3c450cd9c5a2b47855523abd499b3c43b5516",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "035_key-technologies-in-pipeline-engineering-and-gas-storage-facility-constr",
+    "suite": "general",
+    "request_sha256": "9a2c617cc9f175b8ab10ca37d2e0b3b12db4ada8071dc0a79a01edfccb0fcc0f",
+    "result_sha256": "06e0da3a45232df982ff2d0f5e9837fbd5b32712786cd050cafd5e31bd28fc4d",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "036_latest-advancements-in-natural-language-processing-nlp-algorithms-and-th",
+    "suite": "exploration",
+    "request_sha256": "f6343333f0bbc4bbd7eacf1e6bf2f3bc6e195997d96627909635fc504f58bc77",
+    "result_sha256": "dd3f7c46447212ba1cf180e5fd6cc2dadd32e05178db1d56fa25973792d09cb2",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OpenDeepSearch",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "036_latest-advancements-in-natural-language-processing-nlp-algorithms-and-th",
+    "suite": "general",
+    "request_sha256": "a9e17c024d6f2a14f853645bf199424dcb8d9c68eed3704e693c8869fac981af",
+    "result_sha256": "0033d50a9ab957a7e5dbbf8b2ec1a456b90ff9ec16460cd89ff95e9a6bbf9abd",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OpenDeepSearch",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "037_efficacy-of-vr-based-motion-capture-for-ergonomics-in-manual-operation",
+    "suite": "exploration",
+    "request_sha256": "cb0ee6fbbc255089ee11d5b930a1f78f8af39fa888e01b303f77aeef00ab9804",
+    "result_sha256": "56336e69ce59667b9de0dff86c4e1e5ffa4ded62cb92cbf3da65653d633e884b",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "037_efficacy-of-vr-based-motion-capture-for-ergonomics-in-manual-operation",
+    "suite": "general",
+    "request_sha256": "a48bea261a9b341fc9809309f7780b89d455b9db35c6309b02a9b1e82ae367c5",
+    "result_sha256": "214d90132b7f0fdc184137bcf59d055c3e328bc95bf575b7aa2b08bb6b0710b6",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "038_changes-to-medicare-part-d-in-2025",
+    "suite": "exploration",
+    "request_sha256": "7ba0402bc023c49527d63ce6d93f997a8acdb7231992e93a27f8affdf886f24f",
+    "result_sha256": "25df32f9adc07c1273ac383c8dca0a8f030d25f4493f871c0d4c2fcf2fe6fba6",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "CCA",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "038_changes-to-medicare-part-d-in-2025",
+    "suite": "general",
+    "request_sha256": "43dfe23fd55833d370434789325bacd51af719ffa78d27bab9872b187ff87198",
+    "result_sha256": "2fed05e0e223d084f7f3ed8601cf388548242c7aa198bc40cd3b01b22e3e599f",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "CCA",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "039_collaborative-learning-in-music-education",
+    "suite": "exploration",
+    "request_sha256": "0f1e0e129c1cd62658a2c87e5c274f674d15090f41cb030ada58c5114bb42c15",
+    "result_sha256": "54f8857e014416f4ca22d0c53b2169e304d2ada11f8b82f873461f2dbfedf2f1",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "039_collaborative-learning-in-music-education",
+    "suite": "general",
+    "request_sha256": "eed714bc8fcfe6407f7c05f62aaecae8bd19b1ebc774b954f36c1bc2357e606c",
+    "result_sha256": "fb3de806dcbe482e5872f6cbdfa6e5278d032ee2ebc60201a5eb8950e41aaa03",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "040_privacy-in-large-language-models",
+    "suite": "exploration",
+    "request_sha256": "123c7ec4af7ef676aec8519bf07a8c1596be689a56207fb303d3f6546a26d41b",
+    "result_sha256": "772a828601049f1ecb4ac8f40efd1c40e56c96ea15c0cdc0d9d5f3472344c14a",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OpenDeepSearch",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "040_privacy-in-large-language-models",
+    "suite": "general",
+    "request_sha256": "9186b8e5fe62844c97237f125c03417b24aab94788b03620468904b70f6dd732",
+    "result_sha256": "5b2534356608e32e335a06f8c454ceb521f3a8e5802fb99a38eb97939ed0bae5",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OpenDeepSearch",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "041_artificial-general-intelligence-agi",
+    "suite": "exploration",
+    "request_sha256": "9b06bf64bb06b98b72f5abf8b12203caa520d8e4eb9df9cfa84f1ef5564ad667",
+    "result_sha256": "e7d07925b3b18705147fb7565f7419a83fdcd6026cf0f08e5e7cc749506e4533",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "CCA",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "041_artificial-general-intelligence-agi",
+    "suite": "general",
+    "request_sha256": "a68643e56a08df13624f5397f532cb54c73bc5b4408e89dcc5bd56dd855f54fa",
+    "result_sha256": "25408ca4a3b4761f109f06c4ed7403a8f162777f47680786bd2f1fad5282e7c8",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "CCA",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "042_drug-and-alcohol-psychological-assessment-tools",
+    "suite": "exploration",
+    "request_sha256": "67cfc2945caf765f9f54b89ce70f4e3c166f64e3e2465b7ccd9361a6cbb3e612",
+    "result_sha256": "847e521fdf2febb472c145db50277809e3c5cb292849ca0048977910d91f5562",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "042_drug-and-alcohol-psychological-assessment-tools",
+    "suite": "general",
+    "request_sha256": "f080a7407de50ad7c72bd22dcdd635ae34880be319501206dd1f657fa9c9c274",
+    "result_sha256": "b65e84c065e2ee88045f2d6e22f552bd4e668f6a46498f713748e50db27e377e",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "043_biotechnology-for-prospecting-natural-bioactives-in-health",
+    "suite": "exploration",
+    "request_sha256": "4e57446b15c3fe73508931dac5864d5619bc999d8a03e1f8680851e3a5341231",
+    "result_sha256": "65001d2fc5520b1bcdc4d084c667560f511a1196e2ac972c3b777335000df730",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "CCA",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "043_biotechnology-for-prospecting-natural-bioactives-in-health",
+    "suite": "general",
+    "request_sha256": "956236bcf2cc85dcc424250b119439c4c9debd024e1862d021b6900bb8ea3157",
+    "result_sha256": "70ccec8bb1d983539674be05581f0e8197fa6033b13513807921fe9157b072c1",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "CCA",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "044_development-of-a-shared-trading-currency-to-facilitate-international-tra",
+    "suite": "exploration",
+    "request_sha256": "3e022bf5b3ee65981df9302536f3668012f44294d54132b751bc6385ffee4743",
+    "result_sha256": "c67934a29565c7f7291f32949d8fac29b6e4439360519512f70ce2a98321e1a9",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "CCA",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "044_development-of-a-shared-trading-currency-to-facilitate-international-tra",
+    "suite": "general",
+    "request_sha256": "360336dc08d0ca4f6ee64005e3b5fac6d809a561de66a6b42039ff48797721c3",
+    "result_sha256": "58d26facc619a5b27a196a7872dfcf2fb87ce893bf3834e141b710f761a7409a",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "CCA",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "045_single-cell-sequencing",
+    "suite": "exploration",
+    "request_sha256": "75194deb82dbec7ea822d1c900c8cd9d970ad65834907ed8b3bac0615e9477d5",
+    "result_sha256": "518cceaed231834eaf01166aa23c0e44f0511f2bd5684a022b2ceee8c3ffba81",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "045_single-cell-sequencing",
+    "suite": "general",
+    "request_sha256": "4877450c3e4c4becb7395b3340ddd926428f2e15ae64e1cdc626532cb69f609a",
+    "result_sha256": "cb8f3e9fda3f5665984bb19d04c8762f8fdc9e613383980a6afdb851565b88cb",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "046_artificial-intelligence-and-copyright-dilemma",
+    "suite": "exploration",
+    "request_sha256": "84161ff06fc20d607ed48d20de108f81c4c0daadba042d5cc624df5ffa864075",
+    "result_sha256": "9edbff2989c6088ea1878090ca967c0bd2da75cb8edf13c2ed8df3c09cf5b517",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "046_artificial-intelligence-and-copyright-dilemma",
+    "suite": "general",
+    "request_sha256": "f3fb313af86aaea9d4679c907dfc2527aa8fe67697ddefb271737df57a31a739",
+    "result_sha256": "ab8a9591ae89a24c813d6dccf0a6525c9d17d9a97f778cd0a6058051c1f01fbc",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "047_dataset-processing-for-large-language-models",
+    "suite": "exploration",
+    "request_sha256": "7d3f2d82cb481f981fc02a266d6ac51e673f69f354c0bb17d16ae5adc6d119b2",
+    "result_sha256": "a26bb696ecc16668c81a5de351bc8214477e39d4b908380a6aec5d7787fea278",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "CCA",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "047_dataset-processing-for-large-language-models",
+    "suite": "general",
+    "request_sha256": "9793edf312982117715d8a1a1c77521b3983395e7860150677a9a94beb25520a",
+    "result_sha256": "3d5eb66f65cf1567af74e18afbadc68b17107ae10b87713e85e33d08595d3712",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "CCA",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "048_medical-simulation-teaching",
+    "suite": "exploration",
+    "request_sha256": "cc928a2197e052ea84649fd8187b71c2c5d464221e6a4b6d51efd31ab9b8f8e7",
+    "result_sha256": "885e2c4ae9b9e9569f8d0016b64d850b4fd925b055dbc39dd34d13c4de4a7e86",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "048_medical-simulation-teaching",
+    "suite": "general",
+    "request_sha256": "f87561324aa312430ad631bf6c29b30a93c873b09a16615b19a667d299d3620a",
+    "result_sha256": "c81408e2d6c7aaa03d1a7ee6673cd2a101f59160fe6131bf64d5bf4937d3fe94",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "049_end-user-personalization-in-human-computer-interaction",
+    "suite": "exploration",
+    "request_sha256": "e025352e821ed04078504652806aae8308aeb5afec6b98137ba0cb0bf84e1a92",
+    "result_sha256": "65fe699ab815b13ffea7bd2e6ace2fdf2a0e2c002ea0d3156ba1574639dbc15a",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "049_end-user-personalization-in-human-computer-interaction",
+    "suite": "general",
+    "request_sha256": "81a1a3f0e55a4f9529b747bb476f0062e96ac4ccf3d377b35417c0518b1b00fa",
+    "result_sha256": "f67a16095d23f55e85ba311307a73e8a5a062736be132e97050c3705087032fb",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "050_future-of-serverless-in-cloud-development",
+    "suite": "exploration",
+    "request_sha256": "83a663ad20a83f4180349658102a4cc6fd35e2ca07e287cfb93da74da4a43ba4",
+    "result_sha256": "46fbf5aec9812cc5bab581ff8607a5e028462f30a53095f1aa5ce8244b629332",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "050_future-of-serverless-in-cloud-development",
+    "suite": "general",
+    "request_sha256": "55a281d45df3602ccfc26a9c594587f7b4ff2c74aa023c6db4fdc74f7ad7ffaa",
+    "result_sha256": "d04ef0ab0971f21f08b0d64207eedacc4bf44faa208ff7d645375b65a8b84ac8",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "051_macroscopic-quantum-coherence",
+    "suite": "exploration",
+    "request_sha256": "4760e692668255480672cc54e3171d93f4e7c7f9a0d8573edf6f6a3b9b5195dc",
+    "result_sha256": "5bd620e9f507cf93d019b08507427c2f993eb7daa15d5c28f8b1fc20679b1542",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "CCA",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "051_macroscopic-quantum-coherence",
+    "suite": "general",
+    "request_sha256": "b0d9db6db96e2abb0a12092b872294c22280c28d5f4e9abd27fc7a58108fe317",
+    "result_sha256": "544f575a2ba2438e01f92c2a33133cfb2427778e9700666c59af547133ffb2ac",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "CCA",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "052_what-is-webflow-and-how-does-it-enhance-seo",
+    "suite": "exploration",
+    "request_sha256": "4cf8d9cdcf8b3c208bc58d95a44a3a412cea73857bccaf1226caeb08b8711d85",
+    "result_sha256": "2ecd258c8bd2e4e84749a930ef3305cfcdef65e051c878e39e5261bc33f86ea7",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "052_what-is-webflow-and-how-does-it-enhance-seo",
+    "suite": "general",
+    "request_sha256": "b942746ddbf93e54707c898785192251dca79a94bde6eaffb4581da0aaa2d9da",
+    "result_sha256": "16bbe997c16335ec499704dbdf6cbc6450297b4e587f94283253665ec584201c",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "053_ai-tools-for-content-creation-in-fashion-and-beauty",
+    "suite": "exploration",
+    "request_sha256": "ce7ef0b9e11f0f975d9813122ae4ed4c2edb2f2c9969042165816d06db94594f",
+    "result_sha256": "83cf4776550e91a6fae7967d46e6da11625902c976ca0ee6af57e893c62459ad",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "053_ai-tools-for-content-creation-in-fashion-and-beauty",
+    "suite": "general",
+    "request_sha256": "31917008c1841ed9b8b4e06ae44b3a48803ba852c7b578b8cd1050329ec1f65f",
+    "result_sha256": "afcd481e9eaba7d1b45494cbedfec1b52628b2ac3bdaefbd3a0b02b49167298d",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "054_criticisms-of-agile-software-development-in-practice",
+    "suite": "exploration",
+    "request_sha256": "e41e91aac6b8518154ac2ae13715f4f5b1c9b2f74245716687c4afd37797da6b",
+    "result_sha256": "3caa9084ab86bf3bab5670cfffd5bde548f2a3abaccae66c3491152e57b13e01",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OpenDeepSearch",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "054_criticisms-of-agile-software-development-in-practice",
+    "suite": "general",
+    "request_sha256": "36dfdbf402d7b87f00193e953ae7715e8ab7d28e5cb4f55c7d67c5b5ee50ba47",
+    "result_sha256": "06b5922caacab85f194b506f3ed2295494fd26e9f0ccabd1727409d0a1e9112c",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OpenDeepSearch",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "055_richard-dattner",
+    "suite": "exploration",
+    "request_sha256": "bebba16fe20d289aa93527f8dbf503e9002d8868ffe4a0a09b9f45a6d0a01337",
+    "result_sha256": "a7b81cec2a87c85ded8729e91457de988b1312222e89bab4704546452c198b02",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "055_richard-dattner",
+    "suite": "general",
+    "request_sha256": "872e3614dff49b12739ee8d8940db37f2bf9dae1ca6e828bcff3b8c0aed3f506",
+    "result_sha256": "e354f92c943b2270415a2136a74ea9ade5475c309d0eb06420fda75c29e53b57",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "056_benchmarking-chroma-db-against-other-vector-databases-in-llamaindex",
+    "suite": "exploration",
+    "request_sha256": "b2d314f52cb5ba8cb24a05c7f806cdaae17a531c07fbde5246f646b852bb20f2",
+    "result_sha256": "9658cadd2fca08093160c16fc755bb5959d6216faafe7f56d587875bf98a3e0e",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "056_benchmarking-chroma-db-against-other-vector-databases-in-llamaindex",
+    "suite": "general",
+    "request_sha256": "d0181694513f63b473bff4524eb9d871bf2f75bbf089a40a7d2ca0095076659f",
+    "result_sha256": "82a4619b259b3f845e80705806b2326a749a76879ec11db395f26353ecfc76b4",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "057_building-a-personal-knowledge-system",
+    "suite": "exploration",
+    "request_sha256": "90c546d54e649d223ebed72aa4615f3cf99d966a10c24914b2a3d5989a8be830",
+    "result_sha256": "616d724568e18beed82a3adc74c15b1c52176ba5abe2dfa371e711e812da871a",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "057_building-a-personal-knowledge-system",
+    "suite": "general",
+    "request_sha256": "a2d92585eca3a87aa614de7900c79ada0b1aecf5b33276c1267d610520a4861f",
+    "result_sha256": "b1ff58fa9f662871d1b86f40f0ba353899e6ce1fc4a0b60ed740f2442fe407d5",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "058_seo",
+    "suite": "exploration",
+    "request_sha256": "76fc5c48b905c7c9132ca23e9ace509ff7a3dc222ba7ecf8e928f0ca10bc7dcd",
+    "result_sha256": "0671adef7228f23fb4b392673ac958f31d0211a9b82b752bf8c457c732d6e68b",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "058_seo",
+    "suite": "general",
+    "request_sha256": "cf81c47f0813113cd0fb92a2eb1beb2e4c080e7145376727cbb5c97b2049539d",
+    "result_sha256": "beefe44f5e2e43e2258d1683da412eed013b0af283bd5b384b5fedf6e74f90fb",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "059_licensing-implications-for-open-source-deep-learning-models-on-github",
+    "suite": "exploration",
+    "request_sha256": "4691dc219be2822149b681c0e484291bd9295568048773b64149bf8f6293290e",
+    "result_sha256": "c440fd9b9313b67625a7ff682dad9fdc5b78e136f650090c80d32e76f720d3c6",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "059_licensing-implications-for-open-source-deep-learning-models-on-github",
+    "suite": "general",
+    "request_sha256": "3b8c9cac70d72d83e2c7ae484117f6b4710ed4ed66707f1954229284e877140e",
+    "result_sha256": "bb5fa15af11851a61d28b2681a46b9746885c6353ca0ee85d0f0ae20132b8a52",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "060_validation-of-gpt-chatbot-usage-in-educational-settings",
+    "suite": "exploration",
+    "request_sha256": "862f43c50424d78d26b2395aefa356fda2300c0063e4fe6fc9e82332b46eb2a0",
+    "result_sha256": "e9a4f25c12b422530ef2725e9547df157e547e7c0b6e910a006424515f43aa09",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OpenDeepSearch",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "060_validation-of-gpt-chatbot-usage-in-educational-settings",
+    "suite": "general",
+    "request_sha256": "68081865758cee11e3e233a9ae8ade0e61d3c3b5ab5fec36f6762afb16663607",
+    "result_sha256": "e1d0d3f1739fa3fd1995f515cb1387002da86700e652cfbc1541d36713da431b",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OpenDeepSearch",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "061_environmental-impact-on-personal-growth-and-perspective",
+    "suite": "exploration",
+    "request_sha256": "914d594fba2e7e572d8613a28e9e8b5b6d0980336ff2164c51ca83e177cdd9f9",
+    "result_sha256": "a49f39a5a5ad507622792041dac485f7bc6b17fbc48151a56cf3300f800c53cd",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "061_environmental-impact-on-personal-growth-and-perspective",
+    "suite": "general",
+    "request_sha256": "9b2122080380f112e25fe8db208c244b75a8453bda56d024928ae9fc878a1693",
+    "result_sha256": "03306b5df6368bcceae9753bfa4a547ae9add628cb0d2781c7a9d9c90ce71294",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "062_2023-gansu-earthquake",
+    "suite": "exploration",
+    "request_sha256": "1b5989cb76ff722f685edf74f1150780f77852fd77047a08b9b3e53ce94bde57",
+    "result_sha256": "ef61aa43cb0b37455adec62ef615075bc1a50511cd682e3cf337bc04ca0080b0",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "062_2023-gansu-earthquake",
+    "suite": "general",
+    "request_sha256": "95a930a36a3836b90bf23d39337bf4b719da5c28fbb51adceb0ce67c6cfff3f1",
+    "result_sha256": "8a035c2ff1ce12ff3b65c15253d30a35726fd8745052174b398cfb17e4c631ef",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "063_wire-free-localization-techniques-for-breast-surgery",
+    "suite": "exploration",
+    "request_sha256": "085aff47e1277a2dda6b94d991aa60f8f6b7d10d8435cc69ce954f3dcc228b0c",
+    "result_sha256": "a98408c3783bf48159c2b1143a8a8a04853e29728482f6157beb4026ce9a0a71",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "063_wire-free-localization-techniques-for-breast-surgery",
+    "suite": "general",
+    "request_sha256": "35d3a9d9eebf631a761ee4be7c28b1a4ca918802b506c81c4473522efc9a6801",
+    "result_sha256": "e6d05756c298ca20146dc1f7a7bb906a052d8d28c17d9f4a3cb51631433deded",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "064_customer-segmentation-in-business-and-economics",
+    "suite": "exploration",
+    "request_sha256": "7c65e8a7afcf30695ed7453eb1526605a60ca6ae374fad4261522f16ce570830",
+    "result_sha256": "57dc94faf648eb674e3f71efc0ac182b6ca250e0b6bec8cc22c9083df1e7d158",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "064_customer-segmentation-in-business-and-economics",
+    "suite": "general",
+    "request_sha256": "6ff84479269529a3f6af63d8ae84699c549094d1bd8bb556a84e89a2162afd8a",
+    "result_sha256": "644d3a1bd72b025b8883e913d106000b49c173613da5cba27d5395ded22ccae7",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "065_itinerary-for-a-5-day-trip-on-california-state-route-1",
+    "suite": "exploration",
+    "request_sha256": "f2eca540f8efba5b8d1db2904aa8489847503d139684c4e12cc25df436cc98c8",
+    "result_sha256": "a4a9e035dc85cb8428be6ea20eb2cb26c3d07a6c953e466c82f0dcd0272614f5",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "065_itinerary-for-a-5-day-trip-on-california-state-route-1",
+    "suite": "general",
+    "request_sha256": "ad33b5ca278fc8f22188aa83a2333069c29d51b5869e6853db384a6b05959478",
+    "result_sha256": "bb6e721bf630cebb0df4ef27d99b24cfcc726f243c9b1e129ac9634a9d23df4a",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "066_infosys",
+    "suite": "exploration",
+    "request_sha256": "6ff74ffae5008fe9044bd7e68a7c94d2d703f560514725e7aa3c6301f9a9ea9c",
+    "result_sha256": "e12937aa898173f3e296c25bc83f4cf41a3ab5c9e0642a00f356311aa42c326d",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "CCA",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "066_infosys",
+    "suite": "general",
+    "request_sha256": "e1b1469a9482de92ba588bf9fe8f2ee63b956d46d5f386964db2d151e56bc3e7",
+    "result_sha256": "8b69cfade736c76091a577edc15cb49aa26bec76208be4768514e680ef8dd52f",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "CCA",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "067_understanding-and-managing-dental-phobias-for-patients",
+    "suite": "exploration",
+    "request_sha256": "c29324eb379ecec2dd9e6a4a3d4d8eed39e33c38d1795bbbab622846701b88a3",
+    "result_sha256": "e7a891cedb4c570c958accc77a6e4082832f803eb3d53ef21ba9e78ef01cfe17",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "067_understanding-and-managing-dental-phobias-for-patients",
+    "suite": "general",
+    "request_sha256": "d5ec64b41e33275515f44519fb0323e9394d2bf5ac640900bb4ba4e3bf6679f6",
+    "result_sha256": "c460edefd927ef5ccee6cf9cb8cdba55e6a6c6f21a86cb9623157e665819dc1a",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "068_medical-simulation-scene-quality-evaluation-tool",
+    "suite": "exploration",
+    "request_sha256": "3a8cb6708e5ca95318f8638b3a01bb3e383d99ccbb94698b6ad60aece2b507e4",
+    "result_sha256": "5af309b8d1a31e97afe36b7cd23cbb8ad22b3084181c2e82a8265b8d3c32a911",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "068_medical-simulation-scene-quality-evaluation-tool",
+    "suite": "general",
+    "request_sha256": "b548da18b09823421a78788112af99a75f6054d7c5bc986f2a3388ca5ff2b0a2",
+    "result_sha256": "4d063d30541afda7800f34abdd49c746484324fa2bb11fa29de7833cae110051",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "069_ipv4-and-ipv6-networking",
+    "suite": "exploration",
+    "request_sha256": "0bd90db0e2498e44f25f85eb6686d36d0b7e190663567bb54d27cc854af6b754",
+    "result_sha256": "0d9acfc0c4701e803069c81c9f83876363e434c505fabc5abb93635372966094",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "069_ipv4-and-ipv6-networking",
+    "suite": "general",
+    "request_sha256": "4ae83ac8a9426d7abe4f527533176f0ac64743bd582a8fdc6320e625681f4ddf",
+    "result_sha256": "edee20fa7242dd7b3f2c50308dde4a0c3c7f0c0f4fa1a46219892bec17e45fe0",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "070_unified-framework-for-human-pose-estimation-and-motion-prediction-in-2d",
+    "suite": "exploration",
+    "request_sha256": "7f333e5844ae8ba2dbb3e04d3fb1d5c63170b963c2f16711f47f99d7c33b1d3b",
+    "result_sha256": "86d4cc5e480863679877fe21e9a3ef51aead1dbb3149e1a83e0c2af9a4fabed2",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "CCA",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "070_unified-framework-for-human-pose-estimation-and-motion-prediction-in-2d",
+    "suite": "general",
+    "request_sha256": "4074b10bc9908211f5734b674ec1db5e8865f58b07318164af33cd438e37ffc6",
+    "result_sha256": "e78930353042deddaf885727128048d20d7f2792c94e0708a2617b102ca7fcbc",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "CCA",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "071_community-knowledge-management-in-cultural-studies",
+    "suite": "exploration",
+    "request_sha256": "bbee4fee5343a5dbd68ea959cff7dd1919f78250f5ae189f9979a4ec082f72f8",
+    "result_sha256": "b4451061efb30c0e2556c84231a6d5b9ddefa4021aabe5d52cdf3a240cc72b78",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "071_community-knowledge-management-in-cultural-studies",
+    "suite": "general",
+    "request_sha256": "0496f63319c7e72ddcb84b073c05d9f4385076fc1dfeadaf60a8c5f4dff7315f",
+    "result_sha256": "2a4d02670a64e51cad6f5ad884e0a3919cb61070779266e3b148b29d9b492501",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "072_service-quality-in-michelin-restaurants",
+    "suite": "exploration",
+    "request_sha256": "7a2b1904f6e5a917ee0116452e285404a33322b9b069fb623af1f6cc9b2abd11",
+    "result_sha256": "de30537693f1907f82c4b54b5a03584f29fa6ee2afbe82e971177788aa707469",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "072_service-quality-in-michelin-restaurants",
+    "suite": "general",
+    "request_sha256": "03fdf718c47c34904fea7d6d17d5fff4ce01c0e072c1febf7083434a6e85d378",
+    "result_sha256": "cb50e190658212c88cce7f1354f5279bba6b1953d9717af72e48e2d3e3f0ad13",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "073_electricity-generation-using-solar-thermal-energy",
+    "suite": "exploration",
+    "request_sha256": "9f8bcd6d2a5b69fb29b163cd34ed52bc9dcd4ec6d6c4a98f90bb8a34146dd5bb",
+    "result_sha256": "fc51e56b8a233e983bffaf5e825ff4396510ca25dd3a6fca30794dc6a76c8ab0",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OpenDeepSearch",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "073_electricity-generation-using-solar-thermal-energy",
+    "suite": "general",
+    "request_sha256": "022bd01cb8c533ef15f94e04cd49be152dc3fea59a4655bfc9d4cb50253fa2ea",
+    "result_sha256": "382af8ba7d7773e9f4222c3fcd49c358aa0241801b8537277dea8d79d1c5db16",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OpenDeepSearch",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "074_the-emergence-of-artificial-super-intelligence-future-prospects-and-impa",
+    "suite": "exploration",
+    "request_sha256": "9cca2cb6f5ecbd796ce248bc78390f22151f1a3bdd55c7f1bef47d63bd79cf49",
+    "result_sha256": "cfaaa8b1fca76aaf0ae4855fccac3d22ed7309f717f850abfa8474e56fd0cd21",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "CCA",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "074_the-emergence-of-artificial-super-intelligence-future-prospects-and-impa",
+    "suite": "general",
+    "request_sha256": "a48c38a6b1495985eaff9c9bcf73292c696e3ccdfd1058045c8809bfbfda3044",
+    "result_sha256": "809df574275a3aedc1cad3bc36b7e8fb459076de688bdb6813d1a28ee0ed50ea",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "CCA",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "075_comparison-of-self-attention-convolutional-block-attention-module-and-sq",
+    "suite": "exploration",
+    "request_sha256": "42220b62422181bcf1bd31d3652e311d5d20e9a28cf72e1afcf90a6447b160ea",
+    "result_sha256": "083b206baaa613ed48713c5933bed243c3f6f1c5a2ed23d0eb4183dab3de168e",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "075_comparison-of-self-attention-convolutional-block-attention-module-and-sq",
+    "suite": "general",
+    "request_sha256": "fc4c0c2920da6d36b1bab89d5d62774eae868235ee14fc0a34f51e920e7e1623",
+    "result_sha256": "0ba103ce93ed39bdf8f56d506c39a31c599ff8b6ea253330f8709ee4daacfb59",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "076_2024-hualien-city-earthquake",
+    "suite": "exploration",
+    "request_sha256": "7ba37c976e5c01202a926cd1554ff0190bc0edb489fd2191f407e8625bd2ee3f",
+    "result_sha256": "3ab8c44f59e1a6c38d608d0f4172054171a804cf70a7d8e8046ec00c82368e92",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "076_2024-hualien-city-earthquake",
+    "suite": "general",
+    "request_sha256": "85e1010f2d1008cddea9e0591a71041a30ac6f63bf8979779b65f3e085964e3e",
+    "result_sha256": "f0350bb37cd8016fa20063d740174406c99c6d5186cf1dc10558cf0a0d931685",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "077_genshin-impact-strategies",
+    "suite": "exploration",
+    "request_sha256": "0e919fe1624ee4f93cbf637bc5cf9a48d0f80c52ce27f821bec15ea52dcb56ec",
+    "result_sha256": "5c9e4360378b32f8e1959de367010a3f8d881f2e0e2eca78f7af3dbb0c4710a0",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OpenDeepSearch",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "077_genshin-impact-strategies",
+    "suite": "general",
+    "request_sha256": "1d3a1129b3ad6da5fdac9051ed908db11e0b433e7b1216a9b724e6f11413b260",
+    "result_sha256": "f7604fc5613cbfe76120a80bf849764be7792125c045adda944f208aad45e8ed",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OpenDeepSearch",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "078_evolution-and-core-technologies-of-ai",
+    "suite": "exploration",
+    "request_sha256": "c4519306ae7693d7bdc208bf1147ccd1f46c8f4038ddd151d8a7755a518bf495",
+    "result_sha256": "c7aeb8a264f6ed993a7657cc8d03d62938e5c102e7f2d632432bd1fcecfcfc25",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "078_evolution-and-core-technologies-of-ai",
+    "suite": "general",
+    "request_sha256": "10c7b573f30734530e7e50360ef9a0e0e275610570a7ecbe6bd7632aee635326",
+    "result_sha256": "c1a7a903473fa0d7588411bf4bc92a43c2070b7063ce2721be013d6a07c00a6c",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "079_fire-rescue-scene-communication",
+    "suite": "exploration",
+    "request_sha256": "7c9e128938301bb3346d1a05437653897d344d730e35aa0e4e73e5620edddf24",
+    "result_sha256": "0d1b462c9382bed925e9ec9c002131060b5845132f5d98d4930eebbc0f90a61e",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OpenDeepSearch",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "079_fire-rescue-scene-communication",
+    "suite": "general",
+    "request_sha256": "80d35a1bdca523f46b422ed46ab66e14a31eac50f943906ada784343453d433a",
+    "result_sha256": "337a1e29f5dcc7676fa7d57e2d9613a9ffb51d34487b7f88d8ab17af131cfe66",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OpenDeepSearch",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "080_semiconductor-supply-chain-resilience-and-disruption",
+    "suite": "exploration",
+    "request_sha256": "8c879e98f33afcf564aeeceff2cdc1be92fc2d7d5451056098d846bb4614e9b5",
+    "result_sha256": "a27842fbb6587788937efbf24b678162ad76897ea4bb71fe7e64215b0ef20307",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "080_semiconductor-supply-chain-resilience-and-disruption",
+    "suite": "general",
+    "request_sha256": "4d677a302a55869964b3000a43430a3f3df7028924b1e60efef11f32b204d5a2",
+    "result_sha256": "fd7fa78f0817720513de440d20c8bf0959ac702423fe7db8d08a8c4a0289e71c",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "081_lifelong-learning-in-deep-learning-and-ai",
+    "suite": "exploration",
+    "request_sha256": "5185befe736c6fd6ec5810293eaf5e251d6771fc0bf309d260e5bb4381d0222d",
+    "result_sha256": "4a58df5d19691e6eae0b0a53c08da63be830e33f79ceea75fc309560eb65157a",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "081_lifelong-learning-in-deep-learning-and-ai",
+    "suite": "general",
+    "request_sha256": "5932a2fe2610a25056cf8eede07aa87e44070c7cf0aff704a1ba727831b5286a",
+    "result_sha256": "9e6870925b4362aad805f7f75ab90917e9e19eb4802df1b3cb41d6ade9d22c6f",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "082_block-universe-and-the-nature-of-time",
+    "suite": "exploration",
+    "request_sha256": "53442b2d2a1071944d33aeda60444afe5635734b66f4348b3cb683056cd4b92a",
+    "result_sha256": "30907920607484b7ba14115d0b71f239f0adc8282e0f51427c6575980702a554",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "082_block-universe-and-the-nature-of-time",
+    "suite": "general",
+    "request_sha256": "5bb5de924803bee00e4b0a9ce24d0a86b5dd9203c04de29130da4ac14c9d674f",
+    "result_sha256": "216f4285f054d5e4e2b06e44e509a20b068f5b3d4d23ca0f9204347a272abbca",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "083_innovative-strategies-for-enhancing-human-resources-management-in-global",
+    "suite": "exploration",
+    "request_sha256": "3787ee0beb1877cb58f5fbfcdbcc053265ff1e2d62be47d86f7bbf79b7bae1e2",
+    "result_sha256": "89d18fff1439893cc0258b83c0b35f47eaf713fa2d4a0c6ce9fc01d1514bd5ec",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "083_innovative-strategies-for-enhancing-human-resources-management-in-global",
+    "suite": "general",
+    "request_sha256": "b457ec3b05ff9046aa6f53010575ab4c4d16ac4dcad06d4ae88d3e16e582536b",
+    "result_sha256": "a7a6e671f5fbc802eadd93292d9f5b02b8574705d4bd4f63113a53fa5db2b405",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "084_language-security-and-cross-cultural-communication",
+    "suite": "exploration",
+    "request_sha256": "f709122ceb8e573b9c6fa0d94bd9a3ef6abbc05a096b2878b4f49c829323bf74",
+    "result_sha256": "36e705ab8983815da561480ce190845579a4add4d74a53e699f99db2d5d619a0",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "084_language-security-and-cross-cultural-communication",
+    "suite": "general",
+    "request_sha256": "9e817ea78194d3816daccfb54c17f4fd6e7f30a3abdd83d78f455fe91ef23fe0",
+    "result_sha256": "ffc9e2f26ddcb886053222b7e293c17a8a4612cb14b262f3b2b9b7371d65412d",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "085_bernese-mountain-dogs",
+    "suite": "exploration",
+    "request_sha256": "f27e4ace44533dc737547e58d94d8e72526e8b590528074f8e2f598e5f9aed6f",
+    "result_sha256": "bb13f93da3aa08387c032895ea2117decfa26a2203a7e496253550b6366d677a",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "085_bernese-mountain-dogs",
+    "suite": "general",
+    "request_sha256": "50a5a0da748bd5fe00b5601d7735245d0726d94a493b06e2d71784abbee95d0b",
+    "result_sha256": "a27d5ddac3f7c49036d9625b4289be1ad2ba19447427b11b32204d8a77cb5a73",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "086_traffic-sign-detection-using-machine-vision",
+    "suite": "exploration",
+    "request_sha256": "370fe16ec69f305ab2ab7d2a7cda2b9434bc4690f1ce9535716445256c9c398e",
+    "result_sha256": "11ae0e2e67115ee8171d03c91428de85d8572891185972b4ba5447f317dc14b4",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OpenDeepSearch",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "086_traffic-sign-detection-using-machine-vision",
+    "suite": "general",
+    "request_sha256": "eaee729371cbc3c6a56ec5d1409837e1570be1a4e0a32a0e67bc750c989962f7",
+    "result_sha256": "654e71a90a53501a116e0340282228e85a416aadb3b48ff1f1d08678c5983653",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OpenDeepSearch",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "087_application-of-new-drugs-or-devices-in-animal-disease-treatment",
+    "suite": "exploration",
+    "request_sha256": "a76a4784ad003e05e6939ac0f03cea2a71dca46edd6b14c1b79430f0d98732ce",
+    "result_sha256": "6786e28397f6ed1d28ae015c7a3c3041e684cc5e25c16740fba57b4565c2d3b4",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "087_application-of-new-drugs-or-devices-in-animal-disease-treatment",
+    "suite": "general",
+    "request_sha256": "74bf95a70737cf9c70804fd1fe850f3d04380acac069f4b7c7836d7e8a49fdab",
+    "result_sha256": "7689e783be1020c5b91d70a9f0912e9a0b803e1477d90d0cb8f7a7f4cb182ed6",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "088_overview-of-packet-classification-algorithms-in-network-devices",
+    "suite": "exploration",
+    "request_sha256": "537f89b9bb6cae784b9e3bc7cf7770cf2541c6e821cc16a6a35cb2ec5bf646aa",
+    "result_sha256": "fe02cd24d55ad60ec715c3837e519aae7368a509e0ff168f92dbe26f7a76f9f5",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "088_overview-of-packet-classification-algorithms-in-network-devices",
+    "suite": "general",
+    "request_sha256": "aa64c0b86693c223ba79ecd3cc5d964d006991c06b9dac143ebd68be23dc437d",
+    "result_sha256": "dc57fca3d1f98c7c5156c115a791c48de4faa3943fcd2604256d0fb0c0e1acd0",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "089_adaptive-geomagnetic-indoor-navigation-system-by-anomaly-detection-feedb",
+    "suite": "exploration",
+    "request_sha256": "01db4d3ee476cb3587c04e16078315fee553a82f5debc0db465d7b402e7dd457",
+    "result_sha256": "461df0e6889ebf3a826c3f57db5ca22b72c84557b464e44c3df628275f424473",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "CCA",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "089_adaptive-geomagnetic-indoor-navigation-system-by-anomaly-detection-feedb",
+    "suite": "general",
+    "request_sha256": "609e66b5608eb825f11d1c89925d77083b2e16cc992647afb54414fe08a008e9",
+    "result_sha256": "54e99bd50df58cfad24bed9df62443ee9455b6ab423782569045b6602835d65e",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "CCA",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "090_quantum-cryptography",
+    "suite": "exploration",
+    "request_sha256": "21634e762cf727b4525e8ba73c12a2654e85ecaaaa21ca10a4834ed3e37ae5dc",
+    "result_sha256": "a4f078ee1ca78e6e3222c47b0f201f0a36f9f1400ff04d6a8da3b7de8956d7c2",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "090_quantum-cryptography",
+    "suite": "general",
+    "request_sha256": "322f336f90c924916366671b6520287c8bb4aa8fd2589bbfc8870b23274023a6",
+    "result_sha256": "5fc9b269275d7013a965096646a39418a27cd971013260295204f747affe5805",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "091_digital-twin-in-data-sciences",
+    "suite": "exploration",
+    "request_sha256": "18855e50ce97eea8be59d43f36e963e2f46c6c1704b76ea7fc3e6a007b47d832",
+    "result_sha256": "a97df693b7f3e697cfed3113a30f598a0d003cc6d8add2245f5a84bc8d69f301",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "091_digital-twin-in-data-sciences",
+    "suite": "general",
+    "request_sha256": "841703f7c40a2818f1713c8954763351dc90eed271e86d5c797da0b75481fff1",
+    "result_sha256": "0355ec8d76c1a01d855c7479c2026617d1e47ae1fc83557ebed956d70b7b9938",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "092_based-point-supervised-object-detection",
+    "suite": "exploration",
+    "request_sha256": "51a43774aa59517e7c8529b4212956c2bb1d37e58adeb759fd96b5f99bc80e34",
+    "result_sha256": "661fee949f7dd1fe6891c7ab178b34dbb0e67344f3c21a0cd0a533ad373ec336",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "092_based-point-supervised-object-detection",
+    "suite": "general",
+    "request_sha256": "c222701cf819fd10d2c2c0a2360ba19d31e4d338297e831f79b27ff58e4ced63",
+    "result_sha256": "dcb235320d3b32fe349f755ebad8cef64307de57a3edb6e9ff678d0c3fdebf9c",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "CCA",
+      "B": "OmniThink",
+      "C": "OpenDeepSearch"
+    }
+  },
+  {
+    "task": "093_state-business-relationship-in-the-digital-economy",
+    "suite": "exploration",
+    "request_sha256": "fda7ed50d4cdfe668b2038f007c4fab18ad4edc32212bf18a45d2fbfe3eef8b6",
+    "result_sha256": "c16e6c02a25883a9696fcbeceeab0314745534017b51639326757f6fb95abdf1",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "093_state-business-relationship-in-the-digital-economy",
+    "suite": "general",
+    "request_sha256": "8088cc38b652a7a0337a8b0d2e3e05508cf75be704e0e1cfe8833031446db5be",
+    "result_sha256": "25788110c2cd7f869b59fc1dfef261023fbfdf1854a8ca724b2dd73340595487",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "094_impact-of-climate-change-on-urban-areas-like-mumbai",
+    "suite": "exploration",
+    "request_sha256": "1534e7b376d8afe53174135b01f7a2b1ec18547dfe5b23bc3fb24a64eb62aaac",
+    "result_sha256": "5f4c4e2f7211ab087aacef52aa204250d1682e085e45823bb31dcf01859ad396",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "094_impact-of-climate-change-on-urban-areas-like-mumbai",
+    "suite": "general",
+    "request_sha256": "94ee7db5936dba8da37fc5c2b586d96ae16c8e24c42b5e7df246b8b83e54a346",
+    "result_sha256": "4e15fcab65b1fa5e377020211c1b47bc96a1ae0eb82ef8ebea4ba9b1553d2b0d",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "095_digital-biomarkers-in-current-clinical-trials",
+    "suite": "exploration",
+    "request_sha256": "d86dd2eed308950e61583d4c3e9b22baad254aae31436eb04d395287ff37d98c",
+    "result_sha256": "311f053f234c589879e0a7e6926569b4184ae1ddcd32494a504b2d398f375564",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "095_digital-biomarkers-in-current-clinical-trials",
+    "suite": "general",
+    "request_sha256": "0cf421137883e89beee15efa35b03f103a3dfbadb9b3078c816b8a81369427bd",
+    "result_sha256": "61406d3f7e5c3b31e7ffbe5d4683ea9b164efa1452dc82d2d1310a1be6c6f34e",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "OmniThink",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "096_autonomous-ai-for-research-laboratories",
+    "suite": "exploration",
+    "request_sha256": "e0c1b24759b35c09bd8a0969c50cd4b9c40724aaf61ac0acfaeb2678cb4b158f",
+    "result_sha256": "ac0bfacedfd12e5b86c4b2fa750f176568f287c9707b9dc292fd3fa9b40a8c57",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "096_autonomous-ai-for-research-laboratories",
+    "suite": "general",
+    "request_sha256": "9cf9e8ab9546d7cb1e058b48cfd5264891e82b4fb0cbfb905f4b1efa0b178fe4",
+    "result_sha256": "016aa9138c721e3e7e558b8249403bab1fbff3e96bee1f883510b08a5b09fc5a",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "097_history-and-features-of-major-web-browsers",
+    "suite": "exploration",
+    "request_sha256": "4f03bf3001b707d7bde7c66f541a9e1ca5ce34067dff0c6ba0bd6be2e78c5261",
+    "result_sha256": "f16bc6248e47b441fb294f76ae4c4ac571bb6fa9816a2b7b2bcfc6b60a349546",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "097_history-and-features-of-major-web-browsers",
+    "suite": "general",
+    "request_sha256": "6334407a8d5bf87c46936efd146ce5e732f314ceda527a63ad15b06f64235f14",
+    "result_sha256": "7a43438ef9bfec4cd91f50ef918bb8cdad092bd0cf6ce7634ebfbc328f383b2a",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "098_caving-in-fitness",
+    "suite": "exploration",
+    "request_sha256": "3c6b336ba86effcd3e2cf5b8c7a49c3ba65c10da350506edb53e2cfd922eea4d",
+    "result_sha256": "8ace77de7b0bcb257f2bc21c9e9cccf79181057c0a3e33ce412ddf30a7cfd84a",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "098_caving-in-fitness",
+    "suite": "general",
+    "request_sha256": "725046b3b99ead29e36d34767dc9427c5db9642a7ca09b7e3a367a713e0c3107",
+    "result_sha256": "62c5243319ad99e3f4030d4e817703aa2655464039e04da36260b6bad135ec18",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "099_integration-of-e-bikes-with-electric-ferries",
+    "suite": "exploration",
+    "request_sha256": "05e6a967d5b2d382dfede869ebfdf8bb7cd8527e41fbbc28c3e2a88b3e1ed4cc",
+    "result_sha256": "a9ea4ddea4eb946cfd73915ce4eb7748d268f322d780d20e255715e42201788d",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "099_integration-of-e-bikes-with-electric-ferries",
+    "suite": "general",
+    "request_sha256": "9cdbd07d777345c553cddd5f7f6d84c90d5af47bca4922dc59409676ce4be41b",
+    "result_sha256": "e2e769308570ad659e215c16950293549d4539183a31f08aae4c3355534aad45",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OpenDeepSearch",
+      "B": "CCA",
+      "C": "OmniThink"
+    }
+  },
+  {
+    "task": "100_gender-differences-in-media-coverage-and-public-reactions",
+    "suite": "exploration",
+    "request_sha256": "a82805f786afd720158c4dced184cc794e6f794dd027098d4f720145de977bd0",
+    "result_sha256": "9333c722cdb6dc3993d1e3ff8ee8bb48d50282fc423256caa0587ee3bd840433",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  },
+  {
+    "task": "100_gender-differences-in-media-coverage-and-public-reactions",
+    "suite": "general",
+    "request_sha256": "2754197acb1b0e805ad6ef28fc29378c9ba919a9092533c73d706222e611d62f",
+    "result_sha256": "59ac3d1eafe668286f8f16160e095b766b1a5602b33f862cd8d17e91941846a7",
+    "origin": "new_blind90",
+    "mapping": {
+      "A": "OmniThink",
+      "B": "OpenDeepSearch",
+      "C": "CCA"
+    }
+  }
+]

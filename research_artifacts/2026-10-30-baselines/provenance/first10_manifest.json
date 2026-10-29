@@ -1,0 +1,391 @@
+{
+  "model": "mimo-v2.6-flash",
+  "policy": "Three anonymous candidates together; seeded independent task shuffle; no benchmark scores or fixed reference supplied; four general and five exploration metrics; one judge; two calls per task.",
+  "order_seed": "sha256(20261028-three-way:task)",
+  "generation_material": "exact previously used reference and targets; backend visibility as labelled",
+  "workers": 10,
+  "max_passes": 3,
+  "jobs": [
+    {
+      "index": 1,
+      "task": "001_utilization-of-weather-forecasting-for-wind-and-solar-energy-assessment",
+      "suite": "general",
+      "mapping": {
+        "A": "OmniThink",
+        "B": "OpenDeepSearch",
+        "C": "CCA"
+      },
+      "request": "<workspace>\\output\\三系统匿名独立评分_前10题_20261028\\general\\requests\\001_utilization-of-weather-forecasting-for-wind-and-solar-energy-assessment.json",
+      "request_sha256": "f0a29575c1d15a3966766420b3be293c0bbf3cd3c61890ea28055d8a31923887",
+      "estimated_input_tokens_cl100k": 438345,
+      "material_sha256": {
+        "CCA": "4d13f97f2ff452f95e134b90fa212979de4e5e00baed2f8c4cc421b70d4dfb2a",
+        "OmniThink": "503a202a6182b146d6d9df4ea5b0c78a8db4a603e56cee55caef35bc4fcbb3c1",
+        "OpenDeepSearch": "57dcbe785fb7c2e308c6d562fc48bdfffddfeb92e31c6761e3d50267084b0009"
+      },
+      "prompt_sha256": "6163f783b94733283d587b38719c40bdf9ed4bb072d68bc6fb97cc07bc10d423"
+    },
+    {
+      "index": 1,
+      "task": "001_utilization-of-weather-forecasting-for-wind-and-solar-energy-assessment",
+      "suite": "exploration",
+      "mapping": {
+        "A": "OmniThink",
+        "B": "OpenDeepSearch",
+        "C": "CCA"
+      },
+      "request": "<workspace>\\output\\三系统匿名独立评分_前10题_20261028\\exploration\\requests\\001_utilization-of-weather-forecasting-for-wind-and-solar-energy-assessment.json",
+      "request_sha256": "aada00d2ee5a326e2c52f625f43b32869c7cdb7b4426765c3f11235ec3ba85da",
+      "estimated_input_tokens_cl100k": 438667,
+      "material_sha256": {
+        "CCA": "4d13f97f2ff452f95e134b90fa212979de4e5e00baed2f8c4cc421b70d4dfb2a",
+        "OmniThink": "503a202a6182b146d6d9df4ea5b0c78a8db4a603e56cee55caef35bc4fcbb3c1",
+        "OpenDeepSearch": "57dcbe785fb7c2e308c6d562fc48bdfffddfeb92e31c6761e3d50267084b0009"
+      },
+      "prompt_sha256": "29de5364b0398d0bf20eb684e9f33ad2f165fa7db91ec1dee9ab7457509ead9d"
+    },
+    {
+      "index": 2,
+      "task": "002_bathroom-remodeling",
+      "suite": "general",
+      "mapping": {
+        "A": "OmniThink",
+        "B": "CCA",
+        "C": "OpenDeepSearch"
+      },
+      "request": "<workspace>\\output\\三系统匿名独立评分_前10题_20261028\\general\\requests\\002_bathroom-remodeling.json",
+      "request_sha256": "cfb78d55a3a7147e73694ff3269a7f5df2eb40f435cb86499c4730e21d27e028",
+      "estimated_input_tokens_cl100k": 407181,
+      "material_sha256": {
+        "CCA": "6b3df66929964277ae6782f831fb997ed80479745927b468f77fbba96d5b9bb7",
+        "OmniThink": "cd2e675f038c332e967fb5b3ede87664649896d85b4cc8124981e3736026662d",
+        "OpenDeepSearch": "4ab858e2577ed284eae01783e69cf5367d6f75b12da71efc8123019960ce9388"
+      },
+      "prompt_sha256": "6163f783b94733283d587b38719c40bdf9ed4bb072d68bc6fb97cc07bc10d423"
+    },
+    {
+      "index": 2,
+      "task": "002_bathroom-remodeling",
+      "suite": "exploration",
+      "mapping": {
+        "A": "OmniThink",
+        "B": "CCA",
+        "C": "OpenDeepSearch"
+      },
+      "request": "<workspace>\\output\\三系统匿名独立评分_前10题_20261028\\exploration\\requests\\002_bathroom-remodeling.json",
+      "request_sha256": "4ff1ac6f966ed8bb851ddad84bd77e45eeefdfe3fa35934d594afebd015cb600",
+      "estimated_input_tokens_cl100k": 407503,
+      "material_sha256": {
+        "CCA": "6b3df66929964277ae6782f831fb997ed80479745927b468f77fbba96d5b9bb7",
+        "OmniThink": "cd2e675f038c332e967fb5b3ede87664649896d85b4cc8124981e3736026662d",
+        "OpenDeepSearch": "4ab858e2577ed284eae01783e69cf5367d6f75b12da71efc8123019960ce9388"
+      },
+      "prompt_sha256": "29de5364b0398d0bf20eb684e9f33ad2f165fa7db91ec1dee9ab7457509ead9d"
+    },
+    {
+      "index": 3,
+      "task": "003_effective-feedback-practices-in-professional-settings",
+      "suite": "general",
+      "mapping": {
+        "A": "OpenDeepSearch",
+        "B": "CCA",
+        "C": "OmniThink"
+      },
+      "request": "<workspace>\\output\\三系统匿名独立评分_前10题_20261028\\general\\requests\\003_effective-feedback-practices-in-professional-settings.json",
+      "request_sha256": "432ae8cc350fa22aebce8ba06b5dd567893d65eff7ceb4b9162cc46bac9aa5db",
+      "estimated_input_tokens_cl100k": 460516,
+      "material_sha256": {
+        "CCA": "a507f0847440e909e434c4de58cf4572f3650f89412dac99f54a14f51efca4a6",
+        "OmniThink": "95c16e0d845f236f0a265c814b497cf542ab1a7458dfb2f3eb1e40d373825267",
+        "OpenDeepSearch": "119cde2edb0d32123ac29dfc4cc2f082961a11c071a23ecbf73ca9051e2b5057"
+      },
+      "prompt_sha256": "6163f783b94733283d587b38719c40bdf9ed4bb072d68bc6fb97cc07bc10d423"
+    },
+    {
+      "index": 3,
+      "task": "003_effective-feedback-practices-in-professional-settings",
+      "suite": "exploration",
+      "mapping": {
+        "A": "OpenDeepSearch",
+        "B": "CCA",
+        "C": "OmniThink"
+      },
+      "request": "<workspace>\\output\\三系统匿名独立评分_前10题_20261028\\exploration\\requests\\003_effective-feedback-practices-in-professional-settings.json",
+      "request_sha256": "b921f7daf41914d54f5ab25badd93df36273fba0174e76c37480ab6402e5d352",
+      "estimated_input_tokens_cl100k": 460838,
+      "material_sha256": {
+        "CCA": "a507f0847440e909e434c4de58cf4572f3650f89412dac99f54a14f51efca4a6",
+        "OmniThink": "95c16e0d845f236f0a265c814b497cf542ab1a7458dfb2f3eb1e40d373825267",
+        "OpenDeepSearch": "119cde2edb0d32123ac29dfc4cc2f082961a11c071a23ecbf73ca9051e2b5057"
+      },
+      "prompt_sha256": "29de5364b0398d0bf20eb684e9f33ad2f165fa7db91ec1dee9ab7457509ead9d"
+    },
+    {
+      "index": 4,
+      "task": "004_chatbot-for-analyzing-financial-data-in-business-and-economics",
+      "suite": "general",
+      "mapping": {
+        "A": "OpenDeepSearch",
+        "B": "CCA",
+        "C": "OmniThink"
+      },
+      "request": "<workspace>\\output\\三系统匿名独立评分_前10题_20261028\\general\\requests\\004_chatbot-for-analyzing-financial-data-in-business-and-economics.json",
+      "request_sha256": "67e980009a7195cd00455ae0d1e11296547281f369068107be8e0a418f9a56d0",
+      "estimated_input_tokens_cl100k": 338637,
+      "material_sha256": {
+        "CCA": "19cc4cab0a4a88d1ebf09e455d81802421485d1358eb189e06200016bbca307a",
+        "OmniThink": "9cb09729c89f9e4dc5eefa407992939dd74ce2ecd2de3971f0fcbb347e3c09df",
+        "OpenDeepSearch": "a6da58b7e268b6aa54e988a30f3da60ec4537dcaeab4f18f74b761b6e9465ab7"
+      },
+      "prompt_sha256": "6163f783b94733283d587b38719c40bdf9ed4bb072d68bc6fb97cc07bc10d423"
+    },
+    {
+      "index": 4,
+      "task": "004_chatbot-for-analyzing-financial-data-in-business-and-economics",
+      "suite": "exploration",
+      "mapping": {
+        "A": "OpenDeepSearch",
+        "B": "CCA",
+        "C": "OmniThink"
+      },
+      "request": "<workspace>\\output\\三系统匿名独立评分_前10题_20261028\\exploration\\requests\\004_chatbot-for-analyzing-financial-data-in-business-and-economics.json",
+      "request_sha256": "157d45dbdf3d33bc4db0a9bd4f2e1e7f6b186394a595ebc2e77862bdbd2bf20c",
+      "estimated_input_tokens_cl100k": 338959,
+      "material_sha256": {
+        "CCA": "19cc4cab0a4a88d1ebf09e455d81802421485d1358eb189e06200016bbca307a",
+        "OmniThink": "9cb09729c89f9e4dc5eefa407992939dd74ce2ecd2de3971f0fcbb347e3c09df",
+        "OpenDeepSearch": "a6da58b7e268b6aa54e988a30f3da60ec4537dcaeab4f18f74b761b6e9465ab7"
+      },
+      "prompt_sha256": "29de5364b0398d0bf20eb684e9f33ad2f165fa7db91ec1dee9ab7457509ead9d"
+    },
+    {
+      "index": 5,
+      "task": "005_recent-legal-cases-in-the-us-involving-hardware-technology-innovations",
+      "suite": "general",
+      "mapping": {
+        "A": "OpenDeepSearch",
+        "B": "CCA",
+        "C": "OmniThink"
+      },
+      "request": "<workspace>\\output\\三系统匿名独立评分_前10题_20261028\\general\\requests\\005_recent-legal-cases-in-the-us-involving-hardware-technology-innovations.json",
+      "request_sha256": "12cb2e142792cd28083eda897a980bb7289a33fe3e53664a5173422d365d560a",
+      "estimated_input_tokens_cl100k": 317439,
+      "material_sha256": {
+        "CCA": "197a2b502c019e73cfdfce46aff99a2c3ce8edf37375866083dd5e8b75c27494",
+        "OmniThink": "611831d63456d694806f119d869c4f9294dc24f3b632eb5b2fcce6f81afbd29f",
+        "OpenDeepSearch": "e69d565d2559348850c7743600f5d9aba52c5c238af2d7225e0085576e2eb082"
+      },
+      "prompt_sha256": "6163f783b94733283d587b38719c40bdf9ed4bb072d68bc6fb97cc07bc10d423"
+    },
+    {
+      "index": 5,
+      "task": "005_recent-legal-cases-in-the-us-involving-hardware-technology-innovations",
+      "suite": "exploration",
+      "mapping": {
+        "A": "OpenDeepSearch",
+        "B": "CCA",
+        "C": "OmniThink"
+      },
+      "request": "<workspace>\\output\\三系统匿名独立评分_前10题_20261028\\exploration\\requests\\005_recent-legal-cases-in-the-us-involving-hardware-technology-innovations.json",
+      "request_sha256": "fc7cdfcc2cb462379a6e548823e5c0148180a386946faf1ce589d34fb035403a",
+      "estimated_input_tokens_cl100k": 317761,
+      "material_sha256": {
+        "CCA": "197a2b502c019e73cfdfce46aff99a2c3ce8edf37375866083dd5e8b75c27494",
+        "OmniThink": "611831d63456d694806f119d869c4f9294dc24f3b632eb5b2fcce6f81afbd29f",
+        "OpenDeepSearch": "e69d565d2559348850c7743600f5d9aba52c5c238af2d7225e0085576e2eb082"
+      },
+      "prompt_sha256": "29de5364b0398d0bf20eb684e9f33ad2f165fa7db91ec1dee9ab7457509ead9d"
+    },
+    {
+      "index": 6,
+      "task": "006_trade-war-between-us-and-china",
+      "suite": "general",
+      "mapping": {
+        "A": "CCA",
+        "B": "OmniThink",
+        "C": "OpenDeepSearch"
+      },
+      "request": "<workspace>\\output\\三系统匿名独立评分_前10题_20261028\\general\\requests\\006_trade-war-between-us-and-china.json",
+      "request_sha256": "39884feff68933efde3cb90899cd689c04ddd0d0432b8c9e2fd1ec6d85e2be51",
+      "estimated_input_tokens_cl100k": 359424,
+      "material_sha256": {
+        "CCA": "8f38c1b048a13979b1ddd446eeb014eca38c07d1bc0e692b05e8359e47cff3b1",
+        "OmniThink": "a9f05492c0e6c9e76323b5ee498a3da442a26ad858f110c993ccc06823aa7203",
+        "OpenDeepSearch": "c147423fc4c9dc8c0f4d5738df9ae7192f6811cf236a4baae5ff3bff821185db"
+      },
+      "prompt_sha256": "6163f783b94733283d587b38719c40bdf9ed4bb072d68bc6fb97cc07bc10d423"
+    },
+    {
+      "index": 6,
+      "task": "006_trade-war-between-us-and-china",
+      "suite": "exploration",
+      "mapping": {
+        "A": "CCA",
+        "B": "OmniThink",
+        "C": "OpenDeepSearch"
+      },
+      "request": "<workspace>\\output\\三系统匿名独立评分_前10题_20261028\\exploration\\requests\\006_trade-war-between-us-and-china.json",
+      "request_sha256": "74cbbb8714963d0d5df506b020e55485c404d2b03db87d722642ce5e5b2b41db",
+      "estimated_input_tokens_cl100k": 359746,
+      "material_sha256": {
+        "CCA": "8f38c1b048a13979b1ddd446eeb014eca38c07d1bc0e692b05e8359e47cff3b1",
+        "OmniThink": "a9f05492c0e6c9e76323b5ee498a3da442a26ad858f110c993ccc06823aa7203",
+        "OpenDeepSearch": "c147423fc4c9dc8c0f4d5738df9ae7192f6811cf236a4baae5ff3bff821185db"
+      },
+      "prompt_sha256": "29de5364b0398d0bf20eb684e9f33ad2f165fa7db91ec1dee9ab7457509ead9d"
+    },
+    {
+      "index": 7,
+      "task": "007_introduction-to-kubernetes-backup-and-persistent-storage",
+      "suite": "general",
+      "mapping": {
+        "A": "CCA",
+        "B": "OmniThink",
+        "C": "OpenDeepSearch"
+      },
+      "request": "<workspace>\\output\\三系统匿名独立评分_前10题_20261028\\general\\requests\\007_introduction-to-kubernetes-backup-and-persistent-storage.json",
+      "request_sha256": "3991dfca0fffb8a4a13a9f2abfbfcbfb6e88a65f3c5816c3a3ca4a1a801dac50",
+      "estimated_input_tokens_cl100k": 418676,
+      "material_sha256": {
+        "CCA": "edf9a53e716ccabae8a49eb4431f70bbd8bc95e1d8d2ed0d5d4b3b14bf2c72a8",
+        "OmniThink": "de3aa9043a9d7f65680a5564e9c34319437938f9e2ff1b438a97a3693ee9480e",
+        "OpenDeepSearch": "25a2d0fceddc8169ba3d173cb2ba06c975aad6ad9267b578f8418cc9bee61d88"
+      },
+      "prompt_sha256": "6163f783b94733283d587b38719c40bdf9ed4bb072d68bc6fb97cc07bc10d423"
+    },
+    {
+      "index": 7,
+      "task": "007_introduction-to-kubernetes-backup-and-persistent-storage",
+      "suite": "exploration",
+      "mapping": {
+        "A": "CCA",
+        "B": "OmniThink",
+        "C": "OpenDeepSearch"
+      },
+      "request": "<workspace>\\output\\三系统匿名独立评分_前10题_20261028\\exploration\\requests\\007_introduction-to-kubernetes-backup-and-persistent-storage.json",
+      "request_sha256": "efe56a868f4390c0e1b8f10a39babe8fa7dcfa269de0a570ba205bb33915b8b1",
+      "estimated_input_tokens_cl100k": 418998,
+      "material_sha256": {
+        "CCA": "edf9a53e716ccabae8a49eb4431f70bbd8bc95e1d8d2ed0d5d4b3b14bf2c72a8",
+        "OmniThink": "de3aa9043a9d7f65680a5564e9c34319437938f9e2ff1b438a97a3693ee9480e",
+        "OpenDeepSearch": "25a2d0fceddc8169ba3d173cb2ba06c975aad6ad9267b578f8418cc9bee61d88"
+      },
+      "prompt_sha256": "29de5364b0398d0bf20eb684e9f33ad2f165fa7db91ec1dee9ab7457509ead9d"
+    },
+    {
+      "index": 8,
+      "task": "008_ursula-s-character-in-disney-s-the-little-mermaid",
+      "suite": "general",
+      "mapping": {
+        "A": "CCA",
+        "B": "OpenDeepSearch",
+        "C": "OmniThink"
+      },
+      "request": "<workspace>\\output\\三系统匿名独立评分_前10题_20261028\\general\\requests\\008_ursula-s-character-in-disney-s-the-little-mermaid.json",
+      "request_sha256": "513e154f04cad531082bc4bb3625cb5b667610a6ad22da121a641a9f94ff7498",
+      "estimated_input_tokens_cl100k": 207069,
+      "material_sha256": {
+        "CCA": "994dfcb5bb6e69a7e15bfd734f2109b2bda4ec08211b15d0c4007fcf473a802e",
+        "OmniThink": "cd0cb07efd93e9a6d283fbd564048a6834fc8a99b29047b05acdf9519988d049",
+        "OpenDeepSearch": "cdc31883b7c035eadf84565ed71cfd225a81853e6ab92c91284af7caee885348"
+      },
+      "prompt_sha256": "6163f783b94733283d587b38719c40bdf9ed4bb072d68bc6fb97cc07bc10d423"
+    },
+    {
+      "index": 8,
+      "task": "008_ursula-s-character-in-disney-s-the-little-mermaid",
+      "suite": "exploration",
+      "mapping": {
+        "A": "CCA",
+        "B": "OpenDeepSearch",
+        "C": "OmniThink"
+      },
+      "request": "<workspace>\\output\\三系统匿名独立评分_前10题_20261028\\exploration\\requests\\008_ursula-s-character-in-disney-s-the-little-mermaid.json",
+      "request_sha256": "5ed4f6a4f1a72e44a3e7eaf27417a2fd59998bf009b05e1c222a3d3ad1a4cbad",
+      "estimated_input_tokens_cl100k": 207391,
+      "material_sha256": {
+        "CCA": "994dfcb5bb6e69a7e15bfd734f2109b2bda4ec08211b15d0c4007fcf473a802e",
+        "OmniThink": "cd0cb07efd93e9a6d283fbd564048a6834fc8a99b29047b05acdf9519988d049",
+        "OpenDeepSearch": "cdc31883b7c035eadf84565ed71cfd225a81853e6ab92c91284af7caee885348"
+      },
+      "prompt_sha256": "29de5364b0398d0bf20eb684e9f33ad2f165fa7db91ec1dee9ab7457509ead9d"
+    },
+    {
+      "index": 9,
+      "task": "009_effectiveness-of-pico-8-and-fantasy-game-consoles-in-niche-gaming-commun",
+      "suite": "general",
+      "mapping": {
+        "A": "OpenDeepSearch",
+        "B": "CCA",
+        "C": "OmniThink"
+      },
+      "request": "<workspace>\\output\\三系统匿名独立评分_前10题_20261028\\general\\requests\\009_effectiveness-of-pico-8-and-fantasy-game-consoles-in-niche-gaming-commun.json",
+      "request_sha256": "94ed71bc1154bc9a12ffda3ee30c9510fae9be605e9626fd44cdf81e9f6f92d8",
+      "estimated_input_tokens_cl100k": 352797,
+      "material_sha256": {
+        "CCA": "8816537c6fd847a9c6427f59e6dbdfcac4cb8b810bc93acfffb175a7343e1c5b",
+        "OmniThink": "66a209dd456f9a22cac9204d25815a89e311337395f5310222e776984b5bbbe2",
+        "OpenDeepSearch": "e7bce36a4828c1e30e6954defac1097de8f2041dce8029d8c51c8a424b59515d"
+      },
+      "prompt_sha256": "6163f783b94733283d587b38719c40bdf9ed4bb072d68bc6fb97cc07bc10d423"
+    },
+    {
+      "index": 9,
+      "task": "009_effectiveness-of-pico-8-and-fantasy-game-consoles-in-niche-gaming-commun",
+      "suite": "exploration",
+      "mapping": {
+        "A": "OpenDeepSearch",
+        "B": "CCA",
+        "C": "OmniThink"
+      },
+      "request": "<workspace>\\output\\三系统匿名独立评分_前10题_20261028\\exploration\\requests\\009_effectiveness-of-pico-8-and-fantasy-game-consoles-in-niche-gaming-commun.json",
+      "request_sha256": "e303f96765a3364cd54f16ccf8a8bde8aa2b65f1a56a47660105978e2a72d84b",
+      "estimated_input_tokens_cl100k": 353119,
+      "material_sha256": {
+        "CCA": "8816537c6fd847a9c6427f59e6dbdfcac4cb8b810bc93acfffb175a7343e1c5b",
+        "OmniThink": "66a209dd456f9a22cac9204d25815a89e311337395f5310222e776984b5bbbe2",
+        "OpenDeepSearch": "e7bce36a4828c1e30e6954defac1097de8f2041dce8029d8c51c8a424b59515d"
+      },
+      "prompt_sha256": "29de5364b0398d0bf20eb684e9f33ad2f165fa7db91ec1dee9ab7457509ead9d"
+    },
+    {
+      "index": 10,
+      "task": "010_graphics-processing-unit",
+      "suite": "general",
+      "mapping": {
+        "A": "CCA",
+        "B": "OmniThink",
+        "C": "OpenDeepSearch"
+      },
+      "request": "<workspace>\\output\\三系统匿名独立评分_前10题_20261028\\general\\requests\\010_graphics-processing-unit.json",
+      "request_sha256": "07f5f2fe564793bdb2166e4ab36d9686a3d7724d2f05e75b4f60089b30483fc0",
+      "estimated_input_tokens_cl100k": 331923,
+      "material_sha256": {
+        "CCA": "3f1d3ae232ee91e46c7ddc31248455877eba4632f1f46795f4035beacad97fbc",
+        "OmniThink": "0c27053d5698564df950f5c46613145afd09051b8f42d9c29d672928028582ba",
+        "OpenDeepSearch": "4e1f76d9738362b27622ca765f7a896571e3c66875b84050b56cff328f1f2bcb"
+      },
+      "prompt_sha256": "6163f783b94733283d587b38719c40bdf9ed4bb072d68bc6fb97cc07bc10d423"
+    },
+    {
+      "index": 10,
+      "task": "010_graphics-processing-unit",
+      "suite": "exploration",
+      "mapping": {
+        "A": "CCA",
+        "B": "OmniThink",
+        "C": "OpenDeepSearch"
+      },
+      "request": "<workspace>\\output\\三系统匿名独立评分_前10题_20261028\\exploration\\requests\\010_graphics-processing-unit.json",
+      "request_sha256": "e03f6e0f691ca80847ceeeb74753cbcda8240a53bc805cea69401310fe258239",
+      "estimated_input_tokens_cl100k": 332245,
+      "material_sha256": {
+        "CCA": "3f1d3ae232ee91e46c7ddc31248455877eba4632f1f46795f4035beacad97fbc",
+        "OmniThink": "0c27053d5698564df950f5c46613145afd09051b8f42d9c29d672928028582ba",
+        "OpenDeepSearch": "4e1f76d9738362b27622ca765f7a896571e3c66875b84050b56cff328f1f2bcb"
+      },
+      "prompt_sha256": "29de5364b0398d0bf20eb684e9f33ad2f165fa7db91ec1dee9ab7457509ead9d"
+    }
+  ],
+  "runner_sha256": "47539e92491ebf917f6722803d178188107f524e14e2e4972e4d66d289e9da95"
+}

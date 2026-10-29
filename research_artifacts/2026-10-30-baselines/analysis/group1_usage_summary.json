@@ -1,0 +1,28 @@
+{
+  "CCA": {
+    "input_tokens": 6148165,
+    "output_tokens": 1786750,
+    "total_tokens": 7934915,
+    "model_calls": 3101,
+    "tasks": 100,
+    "average_total_tokens": 79349.15
+  },
+  "Co-STORM": {
+    "input_tokens": 5173503,
+    "output_tokens": 1519976,
+    "total_tokens": 6693479,
+    "model_calls": 6237,
+    "tasks": 100,
+    "average_total_tokens": 66934.79
+  },
+  "cca_vs_costorm_total_ratio": 1.1854694696136343,
+  "scope": "Final100 successful task generation only. Includes bootstrap/warm start, dialogue, state/internal calls, final summaries. Excludes evaluation, preflight, superseded/failed attempts.",
+  "RAG": {
+    "input_tokens": 899394,
+    "output_tokens": 589695,
+    "total_tokens": 1489089,
+    "model_calls": 400,
+    "tasks": 100,
+    "average_total_tokens": 14890.89
+  }
+}
